@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:business-writing` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -35,6 +37,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
+| `cm:business-writing` | 2 | Burying the lede, Wall of text |
 | `cm:characters-as-subjects-actions-as-verbs` | 2 | Concise writing, Nominalization |
 | `cm:chat-etiquette` | 2 | Information overload, Workplace telepressure |
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
@@ -55,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
-| `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 
-…and 71 more.
+…and 72 more.
 
 ## Toolkit by situation
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
 
-…and 166 more.
+…and 168 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 216 more.
+…and 217 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:business-writing` | cmo:Skill |
 | `cm:closed-questions` | cmo:Technique |
 | `cm:crew-civility-intervention` | cmo:Technique |
 | `cm:cyber-incivility` | cmo:AntiPattern |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:logrolling` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
-| `cm:memorandum` | cmo:Genre |
 
-…and 69 more.
+…and 70 more.
 
 ## Orphan articles (gap)
 

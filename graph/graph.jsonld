@@ -2438,6 +2438,107 @@
    ]
   },
   {
+   "@id": "cm:business-writing",
+   "@type": "cmo:Skill",
+   "cmo:addresses": [
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ],
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:memorandum"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:suchan-dulek-1990"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/writing/business-writing.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:suchan-colucci-1989"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s6"
+    }
+   ],
+   "rdfs:label": "Business writing",
+   "skos:altLabel": [
+    "business correspondence",
+    "professional writing",
+    "workplace writing",
+    "writing at work"
+   ],
+   "skos:broader": {
+    "@id": "cm:written-communication"
+   },
+   "skos:definition": "The skill of producing the everyday documents of organisational life - emails, memos, reports, proposals, letters and briefs - so that a busy, specific reader can quickly see what the message means for them and what to do next; it is judged by the reader's action, not by the writer's effort.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Business writing",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    }
+   ]
+  },
+  {
    "@id": "cm:camera-level-gaze",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -31933,6 +32034,38 @@
    "cmo:why": "In the original the cost, the decision and the deadline arrive in the last two sentences and the deadline is never stated, so a reader skimming the opening reads it as a routine progress note; the rewrite states the decision, amount, deadline and consequence in the subject line and first sentence and moves the history to the end."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/business-writing/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:business-writing"
+   },
+   "rdfs:label": "Can I name the one reader who must act on this and say in a sentence what I need them to do?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/business-writing/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:business-writing"
+   },
+   "rdfs:label": "Does the opening tell that reader the main point, or do they have to dig for it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/business-writing/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:business-writing"
+   },
+   "rdfs:label": "Could someone skimming only the subject line, first paragraph and headings get the gist?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/business-writing/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:business-writing"
+   },
+   "rdfs:label": "Is this the plain style my readers expect here, or does this organisation or audience read directness as abrupt?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -46082,6 +46215,90 @@
    "dcterms:title": "Designing Technical Reports (course handout, 12-271)",
    "schema:url": {
     "@id": "https://www.cs.cmu.edu/~rapidproto/handouts/techreps.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Resources for Workplace Writers",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/workplace_writers.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Digital.gov (U.S. General Services Administration)",
+   "dcterms:title": "Plain Language Guide Series: Organize",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/organize"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Harvard Kennedy School Executive Education (Rogers, T. & Lasky-Fink, J.)",
+   "dcterms:title": "Write shorter messages",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Scilit record of Management Communication Quarterly 2(4)",
+   "dcterms:title": "An Analysis of Communication Efficiency Between High-Impact and Bureaucratic Written Communication (Suchan & Colucci, Management Communication Quarterly, 1989)",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/8449130e989d8284229ef008a605b2bb"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "NEICON archive record, DOI 10.1177/0893318990004001005",
+   "dcterms:title": "A Reassessment of Clarity in Written Managerial Communications (Suchan & Dulek, Management Communication Quarterly 4(1), 1990)",
+   "schema:url": {
+    "@id": "https://arch.neicon.ru/xmlui/handle/123456789/2961135?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-writing/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Association for Business Communication",
+   "dcterms:title": "History of ABC",
+   "schema:url": {
+    "@id": "https://www.businesscommunication.org/about/abchistory"
    }
   },
   {

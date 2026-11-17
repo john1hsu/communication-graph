@@ -3385,6 +3385,14 @@ Ask yourself:
 - Does my subject line or first slide name the decision, risk or news itself, not just the topic?
 - If I am delivering bad news, have I stated it plainly before the explanation instead of after it?
 
+### [Business writing](../articles/writing/business-writing.md) — Skill
+
+Ask yourself:
+- Can I name the one reader who must act on this and say in a sentence what I need them to do?
+- Does the opening tell that reader the main point, or do they have to dig for it?
+- Could someone skimming only the subject line, first paragraph and headings get the gist?
+- Is this the plain style my readers expect here, or does this organisation or audience read directness as abrupt?
+
 ### [Concise writing](../articles/writing/concise-writing.md) — Skill
 
 Ask yourself:
