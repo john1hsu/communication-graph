@@ -22797,6 +22797,87 @@
   ]
  },
  {
+  "id": "cm:osatuke-et-al-2009",
+  "title": "Civility, Respect, Engagement in the Workforce: Nationwide Organization Development Intervention at Veterans Health Administration",
+  "aliases": [
+   "Osatuke et al. 2009",
+   "Osatuke et al. (2009) CREW paper",
+   "the VHA CREW evaluation"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/osatuke-et-al-2009.md",
+  "created": "2026-11-17",
+  "summary": "Katerine Osatuke and colleagues' 2009 Journal of Applied Behavioral Science article, the first published description and evaluation of the US Veterans Health Administration's CREW programme, which reported that workgroup civility rose at intervention sites but not at comparison sites across two rounds covering 23 sites.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:workplace-incivility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:crew-civility-intervention"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:team-communication-norms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:leiter-et-al-2011"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:leiter-et-al-2012"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:crew-civility-intervention",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:katerine-osatuke",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:leiter-et-al-2011",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:walsh-et-al-2012",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://journals.sagepub.com/doi/abs/10.1177/0021886309335067",
+   "https://jmpp.thebrpi.org/journals/jmpp/Vol_1_No_2_December_2013/4.pdf",
+   "https://stacks.cdc.gov/view/cdc/203432/cdc_203432_DS1.pdf",
+   "https://link.springer.com/chapter/10.1007/978-94-007-5571-0_6",
+   "https://www.clinician.com/articles/18322-joining-the-crew-builds-civility-at-va",
+   "https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Workplace%20Incivility%20121521.pdf"
+  ]
+ },
+ {
   "id": "cm:paralanguage",
   "title": "Paralanguage",
   "aliases": [

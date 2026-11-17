@@ -20116,6 +20116,84 @@
    ]
   },
   {
+   "@id": "cm:osatuke-et-al-2009",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:katerine-osatuke"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:walsh-et-al-2012"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/osatuke-et-al-2009.md",
+   "cmo:introduces": {
+    "@id": "cm:crew-civility-intervention"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:leiter-et-al-2011"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6"
+    }
+   ],
+   "rdfs:label": "Civility, Respect, Engagement in the Workforce: Nationwide Organization Development Intervention at Veterans Health Administration",
+   "skos:altLabel": [
+    "Osatuke et al. (2009) CREW paper",
+    "Osatuke et al. 2009",
+    "the VHA CREW evaluation"
+   ],
+   "skos:broader": {
+    "@id": "cm:workplace-incivility"
+   },
+   "skos:definition": "Katerine Osatuke and colleagues' 2009 Journal of Applied Behavioral Science article, the first published description and evaluation of the US Veterans Health Administration's CREW programme, which reported that workgroup civility rose at intervention sites but not at comparison sites across two rounds covering 23 sites.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Civility, Respect, Engagement in the Workforce: Nationwide Organization Development Intervention at Veterans Health Administration",
+   "skos:related": [
+    {
+     "@id": "cm:crew-civility-intervention"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:leiter-et-al-2011"
+    },
+    {
+     "@id": "cm:leiter-et-al-2012"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:team-communication-norms"
+    }
+   ]
+  },
+  {
    "@id": "cm:paralanguage",
    "@type": "cmo:Concept",
    "cmo:appliedIn": [
@@ -62516,6 +62594,90 @@
    "dcterms:title": "Motivating Language: Exploring Theory with Scale Development",
    "schema:url": {
     "@id": "https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Osatuke, Moore, Ward, Dyrenforth & Belton, The Journal of Applied Behavioral Science 45(3), 384-410 (2009), doi:10.1177/0021886309335067 (SAGE abstract page)",
+   "dcterms:title": "Civility, Respect, Engagement in the Workforce (CREW): Nationwide Organization Development Intervention at Veterans Health Administration",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/abs/10.1177/0021886309335067"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Osatuke, Leiter, Belton, Dyrenforth & Ramsel, Journal of Management Policies and Practices 1(2), 25-34 (2013)",
+   "dcterms:title": "Civility, Respect and Engagement at the Workplace (CREW): A national organization development program at the Department of Veterans Affairs",
+   "schema:url": {
+    "@id": "https://jmpp.thebrpi.org/journals/jmpp/Vol_1_No_2_December_2013/4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Walsh, Magley, Reeves, Davies-Schrils, Marmet & Gallus, Journal of Business and Psychology 27, 407-420 (2012) (CDC Stacks author manuscript)",
+   "dcterms:title": "Assessing Workgroup Norms for Civility: The Development of the Civility Norms Questionnaire-Brief",
+   "schema:url": {
+    "@id": "https://stacks.cdc.gov/view/cdc/203432/cdc_203432_DS1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Michael P. Leiter, in Analyzing and Theorizing the Dynamics of the Workplace Incivility Crisis, SpringerBriefs in Psychology vol. 8 (Springer, 2013), doi:10.1007/978-94-007-5571-0_6",
+   "dcterms:title": "The Impact of CREW",
+   "schema:url": {
+    "@id": "https://link.springer.com/chapter/10.1007/978-94-007-5571-0_6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Hospital Employee Health via Clinician.com (1 March 2010)",
+   "dcterms:title": "Joining the CREW builds civility at VA",
+   "schema:url": {
+    "@id": "https://www.clinician.com/articles/18322-joining-the-crew-builds-civility-at-va"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Megan Paul, Quality Improvement Center for Workforce Development (University of Nebraska-Lincoln; funded by the US Children's Bureau), 15 December 2021",
+   "dcterms:title": "Umbrella Summary: Workplace Incivility",
+   "schema:url": {
+    "@id": "https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Workplace%20Incivility%20121521.pdf"
    }
   },
   {

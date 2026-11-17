@@ -11544,6 +11544,36 @@
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/business-and-industrial-communication-a-source-book> .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mayfield-mayfield-2010> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Civility, Respect, Engagement in the Workforce: Nationwide Organization Development Intervention at Veterans Health Administration" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#altLabel> "Osatuke et al. (2009) CREW paper" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#altLabel> "Osatuke et al. 2009" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#altLabel> "the VHA CREW evaluation" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#definition> "Katerine Osatuke and colleagues' 2009 Journal of Applied Behavioral Science article, the first published description and evaluation of the US Veterans Health Administration's CREW programme, which reported that workgroup civility rose at intervention sites but not at comparison sites across two rounds covering 23 sites." .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Civility, Respect, Engagement in the Workforce: Nationwide Organization Development Intervention at Veterans Health Administration" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2012> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/katerine-osatuke> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/walsh-et-al-2012> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/osatuke-et-al-2009.md" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> .
 <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Paralanguage" .
@@ -23535,6 +23565,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://schema.org/url> <https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <http://purl.org/dc/terms/publisher> "Osatuke, Moore, Ward, Dyrenforth & Belton, The Journal of Applied Behavioral Science 45(3), 384-410 (2009), doi:10.1177/0021886309335067 (SAGE abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <http://purl.org/dc/terms/title> "Civility, Respect, Engagement in the Workforce (CREW): Nationwide Organization Development Intervention at Veterans Health Administration" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s1> <https://schema.org/url> <https://journals.sagepub.com/doi/abs/10.1177/0021886309335067> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <http://purl.org/dc/terms/publisher> "Osatuke, Leiter, Belton, Dyrenforth & Ramsel, Journal of Management Policies and Practices 1(2), 25-34 (2013)" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <http://purl.org/dc/terms/title> "Civility, Respect and Engagement at the Workplace (CREW): A national organization development program at the Department of Veterans Affairs" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s2> <https://schema.org/url> <https://jmpp.thebrpi.org/journals/jmpp/Vol_1_No_2_December_2013/4.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <http://purl.org/dc/terms/publisher> "Walsh, Magley, Reeves, Davies-Schrils, Marmet & Gallus, Journal of Business and Psychology 27, 407-420 (2012) (CDC Stacks author manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <http://purl.org/dc/terms/title> "Assessing Workgroup Norms for Civility: The Development of the Civility Norms Questionnaire-Brief" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s3> <https://schema.org/url> <https://stacks.cdc.gov/view/cdc/203432/cdc_203432_DS1.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <http://purl.org/dc/terms/publisher> "Michael P. Leiter, in Analyzing and Theorizing the Dynamics of the Workplace Incivility Crisis, SpringerBriefs in Psychology vol. 8 (Springer, 2013), doi:10.1007/978-94-007-5571-0_6" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <http://purl.org/dc/terms/title> "The Impact of CREW" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s4> <https://schema.org/url> <https://link.springer.com/chapter/10.1007/978-94-007-5571-0_6> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <http://purl.org/dc/terms/publisher> "Hospital Employee Health via Clinician.com (1 March 2010)" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <http://purl.org/dc/terms/title> "Joining the CREW builds civility at VA" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s5> <https://schema.org/url> <https://www.clinician.com/articles/18322-joining-the-crew-builds-civility-at-va> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <http://purl.org/dc/terms/publisher> "Megan Paul, Quality Improvement Center for Workforce Development (University of Nebraska-Lincoln; funded by the US Children's Bureau), 15 December 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <http://purl.org/dc/terms/title> "Umbrella Summary: Workplace Incivility" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/osatuke-et-al-2009/s6> <https://schema.org/url> <https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Workplace%20Incivility%20121521.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/publisher> "Stephanie Montgomery, open textbook on University of North Alabama Pressbooks" .
 <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/title> "Vocalics (More Than What You Say: Nonverbal Communication in the 21st Century)" .
