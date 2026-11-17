@@ -5,9 +5,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 5.11 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
-| 4.16 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.15 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
-| 3.96 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
+| 4.14 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
+| 3.95 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
 | 3.88 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:clarity`, `cm:concise-writing`, `cm:editing-for-clarity` |
 | 3.80 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 3.77 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |

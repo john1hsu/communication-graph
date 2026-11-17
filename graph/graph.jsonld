@@ -5856,6 +5856,95 @@
    ]
   },
   {
+   "@id": "cm:crew-civility-intervention",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:cyber-incivility"
+    },
+    {
+     "@id": "cm:workplace-incivility"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:leiter-et-al-2011"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/crew-civility-intervention.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:leiter-et-al-2012"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6"
+    }
+   ],
+   "rdfs:label": "CREW (Civility, Respect and Engagement at Work)",
+   "skos:altLabel": [
+    "CREW civility program",
+    "CREW",
+    "Civility Respect and Engagement in the Workplace"
+   ],
+   "skos:broader": {
+    "@id": "cm:team-communication-norms"
+   },
+   "skos:definition": "A facilitated, team-level intervention in which a work group meets regularly for about six months to define what civil behaviour means for them, agree shared norms of respect and practise them, developed in the US Veterans Health Administration to reduce workplace incivility.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "CREW (Civility, Respect and Engagement at Work)",
+   "skos:related": [
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:cyber-incivility"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:interpersonal-conflict"
+    },
+    {
+     "@id": "cm:meeting-norms"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:workplace-incivility"
+    }
+   ]
+  },
+  {
    "@id": "cm:cultural-intelligence",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -33355,6 +33444,107 @@
    "rdfs:label": "Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crew-civility-intervention"
+   },
+   "rdfs:label": "Has my team agreed, in its own words, what respectful behaviour looks like here, including in email and chat, or are we relying on a generic policy?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crew-civility-intervention"
+   },
+   "rdfs:label": "Do we have a regular, protected time to talk honestly about how we treat each other, rather than only when a complaint is filed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crew-civility-intervention"
+   },
+   "rdfs:label": "Are leaders committed for months, and are they modelling the norms the group agreed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crew-civility-intervention"
+   },
+   "rdfs:label": "Have we measured civility before and after, so we know whether anything actually changed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The team runs CREW sessions with a trained colleague as facilitator. In week two they agree, in their own words, that requests get an acknowledgement before the end of the shift, criticism goes to the person directly or into a call, and no one is copied just for visibility. Later sessions use real examples to practise rewriting abrupt messages, and the norms are revisited each month.",
+   "cmo:before": "The manager sends a memo to all staff: 'Reminder: please be professional and respectful in all communications. Unprofessional conduct will not be tolerated.' Nothing else changes, and within a week the same reply-all criticism resumes.",
+   "cmo:situation": "A hospital outpatient team of 12 has a running problem with curt messages on its group chat, unanswered requests between shifts and public criticism on reply-all; staff say they dread opening the inbox.",
+   "cmo:why": "A top-down reminder names a value but not behaviours and gives the team no ownership; CREW has the group define concrete norms itself, practise them together over months and review them, which is how the intervention produced lasting change in civility in controlled studies."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "CREW (Civility, Respect and Engagement at Work)",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Secure visible support from senior leaders (and labour partners where there is a union) and a commitment to stay with the work for at least six months."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Measure the starting point with a short civility survey of the unit so the group can see where respect, cooperation and conflict handling stand."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Train a facilitator from the unit, give them a toolkit of exercises, and schedule a regular, protected meeting for one intact team of about 10-15 people."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "In the first sessions, have the group answer two questions in its own words - what civil behaviour looks like in this workplace, and what norms the group will hold itself to - and write the answers down, including norms for email and chat."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Use later sessions for short exercises and honest discussion of real friction points, turning each one into a specific change in how people greet, ask, reply and disagree."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Re-survey after the intervention and again later, share the results with the group, and keep reviewing the agreed norms so gains do not fade."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/cultural-intelligence/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -48183,6 +48373,90 @@
    "dcterms:title": "The Necessary Art of Persuasion",
    "schema:url": {
     "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Michael P. Leiter, Heather K. Spence Laschinger, Arla Day & Debra Gilin Oore, Journal of Applied Psychology, 1258-1274 (2011), doi:10.1037/a0024442 (abstract listing, SUFE Academic Newsletter)",
+   "dcterms:title": "The Impact of Civility Interventions on Employee Social Behavior, Distress, and Attitudes",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/371322"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Michael P. Leiter, Arla Day, Debra Gilin Oore & Heather K. Spence Laschinger, Journal of Occupational Health Psychology 17(4), 425-434 (2012) (Deakin University Research Online)",
+   "dcterms:title": "Getting better and staying better: assessing civility, incivility, distress, and job attitudes one year after a civility intervention",
+   "schema:url": {
+    "@id": "https://dro.deakin.edu.au/articles/journal_contribution/Getting_better_and_staying_better_assessing_civility_incivility_distress_and_job_attitudes_one_year_after_a_civility_intervention/20869609"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "US Department of Veterans Affairs, Veterans Health Administration, Employee Health Promotion Disease Prevention Guidebook, Enclosure 55 (July 2011)",
+   "dcterms:title": "Civility, Respect, and Engagement in the Workplace (CREW)",
+   "schema:url": {
+    "@id": "https://www.publichealth.va.gov/docs/employeehealth/55-CREW.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Michael Leiter, Canadian HR Reporter (14 March 2011)",
+   "dcterms:title": "Stopping incivility in the workplace",
+   "schema:url": {
+    "@id": "https://www.hrreporter.com/news/hr-news/stopping-incivility-in-the-workplace/313560"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Zhenyu Yuan, YoungAh Park & Michael T. Sliter, Journal of Occupational Health Psychology 25(5), 330-344 (2020), doi:10.1037/ocp0000215 (PubMed Central)",
+   "dcterms:title": "Put You Down versus Tune You Out: Further Understanding Active and Passive Email Incivility",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362923"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Margaret Hodgins, Sarah MacCurtain & Patricia Mannix-McNamara, International Journal of Workplace Health Management 7(1), 54-72 (2014), doi:10.1108/IJWHM-08-2013-0030 (University of Limerick research portal)",
+   "dcterms:title": "Workplace bullying and incivility: A systematic review of interventions",
+   "schema:url": {
+    "@id": "https://pure.ul.ie/en/publications/workplace-bullying-and-incivility-a-systematic-review-of-interven/"
    }
   },
   {

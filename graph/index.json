@@ -6715,6 +6715,108 @@
   ]
  },
  {
+  "id": "cm:crew-civility-intervention",
+  "title": "CREW (Civility, Respect and Engagement at Work)",
+  "aliases": [
+   "CREW",
+   "Civility Respect and Engagement in the Workplace",
+   "CREW civility program"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/crew-civility-intervention.md",
+  "created": "2026-11-17",
+  "summary": "A facilitated, team-level intervention in which a work group meets regularly for about six months to define what civil behaviour means for them, agree shared norms of respect and practise them, developed in the US Veterans Health Administration to reduce workplace incivility.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:team-communication-norms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-incivility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cyber-incivility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-norms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-conflict"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:workplace-incivility",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:cyber-incivility",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:leiter-et-al-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:leiter-et-al-2012",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Has my team agreed, in its own words, what respectful behaviour looks like here, including in email and chat, or are we relying on a generic policy?",
+   "Do we have a regular, protected time to talk honestly about how we treat each other, rather than only when a complaint is filed?",
+   "Are leaders committed for months, and are they modelling the norms the group agreed?",
+   "Have we measured civility before and after, so we know whether anything actually changed?"
+  ],
+  "steps": [
+   "Secure visible support from senior leaders (and labour partners where there is a union) and a commitment to stay with the work for at least six months.",
+   "Measure the starting point with a short civility survey of the unit so the group can see where respect, cooperation and conflict handling stand.",
+   "Train a facilitator from the unit, give them a toolkit of exercises, and schedule a regular, protected meeting for one intact team of about 10-15 people.",
+   "In the first sessions, have the group answer two questions in its own words - what civil behaviour looks like in this workplace, and what norms the group will hold itself to - and write the answers down, including norms for email and chat.",
+   "Use later sessions for short exercises and honest discussion of real friction points, turning each one into a specific change in how people greet, ask, reply and disagree.",
+   "Re-survey after the intervention and again later, share the results with the group, and keep reviewing the agreed norms so gains do not fade."
+  ],
+  "example": {
+   "situation": "A hospital outpatient team of 12 has a running problem with curt messages on its group chat, unanswered requests between shifts and public criticism on reply-all; staff say they dread opening the inbox.",
+   "before": "The manager sends a memo to all staff: 'Reminder: please be professional and respectful in all communications. Unprofessional conduct will not be tolerated.' Nothing else changes, and within a week the same reply-all criticism resumes.",
+   "after": "The team runs CREW sessions with a trained colleague as facilitator. In week two they agree, in their own words, that requests get an acknowledgement before the end of the shift, criticism goes to the person directly or into a call, and no one is copied just for visibility. Later sessions use real examples to practise rewriting abrupt messages, and the norms are revisited each month.",
+   "why": "A top-down reminder names a value but not behaviours and gives the team no ownership; CREW has the group define concrete norms itself, practise them together over months and review them, which is how the intervention produced lasting change in civility in controlled studies."
+  },
+  "source_urls": [
+   "https://academicnewsletter.sufe.edu.cn/info/371322",
+   "https://dro.deakin.edu.au/articles/journal_contribution/Getting_better_and_staying_better_assessing_civility_incivility_distress_and_job_attitudes_one_year_after_a_civility_intervention/20869609",
+   "https://www.publichealth.va.gov/docs/employeehealth/55-CREW.pdf",
+   "https://www.hrreporter.com/news/hr-news/stopping-incivility-in-the-workplace/313560",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362923",
+   "https://pure.ul.ie/en/publications/workplace-bullying-and-incivility-a-systematic-review-of-interven/"
+  ]
+ },
+ {
   "id": "cm:cultural-intelligence",
   "title": "Cultural intelligence",
   "aliases": [

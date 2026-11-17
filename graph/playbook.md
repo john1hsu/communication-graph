@@ -1825,6 +1825,29 @@ Ask yourself:
 - Did I keep evaluation - including my own reactions - out of the generation phase?
 - Did I separate choosing ideas from producing them, with criteria agreed in advance?
 
+### [CREW (Civility, Respect and Engagement at Work)](../articles/meetings-and-facilitation/crew-civility-intervention.md) — Technique
+
+1. Secure visible support from senior leaders (and labour partners where there is a union) and a commitment to stay with the work for at least six months.
+2. Measure the starting point with a short civility survey of the unit so the group can see where respect, cooperation and conflict handling stand.
+3. Train a facilitator from the unit, give them a toolkit of exercises, and schedule a regular, protected meeting for one intact team of about 10-15 people.
+4. In the first sessions, have the group answer two questions in its own words - what civil behaviour looks like in this workplace, and what norms the group will hold itself to - and write the answers down, including norms for email and chat.
+5. Use later sessions for short exercises and honest discussion of real friction points, turning each one into a specific change in how people greet, ask, reply and disagree.
+6. Re-survey after the intervention and again later, share the results with the group, and keep reviewing the agreed norms so gains do not fade.
+
+*A hospital outpatient team of 12 has a running problem with curt messages on its group chat, unanswered requests between shifts and public criticism on reply-all; staff say they dread opening the inbox.*
+
+| Before | After |
+|---|---|
+| The manager sends a memo to all staff: 'Reminder: please be professional and respectful in all communications. Unprofessional conduct will not be tolerated.' Nothing else changes, and within a week the same reply-all criticism resumes. | The team runs CREW sessions with a trained colleague as facilitator. In week two they agree, in their own words, that requests get an acknowledgement before the end of the shift, criticism goes to the person directly or into a call, and no one is copied just for visibility. Later sessions use real examples to practise rewriting abrupt messages, and the norms are revisited each month. |
+
+**Why:** A top-down reminder names a value but not behaviours and gives the team no ownership; CREW has the group define concrete norms itself, practise them together over months and review them, which is how the intervention produced lasting change in civility in controlled studies.
+
+Ask yourself:
+- Has my team agreed, in its own words, what respectful behaviour looks like here, including in email and chat, or are we relying on a generic policy?
+- Do we have a regular, protected time to talk honestly about how we treat each other, rather than only when a complaint is filed?
+- Are leaders committed for months, and are they modelling the norms the group agreed?
+- Have we measured civility before and after, so we know whether anything actually changed?
+
 ### [Devil's advocacy](../articles/meetings-and-facilitation/devils-advocacy.md) — Technique
 
 1. Write down the leading proposal in one or two sentences, with the key assumptions and evidence it rests on, and share it with the group.

@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:cyber-incivility` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -41,6 +39,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:chat-etiquette` | 2 | Information overload, Workplace telepressure |
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
+| `cm:crew-civility-intervention` | 2 | Cyber incivility, workplace-incivility |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
-| `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 
-…and 69 more.
+…and 70 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 213 more.
+…and 214 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -146,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:closed-questions` | cmo:Technique |
+| `cm:crew-civility-intervention` | cmo:Technique |
 | `cm:cyber-incivility` | cmo:AntiPattern |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
-| `cm:message-structure` | cmo:Concept |
 
-…and 68 more.
+…and 69 more.
 
 ## Orphan articles (gap)
 

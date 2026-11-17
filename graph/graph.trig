@@ -1280,6 +1280,15 @@
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s4> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s5> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/crew-civility-intervention.md" .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> .
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> .
 <https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
 <https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/devils-advocacy.md" .
@@ -16634,6 +16643,121 @@
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://schema.org/url> <https://psychologicalscience.org/?p=121811> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> {
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Has my team agreed, in its own words, what respectful behaviour looks like here, including in email and chat, or are we relying on a generic policy?" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Do we have a regular, protected time to talk honestly about how we treat each other, rather than only when a complaint is filed?" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Are leaders committed for months, and are they modelling the norms the group agreed?" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have we measured civility before and after, so we know whether anything actually changed?" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The team runs CREW sessions with a trained colleague as facilitator. In week two they agree, in their own words, that requests get an acknowledgement before the end of the shift, criticism goes to the person directly or into a call, and no one is copied just for visibility. Later sessions use real examples to practise rewriting abrupt messages, and the norms are revisited each month." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The manager sends a memo to all staff: 'Reminder: please be professional and respectful in all communications. Unprofessional conduct will not be tolerated.' Nothing else changes, and within a week the same reply-all criticism resumes." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A hospital outpatient team of 12 has a running problem with curt messages on its group chat, unanswered requests between shifts and public criticism on reply-all; staff say they dread opening the inbox." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <https://github.com/john1hsu/communication-graph/ontology#why> "A top-down reminder names a value but not behaviours and gives the team no ownership; CREW has the group define concrete norms itself, practise them together over months and review them, which is how the intervention produced lasting change in civility in controlled studies." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1> <https://schema.org/text> "Secure visible support from senior leaders (and labour partners where there is a union) and a commitment to stay with the work for at least six months." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2> <https://schema.org/text> "Measure the starting point with a short civility survey of the unit so the group can see where respect, cooperation and conflict handling stand." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3> <https://schema.org/text> "Train a facilitator from the unit, give them a toolkit of exercises, and schedule a regular, protected meeting for one intact team of about 10-15 people." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4> <https://schema.org/text> "In the first sessions, have the group answer two questions in its own words - what civil behaviour looks like in this workplace, and what norms the group will hold itself to - and write the answers down, including norms for email and chat." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5> <https://schema.org/text> "Use later sessions for short exercises and honest discussion of real friction points, turning each one into a specific change in how people greet, ask, reply and disagree." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6> <https://schema.org/text> "Re-survey after the intervention and again later, share the results with the group, and keep reviewing the agreed norms so gains do not fade." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/name> "CREW (Civility, Respect and Engagement at Work)" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2000/01/rdf-schema#label> "CREW (Civility, Respect and Engagement at Work)" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#altLabel> "CREW civility program" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#altLabel> "CREW" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#altLabel> "Civility Respect and Engagement in the Workplace" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#definition> "A facilitated, team-level intervention in which a work group meets regularly for about six months to define what civil behaviour means for them, agree shared norms of respect and practise them, developed in the US Veterans Health Administration to reduce workplace incivility." .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#prefLabel> "CREW (Civility, Respect and Engagement at Work)" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-norms> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/crew-civility-intervention.md" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/howto> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2012> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <http://purl.org/dc/terms/publisher> "Michael P. Leiter, Heather K. Spence Laschinger, Arla Day & Debra Gilin Oore, Journal of Applied Psychology, 1258-1274 (2011), doi:10.1037/a0024442 (abstract listing, SUFE Academic Newsletter)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <http://purl.org/dc/terms/title> "The Impact of Civility Interventions on Employee Social Behavior, Distress, and Attitudes" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s1> <https://schema.org/url> <https://academicnewsletter.sufe.edu.cn/info/371322> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <http://purl.org/dc/terms/publisher> "Michael P. Leiter, Arla Day, Debra Gilin Oore & Heather K. Spence Laschinger, Journal of Occupational Health Psychology 17(4), 425-434 (2012) (Deakin University Research Online)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <http://purl.org/dc/terms/title> "Getting better and staying better: assessing civility, incivility, distress, and job attitudes one year after a civility intervention" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s2> <https://schema.org/url> <https://dro.deakin.edu.au/articles/journal_contribution/Getting_better_and_staying_better_assessing_civility_incivility_distress_and_job_attitudes_one_year_after_a_civility_intervention/20869609> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <http://purl.org/dc/terms/publisher> "US Department of Veterans Affairs, Veterans Health Administration, Employee Health Promotion Disease Prevention Guidebook, Enclosure 55 (July 2011)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <http://purl.org/dc/terms/title> "Civility, Respect, and Engagement in the Workplace (CREW)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s3> <https://schema.org/url> <https://www.publichealth.va.gov/docs/employeehealth/55-CREW.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <http://purl.org/dc/terms/publisher> "Michael Leiter, Canadian HR Reporter (14 March 2011)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <http://purl.org/dc/terms/title> "Stopping incivility in the workplace" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s4> <https://schema.org/url> <https://www.hrreporter.com/news/hr-news/stopping-incivility-in-the-workplace/313560> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <http://purl.org/dc/terms/publisher> "Zhenyu Yuan, YoungAh Park & Michael T. Sliter, Journal of Occupational Health Psychology 25(5), 330-344 (2020), doi:10.1037/ocp0000215 (PubMed Central)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <http://purl.org/dc/terms/title> "Put You Down versus Tune You Out: Further Understanding Active and Passive Email Incivility" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8362923> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <http://purl.org/dc/terms/publisher> "Margaret Hodgins, Sarah MacCurtain & Patricia Mannix-McNamara, International Journal of Workplace Health Management 7(1), 54-72 (2014), doi:10.1108/IJWHM-08-2013-0030 (University of Limerick research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <http://purl.org/dc/terms/title> "Workplace bullying and incivility: A systematic review of interventions" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crew-civility-intervention/s6> <https://schema.org/url> <https://pure.ul.ie/en/publications/workplace-bullying-and-incivility-a-systematic-review-of-interven/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> {
@@ -33453,6 +33577,7 @@
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
@@ -34349,6 +34474,14 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
@@ -34439,6 +34572,8 @@
   <https://github.com/john1hsu/communication-graph/id/cyber-incivility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/cyber-incivility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cyber-incivility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/cyber-incivility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/cyber-incivility> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/cybernetics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/czech-forward-2013> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -35484,6 +35619,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
@@ -37084,6 +37220,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37434,6 +37571,10 @@
   <https://github.com/john1hsu/communication-graph/id/lehmann-willenbrock-allen-kauffeld-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/lehmann-willenbrock-allen-kauffeld-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/lehmann-willenbrock-allen-kauffeld-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/leiter-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/leonardelli-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/leonardelli-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/leonardelli-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
@@ -37761,6 +37902,7 @@
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39187,6 +39329,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
@@ -40785,8 +40928,10 @@
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/team-learning-behavior> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-meetings> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
@@ -41377,6 +41522,8 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-compassion> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/workplace-incivility> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/workplace-incivility> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-incivility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-incivility> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/workplace-incivility> <https://github.com/john1hsu/communication-graph/ontology#hasInstance> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/workplace-investigation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
