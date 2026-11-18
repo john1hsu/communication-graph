@@ -22175,6 +22175,77 @@
    ]
   },
   {
+   "@id": "cm:paul-lazarsfeld",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:the-peoples-choice"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/paul-lazarsfeld.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:closed-questions"
+    },
+    {
+     "@id": "cm:two-step-flow-of-communication"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6"
+    }
+   ],
+   "rdfs:label": "Paul Lazarsfeld",
+   "skos:altLabel": [
+    "Lazarsfeld",
+    "Paul F. Lazarsfeld",
+    "Paul Felix Lazarsfeld"
+   ],
+   "skos:definition": "Vienna-born Columbia sociologist (1901-1976) who turned the opinion poll into survey research, sat at the centre of the 1940s debate over open versus closed interview questions, and with his Columbia team proposed the two-step flow of communication through opinion leaders.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Paul Lazarsfeld",
+   "skos:related": [
+    {
+     "@id": "cm:carl-hovland"
+    },
+    {
+     "@id": "cm:closed-questions"
+    },
+    {
+     "@id": "cm:communication-studies"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:questioning"
+    }
+   ]
+  },
+  {
    "@id": "cm:pechakucha",
    "@type": "cmo:Genre",
    "cmo:causes": {
@@ -67370,6 +67441,90 @@
    "dcterms:title": "Health Literacy: What Do You Need to Do?",
    "schema:url": {
     "@id": "https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (biography)",
+   "dcterms:title": "Paul Felix Lazarsfeld",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Paul-Felix-Lazarsfeld"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Berg & Ternullo, Perspectives on Politics (Cambridge University Press), published online 2025",
+   "dcterms:title": "Toward a Qualitative Study of the American Voter",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/toward-a-qualitative-study-of-the-american-voter/8716CD44522381B72CB23EBE89491830"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopedia of World Biography (Gale), via Encyclopedia.com",
+   "dcterms:title": "Paul F. Lazarsfeld",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/paul-f-lazarsfeld"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "William Foddy, Cambridge University Press (1993; online 2009)",
+   "dcterms:title": "The open vs. closed questions debate (chapter 10 of Constructing Questions for Interviews and Questionnaires)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/constructing-questions-for-interviews-and-questionnaires/open-vs-closed-questions-debate/EA60190233981A3BF980240B63EB28B3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Krosnick & Presser, in Handbook of Survey Research, 2nd ed. (Emerald, 2010) (Stanford author copy)",
+   "dcterms:title": "Question and Questionnaire Design",
+   "schema:url": {
+    "@id": "https://web.stanford.edu/dept/communication/faculty/krosnick/docs/2010/2010%20Handbook%20of%20Survey%20Research.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Elihu Katz, Public Opinion Quarterly 21(1) (1957) (University of Pennsylvania Annenberg repository record)",
+   "dcterms:title": "The Two-Step Flow of Communication: An Up-To-Date Report on an Hypothesis",
+   "schema:url": {
+    "@id": "https://repository.upenn.edu/asc_papers/271"
    }
   },
   {

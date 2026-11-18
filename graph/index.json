@@ -25147,6 +25147,73 @@
   ]
  },
  {
+  "id": "cm:paul-lazarsfeld",
+  "title": "Paul Lazarsfeld",
+  "aliases": [
+   "Paul F. Lazarsfeld",
+   "Paul Felix Lazarsfeld",
+   "Lazarsfeld"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/paul-lazarsfeld.md",
+  "created": "2026-11-18",
+  "summary": "Vienna-born Columbia sociologist (1901-1976) who turned the opinion poll into survey research, sat at the centre of the 1940s debate over open versus closed interview questions, and with his Columbia team proposed the two-step flow of communication through opinion leaders.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:carl-hovland"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:closed-questions",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:two-step-flow-of-communication",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-peoples-choice",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.britannica.com/biography/Paul-Felix-Lazarsfeld",
+   "https://www.cambridge.org/core/journals/perspectives-on-politics/article/toward-a-qualitative-study-of-the-american-voter/8716CD44522381B72CB23EBE89491830",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/paul-f-lazarsfeld",
+   "https://www.cambridge.org/core/books/constructing-questions-for-interviews-and-questionnaires/open-vs-closed-questions-debate/EA60190233981A3BF980240B63EB28B3",
+   "https://web.stanford.edu/dept/communication/faculty/krosnick/docs/2010/2010%20Handbook%20of%20Survey%20Research.pdf",
+   "https://repository.upenn.edu/asc_papers/271"
+  ]
+ },
+ {
   "id": "cm:pechakucha",
   "title": "PechaKucha",
   "aliases": [

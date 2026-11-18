@@ -12654,6 +12654,33 @@
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kessels-2003> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sheridan-et-al-2011> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2000/01/rdf-schema#label> "Paul Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#altLabel> "Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#altLabel> "Paul F. Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#altLabel> "Paul Felix Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#definition> "Vienna-born Columbia sociologist (1901-1976) who turned the opinion poll into survey research, sat at the centre of the 1940s debate over open versus closed interview questions, and with his Columbia team proposed the two-step flow of communication through opinion leaders." .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paul Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-peoples-choice> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/paul-lazarsfeld.md" .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/two-step-flow-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
 <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2000/01/rdf-schema#label> "PechaKucha" .
@@ -25283,6 +25310,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://schema.org/url> <https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (biography)" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <http://purl.org/dc/terms/title> "Paul Felix Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s1> <https://schema.org/url> <https://www.britannica.com/biography/Paul-Felix-Lazarsfeld> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <http://purl.org/dc/terms/publisher> "Berg & Ternullo, Perspectives on Politics (Cambridge University Press), published online 2025" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <http://purl.org/dc/terms/title> "Toward a Qualitative Study of the American Voter" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s2> <https://schema.org/url> <https://www.cambridge.org/core/journals/perspectives-on-politics/article/toward-a-qualitative-study-of-the-american-voter/8716CD44522381B72CB23EBE89491830> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <http://purl.org/dc/terms/publisher> "Encyclopedia of World Biography (Gale), via Encyclopedia.com" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <http://purl.org/dc/terms/title> "Paul F. Lazarsfeld" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s3> <https://schema.org/url> <https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/paul-f-lazarsfeld> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <http://purl.org/dc/terms/publisher> "William Foddy, Cambridge University Press (1993; online 2009)" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <http://purl.org/dc/terms/title> "The open vs. closed questions debate (chapter 10 of Constructing Questions for Interviews and Questionnaires)" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s4> <https://schema.org/url> <https://www.cambridge.org/core/books/constructing-questions-for-interviews-and-questionnaires/open-vs-closed-questions-debate/EA60190233981A3BF980240B63EB28B3> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <http://purl.org/dc/terms/publisher> "Krosnick & Presser, in Handbook of Survey Research, 2nd ed. (Emerald, 2010) (Stanford author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <http://purl.org/dc/terms/title> "Question and Questionnaire Design" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s5> <https://schema.org/url> <https://web.stanford.edu/dept/communication/faculty/krosnick/docs/2010/2010%20Handbook%20of%20Survey%20Research.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <http://purl.org/dc/terms/publisher> "Elihu Katz, Public Opinion Quarterly 21(1) (1957) (University of Pennsylvania Annenberg repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <http://purl.org/dc/terms/title> "The Two-Step Flow of Communication: An Up-To-Date Report on an Hypothesis" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paul-lazarsfeld/s6> <https://schema.org/url> <https://repository.upenn.edu/asc_papers/271> .
 <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/publisher> "Klein Dytham architecture (the format's originators), Tokyo" .
 <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/title> "PechaKucha" .
