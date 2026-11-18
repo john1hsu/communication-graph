@@ -24078,6 +24078,108 @@
   ]
  },
  {
+  "id": "cm:passive-voice",
+  "title": "Passive voice",
+  "aliases": [
+   "passive construction",
+   "passive sentence",
+   "agentless passive",
+   "be-passive"
+  ],
+  "type": "Concept",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/passive-voice.md",
+  "created": "2026-11-18",
+  "summary": "A sentence construction in which the thing acted on becomes the grammatical subject and the doer moves into a \"by\" phrase or disappears (\"The budget was approved by finance\"; \"The budget was approved\"); a legitimate tool for keeping the topic in focus, but one that can leave readers unsure who did, or must do, what.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:grammatical-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paramedic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:editing-for-clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:william-strunk-jr"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:active-voice",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:unclear-ownership",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:given-new-information-structure",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bohner-2001",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:fannes-claeys-2023",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:crisis-communication",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pullum.ppls.ed.ac.uk/passive_loathing.html",
+   "https://our-languages.canada.ca/en/blogue-blog/voix-passive-passive-voice-eng",
+   "https://writingcenter.unc.edu/tips-and-tools/passive-voice",
+   "https://web.stanford.edu/class/linguist156/Bohner_2001.pdf",
+   "https://www.stylemanual.gov.au/about-style-manual/government-writing-handbook/editors-tips/active-and-passive-voice",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_2737059550"
+  ]
+ },
+ {
   "id": "cm:patient-education",
   "title": "Patient education",
   "aliases": [

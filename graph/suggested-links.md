@@ -22,8 +22,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.44 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | 3.39 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.39 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
-| 3.37 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 3.36 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
+| 3.36 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
+| 3.35 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
 | 3.35 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
 | 3.34 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.27 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |

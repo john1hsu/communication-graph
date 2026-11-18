@@ -21240,6 +21240,99 @@
    ]
   },
   {
+   "@id": "cm:passive-voice",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:crisis-communication"
+   },
+   "cmo:causes": {
+    "@id": "cm:unclear-ownership"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:active-voice"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bohner-2001"
+    },
+    {
+     "@id": "cm:fannes-claeys-2023"
+    }
+   ],
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:given-new-information-structure"
+   },
+   "cmo:file": "articles/writing/passive-voice.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6"
+    }
+   ],
+   "rdfs:label": "Passive voice",
+   "skos:altLabel": [
+    "agentless passive",
+    "be-passive",
+    "passive construction",
+    "passive sentence"
+   ],
+   "skos:broader": {
+    "@id": "cm:grammatical-voice"
+   },
+   "skos:definition": "A sentence construction in which the thing acted on becomes the grammatical subject and the doer moves into a \"by\" phrase or disappears (\"The budget was approved by finance\"; \"The budget was approved\"); a legitimate tool for keeping the topic in focus, but one that can leave readers unsure who did, or must do, what.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Passive voice",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:characters-as-subjects-actions-as-verbs"
+    },
+    {
+     "@id": "cm:editing-for-clarity"
+    },
+    {
+     "@id": "cm:nominalization"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:william-strunk-jr"
+    }
+   ]
+  },
+  {
    "@id": "cm:patient-education",
    "@type": "cmo:Context",
    "cmo:domain": "executive-and-client-communication",
@@ -64983,6 +65076,90 @@
    "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
    "schema:url": {
     "@id": "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Geoffrey K. Pullum, University of Edinburgh (author's web version of the article in Language and Communication)",
+   "dcterms:title": "Fear and Loathing of the English Passive",
+   "schema:url": {
+    "@id": "https://pullum.ppls.ed.ac.uk/passive_loathing.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Language Portal of Canada, Our Languages blog (Government of Canada Translation Bureau), Geoff McGuire, 2019",
+   "dcterms:title": "Long live the passive voice",
+   "schema:url": {
+    "@id": "https://our-languages.canada.ca/en/blogue-blog/voix-passive-passive-voice-eng"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "The Writing Center, University of North Carolina at Chapel Hill",
+   "dcterms:title": "Passive Voice",
+   "schema:url": {
+    "@id": "https://writingcenter.unc.edu/tips-and-tools/passive-voice"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Bohner, G., British Journal of Social Psychology 40, 515-529, 2001 (course copy hosted by Stanford University)",
+   "dcterms:title": "Writing about rape: Use of the passive voice and other distancing text features as an expression of perceived responsibility of the victim",
+   "schema:url": {
+    "@id": "https://web.stanford.edu/class/linguist156/Bohner_2001.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Australian Government Style Manual",
+   "dcterms:title": "Active and passive voice",
+   "schema:url": {
+    "@id": "https://www.stylemanual.gov.au/about-style-manual/government-writing-handbook/editors-tips/active-and-passive-voice"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Fannes, G. & Claeys, A.-S., Journal of Language and Social Psychology 42(1), 3-30, 2023 (library catalogue record with abstract)",
+   "dcterms:title": "Shaping Attributions of Crisis Responsibility in the Case of an Accusation: The Role of Active and Passive Voice in Crisis Response Strategies",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_2737059550"
    }
   },
   {

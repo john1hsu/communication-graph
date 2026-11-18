@@ -12156,6 +12156,41 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2000/01/rdf-schema#label> "Passive voice" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "agentless passive" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "be-passive" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "passive construction" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "passive sentence" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/grammatical-voice> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#definition> "A sentence construction in which the thing acted on becomes the grammatical subject and the doer moves into a \"by\" phrase or disappears (\"The budget was approved by finance\"; \"The budget was approved\"); a legitimate tool for keeping the topic in focus, but one that can leave readers unsure who did, or must do, what." .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Passive voice" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominalization> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bohner-2001> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/fannes-claeys-2023> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/given-new-information-structure> .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/passive-voice.md" .
+<https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2000/01/rdf-schema#label> "Patient education" .
@@ -24449,6 +24484,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <http://purl.org/dc/terms/publisher> "Geoffrey K. Pullum, University of Edinburgh (author's web version of the article in Language and Communication)" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <http://purl.org/dc/terms/title> "Fear and Loathing of the English Passive" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s1> <https://schema.org/url> <https://pullum.ppls.ed.ac.uk/passive_loathing.html> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <http://purl.org/dc/terms/publisher> "Language Portal of Canada, Our Languages blog (Government of Canada Translation Bureau), Geoff McGuire, 2019" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <http://purl.org/dc/terms/title> "Long live the passive voice" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s2> <https://schema.org/url> <https://our-languages.canada.ca/en/blogue-blog/voix-passive-passive-voice-eng> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <http://purl.org/dc/terms/publisher> "The Writing Center, University of North Carolina at Chapel Hill" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <http://purl.org/dc/terms/title> "Passive Voice" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s3> <https://schema.org/url> <https://writingcenter.unc.edu/tips-and-tools/passive-voice> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <http://purl.org/dc/terms/publisher> "Bohner, G., British Journal of Social Psychology 40, 515-529, 2001 (course copy hosted by Stanford University)" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <http://purl.org/dc/terms/title> "Writing about rape: Use of the passive voice and other distancing text features as an expression of perceived responsibility of the victim" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s4> <https://schema.org/url> <https://web.stanford.edu/class/linguist156/Bohner_2001.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <http://purl.org/dc/terms/publisher> "Australian Government Style Manual" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <http://purl.org/dc/terms/title> "Active and passive voice" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s5> <https://schema.org/url> <https://www.stylemanual.gov.au/about-style-manual/government-writing-handbook/editors-tips/active-and-passive-voice> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <http://purl.org/dc/terms/publisher> "Fannes, G. & Claeys, A.-S., Journal of Language and Social Psychology 42(1), 3-30, 2023 (library catalogue record with abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <http://purl.org/dc/terms/title> "Shaping Attributions of Crisis Responsibility in the Case of an Accusation: The Role of Active and Passive Voice in Crisis Response Strategies" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/passive-voice/s6> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_2737059550> .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/publisher> "Roy P. C. Kessels, Journal of the Royal Society of Medicine 96(5), 2003 (PubMed Central)" .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/title> "Patients' memory for medical information" .
