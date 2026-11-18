@@ -15573,6 +15573,86 @@
    ]
   },
   {
+   "@id": "cm:isaac-marks",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:fears-phobias-and-rituals"
+    },
+    {
+     "@id": "cm:living-with-fear"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/isaac-marks.md",
+   "cmo:introduced": {
+    "@id": "cm:exposure-therapy"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6"
+    }
+   ],
+   "rdfs:label": "Isaac Marks",
+   "skos:altLabel": [
+    "I. M. Marks",
+    "Isaac M. Marks",
+    "Professor Isaac Marks"
+   ],
+   "skos:definition": "South African-born British psychiatrist (born 1935) at the Maudsley Hospital and Institute of Psychiatry who established real-life (in vivo) exposure as the active ingredient in treating phobias, then showed that people could guide their own graded exposure from a book or computer - the basis of today's self-help approach to fears such as speaking up and presenting.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Isaac Marks",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-behavioral-therapy"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:david-m-clark"
+    },
+    {
+     "@id": "cm:exposure-therapy"
+    },
+    {
+     "@id": "cm:joseph-wolpe"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:systematic-desensitization"
+    }
+   ]
+  },
+  {
    "@id": "cm:issue-selling",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -59919,6 +59999,90 @@
    "dcterms:title": "Psychic Defenses Against High Fear Appeals: A Key Marketing Variable",
    "schema:url": {
     "@id": "https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Paul M. G. Emmelkamp, University of Amsterdam, for the Vereniging voor Gedragstherapie en Cognitieve Therapie (Dutch association for behavioural and cognitive therapies)",
+   "dcterms:title": "Laudatio Isaac Marks (honorary membership of the VGCt)",
+   "schema:url": {
+    "@id": "https://www.vgct.nl/wp-content/uploads/2024/11/laudatio-Isaac-Marks.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopedia of Behavior Modification and Cognitive Behavior Therapy, SAGE Publications, 2005, doi:10.4135/9781412950534.n100",
+   "dcterms:title": "Marks, Isaac M.",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/cbt/chpt/marks-isaac-m"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Ghosh, A., Marks, I. M. & Carr, A. C., Journal of the Royal Society of Medicine 77, 483-487, 1984 (SAGE Journals PDF)",
+   "dcterms:title": "Controlled study of self-exposure treatment for phobics: preliminary communication",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/pdf/10.1177/014107688407700608"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Marks, I. M., British Journal of Psychiatry 124, 103-104, 1974, doi:10.1192/bjp.124.1.103 (Cambridge Core PDF)",
+   "dcterms:title": "Problems in exposure (flooding) research (correspondence, with reply by Mathews & Gelder)",
+   "schema:url": {
+    "@id": "https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/D650E17B3D6D523B479C3A306571E450/S0007125000090929a.pdf/problems-in-exposure-flooding-research.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Behavioural and Cognitive Psychotherapy 28, 397-402, 2000, Cambridge University Press",
+   "dcterms:title": "Book reviews: Living with Fear (reviewed by Joan Bond) and Fears, Phobias and Rituals (reviewed by Malcolm Battersby)",
+   "schema:url": {
+    "@id": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S1352465800224090/resource/name/S1352465800004094a.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Turk, J., Marks, I. M. & Horder, J., British Journal of General Practice 40, 210-212, 1990",
+   "dcterms:title": "Obsessive-compulsive disorder: case study and discussion of treatment",
+   "schema:url": {
+    "@id": "https://bjgp.org/content/bjgp/40/334/210.full.pdf"
    }
   },
   {

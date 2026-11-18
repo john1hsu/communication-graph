@@ -2548,6 +2548,15 @@
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> .
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> .
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/isaac-marks.md" .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> .
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> .
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/james-j-gross.md" .
@@ -30139,6 +30148,75 @@
   <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <https://schema.org/url> <https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/isaac-marks#graph> {
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2000/01/rdf-schema#label> "Isaac Marks" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#altLabel> "I. M. Marks" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#altLabel> "Isaac M. Marks" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#altLabel> "Professor Isaac Marks" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#definition> "South African-born British psychiatrist (born 1935) at the Maudsley Hospital and Institute of Psychiatry who established real-life (in vivo) exposure as the active ingredient in treating phobias, then showed that people could guide their own graded exposure from a book or computer - the basis of today's self-help approach to fears such as speaking up and presenting." .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isaac Marks" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-m-clark> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/fears-phobias-and-rituals> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/living-with-fear> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/isaac-marks.md" .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <http://purl.org/dc/terms/publisher> "Paul M. G. Emmelkamp, University of Amsterdam, for the Vereniging voor Gedragstherapie en Cognitieve Therapie (Dutch association for behavioural and cognitive therapies)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <http://purl.org/dc/terms/title> "Laudatio Isaac Marks (honorary membership of the VGCt)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s1> <https://schema.org/url> <https://www.vgct.nl/wp-content/uploads/2024/11/laudatio-Isaac-Marks.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <http://purl.org/dc/terms/publisher> "Encyclopedia of Behavior Modification and Cognitive Behavior Therapy, SAGE Publications, 2005, doi:10.4135/9781412950534.n100" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <http://purl.org/dc/terms/title> "Marks, Isaac M." .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s2> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/cbt/chpt/marks-isaac-m> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <http://purl.org/dc/terms/publisher> "Ghosh, A., Marks, I. M. & Carr, A. C., Journal of the Royal Society of Medicine 77, 483-487, 1984 (SAGE Journals PDF)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <http://purl.org/dc/terms/title> "Controlled study of self-exposure treatment for phobics: preliminary communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s3> <https://schema.org/url> <https://journals.sagepub.com/doi/pdf/10.1177/014107688407700608> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <http://purl.org/dc/terms/publisher> "Marks, I. M., British Journal of Psychiatry 124, 103-104, 1974, doi:10.1192/bjp.124.1.103 (Cambridge Core PDF)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <http://purl.org/dc/terms/title> "Problems in exposure (flooding) research (correspondence, with reply by Mathews & Gelder)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s4> <https://schema.org/url> <https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/D650E17B3D6D523B479C3A306571E450/S0007125000090929a.pdf/problems-in-exposure-flooding-research.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <http://purl.org/dc/terms/publisher> "Behavioural and Cognitive Psychotherapy 28, 397-402, 2000, Cambridge University Press" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <http://purl.org/dc/terms/title> "Book reviews: Living with Fear (reviewed by Joan Bond) and Fears, Phobias and Rituals (reviewed by Malcolm Battersby)" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s5> <https://schema.org/url> <https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S1352465800224090/resource/name/S1352465800004094a.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <http://purl.org/dc/terms/publisher> "Turk, J., Marks, I. M. & Horder, J., British Journal of General Practice 40, 210-212, 1990" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <http://purl.org/dc/terms/title> "Obsessive-compulsive disorder: case study and discussion of treatment" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/isaac-marks/s6> <https://schema.org/url> <https://bjgp.org/content/bjgp/40/334/210.full.pdf> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> {
   <https://github.com/john1hsu/communication-graph/id/james-j-gross> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/james-j-gross> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -36220,6 +36298,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
@@ -36431,6 +36510,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-m-clark> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
@@ -37159,6 +37239,7 @@
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/davidow-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
@@ -38120,6 +38201,8 @@
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
+  <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/expressive-suppression> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
   <https://github.com/john1hsu/communication-graph/id/expressive-suppression> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/expressive-suppression> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
@@ -38280,6 +38363,9 @@
   <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/fears-phobias-and-rituals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/fears-phobias-and-rituals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/fears-phobias-and-rituals> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -39973,6 +40059,7 @@
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
+  <https://github.com/john1hsu/communication-graph/id/isaac-marks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/isaacs-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/isaacs-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/isaacs-et-al-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
@@ -40117,6 +40204,7 @@
   <https://github.com/john1hsu/communication-graph/id/joseph-s-valacich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/julia-minson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40436,6 +40524,9 @@
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+  <https://github.com/john1hsu/communication-graph/id/living-with-fear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/living-with-fear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/living-with-fear> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
@@ -43377,6 +43468,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-m-clark> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
@@ -43739,6 +43831,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
@@ -43981,6 +44074,7 @@
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/isaac-marks> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
