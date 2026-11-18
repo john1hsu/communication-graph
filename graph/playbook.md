@@ -1413,6 +1413,30 @@ Ask yourself:
 - Is most of what I said about the approach and how to check it, rather than about this one output or about the person?
 - Did any praise I gave carry information about the work, or was it a general compliment?
 
+### [Motivational interviewing](../articles/feedback-and-coaching/motivational-interviewing.md) — Technique
+
+1. Check the fit first - use it when someone is genuinely torn about a change that serves their own goals, not to win agreement to something that mainly serves you.
+2. Engage before you steer - spend the opening listening and reflecting until the person feels understood, without advice or warnings.
+3. Agree the focus together, naming the one change worth talking about and asking permission before you raise it.
+4. Ask open questions about why the change might matter to them and how they could do it, and reflect back the reasons they give.
+5. Affirm real strengths and efforts, and when they voice reasons not to change, reflect them neutrally rather than arguing back.
+6. Offer information only with permission - ask what they know, share briefly, then ask what they make of it.
+7. Summarise their own reasons for change, then ask what, if anything, they want to do next; let them set the plan and the pace.
+
+*A team lead talks to an analyst who keeps putting off moving their reports to the team's new shared dashboard tool, which would also save the analyst hours of manual work each month.*
+
+| Before | After |
+|---|---|
+| You really need to switch. The new tool is faster, everyone else has moved, and leadership is asking about it. Can you just get it done by the end of the month? | I'd like to hear how the dashboard move looks from your side - what's appealing about it, and what's holding it back? ... So the manual exports are eating Friday afternoons, and you'd like those back, but you're worried the new tool will break the formulas your stakeholders rely on. What would need to be true for the switch to feel safe? ... Would a short test with one report be a sensible first step, or something else? |
+
+**Why:** The rewrite stops arguing for the change, which tends to provoke counter-arguments, and instead draws out the analyst's own reason (getting time back) and concern (breaking formulas), so any plan comes from them and addresses what is really in the way.
+
+Ask yourself:
+- Did the reasons for change in this conversation come mostly from them or from me?
+- When they pushed back, did I reflect it or argue with it?
+- Did I ask permission before giving advice or information?
+- Does this change serve their goals, and if my organisation also has a stake, did I say so openly?
+
 ### [Praise and recognition](../articles/feedback-and-coaching/praise-and-recognition.md) — Technique
 
 1. Notice the specific behaviour worth repeating - an action you saw, not a trait such as "smart" or "a natural".

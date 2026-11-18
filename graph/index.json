@@ -22086,6 +22086,136 @@
   ]
  },
  {
+  "id": "cm:motivational-interviewing",
+  "title": "Motivational interviewing",
+  "aliases": [
+   "MI",
+   "motivational interviewing in coaching"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/motivational-interviewing.md",
+  "created": "2026-11-18",
+  "summary": "A collaborative, person-centred conversation style for guiding someone who is ambivalent about a change: instead of arguing for the change, the helper uses open questions, affirmations, reflections and summaries to draw out and strengthen the person's own reasons for it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:autonomy-supportive-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-determination-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:solution-focused-coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:william-r-miller",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:stephen-rollnick",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:carl-rogers",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:self-perception-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:coaching",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lundahl-et-al-2010",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:magill-et-al-2018",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did the reasons for change in this conversation come mostly from them or from me?",
+   "When they pushed back, did I reflect it or argue with it?",
+   "Did I ask permission before giving advice or information?",
+   "Does this change serve their goals, and if my organisation also has a stake, did I say so openly?"
+  ],
+  "steps": [
+   "Check the fit first - use it when someone is genuinely torn about a change that serves their own goals, not to win agreement to something that mainly serves you.",
+   "Engage before you steer - spend the opening listening and reflecting until the person feels understood, without advice or warnings.",
+   "Agree the focus together, naming the one change worth talking about and asking permission before you raise it.",
+   "Ask open questions about why the change might matter to them and how they could do it, and reflect back the reasons they give.",
+   "Affirm real strengths and efforts, and when they voice reasons not to change, reflect them neutrally rather than arguing back.",
+   "Offer information only with permission - ask what they know, share briefly, then ask what they make of it.",
+   "Summarise their own reasons for change, then ask what, if anything, they want to do next; let them set the plan and the pace."
+  ],
+  "example": {
+   "situation": "A team lead talks to an analyst who keeps putting off moving their reports to the team's new shared dashboard tool, which would also save the analyst hours of manual work each month.",
+   "before": "You really need to switch. The new tool is faster, everyone else has moved, and leadership is asking about it. Can you just get it done by the end of the month?",
+   "after": "I'd like to hear how the dashboard move looks from your side - what's appealing about it, and what's holding it back? ... So the manual exports are eating Friday afternoons, and you'd like those back, but you're worried the new tool will break the formulas your stakeholders rely on. What would need to be true for the switch to feel safe? ... Would a short test with one report be a sensible first step, or something else?",
+   "why": "The rewrite stops arguing for the change, which tends to provoke counter-arguments, and instead draws out the analyst's own reason (getting time back) and concern (breaking formulas), so any plan comes from them and addresses what is really in the way."
+  },
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2759607",
+   "https://orca.cardiff.ac.uk/id/eprint/30246/1/MILLER%202009.PDF",
+   "https://digitalcommons.usu.edu/sswa_facpubs/199",
+   "https://pubmed.ncbi.nlm.nih.gov/29265832/",
+   "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+   "https://da.motivationalinterviewing.org/content/addressing-deficit-performance-through-coaching-using-motivational-interviewing-performance-"
+  ]
+ },
+ {
   "id": "cm:multicultural-team",
   "title": "Multicultural team",
   "aliases": [

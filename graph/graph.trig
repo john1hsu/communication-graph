@@ -985,6 +985,15 @@
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> .
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> .
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/motivational-interviewing.md" .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> .
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/one-on-one-meetings.md" .
@@ -13834,6 +13843,129 @@
   <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/motivational-interviewing#graph> {
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did the reasons for change in this conversation come mostly from them or from me?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "When they pushed back, did I reflect it or argue with it?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask permission before giving advice or information?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does this change serve their goals, and if my organisation also has a stake, did I say so openly?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I'd like to hear how the dashboard move looks from your side - what's appealing about it, and what's holding it back? ... So the manual exports are eating Friday afternoons, and you'd like those back, but you're worried the new tool will break the formulas your stakeholders rely on. What would need to be true for the switch to feel safe? ... Would a short test with one report be a sensible first step, or something else?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <https://github.com/john1hsu/communication-graph/ontology#before> "You really need to switch. The new tool is faster, everyone else has moved, and leadership is asking about it. Can you just get it done by the end of the month?" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead talks to an analyst who keeps putting off moving their reports to the team's new shared dashboard tool, which would also save the analyst hours of manual work each month." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite stops arguing for the change, which tends to provoke counter-arguments, and instead draws out the analyst's own reason (getting time back) and concern (breaking formulas), so any plan comes from them and addresses what is really in the way." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/1> <https://schema.org/text> "Check the fit first - use it when someone is genuinely torn about a change that serves their own goals, not to win agreement to something that mainly serves you." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/2> <https://schema.org/text> "Engage before you steer - spend the opening listening and reflecting until the person feels understood, without advice or warnings." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/3> <https://schema.org/text> "Agree the focus together, naming the one change worth talking about and asking permission before you raise it." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/4> <https://schema.org/text> "Ask open questions about why the change might matter to them and how they could do it, and reflect back the reasons they give." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/5> <https://schema.org/text> "Affirm real strengths and efforts, and when they voice reasons not to change, reflect them neutrally rather than arguing back." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/6> <https://schema.org/text> "Offer information only with permission - ask what they know, share briefly, then ask what they make of it." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/7> <https://schema.org/text> "Summarise their own reasons for change, then ask what, if anything, they want to do next; let them set the plan and the pace." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/name> "Motivational interviewing" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto/7> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2000/01/rdf-schema#label> "Motivational interviewing" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#altLabel> "MI" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#altLabel> "motivational interviewing in coaching" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#definition> "A collaborative, person-centred conversation style for guiding someone who is ambivalent about a change: instead of arguing for the change, the helper uses open questions, affirmations, reflections and summaries to draw out and strengthen the person's own reasons for it." .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motivational interviewing" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/self-perception-theory> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/motivational-interviewing.md" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/howto> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/stephen-rollnick> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/william-r-miller> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lundahl-et-al-2010> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/magill-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <http://purl.org/dc/terms/publisher> "William R. Miller & Gary S. Rose, American Psychologist 64(6), 527-537 (2009), author manuscript in PubMed Central" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <http://purl.org/dc/terms/title> "Toward a Theory of Motivational Interviewing" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2759607> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <http://purl.org/dc/terms/publisher> "William R. Miller & Stephen Rollnick, Behavioural and Cognitive Psychotherapy 37(2), 129-140 (2009), Cardiff University repository" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <http://purl.org/dc/terms/title> "Ten Things that Motivational Interviewing Is Not" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s2> <https://schema.org/url> <https://orca.cardiff.ac.uk/id/eprint/30246/1/MILLER%202009.PDF> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <http://purl.org/dc/terms/publisher> "Lundahl, Burke, Tollefson, Kunz & Browell, Research on Social Work Practice 20(2), 137-160 (2010), Utah State University DigitalCommons" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <http://purl.org/dc/terms/title> "A Meta-analysis of Motivational Interviewing: Twenty-Five Years of Empirical Studies" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s3> <https://schema.org/url> <https://digitalcommons.usu.edu/sswa_facpubs/199> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <http://purl.org/dc/terms/publisher> "Magill et al., Journal of Consulting and Clinical Psychology 86(2) (2018), PubMed record" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <http://purl.org/dc/terms/title> "A meta-analysis of motivational interviewing process: Technical, relational, and conditional process models of change" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/29265832/> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <http://purl.org/dc/terms/publisher> "Motivational Interviewing Network of Trainers (MINT)" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <http://purl.org/dc/terms/title> "Understanding Motivational Interviewing" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s5> <https://schema.org/url> <https://motivationalinterviewing.org/understanding-motivational-interviewing> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <http://purl.org/dc/terms/publisher> "Jonathan Passmore, International Coaching Psychology Review (British Psychological Society), MINT library record" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <http://purl.org/dc/terms/title> "Addressing deficit performance through coaching: using motivational interviewing for performance improvement at work" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/motivational-interviewing/s6> <https://schema.org/url> <https://da.motivationalinterviewing.org/content/addressing-deficit-performance-through-coaching-using-motivational-interviewing-performance-> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> {
@@ -36145,6 +36277,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
@@ -36190,6 +36323,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/mediation> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
@@ -36664,6 +36798,7 @@
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/aviezer-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
@@ -37134,6 +37269,7 @@
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -37487,14 +37623,17 @@
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/360-degree-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
@@ -37945,6 +38084,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
@@ -38600,6 +38740,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -40561,6 +40702,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
@@ -41268,6 +41410,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
@@ -41911,6 +42054,7 @@
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/lundahl-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/luz-santana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/luz-santana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/luz-santana> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
@@ -41951,6 +42095,7 @@
   <https://github.com/john1hsu/communication-graph/id/maddux-mullen-galinsky-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/madlock-2008> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/maertens-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/magill-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/maitlis-lawrence-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/maitlis-lawrence-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/maitlis-lawrence-2007> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
@@ -42385,6 +42530,18 @@
   <https://github.com/john1hsu/communication-graph/id/morton-trehub-2001> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
   <https://github.com/john1hsu/communication-graph/id/motivated-information-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/motivating-language-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/mousavi-low-sweller-1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mousavi-low-sweller-1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -42825,6 +42982,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
@@ -42878,6 +43036,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
@@ -44609,6 +44768,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/work-motivation> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -44637,6 +44797,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/self-efficacy> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/self-perception-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/self-presentation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45142,6 +45303,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
@@ -45289,6 +45451,7 @@
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
+  <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/sommers-1980> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/sommers-1980> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45472,6 +45635,9 @@
   <https://github.com/john1hsu/communication-graph/id/stephen-c-levinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stephen-c-levinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/stephen-c-levinson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/stephen-rollnick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/stephen-rollnick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/stephen-rollnick> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/stewart-et-al-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stewart-et-al-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/stewart-et-al-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/handshake> .
@@ -45509,6 +45675,7 @@
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
+  <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
@@ -46199,6 +46366,9 @@
   <https://github.com/john1hsu/communication-graph/id/william-james> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/william-james> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/william-james> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/william-r-miller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/william-r-miller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/william-r-miller> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .

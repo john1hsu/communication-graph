@@ -55,9 +55,9 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
-| `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
+| `cm:motivational-interviewing` | 2 | Coaching, Defensiveness |
 
-…and 80 more.
+…and 81 more.
 
 ## Toolkit by situation
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 244 more.
+…and 245 more.
 
 ## Concepts with no recorded origin (gap)
 
