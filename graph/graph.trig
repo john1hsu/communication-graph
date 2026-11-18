@@ -1982,6 +1982,15 @@
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s4> .
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s5> .
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/cognitive-theory-of-multimedia-learning.md" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> .
 <https://github.com/john1hsu/communication-graph/id/coherence-principle#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/coherence-principle#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
 <https://github.com/john1hsu/communication-graph/id/coherence-principle#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/coherence-principle.md" .
@@ -24484,6 +24493,82 @@
   <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6> <https://schema.org/url> <https://faculty.washington.edu/farkas/dfpubs/Farkas-Assessment%20Of%20Alleys%20Slide%20Design.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning#graph> {
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive theory of multimedia learning" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#altLabel> "CTML" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#altLabel> "Mayer's cognitive theory of multimedia learning" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#altLabel> "Mayer's multimedia learning theory" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#altLabel> "multimedia learning theory" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#definition> "Richard Mayer's theory that people understand words and pictures together better than words alone because they process them in separate, limited-capacity verbal and visual channels and must actively select, organise and integrate both, so good slides, videos and documents cut wasted processing, manage essential complexity and invite sense-making." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive theory of multimedia learning" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/cognitive-theory-of-multimedia-learning.md" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/dual-coding-theory> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/educational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mayer-moreno-2003> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <http://purl.org/dc/terms/publisher> "Mayer, R. E., Educational Psychology Review 36, article 8, 2024, doi:10.1007/s10648-023-09842-1 (Springer open access)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <http://purl.org/dc/terms/title> "The Past, Present, and Future of the Cognitive Theory of Multimedia Learning" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1007/s10648-023-09842-1.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <http://purl.org/dc/terms/publisher> "Mayer, R. E. & Moreno, R., Educational Psychologist 38(1), 43-52, 2003 (University of Kentucky course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <http://purl.org/dc/terms/title> "Nine Ways to Reduce Cognitive Load in Multimedia Learning" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2> <https://schema.org/url> <https://uky.edu/~gmswan3/544/9_ways_to_reduce_CL.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <http://purl.org/dc/terms/publisher> "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023 (University of New Hampshire copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <http://purl.org/dc/terms/title> "Research-based principles for designing multimedia instruction" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3> <https://schema.org/url> <https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <http://purl.org/dc/terms/publisher> "Tabbers, H. K. & van der Spoel, W., Zeitschrift fur Padagogische Psychologie 25(4), 221-230, 2011, doi:10.1024/1010-0652/a000047 (Erasmus University Rotterdam repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <http://purl.org/dc/terms/title> "Where did the modality principle in multimedia learning go? A double replication failure that questions both theory and practical use" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4> <https://schema.org/url> <https://repub.eur.nl/pub/74771> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <http://purl.org/dc/terms/publisher> "Cavanagh, T. M. & Kiersch, C., Educational Technology Research and Development, 2022, doi:10.1007/s11423-022-10181-1 (PubMed Central)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <http://purl.org/dc/terms/title> "Using commonly-available technologies to create online multimedia lessons through the application of the Cognitive Theory of Multimedia Learning" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC9762622> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <http://purl.org/dc/terms/publisher> "TU Delft Teaching Support (Delft University of Technology)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <http://purl.org/dc/terms/title> "Multimedia foundations - combining text and images" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6> <https://schema.org/url> <https://tudelft.nl/teaching-support/didactics/develop/multimedia-foundations-combining-text-and-images> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/coherence-principle#graph> {
   <https://github.com/john1hsu/communication-graph/id/coherence-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "For each image, anecdote, clip or joke in this deck, can I say which point it helps the audience understand?" .
@@ -34768,6 +34853,7 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/visual-communication> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
@@ -35801,17 +35887,23 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
@@ -35834,6 +35926,9 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
@@ -35851,7 +35946,9 @@
   <https://github.com/john1hsu/communication-graph/id/coherence-principle/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
@@ -36726,6 +36823,7 @@
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/visual-communication> .
+  <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
@@ -37055,6 +37153,7 @@
   <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-m-clark> .
+  <https://github.com/john1hsu/communication-graph/id/dual-coding-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/dual-process-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/duffy-kabance-1982> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/dutch-test-for-conflict-handling> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
@@ -38955,6 +39054,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
@@ -40052,6 +40152,7 @@
   <https://github.com/john1hsu/communication-graph/id/mayer-heiser-lonn-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mayer-heiser-lonn-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/mayer-heiser-lonn-2001> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/mayer-moreno-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/mayfield-mayfield-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/mayo-wilson-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/mayo-wilson-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
@@ -40325,7 +40426,9 @@
   <https://github.com/john1hsu/communication-graph/id/modality-principle/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/modirrousta-galian-higham-2023> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -41522,6 +41625,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -41577,6 +41681,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
@@ -42170,6 +42275,7 @@
   <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-petty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42629,6 +42735,7 @@
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
   <https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
@@ -42714,6 +42821,7 @@
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
@@ -43364,6 +43472,7 @@
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
+  <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/talevski-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/talk-maxims> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .

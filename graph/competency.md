@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 
-…and 176 more.
+…and 177 more.
 
 ## Myths and contested advice
 

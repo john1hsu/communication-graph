@@ -5183,6 +5183,118 @@
   ]
  },
  {
+  "id": "cm:cognitive-theory-of-multimedia-learning",
+  "title": "Cognitive theory of multimedia learning",
+  "aliases": [
+   "CTML",
+   "Mayer's multimedia learning theory",
+   "multimedia learning theory",
+   "Mayer's cognitive theory of multimedia learning"
+  ],
+  "type": "Theory",
+  "domain": "presenting-and-public-speaking",
+  "level": "intermediate",
+  "evidenceStatus": "theoretical",
+  "file": "articles/presenting-and-public-speaking/cognitive-theory-of-multimedia-learning.md",
+  "created": "2026-11-18",
+  "summary": "Richard Mayer's theory that people understand words and pictures together better than words alone because they process them in separate, limited-capacity verbal and visual channels and must actively select, organise and integrate both, so good slides, videos and documents cut wasted processing, manage essential complexity and invite sense-making.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:slide-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:coherence-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:modality-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:death-by-powerpoint"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:signposting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-e-mayer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:dual-coding-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:cognitive-load",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:educational-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mayer-moreno-2003",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:tabbers-van-der-spoel-2011",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://link.springer.com/content/pdf/10.1007/s10648-023-09842-1.pdf",
+   "https://uky.edu/~gmswan3/544/9_ways_to_reduce_CL.pdf",
+   "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf",
+   "https://repub.eur.nl/pub/74771",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9762622",
+   "https://tudelft.nl/teaching-support/didactics/develop/multimedia-foundations-combining-text-and-images"
+  ]
+ },
+ {
   "id": "cm:coherence-principle",
   "title": "Coherence principle",
   "aliases": [

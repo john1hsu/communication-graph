@@ -4542,6 +4542,105 @@
    ]
   },
   {
+   "@id": "cm:cognitive-theory-of-multimedia-learning",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:tabbers-van-der-spoel-2011"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/presenting-and-public-speaking/cognitive-theory-of-multimedia-learning.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:dual-coding-theory"
+    }
+   ],
+   "cmo:introducedBy": {
+    "@id": "cm:richard-e-mayer"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:educational-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:mayer-moreno-2003"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6"
+    }
+   ],
+   "rdfs:label": "Cognitive theory of multimedia learning",
+   "skos:altLabel": [
+    "CTML",
+    "Mayer's cognitive theory of multimedia learning",
+    "Mayer's multimedia learning theory",
+    "multimedia learning theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-psychology"
+   },
+   "skos:definition": "Richard Mayer's theory that people understand words and pictures together better than words alone because they process them in separate, limited-capacity verbal and visual channels and must actively select, organise and integrate both, so good slides, videos and documents cut wasted processing, manage essential complexity and invite sense-making.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Cognitive theory of multimedia learning",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:coherence-principle"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:modality-principle"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:signposting"
+    },
+    {
+     "@id": "cm:slide-design"
+    }
+   ]
+  },
+  {
    "@id": "cm:coherence-principle",
    "@type": "cmo:Principle",
    "cmo:addresses": {
@@ -49903,6 +50002,90 @@
    "dcterms:title": "Change the things you can: Emotion regulation is more beneficial for people from lower than from higher socioeconomic status",
    "schema:url": {
     "@id": "https://escholarship.org/content/qt5ws5w0h9/qt5ws5w0h9.pdf?t=rufpxh"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Mayer, R. E., Educational Psychology Review 36, article 8, 2024, doi:10.1007/s10648-023-09842-1 (Springer open access)",
+   "dcterms:title": "The Past, Present, and Future of the Cognitive Theory of Multimedia Learning",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1007/s10648-023-09842-1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Mayer, R. E. & Moreno, R., Educational Psychologist 38(1), 43-52, 2003 (University of Kentucky course copy)",
+   "dcterms:title": "Nine Ways to Reduce Cognitive Load in Multimedia Learning",
+   "schema:url": {
+    "@id": "https://uky.edu/~gmswan3/544/9_ways_to_reduce_CL.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023 (University of New Hampshire copy)",
+   "dcterms:title": "Research-based principles for designing multimedia instruction",
+   "schema:url": {
+    "@id": "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Tabbers, H. K. & van der Spoel, W., Zeitschrift fur Padagogische Psychologie 25(4), 221-230, 2011, doi:10.1024/1010-0652/a000047 (Erasmus University Rotterdam repository)",
+   "dcterms:title": "Where did the modality principle in multimedia learning go? A double replication failure that questions both theory and practical use",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/74771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Cavanagh, T. M. & Kiersch, C., Educational Technology Research and Development, 2022, doi:10.1007/s11423-022-10181-1 (PubMed Central)",
+   "dcterms:title": "Using commonly-available technologies to create online multimedia lessons through the application of the Cognitive Theory of Multimedia Learning",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9762622"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-theory-of-multimedia-learning/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "TU Delft Teaching Support (Delft University of Technology)",
+   "dcterms:title": "Multimedia foundations - combining text and images",
+   "schema:url": {
+    "@id": "https://tudelft.nl/teaching-support/didactics/develop/multimedia-foundations-combining-text-and-images"
    }
   },
   {
