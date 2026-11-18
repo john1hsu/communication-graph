@@ -4733,6 +4733,97 @@
   ]
  },
  {
+  "id": "cm:claude-shannon",
+  "title": "Claude Shannon",
+  "aliases": [
+   "Claude E. Shannon",
+   "Claude Elwood Shannon",
+   "father of information theory"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/claude-shannon.md",
+  "created": "2026-11-18",
+  "summary": "American mathematician and Bell Labs engineer (1916-2001) whose 1948 paper \"A Mathematical Theory of Communication\" founded information theory and supplied the source-transmitter-channel- noise-receiver diagram behind the linear model that opens textbook accounts of communication; he later warned against stretching that theory to human affairs without testing it.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:warren-weaver"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:norbert-wiener"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-models"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:transactional-model-of-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:a-mathematical-theory-of-communication",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:information-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:communication-models",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:harry-nyquist",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:ralph-hartley",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf",
+   "https://www.Gwern.net/doc/cs/algorithm/1956-shannon.pdf",
+   "https://www.britannica.com/print/article/538577",
+   "https://mt-archive.net/50/SciAm-1949-Weaver.pdf",
+   "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56",
+   "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
+  ]
+ },
+ {
   "id": "cm:client-communication",
   "title": "Client communication",
   "aliases": [

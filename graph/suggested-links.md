@@ -7,7 +7,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 5.45 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.48 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
 | 4.43 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
-| 4.38 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
+| 4.37 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
 | 4.11 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 4.11 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.34 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 3.32 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.31 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
-| 3.24 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
+| 3.23 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |

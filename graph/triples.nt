@@ -2656,6 +2656,38 @@
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2000/01/rdf-schema#label> "Claude Shannon" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "Claude E. Shannon" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "Claude Elwood Shannon" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "father of information theory" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#definition> "American mathematician and Bell Labs engineer (1916-2001) whose 1948 paper \"A Mathematical Theory of Communication\" founded information theory and supplied the source-transmitter-channel- noise-receiver diagram behind the linear model that opens textbook accounts of communication; he later warned against stretching that theory to human affairs without testing it." .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Claude Shannon" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/warren-weaver> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/claude-shannon.md" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/harry-nyquist> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/ralph-hartley> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communication-models> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/information-theory> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/client-communication> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
 <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Client communication" .
@@ -18800,6 +18832,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/publisher> "Claude E. Shannon, The Bell System Technical Journal 27, 379-423 and 623-656 (July and October 1948) (Yale University course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/title> "A Mathematical Theory of Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <https://schema.org/url> <https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/publisher> "Claude E. Shannon, IRE Transactions on Information Theory (1956), p. 3 (scanned copy hosted by gwern.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/title> "The Bandwagon" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <https://schema.org/url> <https://www.Gwern.net/doc/cs/algorithm/1956-shannon.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (print version of biography article 538577)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/title> "Claude Shannon" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <https://schema.org/url> <https://www.britannica.com/print/article/538577> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/publisher> "Warren Weaver, Scientific American 181(1), 11-15 (July 1949) (archive copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/title> "The Mathematics of Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <https://schema.org/url> <https://mt-archive.net/50/SciAm-1949-Weaver.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/publisher> "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (CC BY 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/title> "Chapter 4: Traditional Models of Human Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <https://schema.org/url> <https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/publisher> "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/title> "Models of Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <https://schema.org/url> <https://courses.lumenlearning.com/publicspeakingprinciples/?p=354> .
 <https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/publisher> "Sharma, N. & Patterson, P. G., Journal of Services Marketing 13(2), 151-170, 1999, doi:10.1108/08876049910266059 (Emerald abstract page)" .
 <https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/title> "The impact of communication effectiveness and service quality on relationship commitment in consumer, professional services" .

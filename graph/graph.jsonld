@@ -4152,6 +4152,94 @@
    ]
   },
   {
+   "@id": "cm:claude-shannon",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:a-mathematical-theory-of-communication"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/claude-shannon.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:harry-nyquist"
+    },
+    {
+     "@id": "cm:ralph-hartley"
+    }
+   ],
+   "cmo:introduced": [
+    {
+     "@id": "cm:communication-models"
+    },
+    {
+     "@id": "cm:information-theory"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6"
+    }
+   ],
+   "rdfs:label": "Claude Shannon",
+   "skos:altLabel": [
+    "Claude E. Shannon",
+    "Claude Elwood Shannon",
+    "father of information theory"
+   ],
+   "skos:definition": "American mathematician and Bell Labs engineer (1916-2001) whose 1948 paper \"A Mathematical Theory of Communication\" founded information theory and supplied the source-transmitter-channel- noise-receiver diagram behind the linear model that opens textbook accounts of communication; he later warned against stretching that theory to human affairs without testing it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Claude Shannon",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:communication-models"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:norbert-wiener"
+    },
+    {
+     "@id": "cm:shannon-weaver-model"
+    },
+    {
+     "@id": "cm:transactional-model-of-communication"
+    },
+    {
+     "@id": "cm:warren-weaver"
+    }
+   ]
+  },
+  {
    "@id": "cm:client-communication",
    "@type": "cmo:Context",
    "cmo:complements": [
@@ -52275,6 +52363,90 @@
    "dcterms:title": "Study: Writers who use long words needlessly are seen as less intelligent (press release on Oppenheimer, Applied Cognitive Psychology, doi:10.1002/acp.1178)",
    "schema:url": {
     "@id": "https://www.eurekalert.org/news-releases/808085"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Claude E. Shannon, The Bell System Technical Journal 27, 379-423 and 623-656 (July and October 1948) (Yale University course copy)",
+   "dcterms:title": "A Mathematical Theory of Communication",
+   "schema:url": {
+    "@id": "https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Claude E. Shannon, IRE Transactions on Information Theory (1956), p. 3 (scanned copy hosted by gwern.net)",
+   "dcterms:title": "The Bandwagon",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/cs/algorithm/1956-shannon.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (print version of biography article 538577)",
+   "dcterms:title": "Claude Shannon",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/538577"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Warren Weaver, Scientific American 181(1), 11-15 (July 1949) (archive copy)",
+   "dcterms:title": "The Mathematics of Communication",
+   "schema:url": {
+    "@id": "https://mt-archive.net/50/SciAm-1949-Weaver.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (CC BY 4.0)",
+   "dcterms:title": "Chapter 4: Traditional Models of Human Communication",
+   "schema:url": {
+    "@id": "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)",
+   "dcterms:title": "Models of Communication",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
    }
   },
   {

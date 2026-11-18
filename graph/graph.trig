@@ -2510,6 +2510,15 @@
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/claude-shannon.md" .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> .
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> .
 <https://github.com/john1hsu/communication-graph/id/david-m-clark#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/david-m-clark#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/david-m-clark> .
 <https://github.com/john1hsu/communication-graph/id/david-m-clark#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/david-m-clark.md" .
@@ -30288,6 +30297,77 @@
   <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <https://schema.org/url> <https://arxiv.org/html/2404.17104v1> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/claude-shannon#graph> {
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2000/01/rdf-schema#label> "Claude Shannon" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "Claude E. Shannon" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "Claude Elwood Shannon" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#altLabel> "father of information theory" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#definition> "American mathematician and Bell Labs engineer (1916-2001) whose 1948 paper \"A Mathematical Theory of Communication\" founded information theory and supplied the source-transmitter-channel- noise-receiver diagram behind the linear model that opens textbook accounts of communication; he later warned against stretching that theory to human affairs without testing it." .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Claude Shannon" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/warren-weaver> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/claude-shannon.md" .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/harry-nyquist> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/ralph-hartley> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communication-models> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/information-theory> .
+  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/publisher> "Claude E. Shannon, The Bell System Technical Journal 27, 379-423 and 623-656 (July and October 1948) (Yale University course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://purl.org/dc/terms/title> "A Mathematical Theory of Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s1> <https://schema.org/url> <https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/publisher> "Claude E. Shannon, IRE Transactions on Information Theory (1956), p. 3 (scanned copy hosted by gwern.net)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://purl.org/dc/terms/title> "The Bandwagon" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s2> <https://schema.org/url> <https://www.Gwern.net/doc/cs/algorithm/1956-shannon.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (print version of biography article 538577)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://purl.org/dc/terms/title> "Claude Shannon" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s3> <https://schema.org/url> <https://www.britannica.com/print/article/538577> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/publisher> "Warren Weaver, Scientific American 181(1), 11-15 (July 1949) (archive copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://purl.org/dc/terms/title> "The Mathematics of Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s4> <https://schema.org/url> <https://mt-archive.net/50/SciAm-1949-Weaver.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/publisher> "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (CC BY 4.0)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://purl.org/dc/terms/title> "Chapter 4: Traditional Models of Human Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s5> <https://schema.org/url> <https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/publisher> "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://purl.org/dc/terms/title> "Models of Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/claude-shannon/s6> <https://schema.org/url> <https://courses.lumenlearning.com/publicspeakingprinciples/?p=354> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/david-m-clark#graph> {
   <https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -36462,6 +36542,7 @@
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/a-mathematical-theory-of-communication> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/a-practical-guide-to-usability-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/a-practical-guide-to-usability-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -37615,6 +37696,7 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
@@ -37842,8 +37924,6 @@
   <https://github.com/john1hsu/communication-graph/id/clark-wilkes-gibbs-1986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/clark-wilkes-gibbs-1986> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
-  <https://github.com/john1hsu/communication-graph/id/claude-shannon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/claude-shannon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -38072,6 +38152,7 @@
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/linguistics> .
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-repair> .
@@ -38229,6 +38310,8 @@
   <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
+  <https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/communication-plan> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/communication-plan> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/communication-planning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
@@ -40187,6 +40270,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
@@ -40718,6 +40802,7 @@
   <https://github.com/john1hsu/communication-graph/id/hargestam-et-al-2013> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/harinck-de-dreu-2008> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/harold-lasswell> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/communication-models> .
+  <https://github.com/john1hsu/communication-graph/id/harry-nyquist> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
@@ -41398,6 +41483,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
+  <https://github.com/john1hsu/communication-graph/id/information-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/informative-headings/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/informative-headings/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/informative-headings/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -44555,6 +44641,7 @@
   <https://github.com/john1hsu/communication-graph/id/ralph-h-kilmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ralph-h-kilmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/ralph-h-kilmann> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+  <https://github.com/john1hsu/communication-graph/id/ralph-hartley> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/ranehill-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/rapid-decision-roles> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
@@ -45246,6 +45333,7 @@
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -46354,6 +46442,7 @@
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/triandis-gelfand-1998> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
@@ -46680,6 +46769,7 @@
   <https://github.com/john1hsu/communication-graph/id/wang-xie-li-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/warren-weaver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/warren-weaver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/warren-weaver> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
   <https://github.com/john1hsu/communication-graph/id/warren-weaver> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/webb-miles-sheeran-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/webb-miles-sheeran-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
