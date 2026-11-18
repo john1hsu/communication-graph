@@ -5692,6 +5692,83 @@
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kramer-guillory-hancock-2014> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sy-cote-saavedra-2005> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I say why their reaction makes sense, or only that I heard it?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I slip in a \"but\", a lecture or advice before they felt understood?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I validate something I actually believe is understandable, rather than faking agreement?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I stay long enough to learn what caused the feeling, or did I acknowledge it and move straight on?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/example> <https://github.com/john1hsu/communication-graph/ontology#after> "You flagged that risk two weeks ago, and now you're the one who has to tell the client - I'd be annoyed too. I still think the promise was made in good faith, and I want to fix how risks reach the account team. Want to draft the note together?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Honestly, these things happen in client work. Let's not dwell on it - can you draft the explanation by Thursday?" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project analyst tells her manager she is upset that a client was promised a feature she had flagged as infeasible, and that she now has to explain the slip." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite names why her frustration makes sense without conceding that anyone acted badly, keeps the manager's own view, and moves to a shared next step, so she is more likely to raise the next risk early." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1> <https://schema.org/text> "Give the person your full attention first - stop typing, face them, and let them finish before you respond." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2> <https://schema.org/text> "Reflect back what you heard in your own words, checking the facts and the feeling rather than repeating them verbatim." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3> <https://schema.org/text> "If a feeling is visible but unspoken, name it as a tentative guess (\"I'd guess that was frustrating?\") and accept a correction." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4> <https://schema.org/text> "Say why the reaction makes sense - given what happened to them, or because most people in their position would feel the same." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5> <https://schema.org/text> "Keep agreement separate - if you see the facts differently, say so after the validation, joined with \"and\", not \"but\"." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6> <https://schema.org/text> "Stay with them long enough to understand the cause, then ask what they need or move to next steps together." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/name> "Emotional validation" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional validation" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#altLabel> "validating feelings" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#altLabel> "validating responses" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#altLabel> "validation" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#definition> "Communicating that another person's feelings or reactions are understandable given their situation - without necessarily agreeing with their view or endorsing what they did - before moving on to the problem itself." .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional validation" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/shenk-fruzzetti-2011> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/emotional-validation/example> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/emotional-validation.md" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/emotional-validation/howto> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/marsha-linehan> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/berg-zlatev-2021> .
+<https://github.com/john1hsu/communication-graph/id/emotional-validation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kuo-et-al-2022> .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I judging how much this news, workload or exclusion hurts from my calm state rather than from theirs?" .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
@@ -19992,6 +20069,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://schema.org/url> <https://sciencedaily.com/releases/2022/10/221026103147.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <http://purl.org/dc/terms/publisher> "Shenk & Fruzzetti, Journal of Social and Clinical Psychology 30(2), 163-183 (2011), doi:10.1521/jscp.2011.30.2.163 (Penn State research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <http://purl.org/dc/terms/title> "The Impact of Validating and Invalidating Responses on Emotional Reactivity" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1> <https://schema.org/url> <https://pure.psu.edu/en/publications/the-impact-of-validating-and-invalidating-responses-on-emotional-/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <http://purl.org/dc/terms/publisher> "Kuo, Fitzpatrick, Ip & Uliaszek, Borderline Personality Disorder and Emotion Dysregulation 9, 15 (2022), doi:10.1186/s40479-022-00185-x (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <http://purl.org/dc/terms/title> "The Who and What of Validation: An Experimental Examination of Validation and Invalidation of Specific Emotions and the Moderating Effect of Emotion Dysregulation" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC9116024/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <http://purl.org/dc/terms/publisher> "Berg & Zlatev, Organizational Behavior and Human Decision Processes 164, 116-135 (2021) (Stanford Graduate School of Business)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <http://purl.org/dc/terms/title> "Emotional Acknowledgment: How Verbalizing Others' Emotions Fosters Interpersonal Trust" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3> <https://schema.org/url> <https://www.gsb.stanford.edu/faculty-research/publications/emotional-acknowledgment-how-verbalizing-others-emotions-fosters> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <http://purl.org/dc/terms/publisher> "Pamela Reynolds, Harvard Business School Working Knowledge (2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <http://purl.org/dc/terms/title> "Feeling Seen: What to Say When Your Employees Are Not OK" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/feeling-seen-what-to-say-when-your-employees-are-not-ok> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <http://purl.org/dc/terms/publisher> "Miltos Hadjiosif, Counselling Psychology Review 28(1), 72-80 (2013) (University of the West of England repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <http://purl.org/dc/terms/title> "From Strategy to Process: Validation in Dialectical Behaviour Therapy" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5> <https://schema.org/url> <https://uwe-repository.worktribe.com/output/934001> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <http://purl.org/dc/terms/publisher> "Amanda Beltrani, Palo Alto University, Business of Practice blog" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <http://purl.org/dc/terms/title> "Validation in DBT" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6> <https://schema.org/url> <https://paloaltou.edu/resources/business-of-practice-blog/validation-in-dbt> .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s1> <http://purl.org/dc/terms/publisher> "Van Boven & Loewenstein, Personality and Social Psychology Bulletin 29(9), 1159-1168, 2003 (author copy, Carnegie Mellon University)" .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s1> <http://purl.org/dc/terms/title> "Social projection of transient drive states" .

@@ -9538,6 +9538,98 @@
    ]
   },
   {
+   "@id": "cm:emotional-validation",
+   "@type": "cmo:Technique",
+   "cmo:complements": {
+    "@id": "cm:labeling-emotions"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:shenk-fruzzetti-2011"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/example"
+   },
+   "cmo:file": "articles/listening/emotional-validation.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:marsha-linehan"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:berg-zlatev-2021"
+    },
+    {
+     "@id": "cm:kuo-et-al-2022"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6"
+    }
+   ],
+   "rdfs:label": "Emotional validation",
+   "skos:altLabel": [
+    "validating feelings",
+    "validating responses",
+    "validation"
+   ],
+   "skos:broader": {
+    "@id": "cm:active-listening"
+   },
+   "skos:definition": "Communicating that another person's feelings or reactions are understandable given their situation - without necessarily agreeing with their view or endorsing what they did - before moving on to the problem itself.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Emotional validation",
+   "skos:related": [
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:emotion-regulation"
+    },
+    {
+     "@id": "cm:empathy"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:empathy",
    "@type": "cmo:Disposition",
    "cmo:appliedIn": {
@@ -37383,6 +37475,107 @@
    "rdfs:label": "Could I change the timing, setting or agenda of this conversation instead of white-knuckling through it?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotional-validation"
+   },
+   "rdfs:label": "Did I say why their reaction makes sense, or only that I heard it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotional-validation"
+   },
+   "rdfs:label": "Did I slip in a \"but\", a lecture or advice before they felt understood?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotional-validation"
+   },
+   "rdfs:label": "Did I validate something I actually believe is understandable, rather than faking agreement?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotional-validation"
+   },
+   "rdfs:label": "Did I stay long enough to learn what caused the feeling, or did I acknowledge it and move straight on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "You flagged that risk two weeks ago, and now you're the one who has to tell the client - I'd be annoyed too. I still think the promise was made in good faith, and I want to fix how risks reach the account team. Want to draft the note together?",
+   "cmo:before": "Honestly, these things happen in client work. Let's not dwell on it - can you draft the explanation by Thursday?",
+   "cmo:situation": "A project analyst tells her manager she is upset that a client was promised a feature she had flagged as infeasible, and that she now has to explain the slip.",
+   "cmo:why": "The rewrite names why her frustration makes sense without conceding that anyone acted badly, keeps the manager's own view, and moves to a shared next step, so she is more likely to raise the next risk early."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Emotional validation",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Give the person your full attention first - stop typing, face them, and let them finish before you respond."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Reflect back what you heard in your own words, checking the facts and the feeling rather than repeating them verbatim."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "If a feeling is visible but unspoken, name it as a tentative guess (\"I'd guess that was frustrating?\") and accept a correction."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Say why the reaction makes sense - given what happened to them, or because most people in their position would feel the same."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep agreement separate - if you see the facts differently, say so after the validation, joined with \"and\", not \"but\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotional-validation/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Stay with them long enough to understand the cause, then ask what they need or move to next steps together."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -54560,6 +54753,90 @@
    "dcterms:title": "News release on the Many Smiles Collaboration facial feedback study",
    "schema:url": {
     "@id": "https://sciencedaily.com/releases/2022/10/221026103147.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Shenk & Fruzzetti, Journal of Social and Clinical Psychology 30(2), 163-183 (2011), doi:10.1521/jscp.2011.30.2.163 (Penn State research record)",
+   "dcterms:title": "The Impact of Validating and Invalidating Responses on Emotional Reactivity",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/the-impact-of-validating-and-invalidating-responses-on-emotional-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Kuo, Fitzpatrick, Ip & Uliaszek, Borderline Personality Disorder and Emotion Dysregulation 9, 15 (2022), doi:10.1186/s40479-022-00185-x (PubMed Central)",
+   "dcterms:title": "The Who and What of Validation: An Experimental Examination of Validation and Invalidation of Specific Emotions and the Moderating Effect of Emotion Dysregulation",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9116024/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Berg & Zlatev, Organizational Behavior and Human Decision Processes 164, 116-135 (2021) (Stanford Graduate School of Business)",
+   "dcterms:title": "Emotional Acknowledgment: How Verbalizing Others' Emotions Fosters Interpersonal Trust",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/faculty-research/publications/emotional-acknowledgment-how-verbalizing-others-emotions-fosters"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Pamela Reynolds, Harvard Business School Working Knowledge (2022)",
+   "dcterms:title": "Feeling Seen: What to Say When Your Employees Are Not OK",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/feeling-seen-what-to-say-when-your-employees-are-not-ok"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Miltos Hadjiosif, Counselling Psychology Review 28(1), 72-80 (2013) (University of the West of England repository)",
+   "dcterms:title": "From Strategy to Process: Validation in Dialectical Behaviour Therapy",
+   "schema:url": {
+    "@id": "https://uwe-repository.worktribe.com/output/934001"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-validation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Amanda Beltrani, Palo Alto University, Business of Practice blog",
+   "dcterms:title": "Validation in DBT",
+   "schema:url": {
+    "@id": "https://paloaltou.edu/resources/business-of-practice-blog/validation-in-dbt"
    }
   },
   {

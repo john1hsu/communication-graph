@@ -1636,6 +1636,29 @@ Ask yourself:
 - Did I ask a question only so that I could give my own answer to it?
 - Can I name one specific thing the other person said that I followed up on?
 
+### [Emotional validation](../articles/listening/emotional-validation.md) — Technique
+
+1. Give the person your full attention first - stop typing, face them, and let them finish before you respond.
+2. Reflect back what you heard in your own words, checking the facts and the feeling rather than repeating them verbatim.
+3. If a feeling is visible but unspoken, name it as a tentative guess ("I'd guess that was frustrating?") and accept a correction.
+4. Say why the reaction makes sense - given what happened to them, or because most people in their position would feel the same.
+5. Keep agreement separate - if you see the facts differently, say so after the validation, joined with "and", not "but".
+6. Stay with them long enough to understand the cause, then ask what they need or move to next steps together.
+
+*A project analyst tells her manager she is upset that a client was promised a feature she had flagged as infeasible, and that she now has to explain the slip.*
+
+| Before | After |
+|---|---|
+| Honestly, these things happen in client work. Let's not dwell on it - can you draft the explanation by Thursday? | You flagged that risk two weeks ago, and now you're the one who has to tell the client - I'd be annoyed too. I still think the promise was made in good faith, and I want to fix how risks reach the account team. Want to draft the note together? |
+
+**Why:** The rewrite names why her frustration makes sense without conceding that anyone acted badly, keeps the manager's own view, and moves to a shared next step, so she is more likely to raise the next risk early.
+
+Ask yourself:
+- Did I say why their reaction makes sense, or only that I heard it?
+- Did I slip in a "but", a lecture or advice before they felt understood?
+- Did I validate something I actually believe is understandable, rather than faking agreement?
+- Did I stay long enough to learn what caused the feeling, or did I acknowledge it and move straight on?
+
 ### [Empathy](../articles/listening/empathy.md) — Disposition
 
 Ask yourself:

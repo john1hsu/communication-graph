@@ -10873,6 +10873,114 @@
   ]
  },
  {
+  "id": "cm:emotional-validation",
+  "title": "Emotional validation",
+  "aliases": [
+   "validation",
+   "validating feelings",
+   "validating responses"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/emotional-validation.md",
+  "created": "2026-11-18",
+  "summary": "Communicating that another person's feelings or reactions are understandable given their situation - without necessarily agreeing with their view or endorsing what they did - before moving on to the problem itself.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:support-response"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:marsha-linehan",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:shenk-fruzzetti-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kuo-et-al-2022",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:berg-zlatev-2021",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:labeling-emotions",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I say why their reaction makes sense, or only that I heard it?",
+   "Did I slip in a \"but\", a lecture or advice before they felt understood?",
+   "Did I validate something I actually believe is understandable, rather than faking agreement?",
+   "Did I stay long enough to learn what caused the feeling, or did I acknowledge it and move straight on?"
+  ],
+  "steps": [
+   "Give the person your full attention first - stop typing, face them, and let them finish before you respond.",
+   "Reflect back what you heard in your own words, checking the facts and the feeling rather than repeating them verbatim.",
+   "If a feeling is visible but unspoken, name it as a tentative guess (\"I'd guess that was frustrating?\") and accept a correction.",
+   "Say why the reaction makes sense - given what happened to them, or because most people in their position would feel the same.",
+   "Keep agreement separate - if you see the facts differently, say so after the validation, joined with \"and\", not \"but\".",
+   "Stay with them long enough to understand the cause, then ask what they need or move to next steps together."
+  ],
+  "example": {
+   "situation": "A project analyst tells her manager she is upset that a client was promised a feature she had flagged as infeasible, and that she now has to explain the slip.",
+   "before": "Honestly, these things happen in client work. Let's not dwell on it - can you draft the explanation by Thursday?",
+   "after": "You flagged that risk two weeks ago, and now you're the one who has to tell the client - I'd be annoyed too. I still think the promise was made in good faith, and I want to fix how risks reach the account team. Want to draft the note together?",
+   "why": "The rewrite names why her frustration makes sense without conceding that anyone acted badly, keeps the manager's own view, and moves to a shared next step, so she is more likely to raise the next risk early."
+  },
+  "source_urls": [
+   "https://pure.psu.edu/en/publications/the-impact-of-validating-and-invalidating-responses-on-emotional-/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9116024/",
+   "https://www.gsb.stanford.edu/faculty-research/publications/emotional-acknowledgment-how-verbalizing-others-emotions-fosters",
+   "https://www.library.hbs.edu/working-knowledge/feeling-seen-what-to-say-when-your-employees-are-not-ok",
+   "https://uwe-repository.worktribe.com/output/934001",
+   "https://paloaltou.edu/resources/business-of-practice-blog/validation-in-dbt"
+  ]
+ },
+ {
   "id": "cm:empathy",
   "title": "Empathy",
   "aliases": [
