@@ -1069,6 +1069,15 @@
 <https://github.com/john1hsu/communication-graph/id/clarity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s2> .
 <https://github.com/john1hsu/communication-graph/id/clarity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s3> .
 <https://github.com/john1hsu/communication-graph/id/clarity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/cognitive-psychology.md" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> .
 <https://github.com/john1hsu/communication-graph/id/common-ground#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/common-ground#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/common-ground> .
 <https://github.com/john1hsu/communication-graph/id/common-ground#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/common-ground.md" .
@@ -14665,6 +14674,74 @@
   <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
   <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology#graph> {
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive psychology" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "information-processing psychology" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "psychology of cognition" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#definition> "The branch of psychology that studies mental processes such as perception, attention, memory, language and problem solving; its findings on limited working memory, chunking and schemas explain why readers and listeners lose track of dense messages and how to structure information they can absorb." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive psychology" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/cognitive-psychology.md" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/george-a-miller> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ulric-neisser> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/cowan-2001> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/publisher> "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/title> "Psychology 2e, Section 7.1: What Is Cognition?" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <https://schema.org/url> <https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, APS Observer (May/June 2012), tributes to Ulric Neisser" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/title> "Remembering the Father of Cognitive Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <https://schema.org/url> <https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/publisher> "George A. Miller, Trends in Cognitive Sciences 7(3), 141-144 (2003), doi:10.1016/S1364-6613(03)00029-9 (Princeton author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/title> "The cognitive revolution: a historical perspective" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <https://schema.org/url> <https://www.cs.princeton.edu/~rit/geo/Miller.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/publisher> "Steven Pinker, Harvard University (DASH repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/title> "George A. Miller (1920-2012)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/7312037d-4ccb-6bd4-e053-0100007fdf3b/content> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/publisher> "Nelson Cowan, Behavioral and Brain Sciences 24(1), 87-114 (2001), doi:10.1017/S0140525X01003922" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/title> "The magical number 4 in short-term memory: A reconsideration of mental storage capacity" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/publisher> "Open Science Collaboration, Science 349(6251), aac4716 (2015), doi:10.1126/science.aac4716 (University of Dundee repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <https://schema.org/url> <https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/common-ground#graph> {
@@ -34868,6 +34945,8 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
@@ -36015,6 +36094,8 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-behavioral-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
@@ -36029,6 +36110,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
@@ -36036,8 +36118,11 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
@@ -36055,6 +36140,10 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
@@ -36095,10 +36184,13 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/slide-design> .
@@ -36114,6 +36206,8 @@
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
@@ -36716,6 +36810,7 @@
   <https://github.com/john1hsu/communication-graph/id/cortina-et-al-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/cortina-et-al-2001> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/courtright-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/cowan-2001> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cowen-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
   <https://github.com/john1hsu/communication-graph/id/cox-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -36844,12 +36939,15 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-design> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
@@ -37396,6 +37494,8 @@
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
@@ -37671,6 +37771,8 @@
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
@@ -38333,6 +38435,7 @@
   <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/george-a-miller> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/george-l-trager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/george-l-trager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/george-l-trager> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
@@ -38395,6 +38498,8 @@
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
@@ -39110,6 +39215,8 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
@@ -39238,6 +39345,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
@@ -40217,6 +40325,7 @@
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
@@ -40615,6 +40724,8 @@
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
   <https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/modirrousta-galian-higham-2023> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
@@ -40741,6 +40852,8 @@
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/logrolling> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
@@ -41144,6 +41257,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/post-settlement-settlement> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/clarity> .
@@ -41903,6 +42017,8 @@
   <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -42055,10 +42171,27 @@
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
@@ -43107,6 +43240,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
@@ -43123,6 +43257,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
@@ -43148,6 +43283,11 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
@@ -43164,6 +43304,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
@@ -43176,12 +43317,14 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
@@ -43207,6 +43350,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
@@ -43220,6 +43364,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
@@ -43259,11 +43404,13 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/microexpression-training> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
@@ -43299,6 +43446,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
@@ -43344,6 +43492,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
@@ -43477,6 +43626,8 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
@@ -43958,6 +44109,9 @@
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/ulric-neisser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/ulric-neisser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/ulric-neisser> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .

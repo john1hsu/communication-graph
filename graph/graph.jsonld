@@ -4444,6 +4444,83 @@
    ]
   },
   {
+   "@id": "cm:cognitive-psychology",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": {
+    "@id": "cm:open-science-collaboration-2015"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/cognitive-psychology.md",
+   "cmo:influencedBy": {
+    "@id": "cm:george-a-miller"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:ulric-neisser"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:cowan-2001"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6"
+    }
+   ],
+   "rdfs:label": "Cognitive psychology",
+   "skos:altLabel": [
+    "information-processing psychology",
+    "psychology of cognition"
+   ],
+   "skos:broader": {
+    "@id": "cm:psychology"
+   },
+   "skos:definition": "The branch of psychology that studies mental processes such as perception, attention, memory, language and problem solving; its findings on limited working memory, chunking and schemas explain why readers and listeners lose track of dense messages and how to structure information they can absorb.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Cognitive psychology",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-bias"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:cognitive-theory-of-multimedia-learning"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:cognitive-reappraisal",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -50101,6 +50178,90 @@
    "dcterms:title": "Writing for user interfaces",
    "schema:url": {
     "@id": "https://gov.uk/service-manual/design/writing-for-user-interfaces"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020",
+   "dcterms:title": "Psychology 2e, Section 7.1: What Is Cognition?",
+   "schema:url": {
+    "@id": "https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Association for Psychological Science, APS Observer (May/June 2012), tributes to Ulric Neisser",
+   "dcterms:title": "Remembering the Father of Cognitive Psychology",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "George A. Miller, Trends in Cognitive Sciences 7(3), 141-144 (2003), doi:10.1016/S1364-6613(03)00029-9 (Princeton author copy)",
+   "dcterms:title": "The cognitive revolution: a historical perspective",
+   "schema:url": {
+    "@id": "https://www.cs.princeton.edu/~rit/geo/Miller.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Steven Pinker, Harvard University (DASH repository)",
+   "dcterms:title": "George A. Miller (1920-2012)",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-4ccb-6bd4-e053-0100007fdf3b/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nelson Cowan, Behavioral and Brain Sciences 24(1), 87-114 (2001), doi:10.1017/S0140525X01003922",
+   "dcterms:title": "The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Open Science Collaboration, Science 349(6251), aac4716 (2015), doi:10.1126/science.aac4716 (University of Dundee repository)",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf"
    }
   },
   {

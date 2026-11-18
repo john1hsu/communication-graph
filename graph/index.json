@@ -5067,6 +5067,86 @@
   ]
  },
  {
+  "id": "cm:cognitive-psychology",
+  "title": "Cognitive psychology",
+  "aliases": [
+   "psychology of cognition",
+   "information-processing psychology"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/cognitive-psychology.md",
+  "created": "2026-11-18",
+  "summary": "The branch of psychology that studies mental processes such as perception, attention, memory, language and problem solving; its findings on limited working memory, chunking and schemas explain why readers and listeners lose track of dense messages and how to structure information they can absorb.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-theory-of-multimedia-learning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:ulric-neisser",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:george-a-miller",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:cowan-2001",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:open-science-collaboration-2015",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition",
+   "https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology",
+   "https://www.cs.princeton.edu/~rit/geo/Miller.pdf",
+   "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-4ccb-6bd4-e053-0100007fdf3b/content",
+   "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496",
+   "https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf"
+  ]
+ },
+ {
   "id": "cm:cognitive-reappraisal",
   "title": "Cognitive reappraisal",
   "aliases": [

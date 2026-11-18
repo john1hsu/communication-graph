@@ -2774,6 +2774,35 @@
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/educational-psychology> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ginns-2006> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive psychology" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "information-processing psychology" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "psychology of cognition" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#definition> "The branch of psychology that studies mental processes such as perception, attention, memory, language and problem solving; its findings on limited working memory, chunking and schemas explain why readers and listeners lose track of dense messages and how to structure information they can absorb." .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive psychology" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/cognitive-psychology.md" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/george-a-miller> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ulric-neisser> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/cowan-2001> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "What story am I telling myself about why this happened, and what is one other reading that fits the same facts?" .
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
@@ -18085,6 +18114,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <https://schema.org/url> <https://gov.uk/service-manual/design/writing-for-user-interfaces> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/publisher> "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://purl.org/dc/terms/title> "Psychology 2e, Section 7.1: What Is Cognition?" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s1> <https://schema.org/url> <https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, APS Observer (May/June 2012), tributes to Ulric Neisser" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://purl.org/dc/terms/title> "Remembering the Father of Cognitive Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s2> <https://schema.org/url> <https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/publisher> "George A. Miller, Trends in Cognitive Sciences 7(3), 141-144 (2003), doi:10.1016/S1364-6613(03)00029-9 (Princeton author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://purl.org/dc/terms/title> "The cognitive revolution: a historical perspective" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s3> <https://schema.org/url> <https://www.cs.princeton.edu/~rit/geo/Miller.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/publisher> "Steven Pinker, Harvard University (DASH repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://purl.org/dc/terms/title> "George A. Miller (1920-2012)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s4> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/7312037d-4ccb-6bd4-e053-0100007fdf3b/content> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/publisher> "Nelson Cowan, Behavioral and Brain Sciences 24(1), 87-114 (2001), doi:10.1017/S0140525X01003922" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://purl.org/dc/terms/title> "The magical number 4 in short-term memory: A reconsideration of mental storage capacity" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s5> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/publisher> "Open Science Collaboration, Science 349(6251), aac4716 (2015), doi:10.1126/science.aac4716 (University of Dundee repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-psychology/s6> <https://schema.org/url> <https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/publisher> "Gross, J. J., Psychophysiology 39(3), 281-291, 2002, doi:10.1017/s0048577201393198 (PubMed record)" .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/title> "Emotion regulation: Affective, cognitive, and social consequences" .
