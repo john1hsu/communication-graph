@@ -36252,6 +36252,120 @@
   ]
  },
  {
+  "id": "cm:wordiness",
+  "title": "Wordiness",
+  "aliases": [
+   "verbosity",
+   "verbiage",
+   "padded prose",
+   "needless words"
+  ],
+  "type": "AntiPattern",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/wordiness.md",
+  "created": "2026-11-18",
+  "summary": "Using more words than the message needs, through redundant pairs, empty qualifiers, inflated phrases, hidden verbs and content the reader does not need, so readers spend more effort to find less meaning.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:written-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paramedic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wall-of-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:passive-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:editing-for-clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:credibility",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:oppenheimer-2006",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:bassin-martin-1976",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:writing-for-busy-readers",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could I delete my first sentence without the reader losing anything?",
+   "Which qualifiers (just, really, very, basically, actually) can I cut without changing the meaning?",
+   "Have I turned a verb into a noun phrase, such as \"make a decision\" or \"give consideration to,\" where a single verb would do?",
+   "Does every sentence give this reader something they need to understand or act?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "An operations analyst emails a department head to ask for sign-off on moving a weekly report from Monday to Tuesday.",
+   "before": "Hi Lena, I just wanted to reach out at this point in time in order to touch base with regard to the weekly KPI report. Due to the fact that the data warehouse refresh basically doesn't actually complete until quite late on Sunday night, the team is of the opinion that it would be really beneficial to give consideration to the possibility of making a change to the delivery day so that the report would be sent out on Tuesday instead of Monday going forward. Please let me know your thoughts and feedback at your earliest convenience.",
+   "after": "Hi Lena, can we move the weekly KPI report from Monday to Tuesday, starting next week? The warehouse refresh finishes late on Sunday, so Monday's report often uses incomplete data. A yes by Friday lets us switch next week.",
+   "why": "The rewrite cuts the word count by more than half by dropping filler openers, empty qualifiers (just, basically, actually, really, quite), inflated phrases (due to the fact that, at this point in time) and hidden verbs (give consideration to, making a change), and it adds the one thing the original lacked, a clear question with a deadline."
+  },
+  "source_urls": [
+   "https://writingcenter.unc.edu/handouts/conciseness-handout",
+   "https://digital.gov/guides/plain-language/principles/short-simple",
+   "https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf",
+   "https://eric.ed.gov/?id=EJ150857",
+   "https://deepdyve.com/lp/doc/lPYnpsUrVG",
+   "https://www.eurekalert.org/news-releases/808085"
+  ]
+ },
+ {
   "id": "cm:words-of-estimative-probability",
   "title": "Words of estimative probability",
   "aliases": [

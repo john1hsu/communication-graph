@@ -28,9 +28,9 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:listening-circle` | 4 | Active listening, Interrupting, Listening, Unequal participation |
 | `cm:1-2-4-all` | 3 | Facilitation, Production blocking, Unequal participation |
-| `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
+| `cm:concise-writing` | 3 | Information overload, Wordiness, subtraction-neglect |
 | `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
-| `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
+| `cm:paramedic-method` | 3 | Concise writing, Wordiness, official-style |
 | `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 235 more.
+…and 236 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 
-…and 75 more.
+…and 76 more.
 
 ## Orphan articles (gap)
 

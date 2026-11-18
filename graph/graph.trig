@@ -3088,6 +3088,15 @@
 <https://github.com/john1hsu/communication-graph/id/wall-of-text#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> .
 <https://github.com/john1hsu/communication-graph/id/wall-of-text#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> .
 <https://github.com/john1hsu/communication-graph/id/wall-of-text#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/wordiness.md" .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> .
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> .
 <https://github.com/john1hsu/communication-graph/id/written-communication#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/written-communication#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/written-communication> .
 <https://github.com/john1hsu/communication-graph/id/written-communication#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/written-communication.md" .
@@ -35069,6 +35078,99 @@
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/wordiness#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <http://purl.org/dc/terms/publisher> "The Writing Center, University of North Carolina at Chapel Hill" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <http://purl.org/dc/terms/title> "Writing Concisely" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> <https://schema.org/url> <https://writingcenter.unc.edu/handouts/conciseness-handout> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <http://purl.org/dc/terms/publisher> "Digital.gov, U.S. General Services Administration" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <http://purl.org/dc/terms/title> "Plain Language Guide Series: Short and simple" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles/short-simple> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <http://purl.org/dc/terms/publisher> "Todd Rogers & Jessica Lasky-Fink, Harvard Kennedy School Executive Education (December 2020)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <http://purl.org/dc/terms/title> "Write shorter messages" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> <https://schema.org/url> <https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <http://purl.org/dc/terms/publisher> "Carolyn B. Bassin & Clessen J. Martin, Journal of Educational Psychology 68(5), 649-652 (1976) (ERIC record EJ150857)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <http://purl.org/dc/terms/title> "Effect of Three Types of Redundancy Reduction on Comprehension, Reading Rate, and Reading Time of English Prose" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> <https://schema.org/url> <https://eric.ed.gov/?id=EJ150857> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <http://purl.org/dc/terms/publisher> "Daniel M. Oppenheimer, Applied Cognitive Psychology 20(2) (2006), doi:10.1002/acp.1178 (DeepDyve record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <http://purl.org/dc/terms/title> "Consequences of erudite vernacular utilized irrespective of necessity: problems with using long words needlessly" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> <https://schema.org/url> <https://deepdyve.com/lp/doc/lPYnpsUrVG> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <http://purl.org/dc/terms/publisher> "EurekAlert! news release on Oppenheimer's Princeton University study (31 October 2005)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <http://purl.org/dc/terms/title> "The secret of impressive writing? Keep it plain and simple" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could I delete my first sentence without the reader losing anything?" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which qualifiers (just, really, very, basically, actually) can I cut without changing the meaning?" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I turned a verb into a noun phrase, such as \"make a decision\" or \"give consideration to,\" where a single verb would do?" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does every sentence give this reader something they need to understand or act?" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Hi Lena, can we move the weekly KPI report from Monday to Tuesday, starting next week? The warehouse refresh finishes late on Sunday, so Monday's report often uses incomplete data. A yes by Friday lets us switch next week." .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi Lena, I just wanted to reach out at this point in time in order to touch base with regard to the weekly KPI report. Due to the fact that the data warehouse refresh basically doesn't actually complete until quite late on Sunday night, the team is of the opinion that it would be really beneficial to give consideration to the possibility of making a change to the delivery day so that the report would be sent out on Tuesday instead of Monday going forward. Please let me know your thoughts and feedback at your earliest convenience." .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations analyst emails a department head to ask for sign-off on moving a weekly report from Monday to Tuesday." .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite cuts the word count by more than half by dropping filler openers, empty qualifiers (just, basically, actually, really, quite), inflated phrases (due to the fact that, at this point in time) and hidden verbs (give consideration to, making a change), and it adds the one thing the original lacked, a clear question with a deadline." .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#AntiPattern> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2000/01/rdf-schema#label> "Wordiness" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#altLabel> "needless words" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#altLabel> "padded prose" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#altLabel> "verbiage" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#altLabel> "verbosity" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#definition> "Using more words than the message needs, through redundant pairs, empty qualifiers, inflated phrases, hidden verbs and content the reader does not need, so readers spend more effort to find less meaning." .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wordiness" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominalization> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s1> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s2> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s3> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s4> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s5> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wordiness/s6> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/wordiness/example> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/wordiness.md" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/bassin-martin-1976> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/credibility> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/written-communication#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/written-communication/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/written-communication/s1> <http://purl.org/dc/terms/publisher> "Paynton, S. T. & Hahn, L. K., Survey of Communication Study (Humboldt State University; Introduction to Communication course, Lumen Learning, CC BY-SA)" .
@@ -35836,6 +35938,7 @@
   <https://github.com/john1hsu/communication-graph/id/barth-lannen-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/bartlett-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
   <https://github.com/john1hsu/communication-graph/id/base-rate-neglect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/bassin-martin-1976> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/bate-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -36486,6 +36589,7 @@
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/clark-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/clark-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/clark-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -36627,6 +36731,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
@@ -37035,6 +37140,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
@@ -37131,6 +37237,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -37198,6 +37305,7 @@
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
@@ -37363,6 +37471,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37467,6 +37576,7 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
@@ -37970,6 +38080,7 @@
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+  <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -38173,6 +38284,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vivien-k-g-lim> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
@@ -39572,6 +39684,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
@@ -39669,6 +39782,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -41584,9 +41698,14 @@
   <https://github.com/john1hsu/communication-graph/id/nominalization/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+  <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
+  <https://github.com/john1hsu/communication-graph/id/nominalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/nominalization> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -41829,6 +41948,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/oreg-vakola-armenakis-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41964,6 +42084,7 @@
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+  <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -42023,6 +42144,7 @@
   <https://github.com/john1hsu/communication-graph/id/parkes-abercrombie-mccarty-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/grammatical-voice> .
+  <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/client-communication> .
@@ -42336,6 +42458,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/written-communication> .
@@ -43995,6 +44118,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
@@ -44097,6 +44221,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -44947,6 +45072,7 @@
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/business-writing> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
@@ -45048,6 +45174,17 @@
   <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/wordiness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
@@ -45190,6 +45327,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -45202,6 +45340,7 @@
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/business-writing> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+  <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/business-writing> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
@@ -45210,7 +45349,9 @@
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/memorandum> .
+  <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .

@@ -31887,6 +31887,107 @@
    ]
   },
   {
+   "@id": "cm:wordiness",
+   "@type": "cmo:AntiPattern",
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/example"
+   },
+   "cmo:file": "articles/writing/wordiness.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:bassin-martin-1976"
+    },
+    {
+     "@id": "cm:oppenheimer-2006"
+    },
+    {
+     "@id": "cm:writing-for-busy-readers"
+    }
+   ],
+   "cmo:undermines": [
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:credibility"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s6"
+    }
+   ],
+   "rdfs:label": "Wordiness",
+   "skos:altLabel": [
+    "needless words",
+    "padded prose",
+    "verbiage",
+    "verbosity"
+   ],
+   "skos:broader": {
+    "@id": "cm:written-communication"
+   },
+   "skos:definition": "Using more words than the message needs, through redundant pairs, empty qualifiers, inflated phrases, hidden verbs and content the reader does not need, so readers spend more effort to find less meaning.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Wordiness",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:editing-for-clarity"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:nominalization"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:words-of-estimative-probability",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -74356,6 +74457,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "The Writing Center, University of North Carolina at Chapel Hill",
+   "dcterms:title": "Writing Concisely",
+   "schema:url": {
+    "@id": "https://writingcenter.unc.edu/handouts/conciseness-handout"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration",
+   "dcterms:title": "Plain Language Guide Series: Short and simple",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/short-simple"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Todd Rogers & Jessica Lasky-Fink, Harvard Kennedy School Executive Education (December 2020)",
+   "dcterms:title": "Write shorter messages",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Carolyn B. Bassin & Clessen J. Martin, Journal of Educational Psychology 68(5), 649-652 (1976) (ERIC record EJ150857)",
+   "dcterms:title": "Effect of Three Types of Redundancy Reduction on Comprehension, Reading Rate, and Reading Time of English Prose",
+   "schema:url": {
+    "@id": "https://eric.ed.gov/?id=EJ150857"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Daniel M. Oppenheimer, Applied Cognitive Psychology 20(2) (2006), doi:10.1002/acp.1178 (DeepDyve record)",
+   "dcterms:title": "Consequences of erudite vernacular utilized irrespective of necessity: problems with using long words needlessly",
+   "schema:url": {
+    "@id": "https://deepdyve.com/lp/doc/lPYnpsUrVG"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wordiness/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "EurekAlert! news release on Oppenheimer's Princeton University study (31 October 2005)",
+   "dcterms:title": "The secret of impressive writing? Keep it plain and simple",
+   "schema:url": {
+    "@id": "https://www.eurekalert.org/news-releases/808085"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -76547,6 +76732,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "When the improved version arrives, review it against the same standard and say what changed, so your stated belief is backed by follow-through."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wordiness"
+   },
+   "rdfs:label": "Could I delete my first sentence without the reader losing anything?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wordiness"
+   },
+   "rdfs:label": "Which qualifiers (just, really, very, basically, actually) can I cut without changing the meaning?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wordiness"
+   },
+   "rdfs:label": "Have I turned a verb into a noun phrase, such as \"make a decision\" or \"give consideration to,\" where a single verb would do?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wordiness"
+   },
+   "rdfs:label": "Does every sentence give this reader something they need to understand or act?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wordiness/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Hi Lena, can we move the weekly KPI report from Monday to Tuesday, starting next week? The warehouse refresh finishes late on Sunday, so Monday's report often uses incomplete data. A yes by Friday lets us switch next week.",
+   "cmo:before": "Hi Lena, I just wanted to reach out at this point in time in order to touch base with regard to the weekly KPI report. Due to the fact that the data warehouse refresh basically doesn't actually complete until quite late on Sunday night, the team is of the opinion that it would be really beneficial to give consideration to the possibility of making a change to the delivery day so that the report would be sent out on Tuesday instead of Monday going forward. Please let me know your thoughts and feedback at your earliest convenience.",
+   "cmo:situation": "An operations analyst emails a department head to ask for sign-off on moving a weekly report from Monday to Tuesday.",
+   "cmo:why": "The rewrite cuts the word count by more than half by dropping filler openers, empty qualifiers (just, basically, actually, really, quite), inflated phrases (due to the fact that, at this point in time) and hidden verbs (give consideration to, making a change), and it adds the one thing the original lacked, a clear question with a deadline."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",

@@ -3798,3 +3798,19 @@ Ask yourself:
 - Is each request or deadline on its own line, with a named owner, instead of hidden in a sentence?
 - Have I used bold or headings sparingly enough that they still mark what matters most?
 
+### [Wordiness](../articles/writing/wordiness.md) — AntiPattern
+
+*An operations analyst emails a department head to ask for sign-off on moving a weekly report from Monday to Tuesday.*
+
+| Before | After |
+|---|---|
+| Hi Lena, I just wanted to reach out at this point in time in order to touch base with regard to the weekly KPI report. Due to the fact that the data warehouse refresh basically doesn't actually complete until quite late on Sunday night, the team is of the opinion that it would be really beneficial to give consideration to the possibility of making a change to the delivery day so that the report would be sent out on Tuesday instead of Monday going forward. Please let me know your thoughts and feedback at your earliest convenience. | Hi Lena, can we move the weekly KPI report from Monday to Tuesday, starting next week? The warehouse refresh finishes late on Sunday, so Monday's report often uses incomplete data. A yes by Friday lets us switch next week. |
+
+**Why:** The rewrite cuts the word count by more than half by dropping filler openers, empty qualifiers (just, basically, actually, really, quite), inflated phrases (due to the fact that, at this point in time) and hidden verbs (give consideration to, making a change), and it adds the one thing the original lacked, a clear question with a deadline.
+
+Ask yourself:
+- Could I delete my first sentence without the reader losing anything?
+- Which qualifiers (just, really, very, basically, actually) can I cut without changing the meaning?
+- Have I turned a verb into a noun phrase, such as "make a decision" or "give consideration to," where a single verb would do?
+- Does every sentence give this reader something they need to understand or act?
+
