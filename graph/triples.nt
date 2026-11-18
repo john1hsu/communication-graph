@@ -6361,6 +6361,46 @@
 <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
 <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Face-negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "FNT" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "Ting-Toomey's face-negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "face negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "intercultural facework theory" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#definition> "Face-negotiation theory, developed by Stella Ting-Toomey from 1985 onwards, holds that people in every culture try to protect face in conflict, and that cultural values (individualism-collectivism, power distance) and individual self-construal shape whether they put their own face, the other person's face or mutual face first, which in turn predicts dominating, avoiding or integrating conflict styles." .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Face-negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/cingoz-ulu-lalonde-2007> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/oetzel-ting-toomey-2003> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/face-negotiation-theory.md" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/stella-ting-toomey> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
+<https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is this a request, a disagreement, an ambiguous problem or sensitive news - the kinds of message that land better in person?" .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -20361,6 +20401,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <https://schema.org/url> <https://forms.mpi.nl/node/47267> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <http://purl.org/dc/terms/publisher> "Stella Ting-Toomey, NAFSA Association of International Educators (Theory Connections series)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <http://purl.org/dc/terms/title> "Theory Reflections: Face-Negotiation Theory" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1> <https://schema.org/url> <https://www.nafsa.org/sites/default/files/ektron/files/underscore/theory_connections_facework.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <http://purl.org/dc/terms/publisher> "John G. Oetzel & Stella Ting-Toomey, Communication Research 30(6), 599-624 (2003) (course-reading copy, University of Rijeka)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <http://purl.org/dc/terms/title> "Face concerns in interpersonal conflict: A cross-cultural empirical test of the face negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2> <https://schema.org/url> <https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <http://purl.org/dc/terms/publisher> "Banu Cingöz-Ulu & Richard N. Lalonde, International Journal of Intercultural Relations 31, 443-458 (2007) (author's copy, York University)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <http://purl.org/dc/terms/title> "The role of culture and relational context in interpersonal conflict: Do Turks and Canadians use different conflict management strategies?" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3> <https://schema.org/url> <https://lalonde.info.yorku.ca/files/2016/02/IJIR_07.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <http://purl.org/dc/terms/publisher> "Em Griffin et al., textbook companion site for A First Look at Communication Theory" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <http://purl.org/dc/terms/title> "Face-Negotiation Theory: chapter outline (A First Look at Communication Theory, 11th edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4> <https://schema.org/url> <https://www.afirstlook.com/edition-11/theory-resources/by-theory/Face-Negotiation-Theory/outline> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <http://purl.org/dc/terms/publisher> "Sarah Rosenberg (2004, updated by Heidi Burgess 2018), Beyond Intractability, Conflict Information Consortium, University of Colorado Boulder" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <http://purl.org/dc/terms/title> "Face" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5> <https://schema.org/url> <https://www.beyondintractability.org/essay/face> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <http://purl.org/dc/terms/publisher> "Yanrong Chang, Journal of Intercultural Communication 25 (2011)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <http://purl.org/dc/terms/title> "You Think I am Stupid? Face Needs in Intercultural Conflicts" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6> <https://schema.org/url> <https://immi.se/index.php/intercultural/article/download/Chang2011-1/570/3062> .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/publisher> "Roghanizad, M. M. & Bohns, V. K., Journal of Experimental Social Psychology 69, 223-226, 2017 (author copy via CORE / Cornell DigitalCommons)" .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/title> "Ask in Person: You're Less Persuasive Than You Think Over Email" .

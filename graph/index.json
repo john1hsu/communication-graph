@@ -12308,6 +12308,132 @@
   ]
  },
  {
+  "id": "cm:face-negotiation-theory",
+  "title": "Face-negotiation theory",
+  "aliases": [
+   "face negotiation theory",
+   "FNT",
+   "Ting-Toomey's face-negotiation theory",
+   "intercultural facework theory"
+  ],
+  "type": "Theory",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/face-negotiation-theory.md",
+  "created": "2026-11-18",
+  "summary": "Face-negotiation theory, developed by Stella Ting-Toomey from 1985 onwards, holds that people in every culture try to protect face in conflict, and that cultural values (individualism-collectivism, power distance) and individual self-construal shape whether they put their own face, the other person's face or mutual face first, which in turn predicts dominating, avoiding or integrating conflict styles.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:politeness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thomas-kilmann-conflict-modes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:individualism-and-collectivism"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:stella-ting-toomey",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:erving-goffman",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:politeness-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:oetzel-ting-toomey-2003",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:cingoz-ulu-lalonde-2007",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:intercultural-communication",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.nafsa.org/sites/default/files/ektron/files/underscore/theory_connections_facework.pdf",
+   "https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf",
+   "https://lalonde.info.yorku.ca/files/2016/02/IJIR_07.pdf",
+   "https://www.afirstlook.com/edition-11/theory-resources/by-theory/Face-Negotiation-Theory/outline",
+   "https://www.beyondintractability.org/essay/face",
+   "https://immi.se/index.php/intercultural/article/download/Chang2011-1/570/3062"
+  ]
+ },
+ {
   "id": "cm:face-to-face-conversation",
   "title": "Face-to-face conversation",
   "aliases": [

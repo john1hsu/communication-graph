@@ -10785,6 +10785,118 @@
    ]
   },
   {
+   "@id": "cm:face-negotiation-theory",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:negotiation"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:cingoz-ulu-lalonde-2007"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:oetzel-ting-toomey-2003"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/face-negotiation-theory.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:erving-goffman"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    }
+   ],
+   "cmo:introducedBy": {
+    "@id": "cm:stella-ting-toomey"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": [
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:individualism-and-collectivism"
+    }
+   ],
+   "cmo:studiedIn": {
+    "@id": "cm:intercultural-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6"
+    }
+   ],
+   "rdfs:label": "Face-negotiation theory",
+   "skos:altLabel": [
+    "FNT",
+    "Ting-Toomey's face-negotiation theory",
+    "face negotiation theory",
+    "intercultural facework theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Face-negotiation theory, developed by Stella Ting-Toomey from 1985 onwards, holds that people in every culture try to protect face in conflict, and that cultural values (individualism-collectivism, power distance) and individual self-construal shape whether they put their own face, the other person's face or mutual face first, which in turn predicts dominating, avoiding or integrating conflict styles.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Face-negotiation theory",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:thomas-kilmann-conflict-modes"
+    }
+   ]
+  },
+  {
    "@id": "cm:face-to-face-conversation",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": [
@@ -55322,6 +55434,90 @@
    "dcterms:title": "Politeness: Some universals in language usage",
    "schema:url": {
     "@id": "https://forms.mpi.nl/node/47267"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stella Ting-Toomey, NAFSA Association of International Educators (Theory Connections series)",
+   "dcterms:title": "Theory Reflections: Face-Negotiation Theory",
+   "schema:url": {
+    "@id": "https://www.nafsa.org/sites/default/files/ektron/files/underscore/theory_connections_facework.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "John G. Oetzel & Stella Ting-Toomey, Communication Research 30(6), 599-624 (2003) (course-reading copy, University of Rijeka)",
+   "dcterms:title": "Face concerns in interpersonal conflict: A cross-cultural empirical test of the face negotiation theory",
+   "schema:url": {
+    "@id": "https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Banu Cingöz-Ulu & Richard N. Lalonde, International Journal of Intercultural Relations 31, 443-458 (2007) (author's copy, York University)",
+   "dcterms:title": "The role of culture and relational context in interpersonal conflict: Do Turks and Canadians use different conflict management strategies?",
+   "schema:url": {
+    "@id": "https://lalonde.info.yorku.ca/files/2016/02/IJIR_07.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Em Griffin et al., textbook companion site for A First Look at Communication Theory",
+   "dcterms:title": "Face-Negotiation Theory: chapter outline (A First Look at Communication Theory, 11th edition)",
+   "schema:url": {
+    "@id": "https://www.afirstlook.com/edition-11/theory-resources/by-theory/Face-Negotiation-Theory/outline"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Sarah Rosenberg (2004, updated by Heidi Burgess 2018), Beyond Intractability, Conflict Information Consortium, University of Colorado Boulder",
+   "dcterms:title": "Face",
+   "schema:url": {
+    "@id": "https://www.beyondintractability.org/essay/face"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-negotiation-theory/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Yanrong Chang, Journal of Intercultural Communication 25 (2011)",
+   "dcterms:title": "You Think I am Stupid? Face Needs in Intercultural Conflicts",
+   "schema:url": {
+    "@id": "https://immi.se/index.php/intercultural/article/download/Chang2011-1/570/3062"
    }
   },
   {
