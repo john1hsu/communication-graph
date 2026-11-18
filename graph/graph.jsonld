@@ -14149,6 +14149,101 @@
    ]
   },
   {
+   "@id": "cm:improved-tactical-engagement-simulation-training-techniques",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:claramae-s-knerr"
+    },
+    {
+     "@id": "cm:john-j-bosley"
+    },
+    {
+     "@id": "cm:peter-w-j-onoszko"
+    },
+    {
+     "@id": "cm:robert-h-sulzen"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/improved-tactical-engagement-simulation-training-techniques.md",
+   "cmo:influencedBy": {
+    "@id": "cm:interview-after-combat"
+   },
+   "cmo:introduces": {
+    "@id": "cm:after-action-review"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s5"
+    }
+   ],
+   "rdfs:label": "Improved Tactical Engagement Simulation Training Techniques: Two Training Programs for the Conduct of After Action Reviews",
+   "skos:altLabel": [
+    "ARI Research Product 79-2",
+    "Bosley et al. 1979",
+    "Two Training Programs for the Conduct of After Action Reviews"
+   ],
+   "skos:broader": {
+    "@id": "cm:after-action-review"
+   },
+   "skos:definition": "A January 1979 U.S. Army Research Institute research product by John Bosley, Peter Onoszko, Claramae Knerr and Robert Sulzen, the first ARI guide to teach leaders how to run an after-action review. Built from observing reviews after REALTRAIN exercises, it set out the facilitator's role - a low-profile guide, not a critic - and eight leader skills that still define a good debrief.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Improved Tactical Engagement Simulation Training Techniques: Two Training Programs for the Conduct of After Action Reviews",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:fm-6-0"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:s-l-a-marshall"
+    },
+    {
+     "@id": "cm:summarizing"
+    }
+   ]
+  },
+  {
    "@id": "cm:individualism-and-collectivism",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -59390,6 +59485,76 @@
    "dcterms:title": "Humblebragging is a bad strategy, especially in a job interview",
    "schema:url": {
     "@id": "https://www.library.hbs.edu/working-knowledge/humblebragging-is-a-bad-strategy-especially-in-a-job-interview"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Bosley, Onoszko, Knerr & Sulzen, U.S. Army Research Institute for the Behavioral and Social Sciences (January 1979), via DTIC",
+   "dcterms:title": "Improved Tactical Engagement Simulation Training Techniques: Two Training Programs for the Conduct of After Action Reviews (Research Product 79-2)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA073724.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "U.S. Army Research Institute for the Behavioral and Social Sciences (Morrison & Meliza, 1999), via DTIC",
+   "dcterms:title": "Foundations of the After Action Review Process (Special Report 42)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Shriver, Mathers, Griffin, Jones, Word, Root & Hayes, U.S. Army Research Institute for the Behavioral and Social Sciences (December 1975), via DTIC",
+   "dcterms:title": "REALTRAIN: A New Method for Tactical Training of Small Units",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA024030.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Salter & Klein, U.S. Army Research Institute for the Behavioral and Social Sciences (January 2007), via DTIC",
+   "dcterms:title": "After Action Reviews: Current Observations and Recommendations (Research Report 1867)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA463410.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/improved-tactical-engagement-simulation-training-techniques/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Tannenbaum & Cerasoli, Human Factors 55(1) (2013), doi:10.1177/0018720812448394, record on Epistemonikos",
+   "dcterms:title": "Do team and individual debriefs enhance performance? A meta-analysis",
+   "schema:url": {
+    "@id": "https://www.epistemonikos.org/en/documents/62327b87190b146b78b9cda25182d69d9e3f255d"
    }
   },
   {

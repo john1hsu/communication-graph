@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:after-action-review` | cmo:Technique |
 | `cm:business-writing` | cmo:Skill |
 | `cm:closed-questions` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
+| `cm:message-structure` | cmo:Concept |
 
-…and 76 more.
+…and 75 more.
 
 ## Orphan articles (gap)
 
