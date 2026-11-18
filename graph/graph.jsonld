@@ -2525,6 +2525,117 @@
    ]
   },
   {
+   "@id": "cm:brainwriting",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:production-blocking"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ],
+   "cmo:alternativeTo": {
+    "@id": "cm:brainstorming"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:paulus-yang-2000"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/brainwriting.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:bernd-rohrbach"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:paulus-et-al-2015"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7"
+    }
+   ],
+   "rdfs:label": "Brainwriting",
+   "skos:altLabel": [
+    "6-3-5 brainwriting",
+    "6-3-5 method",
+    "method 635",
+    "silent idea exchange",
+    "written brainstorming"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    }
+   ],
+   "skos:definition": "A group idea-generation method in which members write ideas silently and pass or post them so others can read and build on them, before any spoken discussion, so everyone generates in parallel instead of waiting for a turn to talk.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Brainwriting",
+   "skos:related": [
+    {
+     "@id": "cm:1-2-4-all"
+    },
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:hybrid-meetings"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:production-blocking"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ]
+  },
+  {
    "@id": "cm:bulleted-and-numbered-lists",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -35482,6 +35593,107 @@
    "schema:text": "Evaluate and shortlist in a separate step - ideally after a break - using agreed criteria and a private or simultaneous vote."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:brainwriting"
+   },
+   "rdfs:label": "Did everyone have time to write their own ideas before any idea was discussed or praised aloud?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:brainwriting"
+   },
+   "rdfs:label": "Were people reading and building on others' ideas, or just writing in parallel with no exchange?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:brainwriting"
+   },
+   "rdfs:label": "Did I stop the rounds while people still had energy, and leave time for a final solo round?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:brainwriting"
+   },
+   "rdfs:label": "Am I judging the session by how lively it felt, or by how many usable ideas we collected?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "For the next five minutes, write one idea per sticky note - no talking. Then pass your pad to your left and add to what you see. We'll do four rounds, put everything on the wall, and discuss only after that.",
+   "cmo:before": "Let's just throw ideas out - anything goes. ... Great, Priya's idea about the setup wizard is a good one. Anyone want to build on that?",
+   "cmo:situation": "A product manager has 30 minutes with eight engineers, designers and support staff to collect ideas for reducing customer onboarding time.",
+   "cmo:why": "In the open round people wait their turn, forget ideas, and the first confident idea steers the rest; silent written rounds let all eight people generate at once and still build on each other's ideas before discussion narrows the field."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Brainwriting",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write one specific question where everyone can see it, for example \"What could cut the time it takes a new hire to ship their first change?\", and say that you want quantity, not polished ideas."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Give each person a sheet, card stack or shared-document column and set a short timer (about five minutes) for writing ideas silently, one idea per card or line, with no talking."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "When the timer ends, have everyone pass their sheet to the next person (or read the shared document), and ask them to add new ideas that build on, combine or twist what they read."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Repeat the write-and-pass rounds three to six times, stopping when the pace drops noticeably rather than at the first lull."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Give a few minutes of individual writing at the end so people can add ideas sparked by everything they read."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Post or display all ideas, cluster duplicates with the group, and only then open spoken discussion and selection (for example a private vote)."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -50571,6 +50783,104 @@
    "dcterms:title": "There's a Better Way to Brainstorm",
    "schema:url": {
     "@id": "https://psychologicalscience.org/?p=121811"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Paul B. Paulus & Huei-Chuan Yang, Organizational Behavior and Human Decision Processes 82(1), 76-87, 2000, doi:10.1006/obhd.2000.2888 (abstract record)",
+   "dcterms:title": "Idea generation in groups: A basis for creativity in organizations",
+   "schema:url": {
+    "@id": "https://data.zhenzhi.com/details/1/901478178"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Paul B. Paulus, Runa M. Korde, Jubilee J. Dickson, Abraham Carmeli & Ravit Cohen-Meitar, Human Factors 57(6), 1076-1094, 2015, doi:10.1177/0018720815570374 (Tel Aviv University research portal)",
+   "dcterms:title": "Asynchronous Brainstorming in an Industrial Setting",
+   "schema:url": {
+    "@id": "https://cris.iucc.ac.il/en/publications/asynchronous-brainstorming-in-an-industrial-setting/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Peter A. Heslin, Journal of Occupational and Organizational Psychology 82(1), 2009 (SSRN abstract)",
+   "dcterms:title": "Better than Brainstorming? Potential Contextual Boundary Conditions to Brainwriting for Idea Generation in Organizations",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/ab_id=1149562"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Association for Psychological Science, Minds at Work, 15 March 2016",
+   "dcterms:title": "There's a Better Way to Brainstorm",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/minds-business/theres-a-better-way-to-brainstorm.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Christian Jarrett, British Psychological Society Research Digest, 10 February 2009",
+   "dcterms:title": "Forget brainstorming, try brainwriting",
+   "schema:url": {
+    "@id": "https://bps.org.uk/research-digest/forget-brainstorming-try-brainwriting"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nika Muren, University of Ljubljana Press (Založba Univerze v Ljubljani) e-book",
+   "dcterms:title": "Metoda 6-3-5 (chapter in Kako spodbujati zaposlene)",
+   "schema:url": {
+    "@id": "https://ebooks.uni-lj.si/ZalozbaUL/catalog/download/783/1168/11804?inline=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "This Is Service Design Doing (Stickdorn, Hormess, Lawrence & Schneider) method library",
+   "dcterms:title": "Brainwriting (method)",
+   "schema:url": {
+    "@id": "https://thisisservicedesigndoing.com/methods/brainwriting"
    }
   },
   {

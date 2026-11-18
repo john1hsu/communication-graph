@@ -36,6 +36,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
+| `cm:brainwriting` | 2 | Production blocking, Unequal participation |
 | `cm:business-writing` | 2 | Burying the lede, Wall of text |
 | `cm:characters-as-subjects-actions-as-verbs` | 2 | Concise writing, Nominalization |
 | `cm:chat-etiquette` | 2 | Information overload, Workplace telepressure |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
-| `cm:motivational-interviewing` | 2 | Coaching, Defensiveness |
 
-…and 81 more.
+…and 82 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 184 more.
+…and 185 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 245 more.
+…and 246 more.
 
 ## Concepts with no recorded origin (gap)
 

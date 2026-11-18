@@ -2032,6 +2032,29 @@ Ask yourself:
 - Did I keep evaluation - including my own reactions - out of the generation phase?
 - Did I separate choosing ideas from producing them, with criteria agreed in advance?
 
+### [Brainwriting](../articles/meetings-and-facilitation/brainwriting.md) — Technique
+
+1. Write one specific question where everyone can see it, for example "What could cut the time it takes a new hire to ship their first change?", and say that you want quantity, not polished ideas.
+2. Give each person a sheet, card stack or shared-document column and set a short timer (about five minutes) for writing ideas silently, one idea per card or line, with no talking.
+3. When the timer ends, have everyone pass their sheet to the next person (or read the shared document), and ask them to add new ideas that build on, combine or twist what they read.
+4. Repeat the write-and-pass rounds three to six times, stopping when the pace drops noticeably rather than at the first lull.
+5. Give a few minutes of individual writing at the end so people can add ideas sparked by everything they read.
+6. Post or display all ideas, cluster duplicates with the group, and only then open spoken discussion and selection (for example a private vote).
+
+*A product manager has 30 minutes with eight engineers, designers and support staff to collect ideas for reducing customer onboarding time.*
+
+| Before | After |
+|---|---|
+| Let's just throw ideas out - anything goes. ... Great, Priya's idea about the setup wizard is a good one. Anyone want to build on that? | For the next five minutes, write one idea per sticky note - no talking. Then pass your pad to your left and add to what you see. We'll do four rounds, put everything on the wall, and discuss only after that. |
+
+**Why:** In the open round people wait their turn, forget ideas, and the first confident idea steers the rest; silent written rounds let all eight people generate at once and still build on each other's ideas before discussion narrows the field.
+
+Ask yourself:
+- Did everyone have time to write their own ideas before any idea was discussed or praised aloud?
+- Were people reading and building on others' ideas, or just writing in parallel with no exchange?
+- Did I stop the rounds while people still had energy, and leave time for a final solo round?
+- Am I judging the session by how lively it felt, or by how many usable ideas we collected?
+
 ### [CREW (Civility, Respect and Engagement at Work)](../articles/meetings-and-facilitation/crew-civility-intervention.md) — Technique
 
 1. Secure visible support from senior leaders (and labour partners where there is a union) and a commitment to stay with the work for at least six months.

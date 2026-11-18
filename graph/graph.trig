@@ -1418,6 +1418,16 @@
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s4> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s5> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/brainwriting.md" .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> .
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> .
 <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
 <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/crew-civility-intervention.md" .
@@ -18510,6 +18520,135 @@
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://schema.org/url> <https://psychologicalscience.org/?p=121811> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/brainwriting#graph> {
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did everyone have time to write their own ideas before any idea was discussed or praised aloud?" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Were people reading and building on others' ideas, or just writing in parallel with no exchange?" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I stop the rounds while people still had energy, and leave time for a final solo round?" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I judging the session by how lively it felt, or by how many usable ideas we collected?" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <https://github.com/john1hsu/communication-graph/ontology#after> "For the next five minutes, write one idea per sticky note - no talking. Then pass your pad to your left and add to what you see. We'll do four rounds, put everything on the wall, and discuss only after that." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Let's just throw ideas out - anything goes. ... Great, Priya's idea about the setup wizard is a good one. Anyone want to build on that?" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager has 30 minutes with eight engineers, designers and support staff to collect ideas for reducing customer onboarding time." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <https://github.com/john1hsu/communication-graph/ontology#why> "In the open round people wait their turn, forget ideas, and the first confident idea steers the rest; silent written rounds let all eight people generate at once and still build on each other's ideas before discussion narrows the field." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1> <https://schema.org/text> "Write one specific question where everyone can see it, for example \"What could cut the time it takes a new hire to ship their first change?\", and say that you want quantity, not polished ideas." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2> <https://schema.org/text> "Give each person a sheet, card stack or shared-document column and set a short timer (about five minutes) for writing ideas silently, one idea per card or line, with no talking." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3> <https://schema.org/text> "When the timer ends, have everyone pass their sheet to the next person (or read the shared document), and ask them to add new ideas that build on, combine or twist what they read." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4> <https://schema.org/text> "Repeat the write-and-pass rounds three to six times, stopping when the pace drops noticeably rather than at the first lull." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5> <https://schema.org/text> "Give a few minutes of individual writing at the end so people can add ideas sparked by everything they read." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6> <https://schema.org/text> "Post or display all ideas, cluster duplicates with the group, and only then open spoken discussion and selection (for example a private vote)." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/name> "Brainwriting" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2000/01/rdf-schema#label> "Brainwriting" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#altLabel> "6-3-5 brainwriting" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#altLabel> "6-3-5 method" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#altLabel> "method 635" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#altLabel> "silent idea exchange" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#altLabel> "written brainstorming" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#definition> "A group idea-generation method in which members write ideas silently and pass or post them so others can read and build on them, before any spoken discussion, so everyone generates in parallel instead of waiting for a turn to talk." .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brainwriting" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/paulus-yang-2000> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/brainwriting/example> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/brainwriting.md" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/brainwriting/howto> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/bernd-rohrbach> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/paulus-et-al-2015> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <http://purl.org/dc/terms/publisher> "Paul B. Paulus & Huei-Chuan Yang, Organizational Behavior and Human Decision Processes 82(1), 76-87, 2000, doi:10.1006/obhd.2000.2888 (abstract record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <http://purl.org/dc/terms/title> "Idea generation in groups: A basis for creativity in organizations" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s1> <https://schema.org/url> <https://data.zhenzhi.com/details/1/901478178> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <http://purl.org/dc/terms/publisher> "Paul B. Paulus, Runa M. Korde, Jubilee J. Dickson, Abraham Carmeli & Ravit Cohen-Meitar, Human Factors 57(6), 1076-1094, 2015, doi:10.1177/0018720815570374 (Tel Aviv University research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <http://purl.org/dc/terms/title> "Asynchronous Brainstorming in an Industrial Setting" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s2> <https://schema.org/url> <https://cris.iucc.ac.il/en/publications/asynchronous-brainstorming-in-an-industrial-setting/> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <http://purl.org/dc/terms/publisher> "Peter A. Heslin, Journal of Occupational and Organizational Psychology 82(1), 2009 (SSRN abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <http://purl.org/dc/terms/title> "Better than Brainstorming? Potential Contextual Boundary Conditions to Brainwriting for Idea Generation in Organizations" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s3> <https://schema.org/url> <https://papers.ssrn.com/ab_id=1149562> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, Minds at Work, 15 March 2016" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <http://purl.org/dc/terms/title> "There's a Better Way to Brainstorm" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s4> <https://schema.org/url> <https://www.psychologicalscience.org/news/minds-business/theres-a-better-way-to-brainstorm.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <http://purl.org/dc/terms/publisher> "Christian Jarrett, British Psychological Society Research Digest, 10 February 2009" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <http://purl.org/dc/terms/title> "Forget brainstorming, try brainwriting" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s5> <https://schema.org/url> <https://bps.org.uk/research-digest/forget-brainstorming-try-brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <http://purl.org/dc/terms/publisher> "Nika Muren, University of Ljubljana Press (Založba Univerze v Ljubljani) e-book" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <http://purl.org/dc/terms/title> "Metoda 6-3-5 (chapter in Kako spodbujati zaposlene)" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s6> <https://schema.org/url> <https://ebooks.uni-lj.si/ZalozbaUL/catalog/download/783/1168/11804?inline=1> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <http://purl.org/dc/terms/publisher> "This Is Service Design Doing (Stickdorn, Hormess, Lawrence & Schneider) method library" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <http://purl.org/dc/terms/title> "Brainwriting (method)" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/brainwriting/s7> <https://schema.org/url> <https://thisisservicedesigndoing.com/methods/brainwriting> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention#graph> {
@@ -36236,6 +36375,7 @@
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
@@ -36724,6 +36864,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
@@ -37007,6 +37148,9 @@
   <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/berg-zlatev-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+  <https://github.com/john1hsu/communication-graph/id/bernd-rohrbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bernd-rohrbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/bernd-rohrbach> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/bertram-gross> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
   <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -37155,15 +37299,26 @@
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
-  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
-  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
-  <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -38034,6 +38189,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/business-report> .
@@ -39815,6 +39971,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
@@ -39823,6 +39980,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
@@ -40345,6 +40503,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
@@ -40375,10 +40534,12 @@
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/premortem> .
@@ -40653,6 +40814,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/business-report> .
@@ -40942,6 +41104,7 @@
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42882,6 +43045,7 @@
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
@@ -43385,6 +43549,10 @@
   <https://github.com/john1hsu/communication-graph/id/paul-grice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/paul-grice> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/paulus-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/paulus-yang-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/paulus-yang-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/paulus-yang-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -43998,6 +44166,7 @@
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/project-beta-de-escalation-consensus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -44053,6 +44222,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
@@ -45240,6 +45410,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/business-report> .
@@ -46173,6 +46344,7 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
@@ -46614,6 +46786,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facilitation> .
