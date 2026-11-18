@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 
-…and 78 more.
+…and 79 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 180 more.
+…and 181 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 234 more.
+…and 235 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:after-action-review` | cmo:Technique |
 | `cm:business-writing` | cmo:Skill |
 | `cm:closed-questions` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
-| `cm:message-structure` | cmo:Concept |
 
-…and 74 more.
+…and 75 more.
 
 ## Orphan articles (gap)
 

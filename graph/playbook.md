@@ -1952,6 +1952,31 @@ Ask yourself:
 - In the all-group share, did I ask for new ideas from each group rather than letting the most confident group report everything?
 - Did I steer the content of the small-group conversations, or did I limit myself to running time and process?
 
+### [After-action review](../articles/meetings-and-facilitation/after-action-review.md) — Technique
+
+1. Hold it as soon as possible after the event or phase, with the people who did the work, and book 30-60 minutes rather than squeezing it into the end of another meeting.
+2. Open by stating the ground rules - this is for learning, not grading; talk about roles and actions, not people; every view counts regardless of seniority.
+3. Ask "What was supposed to happen?" and get agreement on the original goal, plan and success measures before going further.
+4. Ask "What actually happened?" and build a factual timeline from several people's accounts and any data, without judging yet.
+5. Ask "Why was there a difference?" for both what went well and what went badly, using open questions and drawing out quieter participants.
+6. Ask "What will we do differently - and keep doing - next time?" and turn the answers into two or three specific actions with owners and dates.
+7. Apply the actions in the very next piece of work, and open that work's kickoff by reviewing them.
+
+*A marketing team has just shipped a product launch campaign two weeks late, and the manager calls the team together afterwards.*
+
+| Before | After |
+|---|---|
+| OK, the launch slipped. I've written up what went wrong - mainly design handoffs were late and nobody flagged it. Let's all be more proactive next time. Any questions? | This isn't about blame - it's what we want to repeat and what to fix. First: what did we plan, and by when? Now let's build the timeline together. Priya, you were closest to design - what did you see? ... So the design brief changed twice after sign-off. What would have caught that earlier? Let's pick two changes, give each an owner, and use them on the Q3 campaign. |
+
+**Why:** The "before" is a one-way critique that names a vague culprit and ends with an exhortation, so people defend themselves or stay quiet and nothing changes. The "after" separates plan from reality, gathers several viewpoints, looks for causes in the process and ends with owned actions applied to the next project.
+
+Ask yourself:
+- Did we agree on what was supposed to happen before we argued about what went wrong?
+- Did the people who did the work find the lessons, or did I tell them?
+- Did we look at what went well as carefully as at what went badly?
+- Did we discuss roles and decisions rather than blaming individuals by name?
+- Which two or three actions came out of this, who owns them, and where will we use them next?
+
 ### [Brainstorming](../articles/meetings-and-facilitation/brainstorming.md) — Technique
 
 1. Frame one specific question in writing before the session, for example "What could cut our customer onboarding time from ten days to five?", and send it to participants a day ahead.

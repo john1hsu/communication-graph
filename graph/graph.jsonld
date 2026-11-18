@@ -614,6 +614,104 @@
    ]
   },
   {
+   "@id": "cm:after-action-review",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:unequal-participation"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:performance-review"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:ellis-davidi-2005"
+    },
+    {
+     "@id": "cm:tannenbaum-cerasoli-2013"
+    }
+   ],
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/after-action-review.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s5"
+    }
+   ],
+   "rdfs:label": "After-action review",
+   "skos:altLabel": [
+    "AAR",
+    "after-event review",
+    "project debrief",
+    "team debrief"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:feedback"
+    }
+   ],
+   "skos:definition": "A short, structured team conversation held soon after a project, event or phase, in which the people who did the work compare what was supposed to happen with what actually happened, work out why, and agree what to keep and what to change next time. It is developmental, not an appraisal, and the group discovers the lessons rather than being told them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "After-action review",
+   "skos:related": [
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:premortem"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:alison-wood-brooks",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -33032,6 +33130,124 @@
    "schema:text": "Keep a passive only when the actor is unknown, unimportant or obvious, or when the thing acted on is what the paragraph is about."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:after-action-review"
+   },
+   "rdfs:label": "Did we agree on what was supposed to happen before we argued about what went wrong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:after-action-review"
+   },
+   "rdfs:label": "Did the people who did the work find the lessons, or did I tell them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:after-action-review"
+   },
+   "rdfs:label": "Did we look at what went well as carefully as at what went badly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:after-action-review"
+   },
+   "rdfs:label": "Did we discuss roles and decisions rather than blaming individuals by name?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:after-action-review"
+   },
+   "rdfs:label": "Which two or three actions came out of this, who owns them, and where will we use them next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "This isn't about blame - it's what we want to repeat and what to fix. First: what did we plan, and by when? Now let's build the timeline together. Priya, you were closest to design - what did you see? ... So the design brief changed twice after sign-off. What would have caught that earlier? Let's pick two changes, give each an owner, and use them on the Q3 campaign.",
+   "cmo:before": "OK, the launch slipped. I've written up what went wrong - mainly design handoffs were late and nobody flagged it. Let's all be more proactive next time. Any questions?",
+   "cmo:situation": "A marketing team has just shipped a product launch campaign two weeks late, and the manager calls the team together afterwards.",
+   "cmo:why": "The \"before\" is a one-way critique that names a vague culprit and ends with an exhortation, so people defend themselves or stay quiet and nothing changes. The \"after\" separates plan from reality, gathers several viewpoints, looks for causes in the process and ends with owned actions applied to the next project."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "After-action review",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Hold it as soon as possible after the event or phase, with the people who did the work, and book 30-60 minutes rather than squeezing it into the end of another meeting."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open by stating the ground rules - this is for learning, not grading; talk about roles and actions, not people; every view counts regardless of seniority."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask \"What was supposed to happen?\" and get agreement on the original goal, plan and success measures before going further."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask \"What actually happened?\" and build a factual timeline from several people's accounts and any data, without judging yet."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask \"Why was there a difference?\" for both what went well and what went badly, using open questions and drawing out quieter participants."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Ask \"What will we do differently - and keep doing - next time?\" and turn the answers into two or three specific actions with owners and dates."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Apply the actions in the very next piece of work, and open that work's kickoff by reviewing them."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -47212,6 +47428,76 @@
    "dcterms:title": "Adam Galinsky (contributor profile)",
    "schema:url": {
     "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "U.S. Army Combined Arms Center - Training, Training Management Directorate (December 2013), hosted by the National Wildfire Coordinating Group",
+   "dcterms:title": "A Leader's Guide to After-Action Reviews",
+   "schema:url": {
+    "@id": "https://fs-prod-nwcg.s3.us-gov-west-1.amazonaws.com/s3fs-public/2023-06/army-leaders-guide-to-aar.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "U.S. Army Research Institute for the Behavioral and Social Sciences (Morrison & Meliza, 1999), via DTIC",
+   "dcterms:title": "Foundations of the After Action Review Process (Special Report 42)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Tannenbaum & Cerasoli, Human Factors 55(1), 231-245 (2013), author copy hosted by CEBMA",
+   "dcterms:title": "Do team and individual debriefs enhance performance? A meta-analysis",
+   "schema:url": {
+    "@id": "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Ellis & Davidi, Journal of Applied Psychology 90(5), 857-871 (2005), Tel Aviv University research portal",
+   "dcterms:title": "After-event reviews: Drawing lessons from successful and failed experience",
+   "schema:url": {
+    "@id": "https://cris.tau.ac.il/en/publications/after-event-reviews-drawing-lessons-from-successful-and-failed-ex/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/after-action-review/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Darling, Parry & Moore, Harvard Business Review (2005), republished by CBS MoneyWatch",
+   "dcterms:title": "Learning in the Thick of It",
+   "schema:url": {
+    "@id": "https://www.cbsnews.com/news/learning-in-the-thick-of-it"
    }
   },
   {

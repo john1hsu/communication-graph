@@ -707,6 +707,124 @@
   ]
  },
  {
+  "id": "cm:after-action-review",
+  "title": "After-action review",
+  "aliases": [
+   "AAR",
+   "after-event review",
+   "team debrief",
+   "project debrief"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/after-action-review.md",
+  "created": "2026-11-18",
+  "summary": "A short, structured team conversation held soon after a project, event or phase, in which the people who did the work compare what was supposed to happen with what actually happened, work out why, and agree what to keep and what to change next time. It is developmental, not an appraisal, and the group discovers the lessons rather than being told them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:tannenbaum-cerasoli-2013",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:ellis-davidi-2005",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:performance-review",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did we agree on what was supposed to happen before we argued about what went wrong?",
+   "Did the people who did the work find the lessons, or did I tell them?",
+   "Did we look at what went well as carefully as at what went badly?",
+   "Did we discuss roles and decisions rather than blaming individuals by name?",
+   "Which two or three actions came out of this, who owns them, and where will we use them next?"
+  ],
+  "steps": [
+   "Hold it as soon as possible after the event or phase, with the people who did the work, and book 30-60 minutes rather than squeezing it into the end of another meeting.",
+   "Open by stating the ground rules - this is for learning, not grading; talk about roles and actions, not people; every view counts regardless of seniority.",
+   "Ask \"What was supposed to happen?\" and get agreement on the original goal, plan and success measures before going further.",
+   "Ask \"What actually happened?\" and build a factual timeline from several people's accounts and any data, without judging yet.",
+   "Ask \"Why was there a difference?\" for both what went well and what went badly, using open questions and drawing out quieter participants.",
+   "Ask \"What will we do differently - and keep doing - next time?\" and turn the answers into two or three specific actions with owners and dates.",
+   "Apply the actions in the very next piece of work, and open that work's kickoff by reviewing them."
+  ],
+  "example": {
+   "situation": "A marketing team has just shipped a product launch campaign two weeks late, and the manager calls the team together afterwards.",
+   "before": "OK, the launch slipped. I've written up what went wrong - mainly design handoffs were late and nobody flagged it. Let's all be more proactive next time. Any questions?",
+   "after": "This isn't about blame - it's what we want to repeat and what to fix. First: what did we plan, and by when? Now let's build the timeline together. Priya, you were closest to design - what did you see? ... So the design brief changed twice after sign-off. What would have caught that earlier? Let's pick two changes, give each an owner, and use them on the Q3 campaign.",
+   "why": "The \"before\" is a one-way critique that names a vague culprit and ends with an exhortation, so people defend themselves or stay quiet and nothing changes. The \"after\" separates plan from reality, gathers several viewpoints, looks for causes in the process and ends with owned actions applied to the next project."
+  },
+  "source_urls": [
+   "https://fs-prod-nwcg.s3.us-gov-west-1.amazonaws.com/s3fs-public/2023-06/army-leaders-guide-to-aar.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf",
+   "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf",
+   "https://cris.tau.ac.il/en/publications/after-event-reviews-drawing-lessons-from-successful-and-failed-ex/",
+   "https://www.cbsnews.com/news/learning-in-the-thick-of-it"
+  ]
+ },
+ {
   "id": "cm:alison-wood-brooks",
   "title": "Alison Wood Brooks",
   "aliases": [
