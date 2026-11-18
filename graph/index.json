@@ -34940,6 +34940,73 @@
   ]
  },
  {
+  "id": "cm:vivien-k-g-lim",
+  "title": "Vivien K. G. Lim",
+  "aliases": [
+   "Vivien Lim",
+   "Vivien K.G. Lim",
+   "V. K. G. Lim"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/vivien-k-g-lim.md",
+  "created": "2026-11-18",
+  "summary": "Singaporean organisational-behaviour scholar at NUS Business School who, with Thompson Teo, named and first measured cyber incivility (rude or neglectful work email) in 2009, and who helped turn cyberloafing - personal web use on company time - into an academic research topic.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-incivility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:industrial-organizational-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:cyber-incivility",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:cyberloafing",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influenced",
+    "object": "cm:park-fritz-jex-2018",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://web2-bschool.nus.edu.sg/wp-content/uploads/media_rp/publications/na9vz1422936628.pdf",
+   "https://core.ac.uk/download/326833913.pdf",
+   "https://cde.nus.edu.sg/idel/staff/professor-vivien-lim/",
+   "https://stacks.cdc.gov/view/cdc/210527/cdc_210527_DS1.pdf",
+   "https://www.redalyc.org/pdf/2313/231316498001.pdf",
+   "https://bizbeat.nus.edu.sg/get-inspired/article/faculty-profile-prof-vivien-lim"
+  ]
+ },
+ {
   "id": "cm:vocal-delivery",
   "title": "Vocal delivery",
   "aliases": [

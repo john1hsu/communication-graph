@@ -30700,6 +30700,77 @@
    ]
   },
   {
+   "@id": "cm:vivien-k-g-lim",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/vivien-k-g-lim.md",
+   "cmo:influenced": {
+    "@id": "cm:park-fritz-jex-2018"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:cyber-incivility"
+    },
+    {
+     "@id": "cm:cyberloafing"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s6"
+    }
+   ],
+   "rdfs:label": "Vivien K. G. Lim",
+   "skos:altLabel": [
+    "V. K. G. Lim",
+    "Vivien K.G. Lim",
+    "Vivien Lim"
+   ],
+   "skos:definition": "Singaporean organisational-behaviour scholar at NUS Business School who, with Thompson Teo, named and first measured cyber incivility (rude or neglectful work email) in 2009, and who helped turn cyberloafing - personal web use on company time - into an academic research topic.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Vivien K. G. Lim",
+   "skos:related": [
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:industrial-organizational-psychology"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
+     "@id": "cm:workplace-incivility"
+    }
+   ]
+  },
+  {
    "@id": "cm:vocal-delivery",
    "@type": "cmo:Skill",
    "cmo:addresses": {
@@ -72472,6 +72543,90 @@
    "dcterms:title": "Better Meetings",
    "schema:url": {
     "@id": "https://www.vc.scot.nhs.uk/better-vc/better-meetings/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lim, V. K. G. & Teo, T. S. H., Information & Management 46, 419-425, 2009 (author copy, NUS Business School)",
+   "dcterms:title": "Mind your E-manners: Impact of cyber incivility on employees' work attitude and behavior",
+   "schema:url": {
+    "@id": "https://web2-bschool.nus.edu.sg/wp-content/uploads/media_rp/publications/na9vz1422936628.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lim, V. K. G., Teo, T. S. H. & Loo, G. L., First International Conference on Electronic Business (ICEB), Hong Kong, 2001 (CORE / AIS eLibrary copy)",
+   "dcterms:title": "The IT Way of Idling on the Job: A Preliminary Study of Cyberloafing",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/326833913.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "National University of Singapore, College of Design and Engineering (staff profile)",
+   "dcterms:title": "Professor Vivien Lim",
+   "schema:url": {
+    "@id": "https://cde.nus.edu.sg/idel/staff/professor-vivien-lim/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Park, Y., Fritz, C. & Jex, S. M., Journal of Management 44(7), 2535-2557, 2018 (CDC Stacks author manuscript)",
+   "dcterms:title": "Daily Cyber Incivility and Distress: The Moderating Roles of Resources at Work and Home",
+   "schema:url": {
+    "@id": "https://stacks.cdc.gov/view/cdc/210527/cdc_210527_DS1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Zoghbi Manrique de Lara, P., Revista de Psicología del Trabajo y de las Organizaciones 25(2), 99-112, 2009 (Redalyc)",
+   "dcterms:title": "Anomia as a Moderator of the Relationship Between Perceptions of Organizational Justice and Cyberloafing",
+   "schema:url": {
+    "@id": "https://www.redalyc.org/pdf/2313/231316498001.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vivien-k-g-lim/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "NUS Business School BizBeat, February 2016",
+   "dcterms:title": "Faculty Profile: Prof Vivien Lim",
+   "schema:url": {
+    "@id": "https://bizbeat.nus.edu.sg/get-inspired/article/faculty-profile-prof-vivien-lim"
    }
   },
   {

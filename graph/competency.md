@@ -145,7 +145,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:business-writing` | cmo:Skill |
 | `cm:closed-questions` | cmo:Technique |
-| `cm:cyber-incivility` | cmo:AntiPattern |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:exposure-therapy` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:logrolling` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
+| `cm:memorandum` | cmo:Genre |
 
-…and 75 more.
+…and 74 more.
 
 ## Orphan articles (gap)
 
