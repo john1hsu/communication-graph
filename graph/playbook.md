@@ -926,6 +926,14 @@ Ask yourself:
 - Is the urgency I am signalling the urgency I actually have?
 - Would my team know our default reply window for this channel without asking?
 
+### [Synchronous communication](../articles/digital-and-async-communication/synchronous-communication.md) — Channel
+
+Ask yourself:
+- Does this exchange need us to converge on a shared meaning or decision, or could a written message simply convey it?
+- Has a thread gone back and forth so long that a short live conversation would settle it faster?
+- Did everyone get the goal and any pre-read before we met, so live time goes on discussion rather than briefing?
+- Who will write down the decision and owners afterwards, and by when?
+
 ### [Team communication norms](../articles/digital-and-async-communication/team-communication-norms.md) — Technique
 
 1. In the first weeks of a project (or when membership changes), book a short session to agree how the team will communicate, rather than letting habits form by default.

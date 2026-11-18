@@ -29742,6 +29742,103 @@
    ]
   },
   {
+   "@id": "cm:synchronous-communication",
+   "@type": "cmo:Channel",
+   "cmo:contrastsWith": {
+    "@id": "cm:asynchronous-communication"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:burgoon-chen-twitchell-2010"
+    },
+    {
+     "@id": "cm:rogelberg-leach-burnfield-2006"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:media-synchronicity-theory"
+   },
+   "cmo:file": "articles/digital-and-async-communication/synchronous-communication.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s4"
+    }
+   ],
+   "rdfs:label": "Synchronous communication",
+   "skos:altLabel": [
+    "live communication",
+    "real-time communication",
+    "sync communication"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "Communication in which everyone involved is attending at the same time and can respond at once - in-person conversation, phone and video calls, live meetings - so meaning can be negotiated turn by turn; it is best spent on converging on ambiguous decisions, resolving disagreement and building relationships, and is wasted on one-way information that a written message could carry.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Synchronous communication",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:phone-call"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:systematic-desensitization",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -72830,6 +72927,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Dennis, A. R., Fuller, R. M. & Valacich, J. S., MIS Quarterly 32(3), 575-600, 2008 (University of Arizona research portal record)",
+   "dcterms:title": "Media, tasks, and communication processes: A theory of media synchronicity",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/media-tasks-and-communication-processes-a-theory-of-media-synchro/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Burgoon, J. K., Chen, F. & Twitchell, D. P., Group Decision and Negotiation 19(4), 345-366, 2010 (Springer)",
+   "dcterms:title": "Deception and its Detection Under Synchronous and Asynchronous Computer-Mediated Communication",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/s10726-009-9168-8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Rogelberg, S. G., Leach, D. J., Warr, P. B. & Burnfield, J. L., Journal of Applied Psychology 91(1), 83-96, 2006 (author copy hosted by interruptions.net)",
+   "dcterms:title": "\"Not Another Meeting!\" Are Meeting Time Demands Related to Employee Well-Being?",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Rogelberg-JAP06-2006-00819-008.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/synchronous-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "GitLab Handbook (GitLab Inc.)",
+   "dcterms:title": "Sync vs. Async Culture",
+   "schema:url": {
+    "@id": "https://handbook.gitlab.com/handbook/communication/sync-vs-async-culture/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "encyclopedia",
@@ -76196,6 +76349,38 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "Afterwards, roughly count your shift and support replies; if shifts dominated, open the next conversation with two support replies in a row."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/synchronous-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:synchronous-communication"
+   },
+   "rdfs:label": "Does this exchange need us to converge on a shared meaning or decision, or could a written message simply convey it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/synchronous-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:synchronous-communication"
+   },
+   "rdfs:label": "Has a thread gone back and forth so long that a short live conversation would settle it faster?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/synchronous-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:synchronous-communication"
+   },
+   "rdfs:label": "Did everyone get the goal and any pre-read before we met, so live time goes on discussion rather than briefing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/synchronous-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:synchronous-communication"
+   },
+   "rdfs:label": "Who will write down the decision and owners afterwards, and by when?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/1",
