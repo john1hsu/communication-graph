@@ -19737,6 +19737,106 @@
    ]
   },
   {
+   "@id": "cm:negotiator-dilemma",
+   "@type": "cmo:Barrier",
+   "cmo:challengedBy": {
+    "@id": "cm:thompson-1991"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:leonardelli-et-al-2019"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:prisoners-dilemma"
+   },
+   "cmo:file": "articles/negotiation/negotiator-dilemma.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:david-lax"
+    },
+    {
+     "@id": "cm:james-sebenius"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:the-manager-as-negotiator"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    }
+   ],
+   "cmo:undermines": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s5"
+    }
+   ],
+   "rdfs:label": "Negotiator's dilemma",
+   "skos:altLabel": [
+    "creating vs. claiming value tension",
+    "information dilemma in negotiation",
+    "negotiators dilemma"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The tension in negotiation between creating value, which needs open sharing of interests and priorities, and claiming value, which rewards guarding information; openness that makes joint gains possible can be exploited by a competitive counterpart, so both sides often hold back and settle for less.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Negotiator's dilemma",
+   "skos:related": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:norm-of-reciprocity"
+    },
+    {
+     "@id": "cm:post-settlement-settlement"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:thompson-1991"
+    }
+   ]
+  },
+  {
    "@id": "cm:neil-rackham",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -42333,6 +42433,46 @@
    "schema:text": "Close by linking the story to your specific request, then test it on a colleague and ask what stuck and what felt unconvincing."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/negotiator-dilemma/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "rdfs:label": "Am I withholding my priorities because sharing them would really cost me, or only out of habit and fear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/negotiator-dilemma/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "rdfs:label": "Have I separated what is safe to share (which issues matter most, and why) from what is not (my walk-away point)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/negotiator-dilemma/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "rdfs:label": "Did I ask at least one question about their priorities before making or answering an offer?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/negotiator-dilemma/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "rdfs:label": "If I open up and they do not reciprocate, what is my plan for staying firm without shutting down?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/negotiator-dilemma/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "rdfs:label": "Is everything I am saying about my interests true, even where I choose not to say everything?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -64150,6 +64290,76 @@
    "dcterms:title": "Beyond the Bottom Line",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School (PON Staff), 2026",
+   "dcterms:title": "Managing the Negotiator's Dilemma: How MESOs Help You Create and Claim Value",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/managing-the-negotiators-dilemma-nb"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Beyond Intractability, Conflict Information Consortium (summary by Tanya Glaser)",
+   "dcterms:title": "Summary of 'The Manager as Negotiator: The Negotiator's Dilemma: Creating and Claiming Value' (Lax and Sebenius)",
+   "schema:url": {
+    "@id": "https://www.beyondintractability.org/artsum/lax-themanager"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Beyond Intractability, Conflict Information Consortium (Brad Spangler), 2003",
+   "dcterms:title": "Creating and Claiming Value",
+   "schema:url": {
+    "@id": "https://www.beyondintractability.org/essay/creating-value"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Leonardelli, Gu, McRuer, Medvec and Galinsky, Organizational Behavior and Human Decision Processes 152, 64-83, 2019 (doi:10.1016/j.obhdp.2019.01.007; Macquarie University research record)",
+   "dcterms:title": "Multiple equivalent simultaneous offers (MESOs) reduce the negotiator dilemma: How a choice of first offers increases economic and relational outcomes",
+   "schema:url": {
+    "@id": "https://researchers.mq.edu.au/en/publications/multiple-equivalent-simultaneous-offers-mesos-reduce-the-negotiat/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiator-dilemma/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Leigh Thompson, Journal of Experimental Social Psychology, 1991 (Kellogg School of Management research record)",
+   "dcterms:title": "Information exchange in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation"
    }
   },
   {

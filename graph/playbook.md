@@ -2408,6 +2408,15 @@ Ask yourself:
 - Is there an issue where we might want the same outcome that I have not checked out loud?
 - Am I discounting their proposal because of who made it rather than what it gives each of us?
 
+### [Negotiator's dilemma](../articles/negotiation/negotiator-dilemma.md) — Barrier
+
+Ask yourself:
+- Am I withholding my priorities because sharing them would really cost me, or only out of habit and fear?
+- Have I separated what is safe to share (which issues matter most, and why) from what is not (my walk-away point)?
+- Did I ask at least one question about their priorities before making or answering an offer?
+- If I open up and they do not reciprocate, what is my plan for staying firm without shutting down?
+- Is everything I am saying about my interests true, even where I choose not to say everything?
+
 ### [Positional bargaining](../articles/negotiation/positional-bargaining.md) — AntiPattern
 
 *Two team leads are splitting a shared contractor's time for next quarter; each opens with a fixed number of days.*

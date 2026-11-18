@@ -22400,6 +22400,126 @@
   ]
  },
  {
+  "id": "cm:negotiator-dilemma",
+  "title": "Negotiator's dilemma",
+  "aliases": [
+   "negotiators dilemma",
+   "creating vs. claiming value tension",
+   "information dilemma in negotiation"
+  ],
+  "type": "Barrier",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/negotiator-dilemma.md",
+  "created": "2026-11-18",
+  "summary": "The tension in negotiation between creating value, which needs open sharing of interests and priorities, and claiming value, which rewards guarding information; openness that makes joint gains possible can be exploited by a competitive counterpart, so both sides often hold back and settle for less.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:post-settlement-settlement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocal-self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:norm-of-reciprocity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thompson-1991"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:david-lax",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:james-sebenius",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-manager-as-negotiator",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:prisoners-dilemma",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:integrative-negotiation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:leonardelli-et-al-2019",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:thompson-1991",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Am I withholding my priorities because sharing them would really cost me, or only out of habit and fear?",
+   "Have I separated what is safe to share (which issues matter most, and why) from what is not (my walk-away point)?",
+   "Did I ask at least one question about their priorities before making or answering an offer?",
+   "If I open up and they do not reciprocate, what is my plan for staying firm without shutting down?",
+   "Is everything I am saying about my interests true, even where I choose not to say everything?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/managing-the-negotiators-dilemma-nb",
+   "https://www.beyondintractability.org/artsum/lax-themanager",
+   "https://www.beyondintractability.org/essay/creating-value",
+   "https://researchers.mq.edu.au/en/publications/multiple-equivalent-simultaneous-offers-mesos-reduce-the-negotiat/",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation"
+  ]
+ },
+ {
   "id": "cm:neil-rackham",
   "title": "Neil Rackham",
   "aliases": [
