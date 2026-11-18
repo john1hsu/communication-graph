@@ -488,6 +488,7 @@
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1> .
@@ -15233,6 +15234,32 @@
 <https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> .
 <https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/heritage-greatbatch-1986> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2000/01/rdf-schema#label> "S. L. A. Marshall" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#altLabel> "SLA Marshall" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#altLabel> "Samuel Lyman Atwood Marshall" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#definition> "U.S. Army combat historian (1900-1977) who devised the \"interview after combat\", a group interview held soon after an action in which participants of every rank rebuilt events together, the model the Army later drew on for the after-action review. His best-known statistic, that most soldiers never fired, is now regarded as unsupported, which makes him a lesson in both good debriefing and honest reporting." .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#prefLabel> "S. L. A. Marshall" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/men-against-fire> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/men-against-fire> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/chambers-2003> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/spiller-1988> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/s-l-a-marshall.md" .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/interview-after-combat> .
+<https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Salary negotiation" .
@@ -26472,6 +26499,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <https://schema.org/url> <https://www.natcom.org/communication-currents/engaging-audiences-through-rhetorical-devices> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <http://purl.org/dc/terms/publisher> "U.S. Army Research Institute for the Behavioral and Social Sciences (Morrison & Meliza, 1999), via DTIC" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <http://purl.org/dc/terms/title> "Foundations of the After Action Review Process (Special Report 42)" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA368651.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <http://purl.org/dc/terms/publisher> "Roger J. Spiller, RUSI Journal, 63-71 (Winter 1988) (copy hosted by gwern.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <http://purl.org/dc/terms/title> "S. L. A. Marshall and the Ratio of Fire" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2> <https://schema.org/url> <https://www.Gwern.net/doc/history/s-l-a-marshall/1988-spiller.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <http://purl.org/dc/terms/publisher> "John Whiteclay Chambers II, Parameters (U.S. Army War College Quarterly) 33(3) (Autumn 2003), via CORE" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <http://purl.org/dc/terms/title> "S. L. A. Marshall's Men Against Fire: New Evidence Regarding Fire Ratios" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3> <https://schema.org/url> <https://core.ac.uk/download/480760524.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <http://purl.org/dc/terms/publisher> "Fredric Smoler, American Heritage 40(2) (March 1989)" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <http://purl.org/dc/terms/title> "The Secret of the Soldiers Who Didn't Shoot" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4> <https://schema.org/url> <https://www.americanheritage.com/secret-soldiers-who-didnt-shoot> .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/publisher> "Hart, E., Bear, J. B. & Ren, Z., Organizational Behavior and Human Decision Processes 181, 104319, 2024, doi:10.1016/j.obhdp.2024.104319 (Stony Brook University research portal record)" .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/title> "But what if I lose the offer? Negotiators' inflated perception of their likelihood of jeopardizing a deal" .

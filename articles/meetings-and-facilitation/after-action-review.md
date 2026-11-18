@@ -12,7 +12,7 @@ summary: >-
 level: intermediate
 evidenceStatus: mixed
 broader: [cm:facilitation, cm:feedback]
-related: [cm:premortem, cm:meeting-recaps, cm:psychological-safety, cm:workplace-meetings, cm:unequal-participation, cm:open-ended-questions, cm:performance-review]
+related: [cm:s-l-a-marshall, cm:premortem, cm:meeting-recaps, cm:psychological-safety, cm:workplace-meetings, cm:unequal-participation, cm:open-ended-questions, cm:performance-review]
 requires: [cm:open-ended-questions]
 relations:
   - {predicate: demonstratedBy, object: cm:tannenbaum-cerasoli-2013, source: s3, confidence: high}

@@ -704,6 +704,9 @@
      "@id": "cm:psychological-safety"
     },
     {
+     "@id": "cm:s-l-a-marshall"
+    },
+    {
      "@id": "cm:unequal-participation"
     },
     {
@@ -26500,6 +26503,76 @@
     },
     {
      "@id": "cm:signposting"
+    }
+   ]
+  },
+  {
+   "@id": "cm:s-l-a-marshall",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:men-against-fire"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:chambers-2003"
+    },
+    {
+     "@id": "cm:spiller-1988"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/s-l-a-marshall.md",
+   "cmo:influenced": {
+    "@id": "cm:after-action-review"
+   },
+   "cmo:introduced": {
+    "@id": "cm:interview-after-combat"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4"
+    }
+   ],
+   "rdfs:label": "S. L. A. Marshall",
+   "skos:altLabel": [
+    "SLA Marshall",
+    "Samuel Lyman Atwood Marshall"
+   ],
+   "skos:definition": "U.S. Army combat historian (1900-1977) who devised the \"interview after combat\", a group interview held soon after an action in which participants of every rank rebuilt events together, the model the Army later drew on for the after-action review. His best-known statistic, that most soldiers never fired, is now regarded as unsupported, which makes him a lesson in both good debriefing and honest reporting.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "S. L. A. Marshall",
+   "skos:related": [
+    {
+     "@id": "cm:after-action-review"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:men-against-fire"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:psychological-safety"
     }
    ]
   },
@@ -69730,6 +69803,62 @@
    "dcterms:title": "Engaging Audiences Through Rhetorical Devices",
    "schema:url": {
     "@id": "https://www.natcom.org/communication-currents/engaging-audiences-through-rhetorical-devices"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "U.S. Army Research Institute for the Behavioral and Social Sciences (Morrison & Meliza, 1999), via DTIC",
+   "dcterms:title": "Foundations of the After Action Review Process (Special Report 42)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Roger J. Spiller, RUSI Journal, 63-71 (Winter 1988) (copy hosted by gwern.net)",
+   "dcterms:title": "S. L. A. Marshall and the Ratio of Fire",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/history/s-l-a-marshall/1988-spiller.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "John Whiteclay Chambers II, Parameters (U.S. Army War College Quarterly) 33(3) (Autumn 2003), via CORE",
+   "dcterms:title": "S. L. A. Marshall's Men Against Fire: New Evidence Regarding Fire Ratios",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/480760524.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/s-l-a-marshall/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Fredric Smoler, American Heritage 40(2) (March 1989)",
+   "dcterms:title": "The Secret of the Soldiers Who Didn't Shoot",
+   "schema:url": {
+    "@id": "https://www.americanheritage.com/secret-soldiers-who-didnt-shoot"
    }
   },
   {
