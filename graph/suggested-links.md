@@ -17,6 +17,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.67 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.60 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.59 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
+| 3.57 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:developmental-model-of-intercultural-sensitivity`, `cm:ethnocentrism`, `cm:intercultural-competence` |
 | 3.54 | `cm:plain-language` | `cm:reverse-outlining` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-writing`, `cm:curse-of-knowledge`, `cm:editing-for-clarity` |
 | 3.53 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.52 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.32 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.31 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
 | 3.25 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
-| 3.20 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |

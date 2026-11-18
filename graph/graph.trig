@@ -239,6 +239,13 @@
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s3> .
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s4> .
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s5> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/developmental-model-of-intercultural-sensitivity.md" .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> .
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/direct-vs-indirect-feedback.md" .
@@ -5657,6 +5664,65 @@
   <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s5> <https://schema.org/url> <https://stlhe.ca/teaching-tip-tuesday/june-2022-tip-2-use-the-d-i-e-d-a-e-tool-to-interpret-intercultural-miscommunication/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity#graph> {
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2000/01/rdf-schema#label> "Developmental model of intercultural sensitivity" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#altLabel> "Bennett model of intercultural sensitivity" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#altLabel> "Bennett scale" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#altLabel> "DMIS" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#definition> "Milton Bennett's six-stage model of how people come to experience cultural difference, moving from ethnocentric worldviews (denial, defense, minimization) to ethnorelative ones (acceptance, adaptation, integration); trainers use it to diagnose where a learner or team is and to choose the next developmental step." .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Developmental model of intercultural sensitivity" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/perry-southwell-2011> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/developmental-model-of-intercultural-sensitivity.md" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/milton-bennett> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/vande-berg-connor-linton-paige-2009> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <http://purl.org/dc/terms/publisher> "Milton J. Bennett, International Journal of Intercultural Relations 10(2), 1986, pp. 179-196, doi:10.1016/0147-1767(86)90005-2 (abstract via Intercultural Development Research Institute)" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <http://purl.org/dc/terms/title> "A developmental approach to training for intercultural sensitivity" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1> <https://schema.org/url> <https://idrinstitute.org/?p=8283> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <http://purl.org/dc/terms/publisher> "Milton J. Bennett, in Y. Kim (ed.), International Encyclopedia of Intercultural Communication, Wiley, 2017 (author's copy, Intercultural Development Research Institute)" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <http://purl.org/dc/terms/title> "Developmental Model of Intercultural Sensitivity" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2> <https://schema.org/url> <https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <http://purl.org/dc/terms/publisher> "Laura B. Perry & Leonie Southwell, Intercultural Education 22(6), 2011, pp. 453-466, doi:10.1080/14675986.2011.644948 (University of Western Macedonia course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <http://purl.org/dc/terms/title> "Developing intercultural understanding and skills: models and approaches" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3> <https://schema.org/url> <https://eclass.uowm.gr/modules/document/file.php/ELED303/Developing%20intercultural%20understanding%20and%20skills%20models%20and%20approaches.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <http://purl.org/dc/terms/publisher> "Michael Vande Berg, Jeffrey Connor-Linton & R. Michael Paige, Frontiers: The Interdisciplinary Journal of Study Abroad 18, 2009, pp. 1-75" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <http://purl.org/dc/terms/title> "The Georgetown Consortium Project: Interventions for Student Learning Abroad" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4> <https://schema.org/url> <https://frontiersjournal.org/index.php/Frontiers/article/download/251/222/442> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> {
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?" .
@@ -6279,6 +6345,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
@@ -37619,6 +37686,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
@@ -38091,6 +38159,7 @@
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
   <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -38117,6 +38186,7 @@
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
@@ -38127,6 +38197,7 @@
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
@@ -38449,10 +38520,17 @@
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39136,9 +39214,11 @@
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40216,6 +40296,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
@@ -40784,6 +40865,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
@@ -40800,6 +40882,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
@@ -40842,6 +40925,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-willingness-to-communicate> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42019,6 +42103,7 @@
   <https://github.com/john1hsu/communication-graph/id/milton-bennett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/milton-bennett> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/milton-bennett> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/milton-bennett> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/milton-chen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/milton-chen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/milton-chen> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
@@ -42137,6 +42222,7 @@
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
@@ -42976,6 +43062,7 @@
   <https://github.com/john1hsu/communication-graph/id/perlow-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/perlow-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/perlow-1999> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/perry-southwell-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/personnel-selection> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/personnel-selection> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/perspective-getting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -43020,6 +43107,7 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
+  <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
@@ -43036,6 +43124,7 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/logrolling> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+  <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/persuasion-unimodel> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -44763,6 +44852,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
@@ -45707,6 +45797,7 @@
   <https://github.com/john1hsu/communication-graph/id/van-zant-berger-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/van-zant-berger-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/van-zant-berger-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/vande-berg-connor-linton-paige-2009> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .

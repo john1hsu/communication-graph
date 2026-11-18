@@ -9018,6 +9018,105 @@
   ]
  },
  {
+  "id": "cm:developmental-model-of-intercultural-sensitivity",
+  "title": "Developmental model of intercultural sensitivity",
+  "aliases": [
+   "DMIS",
+   "Bennett scale",
+   "Bennett model of intercultural sensitivity"
+  ],
+  "type": "Framework",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/developmental-model-of-intercultural-sensitivity.md",
+  "created": "2026-11-18",
+  "summary": "Milton Bennett's six-stage model of how people come to experience cultural difference, moving from ethnocentric worldviews (denial, defense, minimization) to ethnorelative ones (acceptance, adaptation, integration); trainers use it to diagnose where a learner or team is and to choose the next developmental step.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cultural-intelligence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:culture-assimilator"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cross-cultural-training"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:milton-bennett",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:intercultural-competence",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:ethnocentrism",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:perspective-taking",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:vande-berg-connor-linton-paige-2009",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:perry-southwell-2011",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://idrinstitute.org/?p=8283",
+   "https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf",
+   "https://eclass.uowm.gr/modules/document/file.php/ELED303/Developing%20intercultural%20understanding%20and%20skills%20models%20and%20approaches.pdf",
+   "https://frontiersjournal.org/index.php/Frontiers/article/download/251/222/442"
+  ]
+ },
+ {
   "id": "cm:devils-advocacy",
   "title": "Devil's advocacy",
   "aliases": [
@@ -17498,6 +17597,10 @@
    {
     "predicate": "skos:broader",
     "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:developmental-model-of-intercultural-sensitivity"
    },
    {
     "predicate": "skos:related",

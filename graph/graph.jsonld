@@ -7859,6 +7859,92 @@
    ]
   },
   {
+   "@id": "cm:developmental-model-of-intercultural-sensitivity",
+   "@type": "cmo:Framework",
+   "cmo:addresses": {
+    "@id": "cm:ethnocentrism"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:perry-southwell-2011"
+   },
+   "cmo:develops": [
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/developmental-model-of-intercultural-sensitivity.md",
+   "cmo:introducedBy": {
+    "@id": "cm:milton-bennett"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:vande-berg-connor-linton-paige-2009"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4"
+    }
+   ],
+   "rdfs:label": "Developmental model of intercultural sensitivity",
+   "skos:altLabel": [
+    "Bennett model of intercultural sensitivity",
+    "Bennett scale",
+    "DMIS"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Milton Bennett's six-stage model of how people come to experience cultural difference, moving from ethnocentric worldviews (denial, defense, minimization) to ethnorelative ones (acceptance, adaptation, integration); trainers use it to diagnose where a learner or team is and to choose the next developmental step.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Developmental model of intercultural sensitivity",
+   "skos:related": [
+    {
+     "@id": "cm:cross-cultural-training"
+    },
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:culture-assimilator"
+    },
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ]
+  },
+  {
    "@id": "cm:devils-advocacy",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -15362,6 +15448,9 @@
     },
     {
      "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:developmental-model-of-intercultural-sensitivity"
     },
     {
      "@id": "cm:face-and-facework"
@@ -54516,6 +54605,62 @@
    "dcterms:title": "June 2022 Tip #2: Use the D.I.E./D.A.E. tool to interpret intercultural miscommunication",
    "schema:url": {
     "@id": "https://stlhe.ca/teaching-tip-tuesday/june-2022-tip-2-use-the-d-i-e-d-a-e-tool-to-interpret-intercultural-miscommunication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Milton J. Bennett, International Journal of Intercultural Relations 10(2), 1986, pp. 179-196, doi:10.1016/0147-1767(86)90005-2 (abstract via Intercultural Development Research Institute)",
+   "dcterms:title": "A developmental approach to training for intercultural sensitivity",
+   "schema:url": {
+    "@id": "https://idrinstitute.org/?p=8283"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Milton J. Bennett, in Y. Kim (ed.), International Encyclopedia of Intercultural Communication, Wiley, 2017 (author's copy, Intercultural Development Research Institute)",
+   "dcterms:title": "Developmental Model of Intercultural Sensitivity",
+   "schema:url": {
+    "@id": "https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Laura B. Perry & Leonie Southwell, Intercultural Education 22(6), 2011, pp. 453-466, doi:10.1080/14675986.2011.644948 (University of Western Macedonia course copy)",
+   "dcterms:title": "Developing intercultural understanding and skills: models and approaches",
+   "schema:url": {
+    "@id": "https://eclass.uowm.gr/modules/document/file.php/ELED303/Developing%20intercultural%20understanding%20and%20skills%20models%20and%20approaches.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/developmental-model-of-intercultural-sensitivity/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Michael Vande Berg, Jeffrey Connor-Linton & R. Michael Paige, Frontiers: The Interdisciplinary Journal of Study Abroad 18, 2009, pp. 1-75",
+   "dcterms:title": "The Georgetown Consortium Project: Interventions for Student Learning Abroad",
+   "schema:url": {
+    "@id": "https://frontiersjournal.org/index.php/Frontiers/article/download/251/222/442"
    }
   },
   {

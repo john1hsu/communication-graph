@@ -12,7 +12,7 @@ summary: >-
 level: intermediate
 evidenceStatus: mixed
 broader: [cm:communication-competence]
-related: [cm:intercultural-communication, cm:cultural-intelligence, cm:culture-assimilator, cm:describe-analyze-evaluate, cm:perspective-taking, cm:active-listening, cm:high-and-low-context-cultures, cm:face-and-facework, cm:the-culture-map]
+related: [cm:developmental-model-of-intercultural-sensitivity, cm:intercultural-communication, cm:cultural-intelligence, cm:culture-assimilator, cm:describe-analyze-evaluate, cm:perspective-taking, cm:active-listening, cm:high-and-low-context-cultures, cm:face-and-facework, cm:the-culture-map]
 requires: []
 relations:
   - {predicate: supportedBy, object: cm:leung-ang-tan-2014, source: s1, confidence: high}

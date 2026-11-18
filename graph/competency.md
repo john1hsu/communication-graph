@@ -30,6 +30,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:1-2-4-all` | 3 | Facilitation, Production blocking, Unequal participation |
 | `cm:concise-writing` | 3 | Information overload, Wordiness, subtraction-neglect |
 | `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
+| `cm:developmental-model-of-intercultural-sensitivity` | 3 | Ethnocentrism, Intercultural competence, Perspective-taking |
 | `cm:paramedic-method` | 3 | Concise writing, Wordiness, official-style |
 | `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
-| `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 
-…and 79 more.
+…and 80 more.
 
 ## Toolkit by situation
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 242 more.
+…and 243 more.
 
 ## Concepts with no recorded origin (gap)
 
