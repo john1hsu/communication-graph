@@ -20409,6 +20409,103 @@
   ]
  },
  {
+  "id": "cm:mediation",
+  "title": "Mediation",
+  "aliases": [
+   "workplace mediation",
+   "third-party mediation",
+   "mediating a dispute",
+   "mediated conversation"
+  ],
+  "type": "Context",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/mediation.md",
+  "created": "2026-11-18",
+  "summary": "A structured, usually voluntary and confidential process in which a neutral third party helps people in a dispute talk constructively, understand each other's interests and reach their own workable agreement, without the mediator deciding who is right.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-conflict"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:post-settlement-settlement"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:conflict-resolution",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:interests-vs-positions",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kalter-bollen-euwema-2018",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bollen-euwema-2013",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://journals.copmadrid.org/jwop/art/jwop2022a20",
+   "https://courtleader.net/wp-content/uploads/2026/01/workplace-mediation-an-undeveloped-research-area.pdf",
+   "https://cris.maastrichtuniversity.nl/en/publications/the-long-term-effectiveness-of-mediating-workplace-conflicts",
+   "https://experts.boisestate.edu/en/publications/mediation-research-a-current-review-2/",
+   "https://www.acas.org.uk/mediation-at-work/how-mediation-works",
+   "https://www.pon.harvard.edu/daily/dispute-resolution/how-mediation-works/",
+   "https://www.acas.org.uk/mediation"
+  ]
+ },
+ {
   "id": "cm:meeting-agendas",
   "title": "Meeting agendas",
   "aliases": [

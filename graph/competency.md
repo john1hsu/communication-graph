@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 243 more.
+…and 244 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -168,13 +168,13 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:listening-circle` | cmo:Technique |
 | `cm:listening-styles` | cmo:Framework |
 | `cm:logrolling` | cmo:Technique |
+| `cm:mediation` | cmo:Context |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
-| `cm:mindfulness` | cmo:Technique |
 
-…and 76 more.
+…and 77 more.
 
 ## Orphan articles (gap)
 

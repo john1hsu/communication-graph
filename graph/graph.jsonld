@@ -17959,6 +17959,99 @@
    ]
   },
   {
+   "@id": "cm:mediation",
+   "@type": "cmo:Context",
+   "cmo:challengedBy": {
+    "@id": "cm:bollen-euwema-2013"
+   },
+   "cmo:complements": [
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/difficult-conversations-and-conflict/mediation.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:conflict-resolution"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:kalter-bollen-euwema-2018"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s7"
+    }
+   ],
+   "rdfs:label": "Mediation",
+   "skos:altLabel": [
+    "mediated conversation",
+    "mediating a dispute",
+    "third-party mediation",
+    "workplace mediation"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "A structured, usually voluntary and confidential process in which a neutral third party helps people in a dispute talk constructively, understand each other's interests and reach their own workable agreement, without the mediator deciding who is right.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Mediation",
+   "skos:related": [
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:interpersonal-conflict"
+    },
+    {
+     "@id": "cm:nonviolent-communication"
+    },
+    {
+     "@id": "cm:post-settlement-settlement"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:meeting-agendas",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -63408,6 +63501,104 @@
    "dcterms:title": "Beyond Media Richness: An Empirical Test of Media Synchronicity Theory",
    "schema:url": {
     "@id": "https://experts.arizona.edu/en/publications/beyond-media-richness-an-empirical-test-of-media-synchronicity-th/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Munduate, L., Medina, F. J. & Euwema, M. C., Journal of Work and Organizational Psychology 38(3), 165-173, 2022, doi:10.5093/jwop2022a20",
+   "dcterms:title": "Mediation: Understanding a Constructive Conflict Management Tool in the Workplace",
+   "schema:url": {
+    "@id": "https://journals.copmadrid.org/jwop/art/jwop2022a20"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Bollen, K. & Euwema, M., Negotiation Journal 29(3), 329-353, 2013, doi:10.1111/nejo.12028 (copy hosted by CourtLeader)",
+   "dcterms:title": "Workplace Mediation: An Underdeveloped Research Area",
+   "schema:url": {
+    "@id": "https://courtleader.net/wp-content/uploads/2026/01/workplace-mediation-an-undeveloped-research-area.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Kalter, M., Bollen, K. & Euwema, M., Negotiation Journal 34(3), 243-265, 2018, doi:10.1111/nejo.12227 (Maastricht University research portal)",
+   "dcterms:title": "The long-term effectiveness of mediating workplace conflicts",
+   "schema:url": {
+    "@id": "https://cris.maastrichtuniversity.nl/en/publications/the-long-term-effectiveness-of-mediating-workplace-conflicts"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Wall, J. A. & Dunne, T. C., Negotiation Journal 28(2), 217-244, 2012, doi:10.1111/j.1571-9979.2012.00336.x (Boise State University research portal)",
+   "dcterms:title": "Mediation Research: A Current Review",
+   "schema:url": {
+    "@id": "https://experts.boisestate.edu/en/publications/mediation-research-a-current-review-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Acas (Advisory, Conciliation and Arbitration Service, UK public body)",
+   "dcterms:title": "How Acas mediators work",
+   "schema:url": {
+    "@id": "https://www.acas.org.uk/mediation-at-work/how-mediation-works"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (2016)",
+   "dcterms:title": "How Mediation Works",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/dispute-resolution/how-mediation-works/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mediation/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Acas (Advisory, Conciliation and Arbitration Service, UK public body)",
+   "dcterms:title": "What mediation is and how it can help",
+   "schema:url": {
+    "@id": "https://www.acas.org.uk/mediation"
    }
   },
   {
