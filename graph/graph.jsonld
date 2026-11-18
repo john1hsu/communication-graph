@@ -800,6 +800,73 @@
    ]
   },
   {
+   "@id": "cm:alta-gwinn-saunders",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:business-reports-investigation-and-presentation"
+    },
+    {
+     "@id": "cm:effective-business-english"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/alta-gwinn-saunders.md",
+   "cmo:introduced": {
+    "@id": "cm:business-writing"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s5"
+    }
+   ],
+   "rdfs:label": "Alta Gwinn Saunders",
+   "skos:altLabel": [
+    "A. G. Saunders",
+    "Alta G. Saunders"
+   ],
+   "skos:definition": "University of Illinois professor of business English (1886-1948) who wrote the widely used textbook Effective Business English (1925) and in the mid-1930s helped organise the American Business Writing Association, now the Association for Business Communication, making her one of the founders of business writing as a university subject.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Alta Gwinn Saunders",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:written-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:alvin-toffler",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -48585,6 +48652,76 @@
    "dcterms:title": "2021 Best 40-Under-40 Professors: Alison Wood Brooks, Harvard Business School",
    "schema:url": {
     "@id": "https://poetsandquants.com/2021/05/03/2021-best-40-under-40-professors-alison-wood-brooks-harvard-business-school/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Illinois Archives (Brinna Michael), 2018, updated 2023",
+   "dcterms:title": "Found in the Archives: Alta Gwinn Saunders and the Art of Business Communication",
+   "schema:url": {
+    "@id": "https://archives.library.illinois.edu/2018/09/04/found-in-the-archives-alta-gwinn-saunders-and-the-art-of-business-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Illinois Archives (finding aid)",
+   "dcterms:title": "Alta Gwinn Saunders Publications, 1929-1951 (Record Series 9/2/27)",
+   "schema:url": {
+    "@id": "https://archon.library.illinois.edu/archives/index.php?p=collections/controlcard&id=11694"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Association for Business Communication",
+   "dcterms:title": "History of ABC",
+   "schema:url": {
+    "@id": "https://www.businesscommunication.org/about/abchistory"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Brooks, R. M., Ph.D. dissertation, Purdue University, 1991 (Purdue e-Pubs)",
+   "dcterms:title": "Rhetorical theory in business communication curricula from 1900 to 1980: An historical critique",
+   "schema:url": {
+    "@id": "https://docs.lib.purdue.edu/dissertations/AAI9132428"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alta-gwinn-saunders/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Open Library (Internet Archive)",
+   "dcterms:title": "Alta Gwinn Saunders (author record)",
+   "schema:url": {
+    "@id": "https://openlibrary.org/authors/OL2242428A/Alta_Gwinn_Saunders"
    }
   },
   {
