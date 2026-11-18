@@ -6482,6 +6482,93 @@
   ]
  },
  {
+  "id": "cm:communication-models",
+  "title": "Communication models",
+  "aliases": [
+   "models of communication",
+   "linear interactive and transactional models",
+   "transmission interaction and transaction models"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/communication-models.md",
+  "created": "2026-11-18",
+  "summary": "Simplified diagrams of how communication works, usually grouped into three families: linear (transmission) models of a one-way message, interactive models that add feedback and fields of experience, and transactional models in which people create meaning together; each makes some causes of miscommunication visible and hides others.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:transactional-model-of-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interaction-model-of-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:harold-lasswell",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:inferential-model-of-communication",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:psychology",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56",
+   "https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies/01%3A_Introduction_to_Communication_Studies/1.02%3A_The_Communication_Process",
+   "https://www.ideals.illinois.edu/items/35824/bitstreams/114144/data.pdf",
+   "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
+  ]
+ },
+ {
   "id": "cm:communication-studies",
   "title": "Communication studies",
   "aliases": [

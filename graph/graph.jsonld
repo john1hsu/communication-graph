@@ -5667,6 +5667,84 @@
    ]
   },
   {
+   "@id": "cm:communication-models",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:inferential-model-of-communication"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/communication-models.md",
+   "cmo:influencedBy": {
+    "@id": "cm:harold-lasswell"
+   },
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s4"
+    }
+   ],
+   "rdfs:label": "Communication models",
+   "skos:altLabel": [
+    "linear interactive and transactional models",
+    "models of communication",
+    "transmission interaction and transaction models"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "Simplified diagrams of how communication works, usually grouped into three families: linear (transmission) models of a one-way message, interactive models that add feedback and fields of experience, and transactional models in which people create meaning together; each makes some causes of miscommunication visible and hides others.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Communication models",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:interaction-model-of-communication"
+    },
+    {
+     "@id": "cm:shannon-weaver-model"
+    },
+    {
+     "@id": "cm:transactional-model-of-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:communication-studies",
    "@type": "cmo:Field",
    "cmo:domain": "foundations",
@@ -53429,6 +53507,62 @@
    "dcterms:title": "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis",
    "schema:url": {
     "@id": "https://doc.rero.ch/record/300051/files/mdq441.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (CC BY 4.0)",
+   "dcterms:title": "Chapter 4: Traditional Models of Human Communication",
+   "schema:url": {
+    "@id": "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Communication in the Real World - An Introduction to Communication Studies, LibreTexts Social Sciences (adapted from an open University of Minnesota textbook; CC BY-NC-SA)",
+   "dcterms:title": "1.2: The Communication Process",
+   "schema:url": {
+    "@id": "https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies/01%3A_Introduction_to_Communication_Studies/1.02%3A_The_Communication_Process"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Harold D. Lasswell, College and Research Libraries, September 1945, pp. 387-394 (University of Illinois IDEALS repository copy)",
+   "dcterms:title": "The Science of Communication and the Function of Libraries",
+   "schema:url": {
+    "@id": "https://www.ideals.illinois.edu/items/35824/bitstreams/114144/data.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-models/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)",
+   "dcterms:title": "Models of Communication",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
    }
   },
   {

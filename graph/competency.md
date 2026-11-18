@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 185 more.
+…and 186 more.
 
 ## Myths and contested advice
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:communication-models` | cmo:Concept |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gain-loss-framing` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
-| `cm:mindfulness` | cmo:Technique |
 
-…and 76 more.
+…and 77 more.
 
 ## Orphan articles (gap)
 

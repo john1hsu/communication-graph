@@ -3469,6 +3469,36 @@
 <https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
 <https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/barth-lannen-2011> .
 <https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/madlock-2008> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2000/01/rdf-schema#label> "Communication models" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#altLabel> "linear interactive and transactional models" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#altLabel> "models of communication" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#altLabel> "transmission interaction and transaction models" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#definition> "Simplified diagrams of how communication works, usually grouped into three families: linear (transmission) models of a one-way message, interactive models that add feedback and fields of experience, and transactional models in which people create meaning together; each makes some causes of miscommunication visible and hides others." .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#prefLabel> "Communication models" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interaction-model-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/inferential-model-of-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/communication-models.md" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/harold-lasswell> .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/communication-models> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/psychology> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2000/01/rdf-schema#label> "Communication studies" .
@@ -19298,6 +19328,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <https://schema.org/url> <https://doc.rero.ch/record/300051/files/mdq441.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <http://purl.org/dc/terms/publisher> "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (CC BY 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <http://purl.org/dc/terms/title> "Chapter 4: Traditional Models of Human Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s1> <https://schema.org/url> <https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <http://purl.org/dc/terms/publisher> "Communication in the Real World - An Introduction to Communication Studies, LibreTexts Social Sciences (adapted from an open University of Minnesota textbook; CC BY-NC-SA)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <http://purl.org/dc/terms/title> "1.2: The Communication Process" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s2> <https://schema.org/url> <https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communication_in_the_Real_World_-_An_Introduction_to_Communication_Studies/01%3A_Introduction_to_Communication_Studies/1.02%3A_The_Communication_Process> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <http://purl.org/dc/terms/publisher> "Harold D. Lasswell, College and Research Libraries, September 1945, pp. 387-394 (University of Illinois IDEALS repository copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <http://purl.org/dc/terms/title> "The Science of Communication and the Function of Libraries" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s3> <https://schema.org/url> <https://www.ideals.illinois.edu/items/35824/bitstreams/114144/data.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <http://purl.org/dc/terms/publisher> "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <http://purl.org/dc/terms/title> "Models of Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-models/s4> <https://schema.org/url> <https://courses.lumenlearning.com/publicspeakingprinciples/?p=354> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/publisher> "National Communication Association (U.S. scholarly association for the communication discipline)" .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/title> "What is Communication?" .
