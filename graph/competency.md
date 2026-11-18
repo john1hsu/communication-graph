@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:synchronous-communication` | cmo:Channel |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 182 more.
+…and 184 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 240 more.
+…and 241 more.
 
 ## Concepts with no recorded origin (gap)
 

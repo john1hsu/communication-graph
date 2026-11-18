@@ -3258,6 +3258,29 @@ Ask yourself:
 - Am I hedging where I am genuinely unsure, or only to sound agreeable?
 - Would I mean every acknowledgement if they asked me to expand on it?
 
+### [Conversational repair](../articles/questioning-and-conversation/conversational-repair.md) — Technique
+
+1. Notice the moment you are unsure what was said or meant, and flag it on your very next turn instead of nodding along.
+2. Point at the exact trouble spot - repeat the part you caught and ask about the rest ("The vendor said what about the contract?").
+3. When you have a guess, offer it for confirmation ("You mean the 14th, before the client demo?") so the speaker only has to say yes or correct one detail.
+4. Keep a bare "Sorry, what?" for when you truly missed everything, such as noise, overlap or a frozen video feed.
+5. If the first clarification did not land, ask again more specifically rather than repeating the same general request.
+6. As the speaker, answer the repair briefly and fix only the part that was asked about, then carry on.
+
+*A weekly project call on video; the engineering lead gives a release update while the line is slightly choppy.*
+
+| Before | After |
+|---|---|
+| Lead: 'We should have the patch out by the fourteenth, pending QA.' Account manager (unsure, but nods): 'Great, thanks.' She later tells the client the patch is guaranteed for the 14th. | Lead: 'We should have the patch out by the fourteenth, pending QA.' Account manager: 'The fourteenth - and pending QA, so it could slip past the client demo on the fifteenth?' Lead: 'Right, it could slip by a day or two. Tell them the 16th to be safe.' |
+
+**Why:** The account manager named the exact piece she was unsure of and offered her reading, so the lead could correct one detail in a single turn instead of re-explaining the whole update, and the misunderstanding never reached the client.
+
+Ask yourself:
+- Did I let anything pass in that conversation that I was not sure I had heard or understood correctly?
+- When I asked for clarification, did I point to the specific word or detail, or did I make the other person repeat everything?
+- Did I offer my best guess so they could just confirm or correct it?
+- When someone asked me to clarify, did I fix just the part they asked about, without getting defensive or starting over?
+
 ### [Face-to-face conversation](../articles/questioning-and-conversation/face-to-face-conversation.md) — Channel
 
 Ask yourself:
