@@ -4,7 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 5.47 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
+| 5.45 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.49 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
 | 4.41 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |

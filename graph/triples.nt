@@ -13635,6 +13635,41 @@
 <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
 <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/thompson-1991> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2000/01/rdf-schema#label> "Principles of persuasion" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "Cialdini's principles of influence" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "seven principles of persuasion" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "six principles of influence" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "universal principles of influence" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#definition> "Robert Cialdini's set of social-influence principles (reciprocity, scarcity, authority, consistency, liking, social proof and, since 2016, unity) that describe the shortcuts people use when deciding whether to say yes; used ethically, each is a prompt to surface a true and relevant reason to agree, and the evidence for the individual principles ranges from solid to small and context-dependent." .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Principles of persuasion" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-proof> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bohner-schluter-2014> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/dillard-hunter-burgoon-1984> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/principles-of-persuasion.md" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/robert-cialdini> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/barton-zlatevska-oppewal-2022> .
+<https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/cialdini-goldstein-2004> .
 <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "In this session, could more than one person put an idea forward at the same moment, or did every idea wait in a speaking queue?" .
 <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
@@ -25589,6 +25624,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <https://schema.org/url> <https://www.emerald.com/insight/content/doi/10.1108/IJCMA-12-2020-0216/full/html> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <http://purl.org/dc/terms/publisher> "Cialdini & Goldstein, Annual Review of Psychology 55, 591-621 (2004), doi:10.1146/annurev.psych.55.090902.142015" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <http://purl.org/dc/terms/title> "Social Influence: Compliance and Conformity" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s1> <https://schema.org/url> <https://doi.org/10.1146/annurev.psych.55.090902.142015> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <http://purl.org/dc/terms/publisher> "Influence At Work (Robert Cialdini's training and research firm, Tempe, Arizona)" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <http://purl.org/dc/terms/title> "The Science of Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s2> <https://schema.org/url> <https://www.influenceatwork.com/6-principles-of-persuasion/> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <http://purl.org/dc/terms/publisher> "Molly Loonam, W. P. Carey News, W. P. Carey School of Business, Arizona State University (22 April 2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <http://purl.org/dc/terms/title> "The gentle science of persuasion, part seven: Unity" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s3> <https://schema.org/url> <https://blogs.wpcarey.asu.edu/20250422-gentle-science-persuasion-part-seven-unity> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <http://purl.org/dc/terms/publisher> "Dillard, Hunter & Burgoon, Human Communication Research 10(4), 461-488 (1984), doi:10.1111/j.1468-2958.1984.tb00028.x (Penn State research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <http://purl.org/dc/terms/title> "Sequential-Request Persuasive Strategies: Meta-Analysis of Foot-in-the-Door and Door-in-the-Face" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s4> <https://schema.org/url> <https://pure.psu.edu/en/publications/sequentialrequest-persuasive-strategies-metaanalysis-of-footinthe/> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <http://purl.org/dc/terms/publisher> "Barton, Zlatevska & Oppewal, Journal of Retailing 98(4), 741-758 (2022), doi:10.1016/j.jretai.2022.06.003 (Monash University research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <http://purl.org/dc/terms/title> "Scarcity tactics in marketing: A meta-analysis of product scarcity effects on consumer purchase intentions" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s5> <https://schema.org/url> <https://research.monash.edu/en/publications/scarcity-tactics-in-marketing-a-meta-analysis-of-product-scarcity/> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <http://purl.org/dc/terms/publisher> "Bohner & Schlüter, PLOS ONE 9(8), e104086 (2014), doi:10.1371/journal.pone.0104086 (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <http://purl.org/dc/terms/title> "A Room with a Viewpoint Revisited: Descriptive Norms and Hotel Guests' Towel Reuse Behavior" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principles-of-persuasion/s6> <https://schema.org/url> <https://core.ac.uk/download/211832085.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/publisher> "Michael Diehl & Wolfgang Stroebe, Journal of Personality and Social Psychology 53(3), 497-509, 1987 (author-paper copy hosted at Southeastern Oklahoma State University)" .
 <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/title> "Productivity Loss in Brainstorming Groups: Toward the Solution of a Riddle" .

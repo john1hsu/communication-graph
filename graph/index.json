@@ -27109,6 +27109,110 @@
   ]
  },
  {
+  "id": "cm:principles-of-persuasion",
+  "title": "Principles of persuasion",
+  "aliases": [
+   "Cialdini's principles of influence",
+   "seven principles of persuasion",
+   "six principles of influence",
+   "universal principles of influence"
+  ],
+  "type": "Framework",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/principles-of-persuasion.md",
+  "created": "2026-11-18",
+  "summary": "Robert Cialdini's set of social-influence principles (reciprocity, scarcity, authority, consistency, liking, social proof and, since 2016, unity) that describe the shortcuts people use when deciding whether to say yes; used ethically, each is a prompt to surface a true and relevant reason to agree, and the evidence for the individual principles ranges from solid to small and context-dependent.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:norm-of-reciprocity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-reactance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-appeals"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:robert-cialdini",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:cialdini-goldstein-2004",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:barton-zlatevska-oppewal-2022",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:dillard-hunter-burgoon-1984",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bohner-schluter-2014",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:influence-without-authority",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://doi.org/10.1146/annurev.psych.55.090902.142015",
+   "https://www.influenceatwork.com/6-principles-of-persuasion/",
+   "https://blogs.wpcarey.asu.edu/20250422-gentle-science-persuasion-part-seven-unity",
+   "https://pure.psu.edu/en/publications/sequentialrequest-persuasive-strategies-metaanalysis-of-footinthe/",
+   "https://research.monash.edu/en/publications/scarcity-tactics-in-marketing-a-meta-analysis-of-product-scarcity/",
+   "https://core.ac.uk/download/211832085.pdf"
+  ]
+ },
+ {
   "id": "cm:production-blocking",
   "title": "Production blocking",
   "aliases": [

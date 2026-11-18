@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 181 more.
+…and 182 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 238 more.
+…and 240 more.
 
 ## Concepts with no recorded origin (gap)
 
