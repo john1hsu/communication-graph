@@ -6,7 +6,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 5.45 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.49 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
-| 4.41 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
+| 4.40 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
 | 4.12 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 4.11 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.37 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
 | 3.36 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.35 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 3.33 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
+| 3.32 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.31 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
 | 3.25 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
 | 3.20 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |

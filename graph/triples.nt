@@ -28394,6 +28394,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s5> <https://schema.org/url> <https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <http://purl.org/dc/terms/publisher> "Fischer, Krueger, Greitemeyer, Vogrincic, Kastenmüller, Frey, Heene, Wicher & Kainbacher, Psychological Bulletin 137(4), 517-537, 2011 (University of Regensburg repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <http://purl.org/dc/terms/title> "The Bystander-Effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> <https://schema.org/url> <https://pred.uni-regensburg.de/id/eprint/20599/> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <http://purl.org/dc/terms/publisher> "Blair, Thompson & Wuensch, Basic and Applied Social Psychology 27(2), 171-178, 2005 (East Carolina University author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <http://purl.org/dc/terms/title> "Electronic helping behavior: The virtual presence of others makes a difference" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> <https://schema.org/url> <https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Blair-Thompson-Wuensch-2005.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <http://purl.org/dc/terms/publisher> "Barron & Yechiam, Computers in Human Behavior 18, 507-520, 2002 (abstract record, DOI 10.1016/S0747-5632(02)00007-9)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <http://purl.org/dc/terms/title> "Private e-mail requests and the diffusion of responsibility" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> <https://schema.org/url> <https://datalearner.com:8443/academic/journal-papers/0747-5632/volumes-and-issues/72/paper-detail/71520> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <http://purl.org/dc/terms/publisher> "Karau & Williams, Journal of Personality and Social Psychology 65(4), 681-706, 1993 (University of the Philippines library record with abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <http://purl.org/dc/terms/title> "Social loafing: A meta-analytic review and theoretical integration" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> <https://schema.org/url> <https://tuklas.up.edu.ph/Record/UP-1685594773862003066/Description> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <http://purl.org/dc/terms/publisher> "Digital.gov, U.S. General Services Administration" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <http://purl.org/dc/terms/title> "Plain Language Guide Series: Writing for understanding (Use active voice)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> <https://schema.org/url> <https://digital.gov/guides/plain-language/writing> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <http://purl.org/dc/terms/publisher> "Paul Rogers & Marcia Blenko, Bain & Company, 2006 (summary of their Harvard Business Review article, January 2006)" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <http://purl.org/dc/terms/title> "Who has the 'D'? How clear decision roles enhance organizational performance" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> <https://schema.org/url> <https://www.bain.com/es/insights/who-has-the-d/> .
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/publisher> "Anita Williams Woolley, Christopher F. Chabris, Alex Pentland, Nada Hashmi & Thomas W. Malone, Science 330(6004), 686-688 (2010), doi:10.1126/science.1193147 (PubMed record)" .
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/title> "Evidence for a Collective Intelligence Factor in the Performance of Human Groups" .
@@ -30383,6 +30419,56 @@
 <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/tsedal-neeley.md" .
 <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
 <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "For every action we just agreed, could I say aloud the one person who will do it and by when?" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I write any task as \"to be done\", \"we will\" or \"the team will\" without naming who?" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If two people share a task, have we said which of them is accountable if it slips?" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is it clear who makes the final call on each open decision, and does that person know?" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Decisions and actions: (1) Priya will find the cause of the late invoices and send the fix plan to this group by Thursday. (2) Marco decides whether we renew the vendor contract; Lena sends him the usage figures by the 10th, and he confirms the call in this channel by the 15th." .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Next steps: invoicing issue to be looked into; finance and ops to sync on the vendor renewal; team to circle back next week." .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A weekly operations meeting discusses a customer complaint about late invoices and a vendor contract that renews next month." .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Each task now has one named owner, a verb and a date, and the renewal names a single decider, so nobody can assume someone else has it and the next meeting can check progress against names." .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#AntiPattern> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2000/01/rdf-schema#label> "Unclear ownership" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#altLabel> "diffuse accountability" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#altLabel> "everyone-owns-it" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#altLabel> "no single owner" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#altLabel> "ownerless action items" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/decision-rights> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#definition> "Ending a meeting, thread or plan with tasks and decisions assigned to a group, to \"we\", to a passive sentence or to nobody, so that no single named person is accountable and each participant can reasonably assume someone else will act." .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unclear ownership" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-ambiguity> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/blair-thompson-wuensch-2005> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/unclear-ownership/example> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/diffusion-of-responsibility> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/social-loafing> .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/unclear-ownership.md" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
 <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who in this meeting has not spoken yet, and is that because they have nothing to add or because the format never gave them an opening?" .
 <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .

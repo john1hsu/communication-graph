@@ -2220,6 +2220,22 @@ Ask yourself:
 - Is each person I have marked Consulted someone whose input could actually change the outcome?
 - Do the people marked Informed know when and how they will hear the result?
 
+### [Unclear ownership](../articles/meetings-and-facilitation/unclear-ownership.md) — AntiPattern
+
+*A weekly operations meeting discusses a customer complaint about late invoices and a vendor contract that renews next month.*
+
+| Before | After |
+|---|---|
+| Next steps: invoicing issue to be looked into; finance and ops to sync on the vendor renewal; team to circle back next week. | Decisions and actions: (1) Priya will find the cause of the late invoices and send the fix plan to this group by Thursday. (2) Marco decides whether we renew the vendor contract; Lena sends him the usage figures by the 10th, and he confirms the call in this channel by the 15th. |
+
+**Why:** Each task now has one named owner, a verb and a date, and the renewal names a single decider, so nobody can assume someone else has it and the next meeting can check progress against names.
+
+Ask yourself:
+- For every action we just agreed, could I say aloud the one person who will do it and by when?
+- Did I write any task as "to be done", "we will" or "the team will" without naming who?
+- If two people share a task, have we said which of them is accountable if it slips?
+- Is it clear who makes the final call on each open decision, and does that person know?
+
 ### [Unequal participation](../articles/meetings-and-facilitation/unequal-participation.md) — Barrier
 
 Ask yourself:

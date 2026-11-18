@@ -31321,6 +31321,95 @@
    ]
   },
   {
+   "@id": "cm:unclear-ownership",
+   "@type": "cmo:AntiPattern",
+   "cmo:demonstratedBy": {
+    "@id": "cm:blair-thompson-wuensch-2005"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/example"
+   },
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:diffusion-of-responsibility"
+    },
+    {
+     "@id": "cm:social-loafing"
+    }
+   ],
+   "cmo:file": "articles/meetings-and-facilitation/unclear-ownership.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:group-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6"
+    }
+   ],
+   "rdfs:label": "Unclear ownership",
+   "skos:altLabel": [
+    "diffuse accountability",
+    "everyone-owns-it",
+    "no single owner",
+    "ownerless action items"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:decision-rights"
+    },
+    {
+     "@id": "cm:group-communication"
+    }
+   ],
+   "skos:definition": "Ending a meeting, thread or plan with tasks and decisions assigned to a group, to \"we\", to a passive sentence or to nobody, so that no single named person is accountable and each participant can reasonably assume someone else will act.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Unclear ownership",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:role-ambiguity"
+    }
+   ]
+  },
+  {
    "@id": "cm:unequal-participation",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -74492,6 +74581,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Fischer, Krueger, Greitemeyer, Vogrincic, Kastenmüller, Frey, Heene, Wicher & Kainbacher, Psychological Bulletin 137(4), 517-537, 2011 (University of Regensburg repository)",
+   "dcterms:title": "The Bystander-Effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies",
+   "schema:url": {
+    "@id": "https://pred.uni-regensburg.de/id/eprint/20599/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Blair, Thompson & Wuensch, Basic and Applied Social Psychology 27(2), 171-178, 2005 (East Carolina University author copy)",
+   "dcterms:title": "Electronic helping behavior: The virtual presence of others makes a difference",
+   "schema:url": {
+    "@id": "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Blair-Thompson-Wuensch-2005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Barron & Yechiam, Computers in Human Behavior 18, 507-520, 2002 (abstract record, DOI 10.1016/S0747-5632(02)00007-9)",
+   "dcterms:title": "Private e-mail requests and the diffusion of responsibility",
+   "schema:url": {
+    "@id": "https://datalearner.com:8443/academic/journal-papers/0747-5632/volumes-and-issues/72/paper-detail/71520"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Karau & Williams, Journal of Personality and Social Psychology 65(4), 681-706, 1993 (University of the Philippines library record with abstract)",
+   "dcterms:title": "Social loafing: A meta-analytic review and theoretical integration",
+   "schema:url": {
+    "@id": "https://tuklas.up.edu.ph/Record/UP-1685594773862003066/Description"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration",
+   "dcterms:title": "Plain Language Guide Series: Writing for understanding (Use active voice)",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/writing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unclear-ownership/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Paul Rogers & Marcia Blenko, Bain & Company, 2006 (summary of their Harvard Business Review article, January 2006)",
+   "dcterms:title": "Who has the 'D'? How clear decision roles enhance organizational performance",
+   "schema:url": {
+    "@id": "https://www.bain.com/es/insights/who-has-the-d/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -77336,6 +77509,46 @@
    "cmo:before": "Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two.",
    "cmo:situation": "A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.",
    "cmo:why": "The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unclear-ownership"
+   },
+   "rdfs:label": "For every action we just agreed, could I say aloud the one person who will do it and by when?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unclear-ownership"
+   },
+   "rdfs:label": "Did I write any task as \"to be done\", \"we will\" or \"the team will\" without naming who?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unclear-ownership"
+   },
+   "rdfs:label": "If two people share a task, have we said which of them is accountable if it slips?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unclear-ownership"
+   },
+   "rdfs:label": "Is it clear who makes the final call on each open decision, and does that person know?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unclear-ownership/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Decisions and actions: (1) Priya will find the cause of the late invoices and send the fix plan to this group by Thursday. (2) Marco decides whether we renew the vendor contract; Lena sends him the usage figures by the 10th, and he confirms the call in this channel by the 15th.",
+   "cmo:before": "Next steps: invoicing issue to be looked into; finance and ops to sync on the vendor renewal; team to circle back next week.",
+   "cmo:situation": "A weekly operations meeting discusses a customer complaint about late invoices and a vendor contract that renews next month.",
+   "cmo:why": "Each task now has one named owner, a verb and a date, and the renewal names a single decider, so nobody can assume someone else has it and the next meeting can check progress against names."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1",

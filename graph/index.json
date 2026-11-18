@@ -35647,6 +35647,102 @@
   ]
  },
  {
+  "id": "cm:unclear-ownership",
+  "title": "Unclear ownership",
+  "aliases": [
+   "ownerless action items",
+   "no single owner",
+   "everyone-owns-it",
+   "diffuse accountability"
+  ],
+  "type": "AntiPattern",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/unclear-ownership.md",
+  "created": "2026-11-18",
+  "summary": "Ending a meeting, thread or plan with tasks and decisions assigned to a group, to \"we\", to a passive sentence or to nobody, so that no single named person is accountable and each participant can reasonably assume someone else will act.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:decision-rights"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:raci-matrix"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:passive-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-ambiguity"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:diffusion-of-responsibility",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:social-loafing",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:blair-thompson-wuensch-2005",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:group-decision-making",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "For every action we just agreed, could I say aloud the one person who will do it and by when?",
+   "Did I write any task as \"to be done\", \"we will\" or \"the team will\" without naming who?",
+   "If two people share a task, have we said which of them is accountable if it slips?",
+   "Is it clear who makes the final call on each open decision, and does that person know?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A weekly operations meeting discusses a customer complaint about late invoices and a vendor contract that renews next month.",
+   "before": "Next steps: invoicing issue to be looked into; finance and ops to sync on the vendor renewal; team to circle back next week.",
+   "after": "Decisions and actions: (1) Priya will find the cause of the late invoices and send the fix plan to this group by Thursday. (2) Marco decides whether we renew the vendor contract; Lena sends him the usage figures by the 10th, and he confirms the call in this channel by the 15th.",
+   "why": "Each task now has one named owner, a verb and a date, and the renewal names a single decider, so nobody can assume someone else has it and the next meeting can check progress against names."
+  },
+  "source_urls": [
+   "https://pred.uni-regensburg.de/id/eprint/20599/",
+   "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Blair-Thompson-Wuensch-2005.pdf",
+   "https://datalearner.com:8443/academic/journal-papers/0747-5632/volumes-and-issues/72/paper-detail/71520",
+   "https://tuklas.up.edu.ph/Record/UP-1685594773862003066/Description",
+   "https://digital.gov/guides/plain-language/writing",
+   "https://www.bain.com/es/insights/who-has-the-d/"
+  ]
+ },
+ {
   "id": "cm:unequal-participation",
   "title": "Unequal participation",
   "aliases": [
