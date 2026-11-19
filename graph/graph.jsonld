@@ -7256,6 +7256,110 @@
    ]
   },
   {
+   "@id": "cm:cross-cultural-training",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:international-assignment"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:schudey-jensen-kraiczy-2013"
+   },
+   "cmo:develops": [
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:social-learning-theory"
+   },
+   "cmo:file": "articles/cross-cultural-communication/cross-cultural-training.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:deshpande-viswesvaran-1992"
+    },
+    {
+     "@id": "cm:li-2021-cross-cultural-training-meta-analysis"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6"
+    }
+   ],
+   "rdfs:label": "Cross-cultural training",
+   "skos:altLabel": [
+    "CCT",
+    "expatriate training",
+    "intercultural training",
+    "pre-departure training"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Structured preparation that helps people communicate and work with colleagues from other cultures, combining information about a culture or about culture in general with practice such as role plays, simulations and coached reflection, before and during the cross-cultural work.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Cross-cultural training",
+   "skos:related": [
+    {
+     "@id": "cm:behavior-modeling-training"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:culture-assimilator"
+    },
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:developmental-model-of-intercultural-sensitivity"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    }
+   ]
+  },
+  {
    "@id": "cm:cultural-intelligence",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -39254,6 +39358,116 @@
    "rdfs:label": "Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "rdfs:label": "Does the training rehearse the actual conversations this person will have, or only describe the country?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "rdfs:label": "Is there any session after arrival, when real surprises show up?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "rdfs:label": "Am I treating cultural generalisations as starting hypotheses to test, or as rules about every individual?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "rdfs:label": "How will I know, a few months in, whether the training changed how the work goes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "She gets a half-day briefing, two role-play sessions rehearsing a staff meeting and a performance conversation with a coach from the region, and two check-ins after she arrives to work through what has actually surprised her.",
+   "cmo:before": "We booked her a one-day country briefing on etiquette and holidays. She has done well at home, so she'll pick up the rest on the job.",
+   "cmo:situation": "A company is sending an operations lead to run a new site abroad in six weeks.",
+   "cmo:why": "Reviews suggest one-off factual briefings do little on their own; pairing knowledge with practice and spacing sessions into the assignment matches the research on what makes training transfer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Cross-cultural training",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Name the concrete situations the person will face, such as running calls with a supplier team or giving feedback to direct reports abroad, and the outcome you want from training."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Assess what the trainee already knows and has experienced across cultures, and skip material they have already mastered."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Combine a short culture-specific briefing with culture-general concepts, such as how directness or hierarchy vary, so the lessons travel beyond one country."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Add experiential practice, such as role plays of the real situations or critical-incident exercises, with feedback from someone who knows the other culture."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Schedule follow-up sessions after arrival or after the first weeks of working together, when real puzzles have surfaced."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Include the people around the trainee, such as a relocating partner or the host-country colleagues, when the assignment depends on them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Evaluate the training against working outcomes, not only end-of-course satisfaction, and adjust the next round."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/cultural-intelligence/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -56257,6 +56471,90 @@
    "dcterms:title": "How to tell the crisis: effects of stealing thunder by self-disclosing corporate violations",
    "schema:url": {
     "@id": "https://research.ajman.ac.ae/en/publications/how-to-tell-the-crisis-effects-of-stealing-thunder-by-self-disclo/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Black & Mendenhall, Academy of Management Review, 1990 (Scilit record)",
+   "dcterms:title": "Cross-Cultural Training Effectiveness: A Review and a Theoretical Framework for Future Research",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/23818b39e0ef72c45f29830da25724bc"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Deshpande & Viswesvaran, International Journal of Intercultural Relations 16(3), 1992, pp. 295-310, doi:10.1016/0147-1767(92)90054-X (FIU Discovery record)",
+   "dcterms:title": "Is cross-cultural training of expatriate managers effective: A meta analysis",
+   "schema:url": {
+    "@id": "https://discovery.fiu.edu/display/pub106201"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Littrell, Salas, Hess, Paley & Riedel, Human Resource Development Review 5(3), 2006, pp. 355-388, doi:10.1177/1534484306290106 (UCF STARS record)",
+   "dcterms:title": "Expatriate Preparation: A Critical Analysis of 25 Years of Cross-Cultural Training Research",
+   "schema:url": {
+    "@id": "https://stars.library.ucf.edu/scopus2000/8789"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Li, Career Development International, 2021, pp. 185-200 (OUCI record)",
+   "dcterms:title": "Meta-analysis of the impact of cross-cultural training on adjustment, cultural intelligence, and job performance",
+   "schema:url": {
+    "@id": "https://ouci.dntb.gov.ua/works/4NGM3Wjl"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Reiche, Lee & Quintanilla, chapter for The Routledge Companion to International Human Resource Management (author copy, IESE Business School, 2013)",
+   "dcterms:title": "Cross-Cultural Training and Support Practices of International Assignees",
+   "schema:url": {
+    "@id": "https://blog.iese.edu/reiche/files/2010/08/Cross-cultural-training-and-support-practices.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Schudey, Jensen & Kraiczy, Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung 65, 2013, pp. 518-552 (Springer)",
+   "dcterms:title": "Expatriates-Training = Expatriates-Einsatzerfolg? Eine Metaanalyse",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/BF03372884"
    }
   },
   {

@@ -43,6 +43,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:crew-civility-intervention` | 2 | Cyber incivility, Workplace incivility |
+| `cm:cross-cultural-training` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, Positional bargaining |
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
-| `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
 
-…and 84 more.
+…and 85 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 
-…and 189 more.
+…and 190 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 253 more.
+…and 254 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:crisis-communication` | cmo:Context |
+| `cm:cross-cultural-training` | cmo:Technique |
 | `cm:denial` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
-| `cm:mirroring` | cmo:Technique |
 
-…and 78 more.
+…and 79 more.
 
 ## Orphan articles (gap)
 

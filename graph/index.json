@@ -8318,6 +8318,132 @@
   ]
  },
  {
+  "id": "cm:cross-cultural-training",
+  "title": "Cross-cultural training",
+  "aliases": [
+   "CCT",
+   "intercultural training",
+   "expatriate training",
+   "pre-departure training"
+  ],
+  "type": "Technique",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/cross-cultural-training.md",
+  "created": "2026-11-19",
+  "summary": "Structured preparation that helps people communicate and work with colleagues from other cultures, combining information about a culture or about culture in general with practice such as role plays, simulations and coached reflection, before and during the cross-cultural work.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:culture-assimilator"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:developmental-model-of-intercultural-sensitivity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:behavior-modeling-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-across-languages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:intercultural-competence",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:cultural-intelligence",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:international-assignment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:social-learning-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:li-2021-cross-cultural-training-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:deshpande-viswesvaran-1992",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:schudey-jensen-kraiczy-2013",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does the training rehearse the actual conversations this person will have, or only describe the country?",
+   "Is there any session after arrival, when real surprises show up?",
+   "Am I treating cultural generalisations as starting hypotheses to test, or as rules about every individual?",
+   "How will I know, a few months in, whether the training changed how the work goes?"
+  ],
+  "steps": [
+   "Name the concrete situations the person will face, such as running calls with a supplier team or giving feedback to direct reports abroad, and the outcome you want from training.",
+   "Assess what the trainee already knows and has experienced across cultures, and skip material they have already mastered.",
+   "Combine a short culture-specific briefing with culture-general concepts, such as how directness or hierarchy vary, so the lessons travel beyond one country.",
+   "Add experiential practice, such as role plays of the real situations or critical-incident exercises, with feedback from someone who knows the other culture.",
+   "Schedule follow-up sessions after arrival or after the first weeks of working together, when real puzzles have surfaced.",
+   "Include the people around the trainee, such as a relocating partner or the host-country colleagues, when the assignment depends on them.",
+   "Evaluate the training against working outcomes, not only end-of-course satisfaction, and adjust the next round."
+  ],
+  "example": {
+   "situation": "A company is sending an operations lead to run a new site abroad in six weeks.",
+   "before": "We booked her a one-day country briefing on etiquette and holidays. She has done well at home, so she'll pick up the rest on the job.",
+   "after": "She gets a half-day briefing, two role-play sessions rehearsing a staff meeting and a performance conversation with a coach from the region, and two check-ins after she arrives to work through what has actually surprised her.",
+   "why": "Reviews suggest one-off factual briefings do little on their own; pairing knowledge with practice and spacing sessions into the assignment matches the research on what makes training transfer."
+  },
+  "source_urls": [
+   "https://scilit.com/publications/23818b39e0ef72c45f29830da25724bc",
+   "https://discovery.fiu.edu/display/pub106201",
+   "https://stars.library.ucf.edu/scopus2000/8789",
+   "https://ouci.dntb.gov.ua/works/4NGM3Wjl",
+   "https://blog.iese.edu/reiche/files/2010/08/Cross-cultural-training-and-support-practices.pdf",
+   "https://link.springer.com/article/10.1007/BF03372884"
+  ]
+ },
+ {
   "id": "cm:cultural-intelligence",
   "title": "Cultural intelligence",
   "aliases": [

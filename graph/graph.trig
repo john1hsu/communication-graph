@@ -214,6 +214,15 @@
 <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s4> .
 <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s5> .
 <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/cross-cultural-training.md" .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> .
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> .
 <https://github.com/john1hsu/communication-graph/id/cultural-intelligence#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/cultural-intelligence#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
 <https://github.com/john1hsu/communication-graph/id/cultural-intelligence#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/cultural-intelligence.md" .
@@ -5522,6 +5531,130 @@
   <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6> <https://schema.org/url> <https://scholars.uky.edu/en/publications/communication-accommodation-theory-past-accomplishments-current-t/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/cross-cultural-training#graph> {
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the training rehearse the actual conversations this person will have, or only describe the country?" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is there any session after arrival, when real surprises show up?" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I treating cultural generalisations as starting hypotheses to test, or as rules about every individual?" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "How will I know, a few months in, whether the training changed how the work goes?" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <https://github.com/john1hsu/communication-graph/ontology#after> "She gets a half-day briefing, two role-play sessions rehearsing a staff meeting and a performance conversation with a coach from the region, and two check-ins after she arrives to work through what has actually surprised her." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <https://github.com/john1hsu/communication-graph/ontology#before> "We booked her a one-day country briefing on etiquette and holidays. She has done well at home, so she'll pick up the rest on the job." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A company is sending an operations lead to run a new site abroad in six weeks." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Reviews suggest one-off factual briefings do little on their own; pairing knowledge with practice and spacing sessions into the assignment matches the research on what makes training transfer." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1> <https://schema.org/text> "Name the concrete situations the person will face, such as running calls with a supplier team or giving feedback to direct reports abroad, and the outcome you want from training." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2> <https://schema.org/text> "Assess what the trainee already knows and has experienced across cultures, and skip material they have already mastered." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3> <https://schema.org/text> "Combine a short culture-specific briefing with culture-general concepts, such as how directness or hierarchy vary, so the lessons travel beyond one country." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4> <https://schema.org/text> "Add experiential practice, such as role plays of the real situations or critical-incident exercises, with feedback from someone who knows the other culture." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5> <https://schema.org/text> "Schedule follow-up sessions after arrival or after the first weeks of working together, when real puzzles have surfaced." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6> <https://schema.org/text> "Include the people around the trainee, such as a relocating partner or the host-country colleagues, when the assignment depends on them." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7> <https://schema.org/text> "Evaluate the training against working outcomes, not only end-of-course satisfaction, and adjust the next round." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/name> "Cross-cultural training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto/7> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2000/01/rdf-schema#label> "Cross-cultural training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#altLabel> "CCT" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#altLabel> "expatriate training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#altLabel> "intercultural training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-departure training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#definition> "Structured preparation that helps people communicate and work with colleagues from other cultures, combining information about a culture or about culture in general with practice such as role plays, simulations and coached reflection, before and during the cross-cultural work." .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cross-cultural training" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/international-assignment> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/schudey-jensen-kraiczy-2013> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/social-learning-theory> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/cross-cultural-training.md" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/howto> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/deshpande-viswesvaran-1992> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <http://purl.org/dc/terms/publisher> "Black & Mendenhall, Academy of Management Review, 1990 (Scilit record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <http://purl.org/dc/terms/title> "Cross-Cultural Training Effectiveness: A Review and a Theoretical Framework for Future Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s1> <https://schema.org/url> <https://scilit.com/publications/23818b39e0ef72c45f29830da25724bc> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <http://purl.org/dc/terms/publisher> "Deshpande & Viswesvaran, International Journal of Intercultural Relations 16(3), 1992, pp. 295-310, doi:10.1016/0147-1767(92)90054-X (FIU Discovery record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <http://purl.org/dc/terms/title> "Is cross-cultural training of expatriate managers effective: A meta analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s2> <https://schema.org/url> <https://discovery.fiu.edu/display/pub106201> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <http://purl.org/dc/terms/publisher> "Littrell, Salas, Hess, Paley & Riedel, Human Resource Development Review 5(3), 2006, pp. 355-388, doi:10.1177/1534484306290106 (UCF STARS record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <http://purl.org/dc/terms/title> "Expatriate Preparation: A Critical Analysis of 25 Years of Cross-Cultural Training Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s3> <https://schema.org/url> <https://stars.library.ucf.edu/scopus2000/8789> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <http://purl.org/dc/terms/publisher> "Li, Career Development International, 2021, pp. 185-200 (OUCI record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <http://purl.org/dc/terms/title> "Meta-analysis of the impact of cross-cultural training on adjustment, cultural intelligence, and job performance" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s4> <https://schema.org/url> <https://ouci.dntb.gov.ua/works/4NGM3Wjl> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <http://purl.org/dc/terms/publisher> "Reiche, Lee & Quintanilla, chapter for The Routledge Companion to International Human Resource Management (author copy, IESE Business School, 2013)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <http://purl.org/dc/terms/title> "Cross-Cultural Training and Support Practices of International Assignees" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s5> <https://schema.org/url> <https://blog.iese.edu/reiche/files/2010/08/Cross-cultural-training-and-support-practices.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <http://purl.org/dc/terms/publisher> "Schudey, Jensen & Kraiczy, Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung 65, 2013, pp. 518-552 (Springer)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <http://purl.org/dc/terms/title> "Expatriates-Training = Expatriates-Einsatzerfolg? Eine Metaanalyse" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cross-cultural-training/s6> <https://schema.org/url> <https://link.springer.com/article/10.1007/BF03372884> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/cultural-intelligence#graph> {
@@ -38384,6 +38517,7 @@
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-skills-training> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/microexpression-training> .
@@ -39318,6 +39452,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-design> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
@@ -39520,7 +39655,9 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
@@ -40031,9 +40168,19 @@
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/denial> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
-  <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -40063,6 +40210,7 @@
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40070,7 +40218,12 @@
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/culture-assimilator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -40415,12 +40568,14 @@
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/deshpande-viswesvaran-1992> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41119,6 +41274,7 @@
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
@@ -42128,6 +42284,7 @@
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
@@ -42238,7 +42395,9 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
@@ -42831,6 +42990,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
@@ -42848,6 +43008,8 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
@@ -42891,6 +43053,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
@@ -42924,6 +43087,7 @@
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/post-settlement-settlement> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/intergroup-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/international-assignment> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -43627,6 +43791,7 @@
   <https://github.com/john1hsu/communication-graph/id/lewicki-polin-lount-2016> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/lewicki-polin-lount-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
+  <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/li-bates-mindset-replications> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/li-shi-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
@@ -44247,6 +44412,7 @@
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/developmental-model-of-intercultural-sensitivity> .
@@ -46479,6 +46645,7 @@
   <https://github.com/john1hsu/communication-graph/id/schroeder-kardas-epley-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schroeder-kardas-epley-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/phone-call> .
   <https://github.com/john1hsu/communication-graph/id/schroeder-kardas-epley-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+  <https://github.com/john1hsu/communication-graph/id/schudey-jensen-kraiczy-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/schultz-et-al-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -46887,6 +47054,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-information-processing-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-judgment-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/social-learning-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/social-learning-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/social-loafing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
   <https://github.com/john1hsu/communication-graph/id/social-penetration-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -46975,7 +47143,9 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/de-escalation> .

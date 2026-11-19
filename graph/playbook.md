@@ -261,6 +261,30 @@ Ask yourself:
 - Who spoke least in that conversation, and was that because of their ideas or their fluency?
 - Have I put the key numbers, dates and decisions in writing as well as saying them?
 
+### [Cross-cultural training](../articles/cross-cultural-communication/cross-cultural-training.md) — Technique
+
+1. Name the concrete situations the person will face, such as running calls with a supplier team or giving feedback to direct reports abroad, and the outcome you want from training.
+2. Assess what the trainee already knows and has experienced across cultures, and skip material they have already mastered.
+3. Combine a short culture-specific briefing with culture-general concepts, such as how directness or hierarchy vary, so the lessons travel beyond one country.
+4. Add experiential practice, such as role plays of the real situations or critical-incident exercises, with feedback from someone who knows the other culture.
+5. Schedule follow-up sessions after arrival or after the first weeks of working together, when real puzzles have surfaced.
+6. Include the people around the trainee, such as a relocating partner or the host-country colleagues, when the assignment depends on them.
+7. Evaluate the training against working outcomes, not only end-of-course satisfaction, and adjust the next round.
+
+*A company is sending an operations lead to run a new site abroad in six weeks.*
+
+| Before | After |
+|---|---|
+| We booked her a one-day country briefing on etiquette and holidays. She has done well at home, so she'll pick up the rest on the job. | She gets a half-day briefing, two role-play sessions rehearsing a staff meeting and a performance conversation with a coach from the region, and two check-ins after she arrives to work through what has actually surprised her. |
+
+**Why:** Reviews suggest one-off factual briefings do little on their own; pairing knowledge with practice and spacing sessions into the assignment matches the research on what makes training transfer.
+
+Ask yourself:
+- Does the training rehearse the actual conversations this person will have, or only describe the country?
+- Is there any session after arrival, when real surprises show up?
+- Am I treating cultural generalisations as starting hypotheses to test, or as rules about every individual?
+- How will I know, a few months in, whether the training changed how the work goes?
+
 ### [Cultural intelligence](../articles/cross-cultural-communication/cultural-intelligence.md) — Skill
 
 Ask yourself:
