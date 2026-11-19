@@ -3006,6 +3006,98 @@
    ]
   },
   {
+   "@id": "cm:calibrated-questions",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:defensiveness"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:negotiation"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:closed-questions"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/example"
+   },
+   "cmo:file": "articles/negotiation/calibrated-questions.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:chris-voss"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:never-split-the-difference"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:thompson-1991"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s6"
+    }
+   ],
+   "rdfs:label": "Calibrated questions",
+   "skos:altLabel": [
+    "calibrated \"how\" and \"what\" questions",
+    "how-and-what questions in negotiation"
+   ],
+   "skos:broader": {
+    "@id": "cm:open-ended-questions"
+   },
+   "skos:definition": "Deliberately worded \"how\" and \"what\" questions that a negotiator uses to hand a problem to the other side - asking them to explain constraints, propose a solution or show how a deal will be carried out - instead of demanding, saying a flat no or asking yes/no and \"why\" questions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Calibrated questions",
+   "skos:related": [
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ]
+  },
+  {
    "@id": "cm:camera-level-gaze",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -36131,6 +36223,107 @@
    "rdfs:label": "Is this the plain style my readers expect here, or does this organisation or audience read directness as abrupt?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:calibrated-questions"
+   },
+   "rdfs:label": "Could my question be answered with a single word, or does it ask them to explain or propose something?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:calibrated-questions"
+   },
+   "rdfs:label": "Does my wording hide an accusation or a \"right answer\" that would make them defensive?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:calibrated-questions"
+   },
+   "rdfs:label": "Am I asking because I want to learn and solve the problem together, or to corner them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:calibrated-questions"
+   },
+   "rdfs:label": "Have I asked how the agreement will actually be implemented and who else must approve it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I can see the module matters for your quarter-end. How would you like us to fit it into this phase, given the budget and the go-live date are both fixed? And who else on your side would need to agree to a change in scope?",
+   "cmo:before": "No, that's out of scope - can't you just push it to phase two?",
+   "cmo:situation": "A project manager at an IT services firm hears from a client's operations director that the firm must add a new reporting module to the current fixed-price phase at no extra cost.",
+   "cmo:why": "The flat refusal and yes/no question invite a power struggle and a one-word answer; the calibrated questions put the real constraint on the table, ask the director to help solve it, and surface the decision-makers who are not in the room."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Calibrated questions",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting, list the two or three points where you expect resistance and draft one \"how\" or \"what\" question for each, written so it carries no blame or hidden answer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open each sticking point with a question about their constraints or goals (\"What's driving the June date for you?\") rather than with your counter-position."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "When asked for something you cannot give, reply with a question that asks them to solve it with you (\"How would you suggest we fit that into a fixed budget?\") instead of a flat no."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Swap \"why\" and yes/no questions for \"what\" versions - \"What makes you ask?\" rather than \"Why do you ask?\", \"What would need to be true to go ahead?\" rather than \"Can we go ahead?\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask implementation questions before closing (\"How will this get signed off on your side?\", \"What could get in the way after we agree?\") so you learn who else must say yes."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/calibrated-questions/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Stop after each question, let the silence work, and summarise their answer back before asking the next one."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -51481,6 +51674,90 @@
    "dcterms:title": "History of ABC",
    "schema:url": {
     "@id": "https://www.businesscommunication.org/about/abchistory"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "The Black Swan Group (Chris Voss's negotiation firm), 22 August 2016, drawing on Never Split the Difference, chapter 7",
+   "dcterms:title": "The Alternative to \"Tell Me More\"",
+   "schema:url": {
+    "@id": "https://www.blackswanltd.com/newsletter/the-alternative-to-tell-me-more"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Derek Gaunt, The Black Swan Group, 21 October 2024",
+   "dcterms:title": "The Questions That Will Tank Your Negotiation (and What to Ask Instead)",
+   "schema:url": {
+    "@id": "https://www.blackswanltd.com/newsletter/the-questions-that-will-tank-your-negotiation-and-what-to-ask-instead"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "The Black Swan Group, 16 May 2022 (first published 2017)",
+   "dcterms:title": "How To Get Buy-In With The 3 Most Effective Calibrated Questions",
+   "schema:url": {
+    "@id": "https://www.blackswanltd.com/the-edge/how-to-get-buy-in-with-the-3-most-effective-calibrated-questions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School (from Negotiation Briefings, January 2014)",
+   "dcterms:title": "Negotiation Questions: How Asking Better Questions Leads to Better Deals",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/ask-better-questions-in-negotiation-nb"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Leigh Thompson, Journal of Experimental Social Psychology 27(2), 161-179, 1991 (doi:10.1016/0022-1031(91)90020-7; Kellogg School of Management research record)",
+   "dcterms:title": "Information exchange in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/calibrated-questions/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Minson, VanEpps, Yip and Schweitzer, Organizational Behavior and Human Decision Processes 147, 76-93, 2018 (Harvard Kennedy School publication record)",
+   "dcterms:title": "Eliciting the Truth, the Whole Truth, and Nothing but the Truth: The Effect of Question Phrasing on Deception",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/publications/eliciting-truth-whole-truth-and-nothing-truth-effect-question-phrasing-deception"
    }
   },
   {

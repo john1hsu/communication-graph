@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
 
-…and 82 more.
+…and 83 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 186 more.
+…and 187 more.
 
 ## Myths and contested advice
 

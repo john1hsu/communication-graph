@@ -2317,6 +2317,29 @@ Ask yourself:
 - Is my opening ask set by my goal, or have I let a weak alternative drag it down?
 - Is everything I am about to say about my alternatives true?
 
+### [Calibrated questions](../articles/negotiation/calibrated-questions.md) — Technique
+
+1. Before the meeting, list the two or three points where you expect resistance and draft one "how" or "what" question for each, written so it carries no blame or hidden answer.
+2. Open each sticking point with a question about their constraints or goals ("What's driving the June date for you?") rather than with your counter-position.
+3. When asked for something you cannot give, reply with a question that asks them to solve it with you ("How would you suggest we fit that into a fixed budget?") instead of a flat no.
+4. Swap "why" and yes/no questions for "what" versions - "What makes you ask?" rather than "Why do you ask?", "What would need to be true to go ahead?" rather than "Can we go ahead?".
+5. Ask implementation questions before closing ("How will this get signed off on your side?", "What could get in the way after we agree?") so you learn who else must say yes.
+6. Stop after each question, let the silence work, and summarise their answer back before asking the next one.
+
+*A project manager at an IT services firm hears from a client's operations director that the firm must add a new reporting module to the current fixed-price phase at no extra cost.*
+
+| Before | After |
+|---|---|
+| No, that's out of scope - can't you just push it to phase two? | I can see the module matters for your quarter-end. How would you like us to fit it into this phase, given the budget and the go-live date are both fixed? And who else on your side would need to agree to a change in scope? |
+
+**Why:** The flat refusal and yes/no question invite a power struggle and a one-word answer; the calibrated questions put the real constraint on the table, ask the director to help solve it, and surface the decision-makers who are not in the room.
+
+Ask yourself:
+- Could my question be answered with a single word, or does it ask them to explain or propose something?
+- Does my wording hide an accusation or a "right answer" that would make them defensive?
+- Am I asking because I want to learn and solve the problem together, or to corner them?
+- Have I asked how the agreement will actually be implemented and who else must approve it?
+
 ### [Concession strategy](../articles/negotiation/concession-strategy.md) — Technique
 
 1. Before the meeting, write down your opening position, your target and your walk-away point, and the total amount you are prepared to concede between them.
