@@ -37586,6 +37586,91 @@
   ]
  },
  {
+  "id": "cm:vocal-fry",
+  "title": "Vocal fry",
+  "aliases": [
+   "creaky voice",
+   "glottal fry",
+   "creak"
+  ],
+  "type": "Phenomenon",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/nonverbal-and-voice/vocal-fry.md",
+  "created": "2026-11-19",
+  "summary": "A low, creaky, crackling voice quality, most often heard at the ends of phrases. One widely publicised 2014 experiment found listeners rated job candidates who used it as less competent and hireable, but later work has not consistently replicated the penalty and finds little evidence that its use is rising.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:uptalk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:job-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-presence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:anderson-et-al-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:conner-2022",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:dallaston-docherty-2020",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:sociolinguistics",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ideas.repec.org/a/plo/pone00/0097506.html",
+   "https://econpapers.repec.org/RePEc:plo:pone00:0229960",
+   "https://repository.upenn.edu/pwpl/vol28/iss2/4",
+   "https://pubs.asha.org/doi/10.1044/2022_PERSP-21-00319",
+   "https://fuqua.duke.edu/news_events/news-releases/1034232",
+   "https://healthcare.utah.edu/the-scope/all/2016/02/cure-vocal-fry-simple-telling-someone-speak"
+  ]
+ },
+ {
   "id": "cm:wait-time",
   "title": "Wait time",
   "aliases": [

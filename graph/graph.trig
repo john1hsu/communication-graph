@@ -1939,6 +1939,15 @@
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> .
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> .
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/nonverbal-and-voice/vocal-fry.md" .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> .
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> .
 <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
 <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/autonomy-supportive-language.md" .
@@ -24138,6 +24147,76 @@
   <https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/vocal-fry#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <http://purl.org/dc/terms/publisher> "Rindy C. Anderson, Casey A. Klofstad, William J. Mayew & Mohan Venkatachalam, PLOS ONE 9(5), 2014, doi:10.1371/journal.pone.0097506 (RePEc record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <http://purl.org/dc/terms/title> "Vocal Fry May Undermine the Success of Young Women in the Labor Market" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> <https://schema.org/url> <https://ideas.repec.org/a/plo/pone00/0097506.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <http://purl.org/dc/terms/publisher> "Katherine Dallaston & Gerard Docherty, PLOS ONE 15(3), 2020, doi:10.1371/journal.pone.0229960 (RePEc record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <http://purl.org/dc/terms/title> "The quantitative prevalence of creaky voice (vocal fry) in varieties of English: A systematic review of the literature" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> <https://schema.org/url> <https://econpapers.repec.org/RePEc:plo:pone00:0229960> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <http://purl.org/dc/terms/publisher> "Katie A. Conner, University of Pennsylvania Working Papers in Linguistics 28(2), 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <http://purl.org/dc/terms/title> "Creaky, She Spoke: Examining f0, Vocal Creak, and Perceptions of Young Women's Professionalism" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> <https://schema.org/url> <https://repository.upenn.edu/pwpl/vol28/iss2/4> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <http://purl.org/dc/terms/publisher> "Letter to the editor, Perspectives of the ASHA Special Interest Groups 7(6), 2022, pp. 1903-1907" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <http://purl.org/dc/terms/title> "A Critique and Call for Action, in Response to Sexist Commentary About Vocal Fry" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> <https://schema.org/url> <https://pubs.asha.org/doi/10.1044/2022_PERSP-21-00319> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <http://purl.org/dc/terms/publisher> "Duke University Fuqua School of Business news release, 28 May 2014" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <http://purl.org/dc/terms/title> "'Vocal Fry' Could Limit Success of Young Female Professionals" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> <https://schema.org/url> <https://fuqua.duke.edu/news_events/news-releases/1034232> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <http://purl.org/dc/terms/publisher> "University of Utah Health, The Scope (interview with speech disorders expert Katherine Kendall), 10 February 2016" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <http://purl.org/dc/terms/title> "Is the Cure for Vocal Fry as Simple as Telling Someone to Speak Up?" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> <https://schema.org/url> <https://healthcare.utah.edu/the-scope/all/2016/02/cure-vocal-fry-simple-telling-someone-speak> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2000/01/rdf-schema#label> "Vocal fry" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#altLabel> "creak" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#altLabel> "creaky voice" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#altLabel> "glottal fry" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#definition> "A low, creaky, crackling voice quality, most often heard at the ends of phrases. One widely publicised 2014 experiment found listeners rated job candidates who used it as less competent and hireable, but later work has not consistently replicated the penalty and finds little evidence that its use is rising." .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocal fry" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/conner-2022> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/dallaston-docherty-2020> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/anderson-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/vocal-fry.md" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> {
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I told them why, or only what?" .
@@ -37229,6 +37308,9 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/anderson-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/anderson-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/anderson-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
@@ -39012,6 +39094,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -39114,6 +39197,7 @@
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/conner-2022> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/consider-the-opposite> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39266,6 +39350,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
@@ -39429,6 +39514,7 @@
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/dallaston-docherty-2020> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/damen-pollmann-grassow-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/dan-rothstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dan-rothstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -40421,6 +40507,7 @@
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
+  <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40803,6 +40890,7 @@
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
@@ -41684,6 +41772,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -42377,6 +42466,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -42536,6 +42626,7 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
@@ -43775,6 +43866,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -44090,6 +44182,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
@@ -44097,6 +44190,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/uptalk> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
@@ -45771,6 +45865,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/self-regulation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -46378,6 +46473,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -47080,6 +47176,7 @@
   <https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
@@ -47234,8 +47331,17 @@
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-fry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/vrij-fisher-blank-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/w-charles-redding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/w-charles-redding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .

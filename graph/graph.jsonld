@@ -33061,6 +33061,89 @@
    ]
   },
   {
+   "@id": "cm:vocal-fry",
+   "@type": "cmo:Phenomenon",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:conner-2022"
+    },
+    {
+     "@id": "cm:dallaston-docherty-2020"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:anderson-et-al-2014"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/nonverbal-and-voice/vocal-fry.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:sociolinguistics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6"
+    }
+   ],
+   "rdfs:label": "Vocal fry",
+   "skos:altLabel": [
+    "creak",
+    "creaky voice",
+    "glottal fry"
+   ],
+   "skos:broader": {
+    "@id": "cm:paralanguage"
+   },
+   "skos:definition": "A low, creaky, crackling voice quality, most often heard at the ends of phrases. One widely publicised 2014 experiment found listeners rated job candidates who used it as less competent and hireable, but later work has not consistently replicated the penalty and finds little evidence that its use is rising.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Vocal fry",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:executive-presence"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:uptalk"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:wait-time",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -77562,6 +77645,90 @@
    "dcterms:title": "No doubt: study finds confident tone elicits trust",
    "schema:url": {
     "@id": "https://healthenews.mcgill.ca/no-doubt-study-finds-confident-tone-elicits-trust/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Rindy C. Anderson, Casey A. Klofstad, William J. Mayew & Mohan Venkatachalam, PLOS ONE 9(5), 2014, doi:10.1371/journal.pone.0097506 (RePEc record)",
+   "dcterms:title": "Vocal Fry May Undermine the Success of Young Women in the Labor Market",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/plo/pone00/0097506.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Katherine Dallaston & Gerard Docherty, PLOS ONE 15(3), 2020, doi:10.1371/journal.pone.0229960 (RePEc record)",
+   "dcterms:title": "The quantitative prevalence of creaky voice (vocal fry) in varieties of English: A systematic review of the literature",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:plo:pone00:0229960"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Katie A. Conner, University of Pennsylvania Working Papers in Linguistics 28(2), 2022",
+   "dcterms:title": "Creaky, She Spoke: Examining f0, Vocal Creak, and Perceptions of Young Women's Professionalism",
+   "schema:url": {
+    "@id": "https://repository.upenn.edu/pwpl/vol28/iss2/4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Letter to the editor, Perspectives of the ASHA Special Interest Groups 7(6), 2022, pp. 1903-1907",
+   "dcterms:title": "A Critique and Call for Action, in Response to Sexist Commentary About Vocal Fry",
+   "schema:url": {
+    "@id": "https://pubs.asha.org/doi/10.1044/2022_PERSP-21-00319"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Duke University Fuqua School of Business news release, 28 May 2014",
+   "dcterms:title": "'Vocal Fry' Could Limit Success of Young Female Professionals",
+   "schema:url": {
+    "@id": "https://fuqua.duke.edu/news_events/news-releases/1034232"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-fry/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "University of Utah Health, The Scope (interview with speech disorders expert Katherine Kendall), 10 February 2016",
+   "dcterms:title": "Is the Cure for Vocal Fry as Simple as Telling Someone to Speak Up?",
+   "schema:url": {
+    "@id": "https://healthcare.utah.edu/the-scope/all/2016/02/cure-vocal-fry-simple-telling-someone-speak"
    }
   },
   {
