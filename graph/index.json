@@ -35788,6 +35788,107 @@
   ]
  },
  {
+  "id": "cm:teamstepps",
+  "title": "TeamSTEPPS",
+  "aliases": [
+   "Team Strategies and Tools to Enhance Performance and Patient Safety",
+   "TeamSTEPPS curriculum",
+   "AHRQ TeamSTEPPS"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/teamstepps.md",
+  "created": "2026-11-19",
+  "summary": "An evidence-based teamwork and communication training curriculum developed jointly by the U.S. Agency for Healthcare Research and Quality (AHRQ) and the Department of Defense and released in 2006, which adapts aviation crew resource management to healthcare and packages speaking-up, briefing and closed-loop tools (CUS, the two-challenge rule, SBAR, check-back, briefs, huddles and debriefs) under four teamwork skills.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-loop-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:desc-script"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:upward-dissent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shared-mental-models"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:after-action-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eduardo-salas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:behavior-modeling-training"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:graded-assertiveness",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:crew-resource-management",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hughes-et-al-2016",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:aaberg-et-al-2021",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://psnet.ahrq.gov/perspective/new-insights-about-team-training-decade-teamstepps",
+   "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+   "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/rule.html",
+   "https://escholarship.org/uc/item/6xz705jf.pdf",
+   "https://stars.library.ucf.edu/scopus2015/2637",
+   "https://doaj.org/article/e003a565dc524e4fa3024ccbe73e28d6"
+  ]
+ },
+ {
   "id": "cm:the-culture-map",
   "title": "The Culture Map",
   "aliases": [

@@ -2971,6 +2971,15 @@
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s3> .
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s4> .
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/teamstepps.md" .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> .
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/the-culture-map.md" .
@@ -33964,6 +33973,80 @@
   <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5> <https://schema.org/url> <https://collablab.northwestern.edu/CollabolabDistro/nucmc/Baron-TheMythOfImpoverishedSignal-EmotionAndICTs-InPress.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/teamstepps#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <http://purl.org/dc/terms/publisher> "Baker, D. P., Battles, J. B. & King, H. B., AHRQ Patient Safety Network (PSNet) Perspective, 1 February 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <http://purl.org/dc/terms/title> "New Insights About Team Training From a Decade of TeamSTEPPS" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> <https://schema.org/url> <https://psnet.ahrq.gov/perspective/new-insights-about-team-training-decade-teamstepps> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <http://purl.org/dc/terms/publisher> "U.S. Agency for Healthcare Research and Quality, CUSP (Comprehensive Unit-based Safety Program) Toolkit module" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <http://purl.org/dc/terms/title> "Implement Teamwork and Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> <https://schema.org/url> <https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <http://purl.org/dc/terms/publisher> "U.S. Agency for Healthcare Research and Quality, TeamSTEPPS curriculum, Mutual Support module" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <http://purl.org/dc/terms/title> "Tool: Two-Challenge Rule" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/rule.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <http://purl.org/dc/terms/publisher> "Kim, L. Y., doctoral dissertation, University of California, Los Angeles, 2014 (eScholarship)" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <http://purl.org/dc/terms/title> "The Effects of Simulation-based TeamSTEPPS Interprofessional Communication and Teamwork Training on Patient and Provider Outcomes" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> <https://schema.org/url> <https://escholarship.org/uc/item/6xz705jf.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <http://purl.org/dc/terms/publisher> "Hughes, A. M., Gregory, M. E., Joseph, D. L., Sonesh, S. C., Marlow, S. L. et al., Journal of Applied Psychology 101(9), 1266-1304, 2016, doi:10.1037/apl0000120 (University of Central Florida STARS record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <http://purl.org/dc/terms/title> "Saving Lives: A Meta-Analysis of Team Training in Healthcare" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> <https://schema.org/url> <https://stars.library.ucf.edu/scopus2015/2637> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <http://purl.org/dc/terms/publisher> "Aaberg, O. R., Hall-Lord, M. L., Husebø, S. I. E. & Ballangrud, R., BMC Health Services Research 21, 2021 (DOAJ record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <http://purl.org/dc/terms/title> "A human factors intervention in a hospital - evaluating the outcome of a TeamSTEPPS program in a surgical ward" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> <https://schema.org/url> <https://doaj.org/article/e003a565dc524e4fa3024ccbe73e28d6> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2000/01/rdf-schema#label> "TeamSTEPPS" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#altLabel> "AHRQ TeamSTEPPS" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#altLabel> "Team Strategies and Tools to Enhance Performance and Patient Safety" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#altLabel> "TeamSTEPPS curriculum" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#definition> "An evidence-based teamwork and communication training curriculum developed jointly by the U.S. Agency for Healthcare Research and Quality (AHRQ) and the Department of Defense and released in 2006, which adapts aviation crew resource management to healthcare and packages speaking-up, briefing and closed-loop tools (CUS, the two-challenge rule, SBAR, check-back, briefs, huddles and debriefs) under four teamwork skills." .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#prefLabel> "TeamSTEPPS" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shared-mental-models> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/teamstepps.md" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/crew-resource-management> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/aaberg-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/hughes-et-al-2016> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/publisher> "Erin Meyer, Harvard Business Review 92(5), 119-123 (May 2014); INSEAD faculty publications listing" .
@@ -37023,6 +37106,7 @@
   <https://github.com/john1hsu/communication-graph/id/a-transactional-model-of-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/a-transactional-model-of-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/a-transactional-model-of-communication> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
+  <https://github.com/john1hsu/communication-graph/id/aaberg-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/abi-esber-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/abstract-language> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/abstract> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
@@ -37214,6 +37298,7 @@
   <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
   <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
+  <https://github.com/john1hsu/communication-graph/id/after-action-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/after-action-review> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> .
   <https://github.com/john1hsu/communication-graph/id/after-action-review> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
   <https://github.com/john1hsu/communication-graph/id/aggressive-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
@@ -37761,6 +37846,7 @@
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/microexpression-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
@@ -38329,6 +38415,7 @@
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/patient-education> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+  <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
@@ -38471,6 +38558,7 @@
   <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+  <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/closed-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/closed-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39080,6 +39168,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
@@ -39374,6 +39463,7 @@
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> .
+  <https://github.com/john1hsu/communication-graph/id/crew-resource-management> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40392,6 +40482,7 @@
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+  <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
@@ -40437,6 +40528,7 @@
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
@@ -41158,6 +41250,7 @@
   <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+  <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/graduated-reciprocation-in-tension-reduction> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
   <https://github.com/john1hsu/communication-graph/id/graham-alexander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/graham-alexander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -41504,6 +41597,7 @@
   <https://github.com/john1hsu/communication-graph/id/huffmeier-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/positional-bargaining> .
   <https://github.com/john1hsu/communication-graph/id/huffmeier-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/huffmeier-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/hughes-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/hugo-munsterberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/hugo-munsterberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/hugo-munsterberg> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
@@ -41758,6 +41852,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
@@ -44097,6 +44192,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -44135,6 +44231,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-incivility> .
@@ -45044,6 +45141,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
@@ -45961,6 +46059,7 @@
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
   <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
   <https://github.com/john1hsu/communication-graph/id/shared-mental-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
+  <https://github.com/john1hsu/communication-graph/id/shared-mental-models> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/shared-mental-models> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/sharma-patterson-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/shaw-wild-colquitt-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -46459,6 +46558,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
@@ -46885,8 +46985,11 @@
   <https://github.com/john1hsu/communication-graph/id/teams-that-work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/teams-that-work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/teams-that-work> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
-  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
-  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/teamstepps> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/teamstepps> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/teding-van-berkhout-malouff-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/telling-instead-of-asking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
@@ -47199,6 +47302,7 @@
   <https://github.com/john1hsu/communication-graph/id/upward-dissent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/upward-dissent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/urry-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/usability-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .

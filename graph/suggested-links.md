@@ -7,14 +7,15 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 5.43 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.49 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:calibrated-questions`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer` |
 | 4.48 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
-| 4.42 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
+| 4.41 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
 | 4.36 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.10 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.89 | `cm:active-listening` | `cm:feedback` | `cm:coaching`, `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward` |
 | 3.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 3.68 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
-| 3.67 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
+| 3.67 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
+| 3.66 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.57 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
 | 3.57 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.57 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:developmental-model-of-intercultural-sensitivity`, `cm:ethnocentrism`, `cm:intercultural-competence` |
@@ -26,6 +27,5 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.36 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
 | 3.34 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.34 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 3.32 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.31 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
 | 3.23 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |

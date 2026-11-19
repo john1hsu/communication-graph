@@ -31426,6 +31426,101 @@
    ]
   },
   {
+   "@id": "cm:teamstepps",
+   "@type": "cmo:Work",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/teamstepps.md",
+   "cmo:influencedBy": {
+    "@id": "cm:crew-resource-management"
+   },
+   "cmo:introduces": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:aaberg-et-al-2021"
+    },
+    {
+     "@id": "cm:hughes-et-al-2016"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6"
+    }
+   ],
+   "rdfs:label": "TeamSTEPPS",
+   "skos:altLabel": [
+    "AHRQ TeamSTEPPS",
+    "Team Strategies and Tools to Enhance Performance and Patient Safety",
+    "TeamSTEPPS curriculum"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "An evidence-based teamwork and communication training curriculum developed jointly by the U.S. Agency for Healthcare Research and Quality (AHRQ) and the Department of Defense and released in 2006, which adapts aviation crew resource management to healthcare and packages speaking-up, briefing and closed-loop tools (CUS, the two-challenge rule, SBAR, check-back, briefs, huddles and debriefs) under four teamwork skills.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "TeamSTEPPS",
+   "skos:related": [
+    {
+     "@id": "cm:after-action-review"
+    },
+    {
+     "@id": "cm:behavior-modeling-training"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:desc-script"
+    },
+    {
+     "@id": "cm:eduardo-salas"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:shared-mental-models"
+    },
+    {
+     "@id": "cm:upward-dissent"
+    }
+   ]
+  },
+  {
    "@id": "cm:the-culture-map",
    "@type": "cmo:Work",
    "cmo:appliedIn": {
@@ -76231,6 +76326,90 @@
    "dcterms:title": "How Can Remote Teams Communicate Better?",
    "schema:url": {
     "@id": "https://rhsmith.umd.edu/research/how-can-remote-teams-communicate-better"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Baker, D. P., Battles, J. B. & King, H. B., AHRQ Patient Safety Network (PSNet) Perspective, 1 February 2017",
+   "dcterms:title": "New Insights About Team Training From a Decade of TeamSTEPPS",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/perspective/new-insights-about-team-training-decade-teamstepps"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "U.S. Agency for Healthcare Research and Quality, CUSP (Comprehensive Unit-based Safety Program) Toolkit module",
+   "dcterms:title": "Implement Teamwork and Communication",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "U.S. Agency for Healthcare Research and Quality, TeamSTEPPS curriculum, Mutual Support module",
+   "dcterms:title": "Tool: Two-Challenge Rule",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/rule.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Kim, L. Y., doctoral dissertation, University of California, Los Angeles, 2014 (eScholarship)",
+   "dcterms:title": "The Effects of Simulation-based TeamSTEPPS Interprofessional Communication and Teamwork Training on Patient and Provider Outcomes",
+   "schema:url": {
+    "@id": "https://escholarship.org/uc/item/6xz705jf.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Hughes, A. M., Gregory, M. E., Joseph, D. L., Sonesh, S. C., Marlow, S. L. et al., Journal of Applied Psychology 101(9), 1266-1304, 2016, doi:10.1037/apl0000120 (University of Central Florida STARS record)",
+   "dcterms:title": "Saving Lives: A Meta-Analysis of Team Training in Healthcare",
+   "schema:url": {
+    "@id": "https://stars.library.ucf.edu/scopus2015/2637"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teamstepps/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Aaberg, O. R., Hall-Lord, M. L., Husebø, S. I. E. & Ballangrud, R., BMC Health Services Research 21, 2021 (DOAJ record)",
+   "dcterms:title": "A human factors intervention in a hospital - evaluating the outcome of a TeamSTEPPS program in a surgical ward",
+   "schema:url": {
+    "@id": "https://doaj.org/article/e003a565dc524e4fa3024ccbe73e28d6"
    }
   },
   {
