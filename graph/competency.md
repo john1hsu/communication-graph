@@ -157,7 +157,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:informative-headings` | cmo:Technique |
 | `cm:instant-messaging` | cmo:Channel |
 | `cm:intercultural-competence` | cmo:Skill |
-| `cm:interpersonal-accuracy` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interpersonal-conflict` | cmo:Phenomenon |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
+| `cm:mirroring` | cmo:Technique |
 
-…and 78 more.
+…and 77 more.
 
 ## Orphan articles (gap)
 

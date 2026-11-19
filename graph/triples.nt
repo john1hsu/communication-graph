@@ -9630,6 +9630,7 @@
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/judith-a-hall> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
@@ -10073,6 +10074,36 @@
 <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/andrew-salter> .
 <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
 <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2000/01/rdf-schema#label> "Judith A. Hall" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#altLabel> "J. A. Hall" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#altLabel> "Judith Hall (psychologist)" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#definition> "American social psychologist at Northeastern University whose research made accurate perception of others (interpersonal accuracy) a measurable skill, documented a modest but consistent female advantage in decoding nonverbal cues, and co-wrote a standard textbook on nonverbal communication." .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#prefLabel> "Judith A. Hall" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hall-andrzejewski-yopchick-2009> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hall-schmid-mast-latu-2015> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/medical-appointment> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication-in-human-interaction> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-social-psychology-of-perceiving-others-accurately> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/judith-a-hall.md" .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/interpersonal-accuracy> .
+<https://github.com/john1hsu/communication-graph/id/judith-a-hall> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2000/01/rdf-schema#label> "The Effects of Feedback Interventions on Performance" .
@@ -23927,6 +23958,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s5> <https://schema.org/url> <https://www.psychologicalscience.org/?p=9874> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <http://purl.org/dc/terms/publisher> "Department of Psychology, College of Science, Northeastern University (faculty profile)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <http://purl.org/dc/terms/title> "Judith Hall" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s1> <https://schema.org/url> <https://cos.northeastern.edu/people/judith-hall> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <http://purl.org/dc/terms/publisher> "Hall, J. A., Psychological Bulletin 85(4), 845-857, 1978 (author's copy hosted by Communication Cache)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <http://purl.org/dc/terms/title> "Gender effects in decoding nonverbal cues" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s2> <https://schema.org/url> <https://www.communicationcache.com/uploads/1/0/8/8/10887248/gender_effects_in_decoding_nonverbal_cues.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <http://purl.org/dc/terms/publisher> "Hall, J. A., Schmid Mast, M. & West, T. V. (eds.), Cambridge University Press, 2016, doi:10.1017/CBO9781316181959 (Cambridge Core)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <http://purl.org/dc/terms/title> "The Social Psychology of Perceiving Others Accurately" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s3> <https://schema.org/url> <https://cambridge.org/core/books/social-psychology-of-perceiving-others-accurately/correlates-of-interpersonal-accuracy/8C22CFB7CB06548B91CC3560338B804F> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <http://purl.org/dc/terms/publisher> "Rosip, J. C. & Hall, J. A., Journal of Nonverbal Behavior 28(4), 267-286, 2004 (University of Rijeka course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <http://purl.org/dc/terms/title> "Knowledge of nonverbal cues, gender, and nonverbal decoding accuracy" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s4> <https://schema.org/url> <https://www.ffri.hr/~ibrdar/komunikacija/seminari/Hall,%202004%20-%20Nonverbal%20decoding%20accuracy.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <http://purl.org/dc/terms/publisher> "Lausen, A. & Schacht, A., Frontiers in Psychology 9, 882, 2018, doi:10.3389/fpsyg.2018.00882 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <http://purl.org/dc/terms/title> "Gender Differences in the Recognition of Vocal Emotions" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC5996252> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <http://purl.org/dc/terms/publisher> "Knapp, M. L., Hall, J. A. & Horgan, T. G., Cengage, 2014 (publisher's product page)" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <http://purl.org/dc/terms/title> "Nonverbal Communication in Human Interaction, 8th edition" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/judith-a-hall/s6> <https://schema.org/url> <https://www.cengage.com/c/nonverbal-communication-in-human-interaction-8e-knapp-hall-horgan/9781133311591> .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/publisher> "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)" .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/title> "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory" .

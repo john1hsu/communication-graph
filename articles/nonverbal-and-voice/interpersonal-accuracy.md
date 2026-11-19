@@ -11,7 +11,7 @@ summary: >-
 level: intermediate
 evidenceStatus: mixed
 broader: [cm:nonverbal-communication]
-related: [cm:facial-expressions, cm:paralanguage, cm:reading-lies-from-body-language, cm:empathy, cm:perspective-taking, cm:labeling-emotions, cm:active-listening, cm:rapport, cm:egocentric-bias]
+related: [cm:facial-expressions, cm:paralanguage, cm:reading-lies-from-body-language, cm:empathy, cm:perspective-taking, cm:labeling-emotions, cm:active-listening, cm:rapport, cm:egocentric-bias, cm:judith-a-hall]
 requires: []
 relations:
   - {predicate: studiedIn, object: cm:social-psychology, source: s1, confidence: high}

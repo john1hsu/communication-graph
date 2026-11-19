@@ -18691,6 +18691,10 @@
     "object": "cm:egocentric-bias"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:judith-a-hall"
+   },
+   {
     "predicate": "cmo:studiedIn",
     "object": "cm:social-psychology",
     "source": "s1",
@@ -19749,6 +19753,88 @@
    "https://psyc.athabascau.ca/open/wolpe/bio.php",
    "https://cambridge.org/core/journals/behavioural-and-cognitive-psychotherapy/article/changing-the-face-of-psychotherapy-and-common-sense-joseph-wolpe-20-april-1915-4-december-1997/FD86F2EE3A1754598B7CF0FB76F1F00D",
    "https://www.psychologicalscience.org/?p=9874"
+  ]
+ },
+ {
+  "id": "cm:judith-a-hall",
+  "title": "Judith A. Hall",
+  "aliases": [
+   "Judith Hall (psychologist)",
+   "J. A. Hall"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/judith-a-hall.md",
+  "created": "2026-11-19",
+  "summary": "American social psychologist at Northeastern University whose research made accurate perception of others (interpersonal accuracy) a measurable skill, documented a modest but consistent female advantage in decoding nonverbal cues, and co-wrote a standard textbook on nonverbal communication.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-accuracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reading-lies-from-body-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hall-andrzejewski-yopchick-2009"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hall-schmid-mast-latu-2015"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:medical-appointment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:michael-argyle"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:interpersonal-accuracy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-social-psychology-of-perceiving-others-accurately",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:nonverbal-communication-in-human-interaction",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cos.northeastern.edu/people/judith-hall",
+   "https://www.communicationcache.com/uploads/1/0/8/8/10887248/gender_effects_in_decoding_nonverbal_cues.pdf",
+   "https://cambridge.org/core/books/social-psychology-of-perceiving-others-accurately/correlates-of-interpersonal-accuracy/8C22CFB7CB06548B91CC3560338B804F",
+   "https://www.ffri.hr/~ibrdar/komunikacija/seminari/Hall,%202004%20-%20Nonverbal%20decoding%20accuracy.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5996252",
+   "https://www.cengage.com/c/nonverbal-communication-in-human-interaction-8e-knapp-hall-horgan/9781133311591"
   ]
  },
  {
