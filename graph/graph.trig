@@ -2120,6 +2120,14 @@
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s3> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s4> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s5> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/statistical-evidence.md" .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> .
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/anxiety-reappraisal.md" .
@@ -26143,6 +26151,115 @@
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/nutt-1999> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/statistical-evidence#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <http://purl.org/dc/terms/publisher> "Mike Allen, Rebecca Bruflat, Renee Fucilla et al., Communication Research Reports 17(4), 331-336, 2000 (course copy hosted by the University of Kentucky)" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <http://purl.org/dc/terms/title> "Testing the Persuasiveness of Evidence: Combining Narrative and Statistical Forms" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> <https://schema.org/url> <https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <http://purl.org/dc/terms/publisher> "Hans Hoeken & Lettica Hustinx, University of Nijmegen, Proceedings of the 5th Conference of the International Society for the Study of Argumentation (ISSA), 2002 (Rozenberg Quarterly reprint)" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <http://purl.org/dc/terms/title> "The Relative Persuasiveness of Anecdotal, Statistical, Causal and Expert Evidence" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> <https://schema.org/url> <https://rozenbergquarterly.com/?p=7837> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <http://purl.org/dc/terms/publisher> "Gerd Gigerenzer, Wolfgang Gaissmaier, Elke Kurz-Milcke, Lisa M. Schwartz & Steven Woloshin, Psychological Science in the Public Interest 8(2), 53-96, 2008 (copy hosted by UC Berkeley Statistics)" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <http://purl.org/dc/terms/title> "Helping Doctors and Patients Make Sense of Health Statistics" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> <https://schema.org/url> <https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <http://purl.org/dc/terms/publisher> "U.S. Food and Drug Administration, eds. Baruch Fischhoff, Noel T. Brewer & Julie S. Downs, 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <http://purl.org/dc/terms/title> "Communicating Risks and Benefits: An Evidence-Based User's Guide (Chapter 7, Quantitative Information, by Angela Fagerlin & Ellen Peters)" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> <https://schema.org/url> <https://fda.gov/media/81597/download> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <http://purl.org/dc/terms/publisher> "Deborah A. Small, George Loewenstein & Paul Slovic, Organizational Behavior and Human Decision Processes 102, 143-153, 2007, doi:10.1016/j.obhdp.2006.01.005 (author copy, Wharton)" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <http://purl.org/dc/terms/title> "Sympathy and callousness: The impact of deliberative thought on donations to identifiable and statistical victims" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Sympathy_and_callousness.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could my audience say how many out of how many, over what period, from what I wrote?" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I given absolute numbers wherever I quote a percentage change, especially on a small base?" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is the comparison I chose the fair one, or the one that makes my case look biggest?" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does my example clearly represent the figures, and would I be comfortable if a sceptic checked the source?" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Weekend escalations went from 9 to 18 a month between Q1 and Q3 - 18 of our 210 tickets a month now wait over 4 hours, against our 1-hour target. One enterprise client waited 6 hours on a Saturday outage last week; that is the typical case, not the worst. A second on-call engineer would cover both weekend shifts; I'd like to start in January and report the wait-time figure monthly." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Escalations have increased 100% and customers are really unhappy. One enterprise client told me last week this is the worst support they've had. We urgently need another on-call engineer." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A support lead asks the operations director to fund a second on-call engineer." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The before version's \"100%\" hides a small base and leans on one angry quote; the after version gives absolute counts, the denominator, the target as a comparison and a representative example, so the director can judge size and typicality and is more likely to trust the request." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1> <https://schema.org/text> "Write the claim you need the audience to accept in one sentence, then pick the one or two numbers that bear most directly on it - not every metric you have." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2> <https://schema.org/text> "State each number with its denominator and time frame (\"41 of 300 tickets last quarter\"), and give absolute changes alongside any relative ones (\"from 4 to 6 in 1,000, a 50% rise\")." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3> <https://schema.org/text> "Add the comparison the audience needs to judge size - last year, a benchmark, the alternative option - using the same denominator and period for every option." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4> <https://schema.org/text> "Say where the number comes from and what it does not cover, in a clause, so a sceptic can check it rather than dismiss it." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5> <https://schema.org/text> "Pair the figures with one typical example that makes them concrete, and show which the example represents (\"she is one of the 41\")." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6> <https://schema.org/text> "Show the key comparison as a simple chart or icon array when it matters, test the slide or paragraph on a colleague, and ask what number they would repeat." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/name> "Statistical evidence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical evidence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "data as evidence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "persuading with data" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "quantitative evidence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "using statistics to persuade" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#definition> "Supporting a claim or request with numbers that summarise many cases - counts, rates, base rates and comparisons - rather than a single example, presented transparently enough (absolute figures, a stated denominator, a fair comparison) that the audience can judge how big and how typical the effect is." .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistical evidence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/identifiable-victim-effect> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/allen-et-al-2000> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/statistical-evidence.md" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/hoeken-hustinx-2002> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal#graph> {
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I trying to force myself to feel calm, or accepting that being keyed up is normal before something that matters?" .
@@ -37461,6 +37578,9 @@
   <https://github.com/john1hsu/communication-graph/id/allen-et-al-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/allen-et-al-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/allen-et-al-1990> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+  <https://github.com/john1hsu/communication-graph/id/allen-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/allen-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/allen-et-al-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/allen-witt-wheeless-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/alpizar-adesope-wong-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37664,6 +37784,7 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37779,6 +37900,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -37831,6 +37953,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
@@ -39286,6 +39409,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
@@ -39560,6 +39684,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-proof> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
@@ -41248,6 +41373,7 @@
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leadership-framing> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/galati-brennan-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/audience-design> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41296,6 +41422,7 @@
   <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/gerhart-fang-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/gestures/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41689,6 +41816,7 @@
   <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/hoeken-hustinx-2002> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -41994,6 +42122,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
@@ -42105,6 +42234,7 @@
   <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/i-was-wrong> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/identifiable-victim-effect> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/ignoring-stakeholders> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42698,6 +42828,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/support-response> .
@@ -44772,6 +44903,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
@@ -44793,6 +44925,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
@@ -45808,6 +45941,7 @@
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/uptalk> .
@@ -46706,6 +46840,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/statistical-evidence> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
@@ -46904,7 +47039,18 @@
   <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/start-stop-continue> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/performance-review> .
-  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

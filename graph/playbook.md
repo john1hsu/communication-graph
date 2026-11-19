@@ -2995,6 +2995,29 @@ Ask yourself:
 - Does each group's message answer their concern, or is it the same message I would send everyone?
 - When did I last update this map, and has anyone's stance or influence changed since?
 
+### [Statistical evidence](../articles/persuasion-and-influence/statistical-evidence.md) — Technique
+
+1. Write the claim you need the audience to accept in one sentence, then pick the one or two numbers that bear most directly on it - not every metric you have.
+2. State each number with its denominator and time frame ("41 of 300 tickets last quarter"), and give absolute changes alongside any relative ones ("from 4 to 6 in 1,000, a 50% rise").
+3. Add the comparison the audience needs to judge size - last year, a benchmark, the alternative option - using the same denominator and period for every option.
+4. Say where the number comes from and what it does not cover, in a clause, so a sceptic can check it rather than dismiss it.
+5. Pair the figures with one typical example that makes them concrete, and show which the example represents ("she is one of the 41").
+6. Show the key comparison as a simple chart or icon array when it matters, test the slide or paragraph on a colleague, and ask what number they would repeat.
+
+*A support lead asks the operations director to fund a second on-call engineer.*
+
+| Before | After |
+|---|---|
+| Escalations have increased 100% and customers are really unhappy. One enterprise client told me last week this is the worst support they've had. We urgently need another on-call engineer. | Weekend escalations went from 9 to 18 a month between Q1 and Q3 - 18 of our 210 tickets a month now wait over 4 hours, against our 1-hour target. One enterprise client waited 6 hours on a Saturday outage last week; that is the typical case, not the worst. A second on-call engineer would cover both weekend shifts; I'd like to start in January and report the wait-time figure monthly. |
+
+**Why:** The before version's "100%" hides a small base and leans on one angry quote; the after version gives absolute counts, the denominator, the target as a comparison and a representative example, so the director can judge size and typicality and is more likely to trust the request.
+
+Ask yourself:
+- Could my audience say how many out of how many, over what period, from what I wrote?
+- Have I given absolute numbers wherever I quote a percentage change, especially on a small base?
+- Is the comparison I chose the fair one, or the one that makes my case look biggest?
+- Does my example clearly represent the figures, and would I be comfortable if a sceptic checked the source?
+
 ## presenting-and-public-speaking
 
 ### [Anxiety reappraisal](../articles/presenting-and-public-speaking/anxiety-reappraisal.md) — Technique

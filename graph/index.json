@@ -35018,6 +35018,110 @@
   ]
  },
  {
+  "id": "cm:statistical-evidence",
+  "title": "Statistical evidence",
+  "aliases": [
+   "using statistics to persuade",
+   "quantitative evidence",
+   "persuading with data",
+   "data as evidence"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/statistical-evidence.md",
+  "created": "2026-11-19",
+  "summary": "Supporting a claim or request with numbers that summarise many cases - counts, rates, base rates and comparisons - rather than a single example, presented transparently enough (absolute figures, a stated denominator, a fair comparison) that the audience can judge how big and how typical the effect is.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:risk-numbers-as-natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gain-loss-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:narrative-persuasion",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:allen-et-al-2000",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hoeken-hustinx-2002",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:identifiable-victim-effect",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:gerd-gigerenzer",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could my audience say how many out of how many, over what period, from what I wrote?",
+   "Have I given absolute numbers wherever I quote a percentage change, especially on a small base?",
+   "Is the comparison I chose the fair one, or the one that makes my case look biggest?",
+   "Does my example clearly represent the figures, and would I be comfortable if a sceptic checked the source?"
+  ],
+  "steps": [
+   "Write the claim you need the audience to accept in one sentence, then pick the one or two numbers that bear most directly on it - not every metric you have.",
+   "State each number with its denominator and time frame (\"41 of 300 tickets last quarter\"), and give absolute changes alongside any relative ones (\"from 4 to 6 in 1,000, a 50% rise\").",
+   "Add the comparison the audience needs to judge size - last year, a benchmark, the alternative option - using the same denominator and period for every option.",
+   "Say where the number comes from and what it does not cover, in a clause, so a sceptic can check it rather than dismiss it.",
+   "Pair the figures with one typical example that makes them concrete, and show which the example represents (\"she is one of the 41\").",
+   "Show the key comparison as a simple chart or icon array when it matters, test the slide or paragraph on a colleague, and ask what number they would repeat."
+  ],
+  "example": {
+   "situation": "A support lead asks the operations director to fund a second on-call engineer.",
+   "before": "Escalations have increased 100% and customers are really unhappy. One enterprise client told me last week this is the worst support they've had. We urgently need another on-call engineer.",
+   "after": "Weekend escalations went from 9 to 18 a month between Q1 and Q3 - 18 of our 210 tickets a month now wait over 4 hours, against our 1-hour target. One enterprise client waited 6 hours on a Saturday outage last week; that is the typical case, not the worst. A second on-call engineer would cover both weekend shifts; I'd like to start in January and report the wait-time figure monthly.",
+   "why": "The before version's \"100%\" hides a small base and leans on one angry quote; the after version gives absolute counts, the denominator, the target as a comparison and a representative example, so the director can judge size and typicality and is more likely to trust the request."
+  },
+  "source_urls": [
+   "https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf",
+   "https://rozenbergquarterly.com/?p=7837",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf",
+   "https://fda.gov/media/81597/download",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Sympathy_and_callousness.pdf"
+  ]
+ },
+ {
   "id": "cm:status-reporting",
   "title": "Project status reporting",
   "aliases": [

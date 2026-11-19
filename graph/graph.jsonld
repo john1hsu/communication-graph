@@ -30764,6 +30764,91 @@
    ]
   },
   {
+   "@id": "cm:statistical-evidence",
+   "@type": "cmo:Technique",
+   "cmo:complements": {
+    "@id": "cm:narrative-persuasion"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:identifiable-victim-effect"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:allen-et-al-2000"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/example"
+   },
+   "cmo:file": "articles/persuasion-and-influence/statistical-evidence.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:gerd-gigerenzer"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:hoeken-hustinx-2002"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5"
+    }
+   ],
+   "rdfs:label": "Statistical evidence",
+   "skos:altLabel": [
+    "data as evidence",
+    "persuading with data",
+    "quantitative evidence",
+    "using statistics to persuade"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Supporting a claim or request with numbers that summarise many cases - counts, rates, base rates and comparisons - rather than a single example, presented transparently enough (absolute figures, a stated denominator, a fair comparison) that the audience can judge how big and how typical the effect is.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Statistical evidence",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:gain-loss-framing"
+    },
+    {
+     "@id": "cm:risk-numbers-as-natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "cm:status-reporting",
    "@type": "cmo:Genre",
    "cmo:complements": {
@@ -76003,6 +76088,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Mike Allen, Rebecca Bruflat, Renee Fucilla et al., Communication Research Reports 17(4), 331-336, 2000 (course copy hosted by the University of Kentucky)",
+   "dcterms:title": "Testing the Persuasiveness of Evidence: Combining Narrative and Statistical Forms",
+   "schema:url": {
+    "@id": "https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Hans Hoeken & Lettica Hustinx, University of Nijmegen, Proceedings of the 5th Conference of the International Society for the Study of Argumentation (ISSA), 2002 (Rozenberg Quarterly reprint)",
+   "dcterms:title": "The Relative Persuasiveness of Anecdotal, Statistical, Causal and Expert Evidence",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=7837"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Gerd Gigerenzer, Wolfgang Gaissmaier, Elke Kurz-Milcke, Lisa M. Schwartz & Steven Woloshin, Psychological Science in the Public Interest 8(2), 53-96, 2008 (copy hosted by UC Berkeley Statistics)",
+   "dcterms:title": "Helping Doctors and Patients Make Sense of Health Statistics",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "U.S. Food and Drug Administration, eds. Baruch Fischhoff, Noel T. Brewer & Julie S. Downs, 2011",
+   "dcterms:title": "Communicating Risks and Benefits: An Evidence-Based User's Guide (Chapter 7, Quantitative Information, by Angela Fagerlin & Ellen Peters)",
+   "schema:url": {
+    "@id": "https://fda.gov/media/81597/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/statistical-evidence/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Deborah A. Small, George Loewenstein & Paul Slovic, Organizational Behavior and Human Decision Processes 102, 143-153, 2007, doi:10.1016/j.obhdp.2006.01.005 (author copy, Wharton)",
+   "dcterms:title": "Sympathy and callousness: The impact of deliberative thought on donations to identifiable and statistical victims",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Sympathy_and_callousness.pdf"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -79705,6 +79860,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Test the map by talking to the stakeholders themselves, and revisit it at each milestone, because power, interest and stance shift."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:statistical-evidence"
+   },
+   "rdfs:label": "Could my audience say how many out of how many, over what period, from what I wrote?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:statistical-evidence"
+   },
+   "rdfs:label": "Have I given absolute numbers wherever I quote a percentage change, especially on a small base?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:statistical-evidence"
+   },
+   "rdfs:label": "Is the comparison I chose the fair one, or the one that makes my case look biggest?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:statistical-evidence"
+   },
+   "rdfs:label": "Does my example clearly represent the figures, and would I be comfortable if a sceptic checked the source?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Weekend escalations went from 9 to 18 a month between Q1 and Q3 - 18 of our 210 tickets a month now wait over 4 hours, against our 1-hour target. One enterprise client waited 6 hours on a Saturday outage last week; that is the typical case, not the worst. A second on-call engineer would cover both weekend shifts; I'd like to start in January and report the wait-time figure monthly.",
+   "cmo:before": "Escalations have increased 100% and customers are really unhappy. One enterprise client told me last week this is the worst support they've had. We urgently need another on-call engineer.",
+   "cmo:situation": "A support lead asks the operations director to fund a second on-call engineer.",
+   "cmo:why": "The before version's \"100%\" hides a small base and leans on one angry quote; the after version gives absolute counts, the denominator, the target as a comparison and a representative example, so the director can judge size and typicality and is more likely to trust the request."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Statistical evidence",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write the claim you need the audience to accept in one sentence, then pick the one or two numbers that bear most directly on it - not every metric you have."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "State each number with its denominator and time frame (\"41 of 300 tickets last quarter\"), and give absolute changes alongside any relative ones (\"from 4 to 6 in 1,000, a 50% rise\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Add the comparison the audience needs to judge size - last year, a benchmark, the alternative option - using the same denominator and period for every option."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Say where the number comes from and what it does not cover, in a clause, so a sceptic can check it rather than dismiss it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Pair the figures with one typical example that makes them concrete, and show which the example represents (\"she is one of the 41\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/statistical-evidence/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Show the key comparison as a simple chart or icon array when it matters, test the slide or paragraph on a colleague, and ask what number they would repeat."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/status-reporting/check/1",
