@@ -493,6 +493,30 @@ Ask yourself:
 - When I felt criticised just now, did I restate their point before I explained or justified myself?
 - Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?
 
+### [Denial](../articles/difficult-conversations-and-conflict/denial.md) — Technique
+
+1. Before you answer, check the facts; deny only what you are confident did not happen, and acknowledge any part that did.
+2. Decide what the accusation is about - your honesty or intentions, or your skill - because a denial helps most against integrity charges and an apology usually serves competence lapses better.
+3. State the denial early, in one plain first-person sentence that names the specific allegation, rather than staying silent or saying "no comment".
+4. Give the evidence or the route to it (records, timestamps, who can confirm) and invite the other person to check it.
+5. Keep the tone calm and avoid attacking the accuser; acknowledge their concern and the effect it had on them.
+6. If new evidence shows you were wrong, correct the record at once and switch to an apology.
+
+*A team lead hears from her director that a peer has said she took credit in a steering meeting for analysis the peer's team produced.*
+
+| Before | After |
+|---|---|
+| I really don't want to get into he-said-she-said. I'm sure there was some misunderstanding, and I'm sorry if anyone felt sidelined. | I didn't present that analysis as mine. The slide footer credits Marco's team, and the meeting notes record me naming them when I introduced it - I've attached both. I can see why it would be upsetting if he heard otherwise, and I'm happy to talk with him directly so we clear it up. |
+
+**Why:** The vague non-answer and conditional apology read as an admission of a dishonesty charge, which the research suggests is the costliest kind; the rewrite names the allegation, denies it in the first person, points to checkable evidence and offers a constructive next step without attacking the colleague.
+
+Ask yourself:
+- Am I certain the facts support my denial, including details that could surface later?
+- Is this accusation about my honesty or intentions, or about a mistake of skill that I should simply own?
+- Have I named the specific allegation and offered evidence the other person can verify?
+- Am I denying the accusation, or attacking the person who made it?
+- Am I denying that a harm happened, when the honest message is that it did and I am fixing it?
+
 ### [DESC script](../articles/difficult-conversations-and-conflict/desc-script.md) — Technique
 
 1. Pick one specific, recent behaviour to raise, and plan a private moment to raise it rather than doing it in front of others.

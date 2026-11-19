@@ -85,6 +85,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
+| `cm:crisis-communication` | `cm:denial` |
 | `cm:crisis-communication` | `cm:inoculation-theory` |
 | `cm:crisis-communication` | `cm:passive-voice` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:spikes-protocol` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:assertive-communication` |
-| `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 
-…and 187 more.
+…and 188 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 250 more.
+…and 251 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:crisis-communication` | cmo:Context |
+| `cm:denial` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
-| `cm:mirroring` | cmo:Technique |
 
-…and 76 more.
+…and 77 more.
 
 ## Orphan articles (gap)
 

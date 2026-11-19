@@ -5000,6 +5000,87 @@
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I certain the facts support my denial, including details that could surface later?" .
+<https://github.com/john1hsu/communication-graph/id/denial/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is this accusation about my honesty or intentions, or about a mistake of skill that I should simply own?" .
+<https://github.com/john1hsu/communication-graph/id/denial/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I named the specific allegation and offered evidence the other person can verify?" .
+<https://github.com/john1hsu/communication-graph/id/denial/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I denying the accusation, or attacking the person who made it?" .
+<https://github.com/john1hsu/communication-graph/id/denial/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/denial/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I denying that a harm happened, when the honest message is that it did and I am fixing it?" .
+<https://github.com/john1hsu/communication-graph/id/denial/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/denial/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/denial/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I didn't present that analysis as mine. The slide footer credits Marco's team, and the meeting notes record me naming them when I introduced it - I've attached both. I can see why it would be upsetting if he heard otherwise, and I'm happy to talk with him directly so we clear it up." .
+<https://github.com/john1hsu/communication-graph/id/denial/example> <https://github.com/john1hsu/communication-graph/ontology#before> "I really don't want to get into he-said-she-said. I'm sure there was some misunderstanding, and I'm sorry if anyone felt sidelined." .
+<https://github.com/john1hsu/communication-graph/id/denial/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead hears from her director that a peer has said she took credit in a steering meeting for analysis the peer's team produced." .
+<https://github.com/john1hsu/communication-graph/id/denial/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The vague non-answer and conditional apology read as an admission of a dishonesty charge, which the research suggests is the costliest kind; the rewrite names the allegation, denies it in the first person, points to checkable evidence and offers a constructive next step without attacking the colleague." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/1> <https://schema.org/text> "Before you answer, check the facts; deny only what you are confident did not happen, and acknowledge any part that did." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/2> <https://schema.org/text> "Decide what the accusation is about - your honesty or intentions, or your skill - because a denial helps most against integrity charges and an apology usually serves competence lapses better." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/3> <https://schema.org/text> "State the denial early, in one plain first-person sentence that names the specific allegation, rather than staying silent or saying \"no comment\"." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/4> <https://schema.org/text> "Give the evidence or the route to it (records, timestamps, who can confirm) and invite the other person to check it." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/5> <https://schema.org/text> "Keep the tone calm and avoid attacking the accuser; acknowledge their concern and the effect it had on them." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto/6> <https://schema.org/text> "If new evidence shows you were wrong, correct the record at once and switch to an apology." .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/name> "Denial" .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/denial/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/denial/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2000/01/rdf-schema#label> "Denial" .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#altLabel> "deny response strategy" .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#altLabel> "denying an accusation" .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#altLabel> "rebutting a false accusation" .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#definition> "Responding to an accusation by stating clearly that you did not do what is alleged and backing that with evidence; it can repair trust after a false accusation about honesty, but backfires when the facts later show you were at fault or the harm plainly happened." .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#prefLabel> "Denial" .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/denial/s1> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/denial/s2> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/denial/s3> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/denial/s4> .
+<https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/denial/s5> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/reticence> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/ferrin-et-al-2007> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kim-et-al-2004> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/denial/example> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/attribution-theory> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/denial.md" .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/denial/howto> .
+<https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could a neutral observer confirm every word of my Describe sentence?" .
 <https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
@@ -20522,6 +20603,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <https://schema.org/url> <https://www.scilit.net/publications/1ddb310ceca6a5b5e243da3d2ae23c81> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <http://purl.org/dc/terms/publisher> "Kim, Ferrin, Cooper & Dirks, Journal of Applied Psychology 89(1), 104-118 (2004) (Singapore Management University author version)" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <http://purl.org/dc/terms/title> "Removing the shadow of suspicion: The effects of apology versus denial for repairing competence- versus integrity-based trust violations" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s1> <https://schema.org/url> <https://ink.library.smu.edu.sg/context/lkcsb_research/article/3367/viewcontent/RemovingShadowSuspicion_afv.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <http://purl.org/dc/terms/publisher> "Ferrin, Kim, Cooper & Dirks, Journal of Applied Psychology 92(4), 893-908 (2007) (Singapore Management University author version)" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <http://purl.org/dc/terms/title> "Silence Speaks Volumes: The Effectiveness of Reticence for Repairing Trust Violations" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s2> <https://schema.org/url> <https://ink.library.smu.edu.sg/context/lkcsb_research/article/3525/viewcontent/SilenceSpeaksVolumes_2007.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <http://purl.org/dc/terms/publisher> "Coombs & Holladay, Management Communication Quarterly 16(2), 165-186 (2002) (SAGE copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <http://purl.org/dc/terms/title> "Helping Crisis Managers Protect Reputational Assets: Initial Tests of the Situational Crisis Communication Theory" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s3> <https://schema.org/url> <https://staticssl.sagepub.com/sites/default/files/Coombs.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <http://purl.org/dc/terms/publisher> "Henderson, Welsh & O'Leary-Kelly, Journal of Business and Psychology 35(3), 347-362 (2020), doi:10.1007/s10869-019-09624-z" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <http://purl.org/dc/terms/title> "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s4> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1007/s10869-019-09624-z.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <http://purl.org/dc/terms/publisher> "Claeys, Cauberghe & Vyncke, Ghent University (author manuscript, CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <http://purl.org/dc/terms/title> "How Personality Traits Affect Crisis Perceptions: An Experimental Test of the Use of Crisis Response Strategies and the Moderating Effects of Locus of Control" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/denial/s5> <https://schema.org/url> <https://core.ac.uk/download/55688835.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/publisher> "Bower, S. A. & Bower, G. H., Da Capo Press / Balance (Hachette Book Group), 2004 (publisher's book page)" .
 <https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/title> "Asserting Yourself, Updated Edition: A Practical Guide for Positive Change" .
