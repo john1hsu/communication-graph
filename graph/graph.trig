@@ -768,6 +768,15 @@
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s2> .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s3> .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/crisis-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> .
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> .
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/elevator-pitch.md" .
@@ -11370,6 +11379,98 @@
   <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
   <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <https://schema.org/url> <https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/crisis-communication#graph> {
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does my first message say what happened, what we do not yet know, what we are doing, and when the next update comes?" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I told each audience the one or two things they should do right now to protect themselves?" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I accepting responsibility in proportion to our actual part in this, or hiding behind vague or passive wording?" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I acknowledged how people feel without over-reassuring them?" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Crisis communication" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "communicating during an incident" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "communicating in a crisis" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "crisis response communication" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "emergency communication" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/risk-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#definition> "The situation in which an organization must speak to employees, customers or the public while an outage, safety incident, breach, recall or emergency is still unfolding. It goes best when the first message comes quickly, says plainly what is known, unknown and being done, tells people what to do to protect themselves, acknowledges feelings, and accepts responsibility in proportion to the organization's part in the crisis." .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crisis communication" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/denial> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stealing-thunder> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/claeys-cauberghe-vyncke-2010> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/coombs-holladay-2002> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/situational-crisis-communication-theory> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/crisis-communication.md" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/public-relations> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/vaughan-johnston-et-al-2025> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <http://purl.org/dc/terms/publisher> "U.S. Centers for Disease Control and Prevention, Center for Preparedness and Response (Crisis and Emergency Risk Communication), presented by L. Briseño, April 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <http://purl.org/dc/terms/title> "CERC Overview for COVID-19" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1> <https://schema.org/url> <https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <http://purl.org/dc/terms/publisher> "Siegel, V., National Center for Environmental Health, CDC; Journal of Environmental Health 82(10), 30-31, June 2020 (CDC Stacks author manuscript)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <http://purl.org/dc/terms/title> "Risk Communication for Environmental Health Practitioners" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2> <https://schema.org/url> <https://stacks.cdc.gov/view/cdc/92687/cdc_92687_DS1.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <http://purl.org/dc/terms/publisher> "Coombs, W. T. & Holladay, S. J., Management Communication Quarterly 16(2), 165-186, 2002 (SAGE copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <http://purl.org/dc/terms/title> "Helping Crisis Managers Protect Reputational Assets: Initial Tests of the Situational Crisis Communication Theory" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3> <https://schema.org/url> <https://staticssl.sagepub.com/sites/default/files/Coombs.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <http://purl.org/dc/terms/publisher> "Claeys, A.-S., Cauberghe, V. & Vyncke, P., Public Relations Review 36(3), 256-262, 2010, doi:10.1016/j.pubrev.2010.05.004 (library catalogue record with abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <http://purl.org/dc/terms/title> "Restoring reputations in times of crisis: An experimental study of the Situational Crisis Communication Theory and the moderating effects of locus of control" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_746433682> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <http://purl.org/dc/terms/publisher> "Vaughan-Johnston, T. I., Guyer, J. J., Lawrence, K. L. & Fabrigar, L. R., Social Influence 20(1), 2447273, 2025, doi:10.1080/15534510.2024.2447273 (Cardiff University ORCA copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <http://purl.org/dc/terms/title> "Disclosure and identification information increase the benefits of stealing thunder" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5> <https://schema.org/url> <https://orca.cardiff.ac.uk/174975/1/Disclosure%20and%20identification%20information%20increase%20the%20benefits%20of%20stealing%20thunder.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <http://purl.org/dc/terms/publisher> "Lee, S. Y. & Fraustino, J., Journal of Marketing Communications 31(3), 263-283, 2025, doi:10.1080/13527266.2023.2235690 (Ajman University research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <http://purl.org/dc/terms/title> "How to tell the crisis: effects of stealing thunder by self-disclosing corporate violations" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6> <https://schema.org/url> <https://research.ajman.ac.ae/en/publications/how-to-tell-the-crisis-effects-of-stealing-thunder-by-self-disclo/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch#graph> {
@@ -37197,6 +37298,7 @@
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leadership-framing> .
@@ -37992,6 +38094,7 @@
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leadership-framing> .
@@ -38175,6 +38278,7 @@
   <https://github.com/john1hsu/communication-graph/id/cialdini-goldstein-2004> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/principles-of-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/cicero> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/quintilian> .
   <https://github.com/john1hsu/communication-graph/id/cingoz-ulu-lalonde-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/claeys-cauberghe-vyncke-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/claramae-s-knerr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/claramae-s-knerr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/claramae-s-knerr> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
@@ -38517,6 +38621,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
@@ -38698,6 +38803,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
@@ -39105,6 +39211,9 @@
   <https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
   <https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
   <https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/de-ira> .
+  <https://github.com/john1hsu/communication-graph/id/coombs-holladay-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/coombs-holladay-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/coombs-holladay-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/cooperative-overlap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/cooperative-overlap> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/cortina-et-al-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39132,6 +39241,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -39179,6 +39289,18 @@
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/risk-communication> .
+  <https://github.com/john1hsu/communication-graph/id/crisis-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
@@ -39482,6 +39604,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -39510,6 +39633,7 @@
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/deluca-valacich-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+  <https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
@@ -41350,6 +41474,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
@@ -41854,6 +41979,7 @@
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/inspire-galinsky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -43869,6 +43995,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/managing-up> .
@@ -43887,6 +44014,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -44066,6 +44194,7 @@
   <https://github.com/john1hsu/communication-graph/id/parkes-abercrombie-mccarty-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/grammatical-voice> .
+  <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wordiness> .
   <https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -44387,6 +44516,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -44863,6 +44993,9 @@
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/psychotherapy-by-reciprocal-inhibition> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/public-relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/public-relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/public-relations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45312,8 +45445,10 @@
   <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+  <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+  <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/risk-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45833,6 +45968,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/situational-crisis-communication-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
@@ -46018,6 +46154,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crew-civility-intervention> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
@@ -46454,6 +46591,7 @@
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/stealing-thunder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/steel-taras-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
   <https://github.com/john1hsu/communication-graph/id/stella-ting-toomey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stella-ting-toomey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -46863,6 +47001,7 @@
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -47000,6 +47139,7 @@
   <https://github.com/john1hsu/communication-graph/id/vangelisti-knapp-daly-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/vangelisti-knapp-daly-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/vangelisti-knapp-daly-1990> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
+  <https://github.com/john1hsu/communication-graph/id/vaughan-johnston-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/crisis-communication> .
   <https://github.com/john1hsu/communication-graph/id/veinott-klein-wiggins-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/veinott-klein-wiggins-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/veinott-klein-wiggins-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/premortem> .

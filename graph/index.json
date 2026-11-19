@@ -8200,6 +8200,124 @@
   ]
  },
  {
+  "id": "cm:crisis-communication",
+  "title": "Crisis communication",
+  "aliases": [
+   "communicating in a crisis",
+   "emergency communication",
+   "crisis response communication",
+   "communicating during an incident"
+  ],
+  "type": "Context",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/crisis-communication.md",
+  "created": "2026-11-19",
+  "summary": "The situation in which an organization must speak to employees, customers or the public while an outage, safety incident, breach, recall or emergency is still unfolding. It goes best when the first message comes quickly, says plainly what is known, unknown and being done, tells people what to do to protect themselves, acknowledges feelings, and accepts responsibility in proportion to the organization's part in the crisis.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trust-repair"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:inoculation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:passive-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:change-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:denial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stealing-thunder"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:situational-crisis-communication-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:coombs-holladay-2002",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:claeys-cauberghe-vyncke-2010",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:vaughan-johnston-et-al-2025",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:public-relations",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does my first message say what happened, what we do not yet know, what we are doing, and when the next update comes?",
+   "Have I told each audience the one or two things they should do right now to protect themselves?",
+   "Am I accepting responsibility in proportion to our actual part in this, or hiding behind vague or passive wording?",
+   "Have I acknowledged how people feel without over-reassuring them?",
+   "Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf",
+   "https://stacks.cdc.gov/view/cdc/92687/cdc_92687_DS1.pdf",
+   "https://staticssl.sagepub.com/sites/default/files/Coombs.pdf",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_746433682",
+   "https://orca.cardiff.ac.uk/174975/1/Disclosure%20and%20identification%20information%20increase%20the%20benefits%20of%20stealing%20thunder.pdf",
+   "https://research.ajman.ac.ae/en/publications/how-to-tell-the-crisis-effects-of-stealing-thunder-by-self-disclo/"
+  ]
+ },
+ {
   "id": "cm:cultural-intelligence",
   "title": "Cultural intelligence",
   "aliases": [

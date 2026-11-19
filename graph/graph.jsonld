@@ -7154,6 +7154,108 @@
    ]
   },
   {
+   "@id": "cm:crisis-communication",
+   "@type": "cmo:Context",
+   "cmo:challengedBy": {
+    "@id": "cm:claeys-cauberghe-vyncke-2010"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:coombs-holladay-2002"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:situational-crisis-communication-theory"
+   },
+   "cmo:file": "articles/executive-and-client-communication/crisis-communication.md",
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:public-relations"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:vaughan-johnston-et-al-2025"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6"
+    }
+   ],
+   "rdfs:label": "Crisis communication",
+   "skos:altLabel": [
+    "communicating during an incident",
+    "communicating in a crisis",
+    "crisis response communication",
+    "emergency communication"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:risk-communication"
+    }
+   ],
+   "skos:definition": "The situation in which an organization must speak to employees, customers or the public while an outage, safety incident, breach, recall or emergency is still unfolding. It goes best when the first message comes quickly, says plainly what is known, unknown and being done, tells people what to do to protect themselves, acknowledges feelings, and accepts responsibility in proportion to the organization's part in the crisis.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Crisis communication",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:denial"
+    },
+    {
+     "@id": "cm:inoculation-theory"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:stealing-thunder"
+    },
+    {
+     "@id": "cm:trust-repair"
+    }
+   ]
+  },
+  {
    "@id": "cm:cultural-intelligence",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -38465,6 +38567,46 @@
    "schema:text": "Re-survey after the intervention and again later, share the results with the group, and keep reviewing the agreed norms so gains do not fade."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crisis-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crisis-communication"
+   },
+   "rdfs:label": "Does my first message say what happened, what we do not yet know, what we are doing, and when the next update comes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crisis-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crisis-communication"
+   },
+   "rdfs:label": "Have I told each audience the one or two things they should do right now to protect themselves?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crisis-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crisis-communication"
+   },
+   "rdfs:label": "Am I accepting responsibility in proportion to our actual part in this, or hiding behind vague or passive wording?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crisis-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crisis-communication"
+   },
+   "rdfs:label": "Have I acknowledged how people feel without over-reassuring them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/crisis-communication/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:crisis-communication"
+   },
+   "rdfs:label": "Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/cultural-intelligence/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -55174,6 +55316,90 @@
    "dcterms:title": "Workplace bullying and incivility: A systematic review of interventions",
    "schema:url": {
     "@id": "https://pure.ul.ie/en/publications/workplace-bullying-and-incivility-a-systematic-review-of-interven/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "U.S. Centers for Disease Control and Prevention, Center for Preparedness and Response (Crisis and Emergency Risk Communication), presented by L. Briseño, April 2020",
+   "dcterms:title": "CERC Overview for COVID-19",
+   "schema:url": {
+    "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Siegel, V., National Center for Environmental Health, CDC; Journal of Environmental Health 82(10), 30-31, June 2020 (CDC Stacks author manuscript)",
+   "dcterms:title": "Risk Communication for Environmental Health Practitioners",
+   "schema:url": {
+    "@id": "https://stacks.cdc.gov/view/cdc/92687/cdc_92687_DS1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Coombs, W. T. & Holladay, S. J., Management Communication Quarterly 16(2), 165-186, 2002 (SAGE copy)",
+   "dcterms:title": "Helping Crisis Managers Protect Reputational Assets: Initial Tests of the Situational Crisis Communication Theory",
+   "schema:url": {
+    "@id": "https://staticssl.sagepub.com/sites/default/files/Coombs.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Claeys, A.-S., Cauberghe, V. & Vyncke, P., Public Relations Review 36(3), 256-262, 2010, doi:10.1016/j.pubrev.2010.05.004 (library catalogue record with abstract)",
+   "dcterms:title": "Restoring reputations in times of crisis: An experimental study of the Situational Crisis Communication Theory and the moderating effects of locus of control",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_746433682"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Vaughan-Johnston, T. I., Guyer, J. J., Lawrence, K. L. & Fabrigar, L. R., Social Influence 20(1), 2447273, 2025, doi:10.1080/15534510.2024.2447273 (Cardiff University ORCA copy)",
+   "dcterms:title": "Disclosure and identification information increase the benefits of stealing thunder",
+   "schema:url": {
+    "@id": "https://orca.cardiff.ac.uk/174975/1/Disclosure%20and%20identification%20information%20increase%20the%20benefits%20of%20stealing%20thunder.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/crisis-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Lee, S. Y. & Fraustino, J., Journal of Marketing Communications 31(3), 263-283, 2025, doi:10.1080/13527266.2023.2235690 (Ajman University research portal record)",
+   "dcterms:title": "How to tell the crisis: effects of stealing thunder by self-disclosing corporate violations",
+   "schema:url": {
+    "@id": "https://research.ajman.ac.ae/en/publications/how-to-tell-the-crisis-effects-of-stealing-thunder-by-self-disclo/"
    }
   },
   {

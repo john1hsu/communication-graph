@@ -7,13 +7,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 5.44 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.49 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:calibrated-questions`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer` |
 | 4.48 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
-| 4.43 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
+| 4.42 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
 | 4.36 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.10 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.89 | `cm:active-listening` | `cm:feedback` | `cm:coaching`, `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward` |
 | 3.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
-| 3.69 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
+| 3.68 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
 | 3.67 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.57 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
 | 3.57 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |

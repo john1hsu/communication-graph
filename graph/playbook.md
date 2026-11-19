@@ -1009,6 +1009,15 @@ Ask yourself:
 - Am I presenting real disagreement among experts or data as such, rather than smoothing it over or overplaying it?
 - Is the uncertainty in the sentence that carries the estimate, not in a footnote or a later slide?
 
+### [Crisis communication](../articles/executive-and-client-communication/crisis-communication.md) — Context
+
+Ask yourself:
+- Does my first message say what happened, what we do not yet know, what we are doing, and when the next update comes?
+- Have I told each audience the one or two things they should do right now to protect themselves?
+- Am I accepting responsibility in proportion to our actual part in this, or hiding behind vague or passive wording?
+- Have I acknowledged how people feel without over-reassuring them?
+- Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?
+
 ### [Elevator pitch](../articles/executive-and-client-communication/elevator-pitch.md) — Genre
 
 1. Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else.
