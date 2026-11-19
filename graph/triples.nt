@@ -17553,6 +17553,87 @@
 <https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/linguistic-anthropology> .
 <https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/william-labov> .
 <https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I curious about where the questions would lead, or was I steering toward an answer I had already chosen?" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/socratic-questioning> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did every question I asked have an answer the other person could actually give?" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/socratic-questioning> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I summarise what we found before asking them what it meant?" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/socratic-questioning> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Who stated the final conclusion - them or me?" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/socratic-questioning> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Let's look at it together. What did the original plan assume about scope? How many requirement changes landed after sprint one? Looking at that list, what do you think drove most of the delay - and what would you change next time?" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> <https://github.com/john1hsu/communication-graph/ontology#before> "I don't think that's fair. Engineering hit every sprint goal last quarter. The real issue was that requirements kept changing - you need to lock scope earlier." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager insists a feature launch slipped because the engineering team is \"too slow\", and asks their manager to escalate." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version tells the manager's diagnosis and invites defensiveness; the second walks through evidence the product manager can check, so the conclusion about late scope changes is theirs and more likely to change how they plan the next launch." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1> <https://schema.org/text> "Start from the other person's own claim, in their words, and confirm you have it right before asking anything else." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2> <https://schema.org/text> "Ask informational questions they can actually answer - what happened, what they have seen, what the numbers say - to bring concrete evidence into view." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3> <https://schema.org/text> "Listen for surprises in the answers (an unexpected word, a fact that does not fit) and follow those rather than your planned script." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4> <https://schema.org/text> "Summarise what has emerged so far, aloud or in writing, and ask them to correct it." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5> <https://schema.org/text> "Ask a synthesising question - how does this fit with what you said at the start? - and let them draw the conclusion, even if it differs from yours." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6> <https://schema.org/text> "If they reach a dead end, name the open question together and agree what evidence would settle it, rather than supplying the answer." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/name> "Socratic questioning" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2000/01/rdf-schema#label> "Socratic questioning" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#altLabel> "Socratic dialogue" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#altLabel> "Socratic method" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#altLabel> "elenchus" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#altLabel> "guided discovery" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#definition> "A disciplined sequence of open, probing questions that helps another person examine the evidence, assumptions and reasoning behind their own view and reach their own conclusion, instead of being told the answer." .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Socratic questioning" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/telling-instead-of-asking> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/clark-egan-2015> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/leading-questions> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/example> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/socratic-questioning.md" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/socrates> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/braun-et-al-2015> .
+<https://github.com/john1hsu/communication-graph/id/socratic-questioning> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/vittorio-et-al-2021> .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I spend more of the conversation on what they want and what already works than on the history of the problem?" .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
@@ -28836,6 +28917,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <https://schema.org/url> <https://www.immi.se/index.php/intercultural/article/download/Holmesetal2010-1/528/3017> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <http://purl.org/dc/terms/publisher> "Paul Woodruff, Stanford Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <http://purl.org/dc/terms/title> "Plato's Shorter Ethical Works (Section 2: Elenchus)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/plato-ethics-shorter/> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <http://purl.org/dc/terms/publisher> "Clark & Egan, Cognitive Therapy and Research, 2015, doi:10.1007/s10608-015-9707-3 (Springer Medicine record)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <http://purl.org/dc/terms/title> "The Socratic Method in Cognitive Behavioural Therapy: A Narrative Review" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2> <https://schema.org/url> <https://www.springermedicine.com/the-socratic-method-in-cognitive-behavioural-therapy-a-narrative/21574518> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <http://purl.org/dc/terms/publisher> "Braun, Strunk, Sasso & Cooper, Behaviour Research and Therapy 70, 32-37, 2015 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <http://purl.org/dc/terms/title> "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <http://purl.org/dc/terms/publisher> "Vittorio, Braun, Cheavens & Strunk, Cognitive Therapy and Research, 2021, doi:10.1007/s10608-021-10224-6 (BSL record)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <http://purl.org/dc/terms/title> "Cognitive Bias and Medication Use Moderate the Relation of Socratic Questioning and Symptom Change in Cognitive Behavioral Therapy of Depression" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4> <https://schema.org/url> <https://mijn.bsl.nl/cognitive-bias-and-medication-use-moderate-the-relation-of-socra/19093350> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <http://purl.org/dc/terms/publisher> "Christine A. Padesky, keynote, European Congress of Behaviour and Cognitive Therapies, London, 1993 (author's copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <http://purl.org/dc/terms/title> "Socratic Questioning: Changing Minds or Guiding Discovery?" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5> <https://schema.org/url> <https://padesky.com:443/wp-content/uploads/2012/11/socquest.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <http://purl.org/dc/terms/publisher> "The Institute for Learning and Teaching (TILT), Colorado State University" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <http://purl.org/dc/terms/title> "The Socratic Method (Teaching Tips)" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6> <https://schema.org/url> <https://tilt.colostate.edu/the-socratic-method> .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/publisher> "John Wiley & Sons (via O'Reilly Learning)" .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/title> "Steps to Solutions: A process for putting solution-focused coaching principles into practice (Anthony M. Grant, chapter 30 in Passmore & Tee (eds.), Coaching Practiced, Wiley, 2022; originally published 2013)" .

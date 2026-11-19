@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
 
-…and 83 more.
+…and 84 more.
 
 ## Toolkit by situation
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 252 more.
+…and 253 more.
 
 ## Concepts with no recorded origin (gap)
 

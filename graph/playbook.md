@@ -3614,6 +3614,29 @@ Ask yourself:
 - Was this a good time for them, or did I pull a focused colleague out of deep work?
 - Did I end the chat cleanly, with a warm close or a link back to the work?
 
+### [Socratic questioning](../articles/questioning-and-conversation/socratic-questioning.md) — Technique
+
+1. Start from the other person's own claim, in their words, and confirm you have it right before asking anything else.
+2. Ask informational questions they can actually answer - what happened, what they have seen, what the numbers say - to bring concrete evidence into view.
+3. Listen for surprises in the answers (an unexpected word, a fact that does not fit) and follow those rather than your planned script.
+4. Summarise what has emerged so far, aloud or in writing, and ask them to correct it.
+5. Ask a synthesising question - how does this fit with what you said at the start? - and let them draw the conclusion, even if it differs from yours.
+6. If they reach a dead end, name the open question together and agree what evidence would settle it, rather than supplying the answer.
+
+*A product manager insists a feature launch slipped because the engineering team is "too slow", and asks their manager to escalate.*
+
+| Before | After |
+|---|---|
+| I don't think that's fair. Engineering hit every sprint goal last quarter. The real issue was that requirements kept changing - you need to lock scope earlier. | Let's look at it together. What did the original plan assume about scope? How many requirement changes landed after sprint one? Looking at that list, what do you think drove most of the delay - and what would you change next time? |
+
+**Why:** The first version tells the manager's diagnosis and invites defensiveness; the second walks through evidence the product manager can check, so the conclusion about late scope changes is theirs and more likely to change how they plan the next launch.
+
+Ask yourself:
+- Was I curious about where the questions would lead, or was I steering toward an answer I had already chosen?
+- Did every question I asked have an answer the other person could actually give?
+- Did I summarise what we found before asking them what it meant?
+- Who stated the final conclusion - them or me?
+
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique
 
 1. Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything.

@@ -18,12 +18,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.66 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.57 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
 | 3.57 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:developmental-model-of-intercultural-sensitivity`, `cm:ethnocentrism`, `cm:intercultural-competence` |
-| 3.57 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
+| 3.56 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.52 | `cm:plain-language` | `cm:reverse-outlining` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-writing`, `cm:curse-of-knowledge`, `cm:editing-for-clarity` |
 | 3.52 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.50 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation` |
 | 3.42 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
-| 3.39 | `cm:active-listening` | `cm:checking-understanding` | `cm:backchannel-responses`, `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing` |
+| 3.37 | `cm:active-listening` | `cm:checking-understanding` | `cm:backchannel-responses`, `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing` |
 | 3.36 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
 | 3.34 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.33 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |

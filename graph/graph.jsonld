@@ -30495,6 +30495,110 @@
    ]
   },
   {
+   "@id": "cm:socratic-questioning",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:telling-instead-of-asking"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:clark-egan-2015"
+   },
+   "cmo:complements": {
+    "@id": "cm:summarizing"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:leading-questions"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/socratic-questioning.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:socrates"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    }
+   ],
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:braun-et-al-2015"
+    },
+    {
+     "@id": "cm:vittorio-et-al-2021"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6"
+    }
+   ],
+   "rdfs:label": "Socratic questioning",
+   "skos:altLabel": [
+    "Socratic dialogue",
+    "Socratic method",
+    "elenchus",
+    "guided discovery"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "A disciplined sequence of open, probing questions that helps another person examine the evidence, assumptions and reasoning behind their own view and reach their own conclusion, instead of being told the answer.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Socratic questioning",
+   "skos:related": [
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:question-formulation-technique"
+    }
+   ]
+  },
+  {
    "@id": "cm:solution-focused-coaching",
    "@type": "cmo:Framework",
    "cmo:challengedBy": {
@@ -49829,6 +49933,107 @@
     "@id": "cm:social-anxiety"
    },
    "rdfs:label": "Is fear of judgement now steering which tasks, meetings or roles I accept at work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:socratic-questioning"
+   },
+   "rdfs:label": "Was I curious about where the questions would lead, or was I steering toward an answer I had already chosen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:socratic-questioning"
+   },
+   "rdfs:label": "Did every question I asked have an answer the other person could actually give?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:socratic-questioning"
+   },
+   "rdfs:label": "Did I summarise what we found before asking them what it meant?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:socratic-questioning"
+   },
+   "rdfs:label": "Who stated the final conclusion - them or me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Let's look at it together. What did the original plan assume about scope? How many requirement changes landed after sprint one? Looking at that list, what do you think drove most of the delay - and what would you change next time?",
+   "cmo:before": "I don't think that's fair. Engineering hit every sprint goal last quarter. The real issue was that requirements kept changing - you need to lock scope earlier.",
+   "cmo:situation": "A product manager insists a feature launch slipped because the engineering team is \"too slow\", and asks their manager to escalate.",
+   "cmo:why": "The first version tells the manager's diagnosis and invites defensiveness; the second walks through evidence the product manager can check, so the conclusion about late scope changes is theirs and more likely to change how they plan the next launch."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Socratic questioning",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Start from the other person's own claim, in their words, and confirm you have it right before asking anything else."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask informational questions they can actually answer - what happened, what they have seen, what the numbers say - to bring concrete evidence into view."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Listen for surprises in the answers (an unexpected word, a fact that does not fit) and follow those rather than your planned script."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Summarise what has emerged so far, aloud or in writing, and ask them to correct it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask a synthesising question - how does this fit with what you said at the start? - and let them draw the conclusion, even if it differs from yours."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/socratic-questioning/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "If they reach a dead end, name the open question together and agree what evidence would settle it, rather than supplying the answer."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1",
@@ -76072,6 +76277,90 @@
    "dcterms:title": "Professional and personal identity at work: achieving a synthesis through intercultural workplace talk",
    "schema:url": {
     "@id": "https://www.immi.se/index.php/intercultural/article/download/Holmesetal2010-1/528/3017"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Paul Woodruff, Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Plato's Shorter Ethical Works (Section 2: Elenchus)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/plato-ethics-shorter/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Clark & Egan, Cognitive Therapy and Research, 2015, doi:10.1007/s10608-015-9707-3 (Springer Medicine record)",
+   "dcterms:title": "The Socratic Method in Cognitive Behavioural Therapy: A Narrative Review",
+   "schema:url": {
+    "@id": "https://www.springermedicine.com/the-socratic-method-in-cognitive-behavioural-therapy-a-narrative/21574518"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Braun, Strunk, Sasso & Cooper, Behaviour Research and Therapy 70, 32-37, 2015 (PubMed Central)",
+   "dcterms:title": "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Vittorio, Braun, Cheavens & Strunk, Cognitive Therapy and Research, 2021, doi:10.1007/s10608-021-10224-6 (BSL record)",
+   "dcterms:title": "Cognitive Bias and Medication Use Moderate the Relation of Socratic Questioning and Symptom Change in Cognitive Behavioral Therapy of Depression",
+   "schema:url": {
+    "@id": "https://mijn.bsl.nl/cognitive-bias-and-medication-use-moderate-the-relation-of-socra/19093350"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Christine A. Padesky, keynote, European Congress of Behaviour and Cognitive Therapies, London, 1993 (author's copy)",
+   "dcterms:title": "Socratic Questioning: Changing Minds or Guiding Discovery?",
+   "schema:url": {
+    "@id": "https://padesky.com:443/wp-content/uploads/2012/11/socquest.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/socratic-questioning/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "The Institute for Learning and Teaching (TILT), Colorado State University",
+   "dcterms:title": "The Socratic Method (Teaching Tips)",
+   "schema:url": {
+    "@id": "https://tilt.colostate.edu/the-socratic-method"
    }
   },
   {
