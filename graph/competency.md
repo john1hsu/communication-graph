@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 
-…and 188 more.
+…and 189 more.
 
 ## Myths and contested advice
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 
-…and 77 more.
+…and 78 more.
 
 ## Orphan articles (gap)
 

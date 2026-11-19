@@ -9,7 +9,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.48 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
 | 4.41 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:alta-gwinn-saunders`, `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication` |
 | 4.37 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
-| 4.36 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
+| 4.35 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.10 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.88 | `cm:active-listening` | `cm:feedback` | `cm:coaching`, `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward` |
 | 3.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
@@ -17,8 +17,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.67 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
 | 3.66 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.57 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
-| 3.57 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.57 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:developmental-model-of-intercultural-sensitivity`, `cm:ethnocentrism`, `cm:intercultural-competence` |
+| 3.57 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.52 | `cm:plain-language` | `cm:reverse-outlining` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-writing`, `cm:curse-of-knowledge`, `cm:editing-for-clarity` |
 | 3.52 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.50 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation` |

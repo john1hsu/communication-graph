@@ -34563,6 +34563,115 @@
   ]
  },
  {
+  "id": "cm:sociolinguistics",
+  "title": "Sociolinguistics",
+  "aliases": [
+   "sociolinguistic research",
+   "language and society",
+   "study of language in social context"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/sociolinguistics.md",
+  "created": "2026-11-19",
+  "summary": "The study of language in its social context: how the way people speak and write varies with region, class, age, gender, group and situation, how speakers shift style and switch codes to signal relationships, and how listeners judge one another by how they talk. Emerging as a field in the 1960s, it explains why accent, register and conversational habits shape credibility at work.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:linguistics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:register-and-tone"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-accommodation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pragmatics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:uptalk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-fry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-across-languages"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:william-labov",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:john-gumperz",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:dell-hymes",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:linguistic-anthropology",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:psycholinguistics",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.oupcanada.com/catalog/9780199744084.html",
+   "https://www.britannica.com/science/linguistics/Sociolinguistics",
+   "https://www.cambridge.org/core/product/identifier/CBO9780511618208A011/type/BOOK_PART",
+   "https://centerforinterculturaldialogue.org/wp-content/uploads/2021/06/kc57-contextualization-cues-v2.pdf",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2731718003",
+   "https://www.immi.se/index.php/intercultural/article/download/Holmesetal2010-1/528/3017"
+  ]
+ },
+ {
   "id": "cm:solution-focused-coaching",
   "title": "Solution-focused coaching",
   "aliases": [

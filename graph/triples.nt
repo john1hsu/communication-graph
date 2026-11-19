@@ -17517,6 +17517,42 @@
 <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
 <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/floyd-allport> .
 <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2000/01/rdf-schema#label> "Sociolinguistics" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#altLabel> "language and society" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#altLabel> "sociolinguistic research" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#altLabel> "study of language in social context" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/linguistics> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#definition> "The study of language in its social context: how the way people speak and write varies with region, class, age, gender, group and situation, how speakers shift style and switch codes to signal relationships, and how listeners judge one another by how they talk. Emerging as a field in the 1960s, it explains why accent, register and conversational habits shape credibility at work." .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sociolinguistics" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-design> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uptalk> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-fry> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/psycholinguistics> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/sociolinguistics.md" .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/dell-hymes> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/john-gumperz> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/linguistic-anthropology> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/william-labov> .
+<https://github.com/john1hsu/communication-graph/id/sociolinguistics> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I spend more of the conversation on what they want and what already works than on the history of the problem?" .
 <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
@@ -28764,6 +28800,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <https://schema.org/url> <https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <http://purl.org/dc/terms/publisher> "Robert Bayley, Richard Cameron & Ceil Lucas (eds.), Oxford University Press (2013), via OUP Canada catalogue" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <http://purl.org/dc/terms/title> "The Oxford Handbook of Sociolinguistics (front matter and introduction)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1> <https://schema.org/url> <https://www.oupcanada.com/catalog/9780199744084.html> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <http://purl.org/dc/terms/title> "Linguistics: Sociolinguistics" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2> <https://schema.org/url> <https://www.britannica.com/science/linguistics/Sociolinguistics> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <http://purl.org/dc/terms/publisher> "William Labov, Cambridge University Press (2006)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <http://purl.org/dc/terms/title> "The social stratification of (r) in New York City department stores (ch. 3 of The Social Stratification of English in New York City, 2nd ed.)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3> <https://schema.org/url> <https://www.cambridge.org/core/product/identifier/CBO9780511618208A011/type/BOOK_PART> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <http://purl.org/dc/terms/publisher> "Cynthia Gordon (Georgetown University), Center for Intercultural Dialogue (2014, revised 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <http://purl.org/dc/terms/title> "Contextualization Cues (Key Concepts in Intercultural Dialogue, No. 57)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4> <https://schema.org/url> <https://centerforinterculturaldialogue.org/wp-content/uploads/2021/06/kc57-contextualization-cues-v2.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <http://purl.org/dc/terms/publisher> "Jessica L. Spence, Matthew J. Hornsey, Elise M. Stephenson & Kana Imuta, Personality and Social Psychology Bulletin 50(3), 371-386 (2024; online 2022), doi:10.1177/01461672221130595 (library record)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <http://purl.org/dc/terms/title> "Is Your Accent Right for the Job? A Meta-Analysis on Accent Bias in Hiring Decisions" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2731718003> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <http://purl.org/dc/terms/publisher> "Janet Holmes & Nicky Riddiford, Journal of Intercultural Communication 22 (2010)" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <http://purl.org/dc/terms/title> "Professional and personal identity at work: achieving a synthesis through intercultural workplace talk" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6> <https://schema.org/url> <https://www.immi.se/index.php/intercultural/article/download/Holmesetal2010-1/528/3017> .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/publisher> "John Wiley & Sons (via O'Reilly Learning)" .
 <https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1> <http://purl.org/dc/terms/title> "Steps to Solutions: A process for putting solution-focused coaching principles into practice (Anthony M. Grant, chapter 30 in Passmore & Tee (eds.), Coaching Practiced, Wiley, 2022; originally published 2013)" .

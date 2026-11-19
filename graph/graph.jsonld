@@ -30397,6 +30397,104 @@
    ]
   },
   {
+   "@id": "cm:sociolinguistics",
+   "@type": "cmo:Field",
+   "cmo:appliedIn": {
+    "@id": "cm:job-interview"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:psycholinguistics"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/sociolinguistics.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:dell-hymes"
+    },
+    {
+     "@id": "cm:john-gumperz"
+    },
+    {
+     "@id": "cm:linguistic-anthropology"
+    },
+    {
+     "@id": "cm:william-labov"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6"
+    }
+   ],
+   "rdfs:label": "Sociolinguistics",
+   "skos:altLabel": [
+    "language and society",
+    "sociolinguistic research",
+    "study of language in social context"
+   ],
+   "skos:broader": {
+    "@id": "cm:linguistics"
+   },
+   "skos:definition": "The study of language in its social context: how the way people speak and write varies with region, class, age, gender, group and situation, how speakers shift style and switch codes to signal relationships, and how listeners judge one another by how they talk. Emerging as a field in the 1960s, it explains why accent, register and conversational habits shape credibility at work.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Sociolinguistics",
+   "skos:related": [
+    {
+     "@id": "cm:audience-design"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:communication-accommodation-theory"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:pragmatics"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    },
+    {
+     "@id": "cm:small-talk"
+    },
+    {
+     "@id": "cm:uptalk"
+    },
+    {
+     "@id": "cm:vocal-fry"
+    }
+   ]
+  },
+  {
    "@id": "cm:solution-focused-coaching",
    "@type": "cmo:Framework",
    "cmo:challengedBy": {
@@ -75890,6 +75988,90 @@
    "dcterms:title": "Carl Iver Hovland, 1912-1961: A Biographical Memoir",
    "schema:url": {
     "@id": "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Robert Bayley, Richard Cameron & Ceil Lucas (eds.), Oxford University Press (2013), via OUP Canada catalogue",
+   "dcterms:title": "The Oxford Handbook of Sociolinguistics (front matter and introduction)",
+   "schema:url": {
+    "@id": "https://www.oupcanada.com/catalog/9780199744084.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Linguistics: Sociolinguistics",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/linguistics/Sociolinguistics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "William Labov, Cambridge University Press (2006)",
+   "dcterms:title": "The social stratification of (r) in New York City department stores (ch. 3 of The Social Stratification of English in New York City, 2nd ed.)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/identifier/CBO9780511618208A011/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Cynthia Gordon (Georgetown University), Center for Intercultural Dialogue (2014, revised 2021)",
+   "dcterms:title": "Contextualization Cues (Key Concepts in Intercultural Dialogue, No. 57)",
+   "schema:url": {
+    "@id": "https://centerforinterculturaldialogue.org/wp-content/uploads/2021/06/kc57-contextualization-cues-v2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Jessica L. Spence, Matthew J. Hornsey, Elise M. Stephenson & Kana Imuta, Personality and Social Psychology Bulletin 50(3), 371-386 (2024; online 2022), doi:10.1177/01461672221130595 (library record)",
+   "dcterms:title": "Is Your Accent Right for the Job? A Meta-Analysis on Accent Bias in Hiring Decisions",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2731718003"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sociolinguistics/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Janet Holmes & Nicky Riddiford, Journal of Intercultural Communication 22 (2010)",
+   "dcterms:title": "Professional and personal identity at work: achieving a synthesis through intercultural workplace talk",
+   "schema:url": {
+    "@id": "https://www.immi.se/index.php/intercultural/article/download/Holmesetal2010-1/528/3017"
    }
   },
   {
