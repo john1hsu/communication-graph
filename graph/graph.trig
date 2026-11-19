@@ -1359,6 +1359,15 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/perceived-partner-responsiveness.md" .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> .
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> .
 <https://github.com/john1hsu/communication-graph/id/perception-checking#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/perception-checking#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
 <https://github.com/john1hsu/communication-graph/id/perception-checking#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/perception-checking.md" .
@@ -17725,6 +17734,81 @@
   <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness#graph> {
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2000/01/rdf-schema#label> "Perceived partner responsiveness" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "feeling understood validated and cared for" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal responsiveness" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "perceived responsiveness" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#definition> "A person's sense that someone they are talking or working with understands them, values and accepts what they said, and cares about them. It is the listener's reply as the speaker reads it, not the reply itself, and it predicts closeness, liking and openness." .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perceived partner responsiveness" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/intellectual-humility> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/borut-et-al-2025> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/laurenceau-feldman-barrett-pietromonaco-1998> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/reis-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/perceived-partner-responsiveness.md" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/harry-t-reis> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kluger-itzchakov-2022> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <http://purl.org/dc/terms/publisher> "Laurenceau, J.-P., Feldman Barrett, L. & Pietromonaco, P. R., Journal of Personality and Social Psychology 74(5), 1238-1251, 1998 (PDF copy hosted by the Interdisciplinary Affective Science Laboratory)" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <http://purl.org/dc/terms/title> "Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1> <https://schema.org/url> <https://www.affective-science.org/pubs/1998/LaurenFBPl1998.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <http://purl.org/dc/terms/publisher> "Reis, H. T., Lee, K. Y., O'Keefe, S. D. & Clark, M. S., Journal of Experimental Social Psychology 79, 21-33, 2018 (PDF copy hosted by the Yale Clark Relationship Lab)" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <http://purl.org/dc/terms/title> "Perceived partner responsiveness promotes intellectual humility" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2> <https://schema.org/url> <https://clarkrelationshiplab.yale.edu/sites/default/files/files/ReisLeeO'KeefeClark2018.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <http://purl.org/dc/terms/publisher> "Huang, K., Yeomans, M., Brooks, A. W., Minson, J. & Gino, F., Journal of Personality and Social Psychology 113(3), 430-452, 2017, doi:10.1037/pspi0000097 (PDF copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <http://purl.org/dc/terms/title> "It doesn't hurt to ask: Question-asking increases liking" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3> <https://schema.org/url> <https://gwern.net/doc/psychology/novelty/2017-huang.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <http://purl.org/dc/terms/publisher> "Kluger, A. N. & Itzchakov, G., Annual Review of Organizational Psychology and Organizational Behavior 9 (accepted manuscript, Leibniz Institute for Psychology)" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <http://purl.org/dc/terms/title> "The power of listening at work" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4> <https://schema.org/url> <https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <http://purl.org/dc/terms/publisher> "Borut, L., Kluger, A. N., Reis, H. T. & Shapiro, D. L., Journal of Business and Psychology 40, 285-314, 2025, doi:10.1007/s10869-024-09938-7" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <http://purl.org/dc/terms/title> "How (if at all) do perceptions of supervisor's listening differ from general relationship quality?: Psychometric analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1007/s10869-024-09938-7.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <http://purl.org/dc/terms/publisher> "Itzchakov, G., Reis, H. T. & Weinstein, N., Social and Personality Psychology Compass - publication page on Guy Itzchakov's University of Haifa site" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <http://purl.org/dc/terms/title> "How to foster perceived partner responsiveness: High-quality listening is key" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6> <https://schema.org/url> <https://guyitzchakov.haifa.ac.il/publications/how-to-foster-perceived-partner-responsiveness-high-quality-listening-is-key> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/perception-checking#graph> {
@@ -36641,6 +36725,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
@@ -37344,6 +37429,7 @@
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/borut-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
@@ -38500,6 +38586,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
@@ -38717,6 +38804,7 @@
   <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39796,6 +39884,7 @@
   <https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-validation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/empathic-concern> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40426,6 +40515,7 @@
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paul-lazarsfeld> .
+  <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
@@ -40803,6 +40893,9 @@
   <https://github.com/john1hsu/communication-graph/id/harinck-de-dreu-2008> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/harold-lasswell> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/harry-nyquist> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/claude-shannon> .
+  <https://github.com/john1hsu/communication-graph/id/harry-t-reis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/harry-t-reis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/harry-t-reis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/harry-triandis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
@@ -40943,6 +41036,7 @@
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
@@ -41134,6 +41228,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
@@ -41579,6 +41674,7 @@
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> .
   <https://github.com/john1hsu/communication-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
+  <https://github.com/john1hsu/communication-graph/id/intellectual-humility> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/interaction-model-of-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-models> .
   <https://github.com/john1hsu/communication-graph/id/interaction-model-of-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> .
   <https://github.com/john1hsu/communication-graph/id/interaction-ritual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41842,6 +41938,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/patient-education> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
@@ -42206,6 +42303,7 @@
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/kluger-itzchakov-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/kluger-malloy-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/kluger-malloy-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/ko-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -42293,6 +42391,9 @@
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+  <https://github.com/john1hsu/communication-graph/id/laurenceau-feldman-barrett-pietromonaco-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/laurenceau-feldman-barrett-pietromonaco-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/laurenceau-feldman-barrett-pietromonaco-1998> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/layoff-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/layoff-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/leach-et-al-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42436,6 +42537,7 @@
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+  <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/living-with-fear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -43769,6 +43871,13 @@
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
@@ -44424,6 +44533,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
@@ -44655,6 +44765,8 @@
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
+  <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
@@ -44780,6 +44892,7 @@
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
+  <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-proof> .
@@ -44812,6 +44925,9 @@
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominalization> .
   <https://github.com/john1hsu/communication-graph/id/regulatory-flexibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/regulatory-focus-theory> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
+  <https://github.com/john1hsu/communication-graph/id/reis-et-al-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reis-et-al-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/reis-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/relevance-theory> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/remote-work-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/remote-work-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -45760,6 +45876,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
@@ -46132,6 +46249,7 @@
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-styles> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
   <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .

@@ -25848,6 +25848,119 @@
   ]
  },
  {
+  "id": "cm:perceived-partner-responsiveness",
+  "title": "Perceived partner responsiveness",
+  "aliases": [
+   "perceived responsiveness",
+   "feeling understood validated and cared for",
+   "interpersonal responsiveness"
+  ],
+  "type": "Phenomenon",
+  "domain": "listening",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/perceived-partner-responsiveness.md",
+  "created": "2026-11-19",
+  "summary": "A person's sense that someone they are talking or working with understands them, values and accepts what they said, and cares about them. It is the listener's reply as the speaker reads it, not the reply itself, and it predicts closeness, liking and openness.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:support-response"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-narcissism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-validation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocal-self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:harry-t-reis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:laurenceau-feldman-barrett-pietromonaco-1998",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:huang-et-al-2017",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:reis-et-al-2018",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:intellectual-humility",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kluger-itzchakov-2022",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:borut-et-al-2025",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.affective-science.org/pubs/1998/LaurenFBPl1998.pdf",
+   "https://clarkrelationshiplab.yale.edu/sites/default/files/files/ReisLeeO'KeefeClark2018.pdf",
+   "https://gwern.net/doc/psychology/novelty/2017-huang.pdf",
+   "https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf",
+   "https://link.springer.com/content/pdf/10.1007/s10869-024-09938-7.pdf",
+   "https://guyitzchakov.haifa.ac.il/publications/how-to-foster-perceived-partner-responsiveness-high-quality-listening-is-key"
+  ]
+ },
+ {
   "id": "cm:perception-checking",
   "title": "Perception checking",
   "aliases": [

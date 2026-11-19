@@ -22801,6 +22801,104 @@
    ]
   },
   {
+   "@id": "cm:perceived-partner-responsiveness",
+   "@type": "cmo:Phenomenon",
+   "cmo:causes": {
+    "@id": "cm:intellectual-humility"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:borut-et-al-2025"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:huang-et-al-2017"
+    },
+    {
+     "@id": "cm:laurenceau-feldman-barrett-pietromonaco-1998"
+    },
+    {
+     "@id": "cm:reis-et-al-2018"
+    }
+   ],
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/perceived-partner-responsiveness.md",
+   "cmo:introducedBy": {
+    "@id": "cm:harry-t-reis"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:kluger-itzchakov-2022"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6"
+    }
+   ],
+   "rdfs:label": "Perceived partner responsiveness",
+   "skos:altLabel": [
+    "feeling understood validated and cared for",
+    "interpersonal responsiveness",
+    "perceived responsiveness"
+   ],
+   "skos:broader": {
+    "@id": "cm:rapport"
+   },
+   "skos:definition": "A person's sense that someone they are talking or working with understands them, values and accepts what they said, and cares about them. It is the listener's reply as the speaker reads it, not the reply itself, and it predicts closeness, liking and openness.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Perceived partner responsiveness",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:conversational-narcissism"
+    },
+    {
+     "@id": "cm:emotional-validation"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:listening"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:perception-checking",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -68351,6 +68449,90 @@
    "dcterms:title": "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics",
    "schema:url": {
     "@id": "https://link.springer.com/10.1007%2Fs10869-019-09624-z"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Laurenceau, J.-P., Feldman Barrett, L. & Pietromonaco, P. R., Journal of Personality and Social Psychology 74(5), 1238-1251, 1998 (PDF copy hosted by the Interdisciplinary Affective Science Laboratory)",
+   "dcterms:title": "Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges",
+   "schema:url": {
+    "@id": "https://www.affective-science.org/pubs/1998/LaurenFBPl1998.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Reis, H. T., Lee, K. Y., O'Keefe, S. D. & Clark, M. S., Journal of Experimental Social Psychology 79, 21-33, 2018 (PDF copy hosted by the Yale Clark Relationship Lab)",
+   "dcterms:title": "Perceived partner responsiveness promotes intellectual humility",
+   "schema:url": {
+    "@id": "https://clarkrelationshiplab.yale.edu/sites/default/files/files/ReisLeeO'KeefeClark2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Huang, K., Yeomans, M., Brooks, A. W., Minson, J. & Gino, F., Journal of Personality and Social Psychology 113(3), 430-452, 2017, doi:10.1037/pspi0000097 (PDF copy)",
+   "dcterms:title": "It doesn't hurt to ask: Question-asking increases liking",
+   "schema:url": {
+    "@id": "https://gwern.net/doc/psychology/novelty/2017-huang.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Kluger, A. N. & Itzchakov, G., Annual Review of Organizational Psychology and Organizational Behavior 9 (accepted manuscript, Leibniz Institute for Psychology)",
+   "dcterms:title": "The power of listening at work",
+   "schema:url": {
+    "@id": "https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Borut, L., Kluger, A. N., Reis, H. T. & Shapiro, D. L., Journal of Business and Psychology 40, 285-314, 2025, doi:10.1007/s10869-024-09938-7",
+   "dcterms:title": "How (if at all) do perceptions of supervisor's listening differ from general relationship quality?: Psychometric analysis",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1007/s10869-024-09938-7.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perceived-partner-responsiveness/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Itzchakov, G., Reis, H. T. & Weinstein, N., Social and Personality Psychology Compass - publication page on Guy Itzchakov's University of Haifa site",
+   "dcterms:title": "How to foster perceived partner responsiveness: High-quality listening is key",
+   "schema:url": {
+    "@id": "https://guyitzchakov.haifa.ac.il/publications/how-to-foster-perceived-partner-responsiveness-high-quality-listening-is-key"
    }
   },
   {
