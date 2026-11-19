@@ -912,6 +912,115 @@
   ]
  },
  {
+  "id": "cm:all-frames-are-not-created-equal",
+  "title": "All Frames Are Not Created Equal",
+  "aliases": [
+   "Levin",
+   "Schneider and Gaeth (1998)",
+   "Levin Schneider & Gaeth 1998",
+   "typology of valence framing effects",
+   "attribute-risky-goal framing typology"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/all-frames-are-not-created-equal.md",
+  "created": "2026-11-19",
+  "summary": "Irwin Levin, Sandra Schneider and Gary Gaeth's 1998 review in Organizational Behavior and Human Decision Processes, which split \"framing\" into three distinct effects - risky choice framing, attribute framing and goal framing - and in doing so named the goal (gain-loss) framing of persuasive messages as its own phenomenon with its own mechanisms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gain-loss-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:leadership-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:risk-numbers-as-natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:daniel-kahneman"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:irwin-p-levin",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:sandra-l-schneider",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:gary-j-gaeth",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:gain-loss-framing",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:attribute-framing",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:pinon-gambara-2005",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:levin-gaeth-schreiber-lauriola-2002",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:okeefe-wu-2012",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://digitalcommons.usf.edu/psy_facpub/1886/",
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/All-Frames-Are-Not-Created-Equal/9984962886902771",
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/A-New-Look-at-Framing-Effects/9984962552802771",
+   "https://www.psicothema.com/pii?pii=3107",
+   "https://pages.ucsd.edu/~mckenzie/SHERMCKENZIEFRAMINGEFFECTSFINAL1.pdf",
+   "https://ideas.repec.org/a/gam/jijerp/v9y2012i6p2121-2133d18131.html"
+  ]
+ },
+ {
   "id": "cm:alta-gwinn-saunders",
   "title": "Alta Gwinn Saunders",
   "aliases": [

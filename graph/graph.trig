@@ -2444,6 +2444,15 @@
 <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> .
 <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> .
 <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/all-frames-are-not-created-equal.md" .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> .
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> .
 <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders> .
 <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/alta-gwinn-saunders.md" .
@@ -29882,6 +29891,81 @@
   <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <https://schema.org/url> <https://poetsandquants.com/2021/05/03/2021-best-40-under-40-professors-alison-wood-brooks-harvard-business-school/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal#graph> {
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2000/01/rdf-schema#label> "All Frames Are Not Created Equal" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#altLabel> "Levin Schneider & Gaeth 1998" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#altLabel> "Levin" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#altLabel> "Schneider and Gaeth (1998)" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#altLabel> "attribute-risky-goal framing typology" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#altLabel> "typology of valence framing effects" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#definition> "Irwin Levin, Sandra Schneider and Gary Gaeth's 1998 review in Organizational Behavior and Human Decision Processes, which split \"framing\" into three distinct effects - risky choice framing, attribute framing and goal framing - and in doing so named the goal (gain-loss) framing of persuasive messages as its own phenomenon with its own mechanisms." .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#prefLabel> "All Frames Are Not Created Equal" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leadership-framing> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/gary-j-gaeth> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/irwin-p-levin> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/sandra-l-schneider> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/levin-gaeth-schreiber-lauriola-2002> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/okeefe-wu-2012> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/all-frames-are-not-created-equal.md" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/attribute-framing> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/pinon-gambara-2005> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <http://purl.org/dc/terms/publisher> "Irwin P. Levin, Sandra L. Schneider & Gary J. Gaeth, Organizational Behavior and Human Decision Processes 76(2), 149-188, 1998, doi:10.1006/obhd.1998.2804 (University of South Florida Digital Commons)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <http://purl.org/dc/terms/title> "All Frames Are Not Created Equal: A Typology of Framing Effects" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1> <https://schema.org/url> <https://digitalcommons.usf.edu/psy_facpub/1886/> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <http://purl.org/dc/terms/publisher> "Levin, Schneider & Gaeth, Organizational Behavior and Human Decision Processes 76(2), 149-188, 1998, PMID 9831520 (University of Iowa research repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <http://purl.org/dc/terms/title> "All Frames Are Not Created Equal: A Typology and Critical Analysis of Framing Effects" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2> <https://schema.org/url> <https://iro.uiowa.edu/esploro/outputs/journalArticle/All-Frames-Are-Not-Created-Equal/9984962886902771> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <http://purl.org/dc/terms/publisher> "Levin, Gaeth, Schreiber & Lauriola, Organizational Behavior and Human Decision Processes 88(1), 411-429, 2002, doi:10.1006/obhd.2001.2983 (University of Iowa research repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <http://purl.org/dc/terms/title> "A New Look at Framing Effects: Distribution of Effect Sizes, Individual Differences, and Independence of Types of Effects" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3> <https://schema.org/url> <https://iro.uiowa.edu/esploro/outputs/journalArticle/A-New-Look-at-Framing-Effects/9984962552802771> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <http://purl.org/dc/terms/publisher> "Adelson Piñón & Hilda Gambara, Psicothema 17(2), 325-331, 2005 (Universidad Autónoma de Madrid)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <http://purl.org/dc/terms/title> "A meta-analytic review of framing effect: risky, attribute and goal framing" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4> <https://schema.org/url> <https://www.psicothema.com/pii?pii=3107> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <http://purl.org/dc/terms/publisher> "Shlomi Sher & Craig R. M. McKenzie, reference entry (author's copy, University of California San Diego)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <http://purl.org/dc/terms/title> "Framing Effects" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/SHERMCKENZIEFRAMINGEFFECTSFINAL1.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe & Daisy Wu, International Journal of Environmental Research and Public Health 9(6), 2121-2133, 2012 (RePEc IDEAS record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <http://purl.org/dc/terms/title> "Gain-Framed Messages Do Not Motivate Sun Protection: A Meta-Analytic Review of Randomized Trials Comparing Gain-Framed and Loss-Framed Appeals for Promoting Skin Cancer Prevention" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6> <https://schema.org/url> <https://ideas.repec.org/a/gam/jijerp/v9y2012i6p2121-2133d18131.html> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders#graph> {
   <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/alta-gwinn-saunders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -36975,6 +37059,12 @@
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/allan-bell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/allan-bell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/allan-bell> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/audience-design> .
@@ -37004,6 +37094,7 @@
   <https://github.com/john1hsu/communication-graph/id/ameseder-devetak-skubic-2026> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
@@ -37249,6 +37340,7 @@
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/attribute-framing> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/attribute-framing> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/attributional-ambiguity> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
@@ -38267,6 +38359,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
@@ -38564,6 +38657,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
@@ -39225,6 +39319,7 @@
   <https://github.com/john1hsu/communication-graph/id/danescu-niculescu-mizil-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
@@ -40698,8 +40793,10 @@
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/leadership-framing> .
   <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/galati-brennan-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/audience-design> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -40720,6 +40817,9 @@
   <https://github.com/john1hsu/communication-graph/id/garrett-danziger-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/garrett-danziger-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/garrett-danziger-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+  <https://github.com/john1hsu/communication-graph/id/gary-j-gaeth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gary-j-gaeth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/gary-j-gaeth> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/gary-klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gary-klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/gary-klein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/premortem> .
@@ -41207,6 +41307,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
@@ -41974,6 +42075,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
@@ -42208,6 +42310,9 @@
   <https://github.com/john1hsu/communication-graph/id/interview-after-combat> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/improved-tactical-engagement-simulation-training-techniques> .
   <https://github.com/john1hsu/communication-graph/id/interview-after-combat> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/s-l-a-marshall> .
   <https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/irwin-p-levin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/irwin-p-levin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/irwin-p-levin> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
@@ -42568,6 +42673,7 @@
   <https://github.com/john1hsu/communication-graph/id/leadership-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/leadership-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
   <https://github.com/john1hsu/communication-graph/id/leadership-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/leadership-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/leading-change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/leading-change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/leading-change> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
@@ -42600,6 +42706,7 @@
   <https://github.com/john1hsu/communication-graph/id/letting-go-of-the-words> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/letting-go-of-the-words> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/leung-ang-tan-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+  <https://github.com/john1hsu/communication-graph/id/levin-gaeth-schreiber-lauriola-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/levine-blair-carpenter-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -43625,6 +43732,7 @@
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-jensen-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/okeefe-wu-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-wu-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -44171,6 +44279,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/credibility> .
@@ -44191,6 +44300,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
@@ -44255,6 +44365,7 @@
   <https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/pian-smith-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+  <https://github.com/john1hsu/communication-graph/id/pinon-gambara-2005> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/pitch-variation-quotient> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
   <https://github.com/john1hsu/communication-graph/id/plain-language-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45214,6 +45325,7 @@
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/risk-communication> .
+  <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/patient-education> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45341,6 +45453,9 @@
   <https://github.com/john1hsu/communication-graph/id/sam-kaner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/sam-kaner> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/sandra-l-schneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/sandra-l-schneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/sandra-l-schneider> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/sandstrom-boothby-cooney-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/sandstrom-dunn-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -45852,6 +45967,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/all-frames-are-not-created-equal> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .

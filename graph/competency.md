@@ -145,7 +145,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
-| `cm:gain-loss-framing` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:graded-assertiveness` | cmo:Technique |
 | `cm:group-communication` | cmo:Field |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
+| `cm:mirroring` | cmo:Technique |
 
-…and 76 more.
+…and 75 more.
 
 ## Orphan articles (gap)
 

@@ -800,6 +800,104 @@
    ]
   },
   {
+   "@id": "cm:all-frames-are-not-created-equal",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:gary-j-gaeth"
+    },
+    {
+     "@id": "cm:irwin-p-levin"
+    },
+    {
+     "@id": "cm:sandra-l-schneider"
+    }
+   ],
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:levin-gaeth-schreiber-lauriola-2002"
+    },
+    {
+     "@id": "cm:okeefe-wu-2012"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/all-frames-are-not-created-equal.md",
+   "cmo:influencedBy": {
+    "@id": "cm:amos-tversky"
+   },
+   "cmo:introduces": [
+    {
+     "@id": "cm:attribute-framing"
+    },
+    {
+     "@id": "cm:gain-loss-framing"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:pinon-gambara-2005"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6"
+    }
+   ],
+   "rdfs:label": "All Frames Are Not Created Equal",
+   "skos:altLabel": [
+    "Levin Schneider & Gaeth 1998",
+    "Levin",
+    "Schneider and Gaeth (1998)",
+    "attribute-risky-goal framing typology",
+    "typology of valence framing effects"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Irwin Levin, Sandra Schneider and Gary Gaeth's 1998 review in Organizational Behavior and Human Decision Processes, which split \"framing\" into three distinct effects - risky choice framing, attribute framing and goal framing - and in doing so named the goal (gain-loss) framing of persuasive messages as its own phenomenon with its own mechanisms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "All Frames Are Not Created Equal",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-bias"
+    },
+    {
+     "@id": "cm:daniel-kahneman"
+    },
+    {
+     "@id": "cm:gain-loss-framing"
+    },
+    {
+     "@id": "cm:leadership-framing"
+    },
+    {
+     "@id": "cm:risk-numbers-as-natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "cm:alta-gwinn-saunders",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -49700,6 +49798,90 @@
    "dcterms:title": "2021 Best 40-Under-40 Professors: Alison Wood Brooks, Harvard Business School",
    "schema:url": {
     "@id": "https://poetsandquants.com/2021/05/03/2021-best-40-under-40-professors-alison-wood-brooks-harvard-business-school/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Irwin P. Levin, Sandra L. Schneider & Gary J. Gaeth, Organizational Behavior and Human Decision Processes 76(2), 149-188, 1998, doi:10.1006/obhd.1998.2804 (University of South Florida Digital Commons)",
+   "dcterms:title": "All Frames Are Not Created Equal: A Typology of Framing Effects",
+   "schema:url": {
+    "@id": "https://digitalcommons.usf.edu/psy_facpub/1886/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Levin, Schneider & Gaeth, Organizational Behavior and Human Decision Processes 76(2), 149-188, 1998, PMID 9831520 (University of Iowa research repository record)",
+   "dcterms:title": "All Frames Are Not Created Equal: A Typology and Critical Analysis of Framing Effects",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/All-Frames-Are-Not-Created-Equal/9984962886902771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Levin, Gaeth, Schreiber & Lauriola, Organizational Behavior and Human Decision Processes 88(1), 411-429, 2002, doi:10.1006/obhd.2001.2983 (University of Iowa research repository record)",
+   "dcterms:title": "A New Look at Framing Effects: Distribution of Effect Sizes, Individual Differences, and Independence of Types of Effects",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/A-New-Look-at-Framing-Effects/9984962552802771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Adelson Piñón & Hilda Gambara, Psicothema 17(2), 325-331, 2005 (Universidad Autónoma de Madrid)",
+   "dcterms:title": "A meta-analytic review of framing effect: risky, attribute and goal framing",
+   "schema:url": {
+    "@id": "https://www.psicothema.com/pii?pii=3107"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Shlomi Sher & Craig R. M. McKenzie, reference entry (author's copy, University of California San Diego)",
+   "dcterms:title": "Framing Effects",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/SHERMCKENZIEFRAMINGEFFECTSFINAL1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/all-frames-are-not-created-equal/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe & Daisy Wu, International Journal of Environmental Research and Public Health 9(6), 2121-2133, 2012 (RePEc IDEAS record)",
+   "dcterms:title": "Gain-Framed Messages Do Not Motivate Sun Protection: A Meta-Analytic Review of Randomized Trials Comparing Gain-Framed and Loss-Framed Appeals for Promoting Skin Cancer Prevention",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/gam/jijerp/v9y2012i6p2121-2133d18131.html"
    }
   },
   {
