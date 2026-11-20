@@ -28902,6 +28902,105 @@
   ]
  },
  {
+  "id": "cm:process-model-of-emotion-regulation",
+  "title": "Process model of emotion regulation",
+  "aliases": [
+   "Gross's process model",
+   "process model of ER",
+   "modal model of emotion regulation"
+  ],
+  "type": "Theory",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "theoretical",
+  "file": "articles/difficult-conversations-and-conflict/process-model-of-emotion-regulation.md",
+  "created": "2026-11-20",
+  "summary": "James Gross's model that sorts emotion-regulation strategies by where they act in the unfolding of an emotion (situation, attention, appraisal, response): situation selection, situation modification, attentional deployment, cognitive change and response modulation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:expressive-suppression"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-emerging-field-of-emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:extended-process-model-of-emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-distancing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cooling-off-period"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:james-j-gross",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:webb-miles-sheeran-2012",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:pushing-and-pulling-the-boundaries-of-emotion-regulation",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:troy-shallcross-mauss-2013",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:psychology",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://researchgate.net/profile/Paschal_Sheeran/publication/224955638_Dealing_With_Feeling_A_Meta-Analysis_of_the_Effectiveness_of_Strategies_Derived_From_the_Process_Model_of_Emotion_Regulation/links/0912f504f09b780691000000.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5939931",
+   "https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032814-112739",
+   "https://par.nsf.gov/servlets/purl/10126641",
+   "https://ora.ox.ac.uk/objects/uuid:9bba3ad3-97f3-492b-add1-9c450cfb3d47/files/rh415pb560",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6092030"
+  ]
+ },
+ {
   "id": "cm:production-blocking",
   "title": "Production blocking",
   "aliases": [
