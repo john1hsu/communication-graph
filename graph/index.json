@@ -39883,6 +39883,136 @@
   ]
  },
  {
+  "id": "cm:writing-for-skimmability",
+  "title": "Writing for skimmability",
+  "aliases": [
+   "skimmable writing",
+   "scannable writing",
+   "writing for busy readers",
+   "designing messages for scanning"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/writing-for-skimmability.md",
+  "created": "2026-11-21",
+  "summary": "Shaping emails, chat posts, tickets and documents so a reader who only scans still gets the point: key message and asks first, few words, descriptive headings, short chunks, lists and sparing emphasis.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:informative-headings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bulleted-and-numbered-lists"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email-subject-lines"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:instant-messaging"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:burying-the-lede"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:editing-for-clarity"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:wall-of-text",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:text-signaling",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:writing-for-busy-readers",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:linos-et-al-2023-formality-effect",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If someone read only my first line, the headings and the bold words, would they know what I need and by when?",
+   "Is there any sentence, idea or second request I could cut or move to a follow-up message?",
+   "Have I bolded so much that the emphasis no longer marks what matters most?",
+   "Could the reader answer me in one word or one click?"
+  ],
+  "steps": [
+   "Decide the one thing each reader must know or do, and put it in the subject line and first sentence.",
+   "Cut every sentence, idea and request that is not needed for that purpose; move background to a link or a later section.",
+   "Break the rest into short chunks of one idea each, and turn parallel items, options or steps into a list.",
+   "Give longer messages descriptive headings that start with the information-carrying words, so the headings alone tell the story.",
+   "Bold only the few words a reader must not miss, such as an owner, a decision or a deadline.",
+   "Make replying easy - say exactly what answer you need, by when, and offer the options if there are any.",
+   "Before sending, read only the first two lines, the headings and the bold text, and check that the message still works."
+  ],
+  "example": {
+   "situation": "An operations analyst posts in the team's chat channel about a software licence renewal that needs a manager decision by Friday.",
+   "before": "Hey team, quick update on the analytics tool. I've been looking at our usage over the last few months and it looks like we only really use about half the seats, partly because the marketing folks moved to the other dashboard after the reorg. The vendor sent the renewal quote yesterday and it's up 12% on last year, though they said they might give us a discount if we commit to two years, which could be worth it if we think we'll still need it. Anyway the contract auto-renews on the 30th so we probably need to decide something soon, let me know what you think.",
+   "after": "**Decision needed by Fri:** renew the analytics tool at 25 seats instead of 50?\n\n- **Cost:** the quote is up 12%; dropping to 25 seats saves about half.\n- **Usage:** only 24 of 50 seats were used in the last 3 months.\n- **Option:** a 2-year commitment may get a discount - worth asking only if we keep the tool.\n\n@Dana - reply **25**, **50** or **cancel**. The contract auto-renews on the 30th.",
+   "why": "The original hides the decision, the deadline and the person who must decide at the end of a long paragraph; the rewrite puts the ask and date in the first line, gives each fact its own short line, names the decider and makes the reply a one-word answer."
+  },
+  "source_urls": [
+   "https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf",
+   "https://behavioralscientist.org/when-writing-for-busy-readers-less-is-more/",
+   "https://link.springer.com/doi/10.1007/BF01320135",
+   "https://nngroup.com/articles/text-scanning-patterns-eyetracking/",
+   "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/",
+   "https://dash.harvard.edu/server/api/core/bitstreams/81e2b42a-f7de-4813-b968-f0f091350dfa/content"
+  ]
+ },
+ {
   "id": "cm:written-communication",
   "title": "Written communication",
   "aliases": [

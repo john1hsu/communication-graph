@@ -35074,6 +35074,114 @@
    ]
   },
   {
+   "@id": "cm:writing-for-skimmability",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:wall-of-text"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:linos-et-al-2023-formality-effect"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:text-signaling"
+   },
+   "cmo:file": "articles/digital-and-async-communication/writing-for-skimmability.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:writing-for-busy-readers"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s6"
+    }
+   ],
+   "rdfs:label": "Writing for skimmability",
+   "skos:altLabel": [
+    "designing messages for scanning",
+    "scannable writing",
+    "skimmable writing",
+    "writing for busy readers"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:message-structure"
+    }
+   ],
+   "skos:definition": "Shaping emails, chat posts, tickets and documents so a reader who only scans still gets the point: key message and asks first, few words, descriptive headings, short chunks, lists and sparing emphasis.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Writing for skimmability",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:bulleted-and-numbered-lists"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:editing-for-clarity"
+    },
+    {
+     "@id": "cm:email-subject-lines"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:written-communication",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": {
@@ -80450,6 +80558,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Todd Rogers & Jessica Lasky-Fink, Harvard Kennedy School Executive Education (updated December 2020)",
+   "dcterms:title": "Write shorter messages",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/sites/default/files/HKSEE/HKSEE%20PDFs/Write%20shorter%20messages.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Todd Rogers & Jessica Lasky-Fink, Behavioral Scientist, 11 September 2023 (excerpt from their book Writing for Busy Readers, Dutton, 2023)",
+   "dcterms:title": "When Writing for Busy Readers, Less Is More",
+   "schema:url": {
+    "@id": "https://behavioralscientist.org/when-writing-for-busy-readers-less-is-more/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Robert F. Lorch Jr., Educational Psychology Review 1, 209-234 (1989), doi:10.1007/BF01320135",
+   "dcterms:title": "Text-signaling devices and their effects on reading and memory processes",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/BF01320135"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Kara Pernice, Nielsen Norman Group (25 August 2019)",
+   "dcterms:title": "Text Scanning Patterns: Eyetracking Evidence",
+   "schema:url": {
+    "@id": "https://nngroup.com/articles/text-scanning-patterns-eyetracking/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "GOV.UK content and publishing guidance, Government Digital Service, UK Government",
+   "dcterms:title": "Create a clear structure for your content",
+   "schema:url": {
+    "@id": "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/writing-for-skimmability/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Elizabeth Linos, Jessica Lasky-Fink, Chris Larkin, Lindsay Moore & Elspeth Kirkman, Harvard Kennedy School Faculty Research Working Paper RWP23-009 (2023), Harvard DASH repository",
+   "dcterms:title": "The Formality Effect",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/81e2b42a-f7de-4813-b968-f0f091350dfa/content"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "textbook",
@@ -82740,6 +82932,116 @@
     "@id": "cm:workplace-telepressure"
    },
    "rdfs:label": "Does my team have an agreed norm for which channel means urgent, or does everyone guess?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:writing-for-skimmability"
+   },
+   "rdfs:label": "If someone read only my first line, the headings and the bold words, would they know what I need and by when?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:writing-for-skimmability"
+   },
+   "rdfs:label": "Is there any sentence, idea or second request I could cut or move to a follow-up message?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:writing-for-skimmability"
+   },
+   "rdfs:label": "Have I bolded so much that the emphasis no longer marks what matters most?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:writing-for-skimmability"
+   },
+   "rdfs:label": "Could the reader answer me in one word or one click?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "**Decision needed by Fri:** renew the analytics tool at 25 seats instead of 50? - **Cost:** the quote is up 12%; dropping to 25 seats saves about half. - **Usage:** only 24 of 50 seats were used in the last 3 months. - **Option:** a 2-year commitment may get a discount - worth asking only if we keep the tool. @Dana - reply **25**, **50** or **cancel**. The contract auto-renews on the 30th.",
+   "cmo:before": "Hey team, quick update on the analytics tool. I've been looking at our usage over the last few months and it looks like we only really use about half the seats, partly because the marketing folks moved to the other dashboard after the reorg. The vendor sent the renewal quote yesterday and it's up 12% on last year, though they said they might give us a discount if we commit to two years, which could be worth it if we think we'll still need it. Anyway the contract auto-renews on the 30th so we probably need to decide something soon, let me know what you think.",
+   "cmo:situation": "An operations analyst posts in the team's chat channel about a software licence renewal that needs a manager decision by Friday.",
+   "cmo:why": "The original hides the decision, the deadline and the person who must decide at the end of a long paragraph; the rewrite puts the ask and date in the first line, gives each fact its own short line, names the decider and makes the reply a one-word answer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Writing for skimmability",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide the one thing each reader must know or do, and put it in the subject line and first sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Cut every sentence, idea and request that is not needed for that purpose; move background to a link or a later section."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Break the rest into short chunks of one idea each, and turn parallel items, options or steps into a list."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Give longer messages descriptive headings that start with the information-carrying words, so the headings alone tell the story."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Bold only the few words a reader must not miss, such as an owner, a decision or a deadline."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Make replying easy - say exactly what answer you need, by when, and offer the options if there are any."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/writing-for-skimmability/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Before sending, read only the first two lines, the headings and the bold text, and check that the message still works."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1",

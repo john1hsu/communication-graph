@@ -1021,6 +1021,30 @@ Ask yourself:
 - When I send a message outside working hours, have I said plainly that it can wait?
 - Does my team have an agreed norm for which channel means urgent, or does everyone guess?
 
+### [Writing for skimmability](../articles/digital-and-async-communication/writing-for-skimmability.md) — Technique
+
+1. Decide the one thing each reader must know or do, and put it in the subject line and first sentence.
+2. Cut every sentence, idea and request that is not needed for that purpose; move background to a link or a later section.
+3. Break the rest into short chunks of one idea each, and turn parallel items, options or steps into a list.
+4. Give longer messages descriptive headings that start with the information-carrying words, so the headings alone tell the story.
+5. Bold only the few words a reader must not miss, such as an owner, a decision or a deadline.
+6. Make replying easy - say exactly what answer you need, by when, and offer the options if there are any.
+7. Before sending, read only the first two lines, the headings and the bold text, and check that the message still works.
+
+*An operations analyst posts in the team's chat channel about a software licence renewal that needs a manager decision by Friday.*
+
+| Before | After |
+|---|---|
+| Hey team, quick update on the analytics tool. I've been looking at our usage over the last few months and it looks like we only really use about half the seats, partly because the marketing folks moved to the other dashboard after the reorg. The vendor sent the renewal quote yesterday and it's up 12% on last year, though they said they might give us a discount if we commit to two years, which could be worth it if we think we'll still need it. Anyway the contract auto-renews on the 30th so we probably need to decide something soon, let me know what you think. | **Decision needed by Fri:** renew the analytics tool at 25 seats instead of 50? - **Cost:** the quote is up 12%; dropping to 25 seats saves about half. - **Usage:** only 24 of 50 seats were used in the last 3 months. - **Option:** a 2-year commitment may get a discount - worth asking only if we keep the tool. @Dana - reply **25**, **50** or **cancel**. The contract auto-renews on the 30th. |
+
+**Why:** The original hides the decision, the deadline and the person who must decide at the end of a long paragraph; the rewrite puts the ask and date in the first line, gives each fact its own short line, names the decider and makes the reply a one-word answer.
+
+Ask yourself:
+- If someone read only my first line, the headings and the bold words, would they know what I need and by when?
+- Is there any sentence, idea or second request I could cut or move to a follow-up message?
+- Have I bolded so much that the emphasis no longer marks what matters most?
+- Could the reader answer me in one word or one click?
+
 ### [Zoom fatigue](../articles/digital-and-async-communication/zoom-fatigue.md) — Barrier
 
 Ask yourself:
