@@ -33904,6 +33904,91 @@
    ]
   },
   {
+   "@id": "cm:w-timothy-coombs",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:handbook-of-crisis-communication"
+    },
+    {
+     "@id": "cm:ongoing-crisis-communication"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/w-timothy-coombs.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:crisis-communication"
+    },
+    {
+     "@id": "cm:situational-crisis-communication-theory"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s6"
+    }
+   ],
+   "rdfs:label": "W. Timothy Coombs",
+   "skos:altLabel": [
+    "Tim Coombs",
+    "Timothy Coombs",
+    "W. T. Coombs"
+   ],
+   "skos:definition": "American public-relations and communication scholar who helped turn crisis communication into an evidence-based specialty: he developed situational crisis communication theory (SCCT), which matches an organization's crisis response to how much responsibility stakeholders assign it, and wrote the widely used textbook Ongoing Crisis Communication.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "W. Timothy Coombs",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:coombs-holladay-2002"
+    },
+    {
+     "@id": "cm:crisis-communication"
+    },
+    {
+     "@id": "cm:denial"
+    },
+    {
+     "@id": "cm:public-relations"
+    },
+    {
+     "@id": "cm:situational-crisis-communication-theory"
+    },
+    {
+     "@id": "cm:stealing-thunder"
+    },
+    {
+     "@id": "cm:trust-repair"
+    }
+   ]
+  },
+  {
    "@id": "cm:wait-time",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -79561,6 +79646,90 @@
    "dcterms:title": "Is the Cure for Vocal Fry as Simple as Telling Someone to Speak Up?",
    "schema:url": {
     "@id": "https://healthcare.utah.edu/the-scope/all/2016/02/cure-vocal-fry-simple-telling-someone-speak"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Coombs, W. T., Corporate Reputation Review 10(3), 163-177, 2007, doi:10.1057/palgrave.crr.1550049 (Springer)",
+   "dcterms:title": "Protecting Organization Reputations During a Crisis: The Development and Application of Situational Crisis Communication Theory",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1057/palgrave.crr.1550049"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Coombs, W. T. & Holladay, S. J., Management Communication Quarterly 16(2), 165-186, 2002 (SAGE copy)",
+   "dcterms:title": "Helping Crisis Managers Protect Reputational Assets: Initial Tests of the Situational Crisis Communication Theory",
+   "schema:url": {
+    "@id": "https://staticssl.sagepub.com/sites/default/files/Coombs.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Ji, Y. & Kim, S., Public Relations Review 47, 102119, 2021, doi:10.1016/j.pubrev.2021.102119 (author copy, Chinese University of Hong Kong)",
+   "dcterms:title": "Public expectations of crisis outcomes in the social media era in China: A communication-mediated psychological mechanism",
+   "schema:url": {
+    "@id": "https://www.com.cuhk.edu.hk/publication/sora-journal-2021-public.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Rodriguez, H., Texas A&M University College of Arts & Sciences, 19 August 2020",
+   "dcterms:title": "Putting Out Fires: How Tim Coombs Blazed a Trail in Crisis Communication",
+   "schema:url": {
+    "@id": "https://liberalarts.tamu.edu/blog/putting-out-fires-how-tim-coombs-blazed-a-trail-in-crisis-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Arthur W. Page Center for Integrity in Public Communication, Penn State University",
+   "dcterms:title": "Timothy Coombs (directory profile)",
+   "schema:url": {
+    "@id": "https://pagecenter.psu.edu/about/directory/timothy-coombs"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/w-timothy-coombs/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Coombs, W. T., curriculum vitae hosted by the U.S. Food and Drug Administration",
+   "dcterms:title": "W. Timothy Coombs, curriculum vitae (09/04/2017)",
+   "schema:url": {
+    "@id": "https://www.fda.gov/media/124777/download"
    }
   },
   {

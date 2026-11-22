@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:crisis-communication` | cmo:Context |
 | `cm:cross-cultural-training` | cmo:Technique |
 | `cm:denial` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
+| `cm:mirroring` | cmo:Technique |
 
-…and 80 more.
+…and 79 more.
 
 ## Orphan articles (gap)
 
