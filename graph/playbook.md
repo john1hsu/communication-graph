@@ -573,6 +573,23 @@ Ask yourself:
 - Am I only hiding my reaction, and is that making me less responsive to the person in front of me?
 - Could I change the timing, setting or agenda of this conversation instead of white-knuckling through it?
 
+### [Expressive suppression](../articles/difficult-conversations-and-conflict/expressive-suppression.md) — AntiPattern
+
+*In a project review, a team lead learns in front of two stakeholders that a vendor integration has slipped for the second time, and she is angry.*
+
+| Before | After |
+|---|---|
+| She keeps a rigid, blank face, stops nodding or asking questions, says "Fine. Let's move on," and spends the rest of the meeting replaying the slip - afterwards she cannot recall the new dates the engineer gave. | She takes a breath and says: "I'm frustrated - this is the second slip and I've already reset expectations once. I want to understand what happened. Walk me through the new dates, and let's take fifteen minutes after this to plan the stakeholder update." She writes the dates down as he speaks. |
+
+**Why:** The blank face hid nothing useful - the engineer read it as cold disapproval, she stayed just as angry, and the effort cost her the details. Naming the feeling briefly and returning to questions keeps her responsive, keeps the meeting on track and leaves a record she can act on.
+
+Ask yourself:
+- Am I keeping a straight face over a feeling that is still running, rather than actually seeing the situation differently?
+- Have I stopped nodding, asking questions or reacting to what the other person says?
+- Could I state what I'm feeling in one calm, work-focused sentence without blaming anyone?
+- After a tense exchange, can I recall the specifics that were agreed, or should I write them down now?
+- In this team and culture, is visible composure expected and read as respect - or as coldness?
+
 ### [Graded assertiveness](../articles/difficult-conversations-and-conflict/graded-assertiveness.md) — Technique
 
 1. Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is.

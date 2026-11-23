@@ -11893,6 +11893,105 @@
    ]
   },
   {
+   "@id": "cm:expressive-suppression",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": {
+    "@id": "cm:butler-lee-gross-2007"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:gross-john-2003"
+    },
+    {
+     "@id": "cm:richards-gross-2000"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:process-model-of-emotion-regulation"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/expressive-suppression.md",
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:suppression-and-expression-in-daily-interactions-2018"
+   },
+   "cmo:undermines": {
+    "@id": "cm:perceived-partner-responsiveness"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s5"
+    }
+   ],
+   "rdfs:label": "Expressive suppression",
+   "skos:altLabel": [
+    "emotional suppression",
+    "keeping a poker face",
+    "masking emotions",
+    "suppressing emotions"
+   ],
+   "skos:broader": {
+    "@id": "cm:emotion-regulation"
+   },
+   "skos:definition": "Inhibiting the outward signs of an emotion you are already feeling - keeping a blank face, a flat voice and a neutral \"fine\" - so others cannot see it; used habitually in tense conversations it leaves the feeling intact, makes you seem less responsive and blunts your memory of what was said.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Expressive suppression",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:james-j-gross"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:the-emerging-field-of-emotion-regulation"
+    }
+   ]
+  },
+  {
    "@id": "cm:eye-contact",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -41885,6 +41984,54 @@
    "schema:text": "Expect setbacks; if a step proves too big, add a smaller bridging step or repeat an earlier one, and get help from a qualified clinician if the fear is severe or spreads into everyday life."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:expressive-suppression"
+   },
+   "rdfs:label": "Am I keeping a straight face over a feeling that is still running, rather than actually seeing the situation differently?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:expressive-suppression"
+   },
+   "rdfs:label": "Have I stopped nodding, asking questions or reacting to what the other person says?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:expressive-suppression"
+   },
+   "rdfs:label": "Could I state what I'm feeling in one calm, work-focused sentence without blaming anyone?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:expressive-suppression"
+   },
+   "rdfs:label": "After a tense exchange, can I recall the specifics that were agreed, or should I write them down now?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:expressive-suppression"
+   },
+   "rdfs:label": "In this team and culture, is visible composure expected and read as respect - or as coldness?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/expressive-suppression/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "She takes a breath and says: \"I'm frustrated - this is the second slip and I've already reset expectations once. I want to understand what happened. Walk me through the new dates, and let's take fifteen minutes after this to plan the stakeholder update.\" She writes the dates down as he speaks.",
+   "cmo:before": "She keeps a rigid, blank face, stops nodding or asking questions, says \"Fine. Let's move on,\" and spends the rest of the meeting replaying the slip - afterwards she cannot recall the new dates the engineer gave.",
+   "cmo:situation": "In a project review, a team lead learns in front of two stakeholders that a vendor integration has slipped for the second time, and she is angry.",
+   "cmo:why": "The blank face hid nothing useful - the engineer read it as cold disapproval, she stayed just as angry, and the effort cost her the details. Naming the feeling briefly and returning to questions keeps her responsive, keeps the meeting on track and leaves a record she can act on."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -60760,6 +60907,76 @@
    "dcterms:title": "Stepping Out of Social Anxiety, Module 4: Behavioural Experiment Stepladders",
    "schema:url": {
     "@id": "https://cci.health.wa.gov.au/-/media/CCI/Consumer-Modules/Stepping-out-of-Social-Anxiety/Stepping-out-of-Social-Anxiety---Module-4---Behavioural-Experiment-Stepladders.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Gross, J. J., Psychophysiology 39(3), 281-291, 2002, doi:10.1017/s0048577201393198 (PubMed record)",
+   "dcterms:title": "Emotion regulation: Affective, cognitive, and social consequences",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12212647/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Gross, J. J. & John, O. P., Journal of Personality and Social Psychology 85(2), 348-362, 2003 (PubMed record)",
+   "dcterms:title": "Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12916575/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Butler, E. A., Lee, T. L. & Gross, J. J., Emotion 7(1), 30-48, 2007, doi:10.1037/1528-3542.7.1.30 (PubMed record)",
+   "dcterms:title": "Emotion regulation and culture: Are the social consequences of emotion suppression culture-specific?",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17352561/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Emotion 18(4), 465-480, 2018, doi:10.1037/emo0000334 (PubMed record)",
+   "dcterms:title": "Suppression and expression as distinct emotion-regulation processes in daily interactions: Longitudinal and meta-analyses",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/28569538/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expressive-suppression/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "American Psychological Association press release (September 2000) on Richards, J. M. & Gross, J. J., \"Emotion regulation and memory - The cognitive costs of keeping one's cool\", Journal of Personality and Social Psychology 79(3), 2000",
+   "dcterms:title": "Strategies people employ for regulating emotions affect memory for event, according to a new study",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2000/09/emotion-memory"
    }
   },
   {

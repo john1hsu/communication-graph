@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:expressive-suppression` | cmo:AntiPattern |
 
 ## Skills with no practice technique (gap)
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 255 more.
+…and 256 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -147,6 +149,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:denial` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
+| `cm:expressive-suppression` | cmo:AntiPattern |
 | `cm:gestures` | cmo:Skill |
 | `cm:group-communication` | cmo:Field |
 | `cm:group-decision-making` | cmo:Context |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
-| `cm:mirroring` | cmo:Technique |
 
-…and 79 more.
+…and 80 more.
 
 ## Orphan articles (gap)
 
