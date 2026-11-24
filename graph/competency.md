@@ -20,7 +20,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:mentoring` | cmo:Context |
 
 ## Highest-leverage techniques
 
@@ -137,7 +139,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 256 more.
+…and 257 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -173,10 +175,10 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
+| `cm:mentoring` | cmo:Context |
 | `cm:message-structure` | cmo:Concept |
-| `cm:mindfulness` | cmo:Technique |
 
-…and 80 more.
+…and 81 more.
 
 ## Orphan articles (gap)
 

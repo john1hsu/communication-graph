@@ -19341,6 +19341,102 @@
    ]
   },
   {
+   "@id": "cm:mentoring",
+   "@type": "cmo:Context",
+   "cmo:alternativeTo": {
+    "@id": "cm:peer-developmental-relationships"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:chao-walz-gardner-1992"
+    },
+    {
+     "@id": "cm:eby-et-al-2008"
+    },
+    {
+     "@id": "cm:ragins-cotton-1999"
+    }
+   ],
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/feedback-and-coaching/mentoring.md",
+   "cmo:influencedBy": {
+    "@id": "cm:kathy-kram"
+   },
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:industrial-organizational-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:allen-et-al-2004"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s5"
+    }
+   ],
+   "rdfs:label": "Mentoring",
+   "skos:altLabel": [
+    "mentor-protege relationship",
+    "mentoring relationship",
+    "mentorship",
+    "workplace mentoring"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "An ongoing developmental relationship in which a more experienced colleague gives a less experienced one career help (sponsorship, coaching, exposure, challenging work) and psychosocial support (acceptance, counselling, role modelling), mostly through a series of conversations; mentored people report better outcomes, but the effects are small and largely correlational.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Mentoring",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:advice-giving"
+    },
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:grow-model"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    }
+   ]
+  },
+  {
    "@id": "cm:message-equivocality-media-selection-and-manager-performance",
    "@type": "cmo:Work",
    "cmo:authoredBy": [
@@ -67361,6 +67457,76 @@
    "dcterms:title": "Unit 36: Memos (Communication@Work)",
    "schema:url": {
     "@id": "https://pressbooks.senecapolytechnic.ca/buscomm/?p=118"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Eby, Allen, Evans, Ng & DuBois, Journal of Vocational Behavior 72(2), 254-267 (2008), doi:10.1016/j.jvb.2007.04.005 (PMC author manuscript)",
+   "dcterms:title": "Does Mentoring Matter? A Multidisciplinary Meta-Analysis Comparing Mentored and Non-Mentored Individuals",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2352144"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Allen, Eby, Poteet, Lentz & Lima, Journal of Applied Psychology 89(1), 127-136 (2004), doi:10.1037/0021-9010.89.1.127 (PubMed record)",
+   "dcterms:title": "Career Benefits Associated With Mentoring for Proteges: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/14769125/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Kram & Isabella, Academy of Management Journal 28(1), 110-132 (1985) (Boston University copy)",
+   "dcterms:title": "Mentoring Alternatives: The Role of Peer Relationships in Career Development",
+   "schema:url": {
+    "@id": "https://bu.edu/sph/files/2012/01/Kram_Mentoring-Alternatives.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Ragins & Cotton, Journal of Applied Psychology 84(4), 529-550 (1999) (Boston University copy)",
+   "dcterms:title": "Mentor Functions and Outcomes: A Comparison of Men and Women in Formal and Informal Mentoring Relationships",
+   "schema:url": {
+    "@id": "https://www.bu.edu/sph/files/2012/01/Ragins_Mentor-functions-and-outcomes.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mentoring/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Chao, Walz & Gardner, Personnel Psychology 45 (1992) (University of Victoria copy)",
+   "dcterms:title": "Formal and Informal Mentorships: A Comparison on Mentoring Functions and Contrast with Nonmentored Counterparts",
+   "schema:url": {
+    "@id": "https://onlineacademiccommunity.uvic.ca/mpamentorship/wp-content/uploads/sites/3209/2018/04/CHAO_et_al-1992-Personnel_Psychology.pdf"
    }
   },
   {
