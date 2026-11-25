@@ -8239,6 +8239,117 @@
    ]
   },
   {
+   "@id": "cm:deep-acting",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:expressive-suppression"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:client-communication"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:grandey-gabriel-2015"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:surface-acting"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:grandey-2003"
+    },
+    {
+     "@id": "cm:hulsheger-et-al-2015"
+    }
+   ],
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:process-model-of-emotion-regulation"
+   },
+   "cmo:file": "articles/executive-and-client-communication/deep-acting.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:arlie-russell-hochschild"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-managed-heart"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:hulsheger-schewe-2011"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6"
+    }
+   ],
+   "rdfs:label": "Deep acting",
+   "skos:altLabel": [
+    "deep acting in emotional labor",
+    "emotion work"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:emotion-regulation"
+    },
+    {
+     "@id": "cm:emotional-labor"
+    }
+   ],
+   "skos:definition": "Meeting a job's expectations for how you come across - warm with a client, calm with an upset customer - by changing what you actually feel, through reappraising the situation or refocusing attention, rather than faking the expression over a feeling that has not changed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Deep acting",
+   "skos:related": [
+    {
+     "@id": "cm:client-communication"
+    },
+    {
+     "@id": "cm:cognitive-reappraisal"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:workplace-stress"
+    }
+   ]
+  },
+  {
    "@id": "cm:defensiveness",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -40353,6 +40464,115 @@
    "cmo:why": "The first version leaves leaders to dig the problem and the request out of fragments while competing with the speaker's voice. The second states the conclusion and the ask in the headline, shows the one piece of evidence that proves it, and moves the detail to a document that can be read at the reader's pace."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deep-acting"
+   },
+   "rdfs:label": "Am I about to fix my face and voice over a feeling I haven't actually changed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deep-acting"
+   },
+   "rdfs:label": "What is one true thing about this person's situation that would make the display this role needs feel genuine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deep-acting"
+   },
+   "rdfs:label": "Is there something in this conversation I can honestly be curious about or work on right now?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deep-acting"
+   },
+   "rdfs:label": "If no reframe is working, would a pause, a follow-up time or a handover serve both of us better than faking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deep-acting"
+   },
+   "rdfs:label": "Which recurring interactions keep forcing me to fake it, and have I raised them as a process issue?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Before the call she reminds herself that he has to explain the defect to his own board, so his anger is about exposure, not her. When he says it, she means it when she replies: \"Three escalations is too many, and I can hear it's put you in a tough spot internally. Tell me what your board needs to see by when.\" She writes the date down.",
+   "cmo:before": "She fixes a bright smile, says \"We absolutely care - we're so sorry!\" in a cheerful voice, and keeps the smile while inwardly resenting the accusation; the client hears it as scripted, and she ends the call drained and unable to recall the deadline he set.",
+   "cmo:situation": "An account manager joins a renewal call with a client who has escalated the same reporting defect three times and opens by saying the vendor \"clearly doesn't care\".",
+   "cmo:why": "The first version is surface acting - a faked display over unchanged resentment, which customers rate as less authentic and which drains the employee. Reappraising why the client is angry makes the concern she shows real, so her warmth reads as sincere and she stays engaged enough to capture the commitment."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Deep acting",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before a client call or customer shift you expect to be hard, name the display the role needs (calm, warm, patient) and the feeling you are likely to have instead."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write one honest reframe that would make the needed feeling real - what the other person is under, what is at stake for them, or what a good outcome looks like for both of you."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "When the trigger arrives, take one breath and recall the reframe before you answer, rather than fixing your face first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Shift attention to something in the interaction you can genuinely engage with - the problem to solve, a detail you are curious about, a part that is going well."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "If the feeling will not shift, do not keep forcing a smile; say a short, neutral sentence that is true (\"Let me make sure I understand the impact\"), and change the situation if you can - a pause, a follow-up time, a handover."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Afterwards, note which reframes worked and which interactions still needed faking, and raise the recurring ones with your manager as a workload or process issue."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -57881,6 +58101,90 @@
    "dcterms:title": "Toward a better understanding of PowerPoint deck design",
    "schema:url": {
     "@id": "https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Hochschild, A. R., University of California Press (original 1983; updated paperback edition 2012) - publisher page",
+   "dcterms:title": "The Managed Heart: Commercialization of Human Feeling",
+   "schema:url": {
+    "@id": "https://www.ucpress.edu/flyer/books/the-managed-heart/paper"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Hülsheger, U. R. & Schewe, A. F., Journal of Occupational Health Psychology 16(3), 361-389, 2011, doi:10.1037/a0022876 (Maastricht University repository copy)",
+   "dcterms:title": "On the costs and benefits of emotional labor: A meta-analysis of three decades of research",
+   "schema:url": {
+    "@id": "https://cris.maastrichtuniversity.nl/ws/files/74901261/Hulsheger_2011_On_the_costs_and_benefits_of_emotional.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Grandey, A. A., Academy of Management Journal 46(1), 86-96, 2003, doi:10.2307/30040678 (Penn State research record)",
+   "dcterms:title": "When \"the show must go on\": Surface acting and deep acting as determinants of emotional exhaustion and peer-rated service delivery",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/when-the-show-must-go-on-surface-acting-and-deep-acting-as-determ/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Grandey, A. A. & Gabriel, A. S., Annual Review of Organizational Psychology and Organizational Behavior 2, 2015, doi:10.1146/annurev-orgpsych-032414-111400 (University of Minnesota course copy)",
+   "dcterms:title": "Emotional labor at a crossroads: Where do we go from here?",
+   "schema:url": {
+    "@id": "https://goal-lab.psych.umn.edu/orgpsych/readings/7.%20Job%20Satisfaction%20&%20Affect/Grandey%20&%20Gabriel%20(2015).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Hülsheger, U. R., Lang, J. W. B., Schewe, A. F. & Zijlstra, F. R. H., Journal of Applied Psychology 100(2), 263-277, 2015, doi:10.1037/a0038229 (Stanford SPARQ copy)",
+   "dcterms:title": "When regulating emotions at work pays off: A diary and an intervention study on emotion regulation and customer tips in service jobs",
+   "schema:url": {
+    "@id": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/hulsheger_et_al._2015_-_when_regulating_emotions_at_work_pays_off.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Grandey, A. A. & Sayre, G. M., Current Directions in Psychological Science 28(2), 131-137, 2019, doi:10.1177/0963721418812771 (Penn State research record)",
+   "dcterms:title": "Emotional labor: Regulating emotions for a wage",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/emotional-labor-regulating-emotions-for-a-wage/"
    }
   },
   {

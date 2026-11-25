@@ -9444,6 +9444,148 @@
   ]
  },
  {
+  "id": "cm:deep-acting",
+  "title": "Deep acting",
+  "aliases": [
+   "deep acting in emotional labor",
+   "emotion work"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/deep-acting.md",
+  "created": "2026-11-25",
+  "summary": "Meeting a job's expectations for how you come across - warm with a client, calm with an upset customer - by changing what you actually feel, through reappraising the situation or refocusing attention, rather than faking the expression over a feeling that has not changed.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotional-labor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-contagion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-stress"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:client-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:expressive-suppression",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:surface-acting",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:arlie-russell-hochschild",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-managed-heart",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:process-model-of-emotion-regulation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:client-communication",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hulsheger-schewe-2011",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:grandey-2003",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hulsheger-et-al-2015",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:grandey-gabriel-2015",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Am I about to fix my face and voice over a feeling I haven't actually changed?",
+   "What is one true thing about this person's situation that would make the display this role needs feel genuine?",
+   "Is there something in this conversation I can honestly be curious about or work on right now?",
+   "If no reframe is working, would a pause, a follow-up time or a handover serve both of us better than faking?",
+   "Which recurring interactions keep forcing me to fake it, and have I raised them as a process issue?"
+  ],
+  "steps": [
+   "Before a client call or customer shift you expect to be hard, name the display the role needs (calm, warm, patient) and the feeling you are likely to have instead.",
+   "Write one honest reframe that would make the needed feeling real - what the other person is under, what is at stake for them, or what a good outcome looks like for both of you.",
+   "When the trigger arrives, take one breath and recall the reframe before you answer, rather than fixing your face first.",
+   "Shift attention to something in the interaction you can genuinely engage with - the problem to solve, a detail you are curious about, a part that is going well.",
+   "If the feeling will not shift, do not keep forcing a smile; say a short, neutral sentence that is true (\"Let me make sure I understand the impact\"), and change the situation if you can - a pause, a follow-up time, a handover.",
+   "Afterwards, note which reframes worked and which interactions still needed faking, and raise the recurring ones with your manager as a workload or process issue."
+  ],
+  "example": {
+   "situation": "An account manager joins a renewal call with a client who has escalated the same reporting defect three times and opens by saying the vendor \"clearly doesn't care\".",
+   "before": "She fixes a bright smile, says \"We absolutely care - we're so sorry!\" in a cheerful voice, and keeps the smile while inwardly resenting the accusation; the client hears it as scripted, and she ends the call drained and unable to recall the deadline he set.",
+   "after": "Before the call she reminds herself that he has to explain the defect to his own board, so his anger is about exposure, not her. When he says it, she means it when she replies: \"Three escalations is too many, and I can hear it's put you in a tough spot internally. Tell me what your board needs to see by when.\" She writes the date down.",
+   "why": "The first version is surface acting - a faked display over unchanged resentment, which customers rate as less authentic and which drains the employee. Reappraising why the client is angry makes the concern she shows real, so her warmth reads as sincere and she stays engaged enough to capture the commitment."
+  },
+  "source_urls": [
+   "https://www.ucpress.edu/flyer/books/the-managed-heart/paper",
+   "https://cris.maastrichtuniversity.nl/ws/files/74901261/Hulsheger_2011_On_the_costs_and_benefits_of_emotional.pdf",
+   "https://pure.psu.edu/en/publications/when-the-show-must-go-on-surface-acting-and-deep-acting-as-determ/",
+   "https://goal-lab.psych.umn.edu/orgpsych/readings/7.%20Job%20Satisfaction%20&%20Affect/Grandey%20&%20Gabriel%20(2015).pdf",
+   "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/hulsheger_et_al._2015_-_when_regulating_emotions_at_work_pays_off.pdf",
+   "https://pure.psu.edu/en/publications/emotional-labor-regulating-emotions-for-a-wage/"
+  ]
+ },
+ {
   "id": "cm:defensiveness",
   "title": "Defensiveness",
   "aliases": [

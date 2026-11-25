@@ -1107,6 +1107,30 @@ Ask yourself:
 - Have I acknowledged how people feel without over-reassuring them?
 - Are employees, customers and partners hearing the same facts from us before they hear them elsewhere?
 
+### [Deep acting](../articles/executive-and-client-communication/deep-acting.md) — Technique
+
+1. Before a client call or customer shift you expect to be hard, name the display the role needs (calm, warm, patient) and the feeling you are likely to have instead.
+2. Write one honest reframe that would make the needed feeling real - what the other person is under, what is at stake for them, or what a good outcome looks like for both of you.
+3. When the trigger arrives, take one breath and recall the reframe before you answer, rather than fixing your face first.
+4. Shift attention to something in the interaction you can genuinely engage with - the problem to solve, a detail you are curious about, a part that is going well.
+5. If the feeling will not shift, do not keep forcing a smile; say a short, neutral sentence that is true ("Let me make sure I understand the impact"), and change the situation if you can - a pause, a follow-up time, a handover.
+6. Afterwards, note which reframes worked and which interactions still needed faking, and raise the recurring ones with your manager as a workload or process issue.
+
+*An account manager joins a renewal call with a client who has escalated the same reporting defect three times and opens by saying the vendor "clearly doesn't care".*
+
+| Before | After |
+|---|---|
+| She fixes a bright smile, says "We absolutely care - we're so sorry!" in a cheerful voice, and keeps the smile while inwardly resenting the accusation; the client hears it as scripted, and she ends the call drained and unable to recall the deadline he set. | Before the call she reminds herself that he has to explain the defect to his own board, so his anger is about exposure, not her. When he says it, she means it when she replies: "Three escalations is too many, and I can hear it's put you in a tough spot internally. Tell me what your board needs to see by when." She writes the date down. |
+
+**Why:** The first version is surface acting - a faked display over unchanged resentment, which customers rate as less authentic and which drains the employee. Reappraising why the client is angry makes the concern she shows real, so her warmth reads as sincere and she stays engaged enough to capture the commitment.
+
+Ask yourself:
+- Am I about to fix my face and voice over a feeling I haven't actually changed?
+- What is one true thing about this person's situation that would make the display this role needs feel genuine?
+- Is there something in this conversation I can honestly be curious about or work on right now?
+- If no reframe is working, would a pause, a follow-up time or a handover serve both of us better than faking?
+- Which recurring interactions keep forcing me to fake it, and have I raised them as a process issue?
+
 ### [Elevator pitch](../articles/executive-and-client-communication/elevator-pitch.md) — Genre
 
 1. Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else.

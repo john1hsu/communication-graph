@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:expressive-suppression` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -61,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 
-…and 86 more.
+…and 87 more.
 
 ## Toolkit by situation
 
@@ -82,6 +80,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:change-communication` | `cm:realistic-merger-preview` |
 | `cm:change-communication` | `cm:sensegiving` |
 | `cm:client-communication` | `cm:cognitive-reappraisal` |
+| `cm:client-communication` | `cm:deep-acting` |
 | `cm:client-communication` | `cm:expectation-disconfirmation-theory` |
 | `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
@@ -98,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:delivering-bad-news` | `cm:spikes-protocol` |
 | `cm:difficult-conversation` | `cm:active-listening` |
-| `cm:difficult-conversation` | `cm:assertive-communication` |
 
-…and 191 more.
+…and 192 more.
 
 ## Myths and contested advice
 
@@ -139,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 257 more.
+…and 258 more.
 
 ## Concepts with no recorded origin (gap)
 

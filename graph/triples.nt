@@ -5006,6 +5006,91 @@
 <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/columbia-accident-investigation-board-report> .
 <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to fix my face and voice over a feeling I haven't actually changed?" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deep-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What is one true thing about this person's situation that would make the display this role needs feel genuine?" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deep-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is there something in this conversation I can honestly be curious about or work on right now?" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deep-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "If no reframe is working, would a pause, a follow-up time or a handover serve both of us better than faking?" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deep-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Which recurring interactions keep forcing me to fake it, and have I raised them as a process issue?" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deep-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Before the call she reminds herself that he has to explain the defect to his own board, so his anger is about exposure, not her. When he says it, she means it when she replies: \"Three escalations is too many, and I can hear it's put you in a tough spot internally. Tell me what your board needs to see by when.\" She writes the date down." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/example> <https://github.com/john1hsu/communication-graph/ontology#before> "She fixes a bright smile, says \"We absolutely care - we're so sorry!\" in a cheerful voice, and keeps the smile while inwardly resenting the accusation; the client hears it as scripted, and she ends the call drained and unable to recall the deadline he set." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An account manager joins a renewal call with a client who has escalated the same reporting defect three times and opens by saying the vendor \"clearly doesn't care\"." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version is surface acting - a faked display over unchanged resentment, which customers rate as less authentic and which drains the employee. Reappraising why the client is angry makes the concern she shows real, so her warmth reads as sincere and she stays engaged enough to capture the commitment." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1> <https://schema.org/text> "Before a client call or customer shift you expect to be hard, name the display the role needs (calm, warm, patient) and the feeling you are likely to have instead." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2> <https://schema.org/text> "Write one honest reframe that would make the needed feeling real - what the other person is under, what is at stake for them, or what a good outcome looks like for both of you." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3> <https://schema.org/text> "When the trigger arrives, take one breath and recall the reframe before you answer, rather than fixing your face first." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4> <https://schema.org/text> "Shift attention to something in the interaction you can genuinely engage with - the problem to solve, a detail you are curious about, a part that is going well." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5> <https://schema.org/text> "If the feeling will not shift, do not keep forcing a smile; say a short, neutral sentence that is true (\"Let me make sure I understand the impact\"), and change the situation if you can - a pause, a follow-up time, a handover." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6> <https://schema.org/text> "Afterwards, note which reframes worked and which interactions still needed faking, and raise the recurring ones with your manager as a workload or process issue." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/name> "Deep acting" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://purl.org/dc/terms/created> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2000/01/rdf-schema#label> "Deep acting" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#altLabel> "deep acting in emotional labor" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#altLabel> "emotion work" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotional-labor> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#definition> "Meeting a job's expectations for how you come across - warm with a client, calm with an upset customer - by changing what you actually feel, through reappraising the situation or refocusing attention, rather than faking the expression over a feeling that has not changed." .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deep acting" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/expressive-suppression> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/grandey-gabriel-2015> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/surface-acting> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/grandey-2003> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hulsheger-et-al-2015> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/deep-acting/example> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/deep-acting.md" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/deep-acting/howto> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/arlie-russell-hochschild> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-managed-heart> .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/deep-acting> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/hulsheger-schewe-2011> .
 <https://github.com/john1hsu/communication-graph/id/defensiveness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/defensiveness/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to describe what happened, or to deliver a verdict on the person who did it?" .
 <https://github.com/john1hsu/communication-graph/id/defensiveness/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
@@ -20927,6 +21012,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s6> <https://schema.org/url> <https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <http://purl.org/dc/terms/publisher> "Hochschild, A. R., University of California Press (original 1983; updated paperback edition 2012) - publisher page" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <http://purl.org/dc/terms/title> "The Managed Heart: Commercialization of Human Feeling" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s1> <https://schema.org/url> <https://www.ucpress.edu/flyer/books/the-managed-heart/paper> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <http://purl.org/dc/terms/publisher> "Hülsheger, U. R. & Schewe, A. F., Journal of Occupational Health Psychology 16(3), 361-389, 2011, doi:10.1037/a0022876 (Maastricht University repository copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <http://purl.org/dc/terms/title> "On the costs and benefits of emotional labor: A meta-analysis of three decades of research" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s2> <https://schema.org/url> <https://cris.maastrichtuniversity.nl/ws/files/74901261/Hulsheger_2011_On_the_costs_and_benefits_of_emotional.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <http://purl.org/dc/terms/publisher> "Grandey, A. A., Academy of Management Journal 46(1), 86-96, 2003, doi:10.2307/30040678 (Penn State research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <http://purl.org/dc/terms/title> "When \"the show must go on\": Surface acting and deep acting as determinants of emotional exhaustion and peer-rated service delivery" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s3> <https://schema.org/url> <https://pure.psu.edu/en/publications/when-the-show-must-go-on-surface-acting-and-deep-acting-as-determ/> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <http://purl.org/dc/terms/publisher> "Grandey, A. A. & Gabriel, A. S., Annual Review of Organizational Psychology and Organizational Behavior 2, 2015, doi:10.1146/annurev-orgpsych-032414-111400 (University of Minnesota course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <http://purl.org/dc/terms/title> "Emotional labor at a crossroads: Where do we go from here?" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s4> <https://schema.org/url> <https://goal-lab.psych.umn.edu/orgpsych/readings/7.%20Job%20Satisfaction%20&%20Affect/Grandey%20&%20Gabriel%20(2015).pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <http://purl.org/dc/terms/publisher> "Hülsheger, U. R., Lang, J. W. B., Schewe, A. F. & Zijlstra, F. R. H., Journal of Applied Psychology 100(2), 263-277, 2015, doi:10.1037/a0038229 (Stanford SPARQ copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <http://purl.org/dc/terms/title> "When regulating emotions at work pays off: A diary and an intervention study on emotion regulation and customer tips in service jobs" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s5> <https://schema.org/url> <https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/hulsheger_et_al._2015_-_when_regulating_emotions_at_work_pays_off.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <http://purl.org/dc/terms/date> "2026-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <http://purl.org/dc/terms/publisher> "Grandey, A. A. & Sayre, G. M., Current Directions in Psychological Science 28(2), 131-137, 2019, doi:10.1177/0963721418812771 (Penn State research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <http://purl.org/dc/terms/title> "Emotional labor: Regulating emotions for a wage" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/deep-acting/s6> <https://schema.org/url> <https://pure.psu.edu/en/publications/emotional-labor-regulating-emotions-for-a-wage/> .
 <https://github.com/john1hsu/communication-graph/id/source/defensiveness/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/defensiveness/s1> <http://purl.org/dc/terms/publisher> "Jack R. Gibb (text of the paper based on his Office of Naval Research group studies; transcription hosted by Joseph Reagle, Northeastern University)" .
 <https://github.com/john1hsu/communication-graph/id/source/defensiveness/s1> <http://purl.org/dc/terms/title> "Defensive Communication" .
