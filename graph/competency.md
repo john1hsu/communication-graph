@@ -176,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mentoring` | cmo:Context |
 | `cm:message-structure` | cmo:Concept |
 
-…and 81 more.
+…and 82 more.
 
 ## Orphan articles (gap)
 

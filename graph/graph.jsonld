@@ -30899,6 +30899,81 @@
    ]
   },
   {
+   "@id": "cm:social-sciences",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": {
+    "@id": "cm:camerer-et-al-2018"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:humanities"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/social-sciences.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s6"
+    }
+   ],
+   "rdfs:label": "Social sciences",
+   "skos:altLabel": [
+    "behavioral sciences",
+    "behavioural sciences",
+    "social science"
+   ],
+   "skos:definition": "The family of academic disciplines that study human behaviour in its social and cultural aspects, such as sociology, economics, political science, anthropology, psychology, linguistics and management studies; they supply most of the evidence for and against workplace communication advice.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Social sciences",
+   "skos:related": [
+    {
+     "@id": "cm:communication-studies"
+    },
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:industrial-organizational-psychology"
+    },
+    {
+     "@id": "cm:linguistics"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:psychology"
+    },
+    {
+     "@id": "cm:social-psychology"
+    },
+    {
+     "@id": "cm:sociolinguistics"
+    }
+   ]
+  },
+  {
    "@id": "cm:sociolinguistics",
    "@type": "cmo:Field",
    "cmo:appliedIn": {
@@ -77547,6 +77622,90 @@
    "dcterms:title": "Carl Iver Hovland, 1912-1961: A Biographical Memoir",
    "schema:url": {
     "@id": "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Social science",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/social-science"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Social science: Heritage of the Enlightenment",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/social-science/Heritage-of-the-Enlightenment"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Economic and Social Research Council (ESRC), UK Research and Innovation",
+   "dcterms:title": "Social science disciplines",
+   "schema:url": {
+    "@id": "https://www.ukri.org/who-we-are/esrc/what-is-social-science/social-science-disciplines/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Economic and Social Research Council (ESRC), UK Research and Innovation",
+   "dcterms:title": "Qualitative research",
+   "schema:url": {
+    "@id": "https://www.ukri.org/who-we-are/esrc/what-is-social-science/qualitative-research/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Camerer et al., Nature Human Behaviour 2(9), 637-644 (2018), doi:10.1038/s41562-018-0399-z (IDEAS/RePEc record)",
+   "dcterms:title": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/nat/nathum/v2y2018i9d10.1038_s41562-018-0399-z.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-sciences/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Economic and Social Research Council (ESRC), UK Research and Innovation",
+   "dcterms:title": "Quantitative research",
+   "schema:url": {
+    "@id": "https://www.ukri.org/who-we-are/esrc/what-is-social-science/quantitative-research/"
    }
   },
   {
