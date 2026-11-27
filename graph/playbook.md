@@ -1751,6 +1751,29 @@ Ask yourself:
 - Did I ask at least one question that drew out something they had not yet said?
 - Would they leave this conversation feeling heard, even if I did not agree with them?
 
+### [Advice-giving](../articles/listening/advice-giving.md) — Technique
+
+1. Before advising, ask yourself whether you are the right person to help and whether they actually asked for advice; if they did not, offer it ("Would it help if I shared what I'd do?") rather than delivering it.
+2. Listen until you could state the problem, what they have already tried and what outcome they want, and check that summary with them.
+3. Acknowledge how the situation feels for them before turning to solutions, in a sentence or two.
+4. Offer the advice as options with your reasoning - what each would achieve, what it would cost and how feasible it is for them - rather than a single "what you should do is".
+5. Signal that the decision is theirs, then ask which option fits and what would get in the way of trying it.
+
+*A junior analyst tells her team lead that a senior stakeholder keeps rejecting her reports at the last minute.*
+
+| Before | After |
+|---|---|
+| Lead: 'Oh, he does that to everyone. What you should do is just send him the draft a week earlier. Next topic?' | Lead: 'That sounds draining - especially when it's late in the cycle. What kind of changes does he ask for?' [She explains they are about framing, not data.] 'Do you want ideas, or did you mainly want to flag it?' [She wants ideas.] 'Two things I've seen work: a ten-minute check-in on the storyline before you build the deck, or sending him a one-page outline first. The check-in costs more of his time but catches framing earlier. Which would suit how he works?' |
+
+**Why:** The first reply gives unrequested, unexplained advice before understanding the problem, so it is easy to dismiss. The second acknowledges the strain, diagnoses the real issue, asks whether advice is wanted, and offers feasible options with reasons while leaving the choice with her - the content and politeness features that research links to advice being judged good and acted on.
+
+Ask yourself:
+- Did they ask for my advice, or did I check whether they wanted it before giving it?
+- Could I have stated their problem, and what they had already tried, before I started recommending?
+- Did I explain why I was recommending each option, including its costs and limits?
+- Did I leave the decision with them, or did my wording imply they had to follow my suggestion?
+- Was I advising to help them, or partly to feel knowledgeable or in charge?
+
 ### [Backchannel responses](../articles/listening/backchannel-responses.md) — Technique
 
 1. Before the other person starts, put away the laptop or second task; distracted listeners give far fewer responses, and the speaker feels it.

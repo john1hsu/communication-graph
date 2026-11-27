@@ -614,6 +614,104 @@
    ]
   },
   {
+   "@id": "cm:advice-giving",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:unsolicited-advice"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:mentoring"
+   },
+   "cmo:causes": {
+    "@id": "cm:sense-of-power"
+   },
+   "cmo:complements": {
+    "@id": "cm:emotional-validation"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:advice-response-theory"
+   },
+   "cmo:file": "articles/listening/advice-giving.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:vu-li-high-2025"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6"
+    }
+   ],
+   "rdfs:label": "Advice-giving",
+   "skos:altLabel": [
+    "giving advice",
+    "offering advice"
+   ],
+   "skos:broader": {
+    "@id": "cm:listening"
+   },
+   "skos:definition": "Responding to someone who brings you a problem by recommending what they could think, feel or do - done well, only after listening long enough to understand the problem, with the reasoning and options laid out and the decision left with them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Advice-giving",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:support-response"
+    },
+    {
+     "@id": "cm:weger-et-al-2014"
+    }
+   ]
+  },
+  {
    "@id": "cm:after-action-review",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -36398,6 +36496,106 @@
    "schema:text": "Keep a passive only when the actor is unknown, unimportant or obvious, or when the thing acted on is what the paragraph is about."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:advice-giving"
+   },
+   "rdfs:label": "Did they ask for my advice, or did I check whether they wanted it before giving it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:advice-giving"
+   },
+   "rdfs:label": "Could I have stated their problem, and what they had already tried, before I started recommending?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:advice-giving"
+   },
+   "rdfs:label": "Did I explain why I was recommending each option, including its costs and limits?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:advice-giving"
+   },
+   "rdfs:label": "Did I leave the decision with them, or did my wording imply they had to follow my suggestion?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:advice-giving"
+   },
+   "rdfs:label": "Was I advising to help them, or partly to feel knowledgeable or in charge?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Lead: 'That sounds draining - especially when it's late in the cycle. What kind of changes does he ask for?' [She explains they are about framing, not data.] 'Do you want ideas, or did you mainly want to flag it?' [She wants ideas.] 'Two things I've seen work: a ten-minute check-in on the storyline before you build the deck, or sending him a one-page outline first. The check-in costs more of his time but catches framing earlier. Which would suit how he works?'",
+   "cmo:before": "Lead: 'Oh, he does that to everyone. What you should do is just send him the draft a week earlier. Next topic?'",
+   "cmo:situation": "A junior analyst tells her team lead that a senior stakeholder keeps rejecting her reports at the last minute.",
+   "cmo:why": "The first reply gives unrequested, unexplained advice before understanding the problem, so it is easy to dismiss. The second acknowledges the strain, diagnoses the real issue, asks whether advice is wanted, and offers feasible options with reasons while leaving the choice with her - the content and politeness features that research links to advice being judged good and acted on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Advice-giving",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before advising, ask yourself whether you are the right person to help and whether they actually asked for advice; if they did not, offer it (\"Would it help if I shared what I'd do?\") rather than delivering it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Listen until you could state the problem, what they have already tried and what outcome they want, and check that summary with them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Acknowledge how the situation feels for them before turning to solutions, in a sentence or two."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Offer the advice as options with your reasoning - what each would achieve, what it would cost and how feasible it is for them - rather than a single \"what you should do is\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Signal that the decision is theirs, then ask which option fits and what would get in the way of trying it."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/after-action-review/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -51666,6 +51864,90 @@
    "dcterms:title": "Adam Galinsky (contributor profile)",
    "schema:url": {
     "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Erina L. MacGeorge, Lisa M. Guntzviller, Lisa K. Hanasono & Bo Feng, Communication Research 43(2), 211-231 (2016), doi:10.1177/0093650213510938 - author copy on eScholarship (University of California)",
+   "dcterms:title": "Testing Advice Response Theory in Interactions With Friends",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt0824p98f/qt0824p98f.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Nhung C. Vu, Yuwei Li & Andrew C. High, Communication Research (published online 2025), doi:10.1177/00936502251351041 - Penn State research portal record",
+   "dcterms:title": "Advice Response Theory: A Meta-Analytic Review",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/advice-response-theory-a-meta-analytic-review-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Blaine Landis & Colin M. Fisher (UCL School of Management), Society for Personality and Social Psychology, Character & Context blog, 23 August 2021",
+   "dcterms:title": "Reactions to Unsolicited Advice in the Workplace",
+   "schema:url": {
+    "@id": "https://spsp.org/news-center/character-context-blog/reactions-unsolicited-advice-workplace"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Dina Gerdeman, Harvard Business School Working Knowledge, 16 March 2015, on research by David A. Garvin and Joshua D. Margolis",
+   "dcterms:title": "Advice on Advice",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/advice-on-advice"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Li Huang, INSEAD Knowledge, 5 July 2018, on Schaerer, Tost, Huang, Gino & Larrick, Personality and Social Psychology Bulletin (2018)",
+   "dcterms:title": "Why Power Seekers Give Advice",
+   "schema:url": {
+    "@id": "https://knowledge.insead.edu/leadership-organisations/why-power-seekers-give-advice"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Erina L. MacGeorge et al., Communication Quarterly 65(1), 80-96 (2017), doi:10.1080/01463373.2016.1176945 - University of Illinois research portal record",
+   "dcterms:title": "The Influence of Emotional Support Quality on Advice Evaluation and Outcomes",
+   "schema:url": {
+    "@id": "https://experts.illinois.edu/en/publications/the-influence-of-emotional-support-quality-on-advice-evaluation-a/"
    }
   },
   {

@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:mentoring` | cmo:Context |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 
-…and 87 more.
+…and 88 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:spikes-protocol` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 
-…and 192 more.
+…and 193 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 258 more.
+…and 259 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -145,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:advice-giving` | cmo:Technique |
 | `cm:cross-cultural-training` | cmo:Technique |
 | `cm:denial` | cmo:Technique |
 | `cm:escalation-communication` | cmo:Technique |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 | `cm:mentoring` | cmo:Context |
-| `cm:message-structure` | cmo:Concept |
 
-…and 82 more.
+…and 83 more.
 
 ## Orphan articles (gap)
 

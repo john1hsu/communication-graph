@@ -421,6 +421,84 @@
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/first-offer> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did they ask for my advice, or did I check whether they wanted it before giving it?" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could I have stated their problem, and what they had already tried, before I started recommending?" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I explain why I was recommending each option, including its costs and limits?" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I leave the decision with them, or did my wording imply they had to follow my suggestion?" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Was I advising to help them, or partly to feel knowledgeable or in charge?" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Lead: 'That sounds draining - especially when it's late in the cycle. What kind of changes does he ask for?' [She explains they are about framing, not data.] 'Do you want ideas, or did you mainly want to flag it?' [She wants ideas.] 'Two things I've seen work: a ten-minute check-in on the storyline before you build the deck, or sending him a one-page outline first. The check-in costs more of his time but catches framing earlier. Which would suit how he works?'" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Lead: 'Oh, he does that to everyone. What you should do is just send him the draft a week earlier. Next topic?'" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A junior analyst tells her team lead that a senior stakeholder keeps rejecting her reports at the last minute." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first reply gives unrequested, unexplained advice before understanding the problem, so it is easy to dismiss. The second acknowledges the strain, diagnoses the real issue, asks whether advice is wanted, and offers feasible options with reasons while leaving the choice with her - the content and politeness features that research links to advice being judged good and acted on." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1> <https://schema.org/text> "Before advising, ask yourself whether you are the right person to help and whether they actually asked for advice; if they did not, offer it (\"Would it help if I shared what I'd do?\") rather than delivering it." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2> <https://schema.org/text> "Listen until you could state the problem, what they have already tried and what outcome they want, and check that summary with them." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3> <https://schema.org/text> "Acknowledge how the situation feels for them before turning to solutions, in a sentence or two." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4> <https://schema.org/text> "Offer the advice as options with your reasoning - what each would achieve, what it would cost and how feasible it is for them - rather than a single \"what you should do is\"." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5> <https://schema.org/text> "Signal that the decision is theirs, then ask which option fits and what would get in the way of trying it." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/name> "Advice-giving" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://purl.org/dc/terms/created> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2000/01/rdf-schema#label> "Advice-giving" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#altLabel> "giving advice" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#altLabel> "offering advice" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#definition> "Responding to someone who brings you a problem by recommending what they could think, feel or do - done well, only after listening long enough to understand the problem, with the reasoning and options laid out and the decision left with them." .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#prefLabel> "Advice-giving" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unsolicited-advice> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/mentoring> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/sense-of-power> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/emotional-validation> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/advice-giving/example> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/advice-response-theory> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/advice-giving.md" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/advice-giving/howto> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/vu-li-high-2025> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/after-action-review/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did we agree on what was supposed to happen before we argued about what went wrong?" .
 <https://github.com/john1hsu/communication-graph/id/after-action-review/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/after-action-review> .
@@ -18251,6 +18329,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://schema.org/url> <https://greatergood.berkeley.edu/profile/adam_galinsky> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <http://purl.org/dc/terms/publisher> "Erina L. MacGeorge, Lisa M. Guntzviller, Lisa K. Hanasono & Bo Feng, Communication Research 43(2), 211-231 (2016), doi:10.1177/0093650213510938 - author copy on eScholarship (University of California)" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <http://purl.org/dc/terms/title> "Testing Advice Response Theory in Interactions With Friends" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s1> <https://schema.org/url> <https://escholarship.org/content/qt0824p98f/qt0824p98f.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <http://purl.org/dc/terms/publisher> "Nhung C. Vu, Yuwei Li & Andrew C. High, Communication Research (published online 2025), doi:10.1177/00936502251351041 - Penn State research portal record" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <http://purl.org/dc/terms/title> "Advice Response Theory: A Meta-Analytic Review" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s2> <https://schema.org/url> <https://pure.psu.edu/en/publications/advice-response-theory-a-meta-analytic-review-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <http://purl.org/dc/terms/publisher> "Blaine Landis & Colin M. Fisher (UCL School of Management), Society for Personality and Social Psychology, Character & Context blog, 23 August 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <http://purl.org/dc/terms/title> "Reactions to Unsolicited Advice in the Workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s3> <https://schema.org/url> <https://spsp.org/news-center/character-context-blog/reactions-unsolicited-advice-workplace> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <http://purl.org/dc/terms/publisher> "Dina Gerdeman, Harvard Business School Working Knowledge, 16 March 2015, on research by David A. Garvin and Joshua D. Margolis" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <http://purl.org/dc/terms/title> "Advice on Advice" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s4> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/advice-on-advice> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <http://purl.org/dc/terms/publisher> "Li Huang, INSEAD Knowledge, 5 July 2018, on Schaerer, Tost, Huang, Gino & Larrick, Personality and Social Psychology Bulletin (2018)" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <http://purl.org/dc/terms/title> "Why Power Seekers Give Advice" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s5> <https://schema.org/url> <https://knowledge.insead.edu/leadership-organisations/why-power-seekers-give-advice> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <http://purl.org/dc/terms/date> "2026-11-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <http://purl.org/dc/terms/publisher> "Erina L. MacGeorge et al., Communication Quarterly 65(1), 80-96 (2017), doi:10.1080/01463373.2016.1176945 - University of Illinois research portal record" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <http://purl.org/dc/terms/title> "The Influence of Emotional Support Quality on Advice Evaluation and Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/advice-giving/s6> <https://schema.org/url> <https://experts.illinois.edu/en/publications/the-influence-of-emotional-support-quality-on-advice-evaluation-a/> .
 <https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1> <http://purl.org/dc/terms/publisher> "U.S. Army Combined Arms Center - Training, Training Management Directorate (December 2013), hosted by the National Wildfire Coordinating Group" .
 <https://github.com/john1hsu/communication-graph/id/source/after-action-review/s1> <http://purl.org/dc/terms/title> "A Leader's Guide to After-Action Reviews" .
