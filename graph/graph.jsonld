@@ -9810,6 +9810,98 @@
    ]
   },
   {
+   "@id": "cm:edward-t-hall",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:beyond-culture"
+    },
+    {
+     "@id": "cm:the-dance-of-life"
+    },
+    {
+     "@id": "cm:the-hidden-dimension"
+    },
+    {
+     "@id": "cm:the-silent-language"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/edward-t-hall.md",
+   "cmo:introduced": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6"
+    }
+   ],
+   "rdfs:label": "Edward T. Hall",
+   "skos:altLabel": [
+    "E. T. Hall",
+    "Edward Twitchell Hall",
+    "Ned Hall"
+   ],
+   "skos:definition": "American cultural anthropologist (1914-2009) who, while training U.S. diplomats and technical advisers at the State Department's Foreign Service Institute after World War II, turned the study of culture into practical intercultural communication training, and who named proxemics and the high-/low-context and monochronic/polychronic distinctions in books such as The Silent Language.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Edward T. Hall",
+   "skos:related": [
+    {
+     "@id": "cm:cross-cultural-training"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:kittler-rygl-mackinnon-2011"
+    },
+    {
+     "@id": "cm:monochronic-and-polychronic-time"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:edward-tufte",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -59690,6 +59782,90 @@
    "dcterms:title": "Extrinsic Rewards and Intrinsic Motivation in Education: Reconsidered Once Again",
    "schema:url": {
     "@id": "https://selfdeterminationtheory.org/SDT/documents/2001_DeciKoestnerRyan.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Wendy Leeds-Hurwitz, chapter abstract (reprint of Quarterly Journal of Speech 76(3), 1990), Taylor & Francis / Routledge",
+   "dcterms:title": "Notes in the history of intercultural communication: The Foreign Service Institute and the mandate for intercultural training",
+   "schema:url": {
+    "@id": "https://www.taylorfrancis.com/books/9781135048716/chapters/10.4324/9780203508534-9"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Victoria Newsom & Desiree Ann Montenegro, Communication Literacy: An Introduction to Communication Studies (Olympic College and Cerritos College), LibreTexts, 2025",
+   "dcterms:title": "5.2: Intercultural Communication and The Foreign Service Institute",
+   "schema:url": {
+    "@id": "https://socialsci.libretexts.org/Courses/Cerritos_College/Communication_Literacy%3A_An_Introduction_to_Communication_Studies_(Newsom_and_Montenegro)/05%3A_Communication_and_Culture/5.02%3A_Intercultural_Communication_and_The_Foreign_Service_Institute"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Nina Brown, CSISS Classics, Center for Spatially Integrated Social Science, University of California, Santa Barbara (eScholarship copy)",
+   "dcterms:title": "Edward T. Hall: Proxemic Theory, 1966",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4774h1rm/qt4774h1rm_noSplash_2433c0a410b39ec9c2a6ecb281533c4f.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Penguin Random House",
+   "dcterms:title": "Edward T. Hall (author biography)",
+   "schema:url": {
+    "@id": "https://www.penguinrandomhouse.com/authors/11581/edward-t-hall/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Markus G. Kittler, David Rygl & Alex Mackinnon, International Journal of Cross Cultural Management 11(1), 63-82, 2011, doi:10.1177/1470595811398797 (University of Stirling repository record)",
+   "dcterms:title": "Special Review Article: Beyond culture or beyond control? Reviewing the use of Hall's high-/low-context concept",
+   "schema:url": {
+    "@id": "https://dspace.stir.ac.uk/handle/1893/3174"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Kathryn W. Davis Public Diplomacy Fellow (2016-2017), American Ambassadors Review, Council of American Ambassadors, Fall 2017",
+   "dcterms:title": "A Case for Intercultural Communication Training",
+   "schema:url": {
+    "@id": "https://americanambassadors.org/publications/ambassadors-review/fall-2017/a-case-for-intercultural-communication-training"
    }
   },
   {

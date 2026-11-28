@@ -6015,6 +6015,40 @@
 <https://github.com/john1hsu/communication-graph/id/edward-l-deci> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
 <https://github.com/john1hsu/communication-graph/id/edward-l-deci> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
 <https://github.com/john1hsu/communication-graph/id/edward-l-deci> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://purl.org/dc/terms/created> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2000/01/rdf-schema#label> "Edward T. Hall" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#altLabel> "E. T. Hall" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#altLabel> "Edward Twitchell Hall" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#altLabel> "Ned Hall" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#definition> "American cultural anthropologist (1914-2009) who, while training U.S. diplomats and technical advisers at the State Department's Foreign Service Institute after World War II, turned the study of culture into practical intercultural communication training, and who named proxemics and the high-/low-context and monochronic/polychronic distinctions in books such as The Silent Language." .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edward T. Hall" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kittler-rygl-mackinnon-2011> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/beyond-culture> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-dance-of-life> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-hidden-dimension> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-silent-language> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/edward-t-hall.md" .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cross-cultural-training> .
+<https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2000/01/rdf-schema#label> "Edward R. Tufte" .
@@ -21683,6 +21717,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s4> <https://schema.org/url> <https://selfdeterminationtheory.org/SDT/documents/2001_DeciKoestnerRyan.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <http://purl.org/dc/terms/publisher> "Wendy Leeds-Hurwitz, chapter abstract (reprint of Quarterly Journal of Speech 76(3), 1990), Taylor & Francis / Routledge" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <http://purl.org/dc/terms/title> "Notes in the history of intercultural communication: The Foreign Service Institute and the mandate for intercultural training" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s1> <https://schema.org/url> <https://www.taylorfrancis.com/books/9781135048716/chapters/10.4324/9780203508534-9> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <http://purl.org/dc/terms/publisher> "Victoria Newsom & Desiree Ann Montenegro, Communication Literacy: An Introduction to Communication Studies (Olympic College and Cerritos College), LibreTexts, 2025" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <http://purl.org/dc/terms/title> "5.2: Intercultural Communication and The Foreign Service Institute" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s2> <https://schema.org/url> <https://socialsci.libretexts.org/Courses/Cerritos_College/Communication_Literacy%3A_An_Introduction_to_Communication_Studies_(Newsom_and_Montenegro)/05%3A_Communication_and_Culture/5.02%3A_Intercultural_Communication_and_The_Foreign_Service_Institute> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <http://purl.org/dc/terms/publisher> "Nina Brown, CSISS Classics, Center for Spatially Integrated Social Science, University of California, Santa Barbara (eScholarship copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <http://purl.org/dc/terms/title> "Edward T. Hall: Proxemic Theory, 1966" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s3> <https://schema.org/url> <https://escholarship.org/content/qt4774h1rm/qt4774h1rm_noSplash_2433c0a410b39ec9c2a6ecb281533c4f.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <http://purl.org/dc/terms/publisher> "Penguin Random House" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <http://purl.org/dc/terms/title> "Edward T. Hall (author biography)" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s4> <https://schema.org/url> <https://www.penguinrandomhouse.com/authors/11581/edward-t-hall/> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <http://purl.org/dc/terms/publisher> "Markus G. Kittler, David Rygl & Alex Mackinnon, International Journal of Cross Cultural Management 11(1), 63-82, 2011, doi:10.1177/1470595811398797 (University of Stirling repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <http://purl.org/dc/terms/title> "Special Review Article: Beyond culture or beyond control? Reviewing the use of Hall's high-/low-context concept" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s5> <https://schema.org/url> <https://dspace.stir.ac.uk/handle/1893/3174> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <http://purl.org/dc/terms/date> "2026-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <http://purl.org/dc/terms/publisher> "Kathryn W. Davis Public Diplomacy Fellow (2016-2017), American Ambassadors Review, Council of American Ambassadors, Fall 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <http://purl.org/dc/terms/title> "A Case for Intercultural Communication Training" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/edward-t-hall/s6> <https://schema.org/url> <https://americanambassadors.org/publications/ambassadors-review/fall-2017/a-case-for-intercultural-communication-training> .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/publisher> "Department of Political Science, Yale University" .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/title> "Edward Tufte (faculty profile)" .

@@ -11263,6 +11263,105 @@
   ]
  },
  {
+  "id": "cm:edward-t-hall",
+  "title": "Edward T. Hall",
+  "aliases": [
+   "Edward Twitchell Hall",
+   "E. T. Hall",
+   "Ned Hall"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/edward-t-hall.md",
+  "created": "2026-11-28",
+  "summary": "American cultural anthropologist (1914-2009) who, while training U.S. diplomats and technical advisers at the State Department's Foreign Service Institute after World War II, turned the study of culture into practical intercultural communication training, and who named proxemics and the high-/low-context and monochronic/polychronic distinctions in books such as The Silent Language.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cross-cultural-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:monochronic-and-polychronic-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kittler-rygl-mackinnon-2011"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:cross-cultural-training",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-silent-language",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-hidden-dimension",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:beyond-culture",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-dance-of-life",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.taylorfrancis.com/books/9781135048716/chapters/10.4324/9780203508534-9",
+   "https://socialsci.libretexts.org/Courses/Cerritos_College/Communication_Literacy%3A_An_Introduction_to_Communication_Studies_(Newsom_and_Montenegro)/05%3A_Communication_and_Culture/5.02%3A_Intercultural_Communication_and_The_Foreign_Service_Institute",
+   "https://escholarship.org/content/qt4774h1rm/qt4774h1rm_noSplash_2433c0a410b39ec9c2a6ecb281533c4f.pdf",
+   "https://www.penguinrandomhouse.com/authors/11581/edward-t-hall/",
+   "https://dspace.stir.ac.uk/handle/1893/3174",
+   "https://americanambassadors.org/publications/ambassadors-review/fall-2017/a-case-for-intercultural-communication-training"
+  ]
+ },
+ {
   "id": "cm:edward-tufte",
   "title": "Edward R. Tufte",
   "aliases": [
